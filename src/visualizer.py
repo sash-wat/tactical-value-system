@@ -28,18 +28,29 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
 
     # Analyze PCA components to generate descriptive axis names
     features = df_scaled.columns
-    def get_axis_desc(weights):
-        pos_idx = np.argmax(weights)
-        neg_idx = np.argmin(weights)
-        pos_trait = FEATURE_MAP.get(features[pos_idx], features[pos_idx])
-        neg_trait = FEATURE_MAP.get(features[neg_idx], features[neg_idx])
+    def get_axis_descs(comp1, comp2):
+        # Axis 1
+        pos1_idx = np.argmax(comp1)
+        neg1_idx = np.argmin(comp1)
         
-        if weights[neg_idx] < 0:
-            return f"← More {neg_trait}  |  More {pos_trait} →"
-        return f"More {pos_trait} →"
+        # Axis 2 (Prevent using the exact same metrics as Axis 1)
+        sorted_pos2 = np.argsort(comp2)[::-1]
+        sorted_neg2 = np.argsort(comp2)
         
-    c1_desc = get_axis_desc(pca.components_[0])
-    c2_desc = get_axis_desc(pca.components_[1])
+        pos2_idx = sorted_pos2[0] if sorted_pos2[0] not in [pos1_idx, neg1_idx] else sorted_pos2[1]
+        neg2_idx = sorted_neg2[0] if sorted_neg2[0] not in [pos1_idx, neg1_idx] else sorted_neg2[1]
+        
+        pos1_t = FEATURE_MAP.get(features[pos1_idx], features[pos1_idx])
+        neg1_t = FEATURE_MAP.get(features[neg1_idx], features[neg1_idx])
+        pos2_t = FEATURE_MAP.get(features[pos2_idx], features[pos2_idx])
+        neg2_t = FEATURE_MAP.get(features[neg2_idx], features[neg2_idx])
+        
+        c1 = f"← More {neg1_t}  |  More {pos1_t} →" if comp1[neg1_idx] < 0 else f"More {pos1_t} →"
+        c2 = f"← More {neg2_t}  |  More {pos2_t} →" if comp2[neg2_idx] < 0 else f"More {pos2_t} →"
+        
+        return c1, c2
+        
+    c1_desc, c2_desc = get_axis_descs(pca.components_[0], pca.components_[1])
 
     cluster_names = {}
     df_temp = df_scaled.copy()
