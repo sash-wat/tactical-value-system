@@ -6,9 +6,9 @@ import pandas as pd
 from src.visualizer import plot_clusters
 
 def run_phase_1():
-    print("Loading USLC 2023 data...")
+    print("Loading MLS 2025 data...")
     try:
-        df = load_team_xgoals('uslc', '2023')
+        df = load_team_xgoals('mls', '2025')
     except Exception as e:
         print(f"Error loading data: {e}")
         return
@@ -21,7 +21,7 @@ def run_phase_1():
     
     df['cluster'] = clusters
     result = df[['team_name', 'cluster']].sort_values('cluster')
-    print("\n--- Tactical Clusters (USLC 2023) ---")
+    print("\n--- Tactical Clusters (MLS 2025) ---")
     print(result.to_string(index=False))
     
     print("Generating visualization...")

@@ -56,7 +56,7 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
     for i, name in enumerate(team_names):
         plt.annotate(name, (xy[i, 0] + 0.05, xy[i, 1] + 0.05), fontsize=9, alpha=0.8)
         
-    plt.title('Tactical DNA Clusters (USLC 2023)', fontsize=16, pad=20)
+    plt.title('Tactical DNA Clusters (MLS 2025)', fontsize=16, pad=20)
     plt.xlabel(f'Tactical Axis 1: Driven by [{c1_desc}] ({pca.explained_variance_ratio_[0]:.1%} variance)', fontsize=12)
     plt.ylabel(f'Tactical Axis 2: Driven by [{c2_desc}] ({pca.explained_variance_ratio_[1]:.1%} variance)', fontsize=12)
     plt.legend(title='Dominant Tactical Identity', loc='center left', bbox_to_anchor=(1, 0.5))
