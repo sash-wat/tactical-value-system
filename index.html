@@ -91,12 +91,12 @@
 
         <!-- Tactical Scouting Terminal -->
         <div class="lg:w-1/2 relative">
-            <div class="w-full aspect-[4/3] bg-[#020617] rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden p-8">
+            <div class="w-full aspect-[4/3] bg-[#020617] rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden p-8 flex flex-col">
                 <!-- Data Grid Overlay -->
                 <div class="absolute inset-0 opacity-20 pitch-grid"></div>
                 
                 <!-- Terminal UI Header -->
-                <div class="absolute top-0 left-0 right-0 h-10 border-b border-slate-800 bg-slate-900/50 flex items-center px-4 justify-between">
+                <div class="absolute top-0 left-0 right-0 h-10 border-b border-slate-800 bg-slate-900/50 flex items-center px-4 justify-between z-20">
                     <div class="flex gap-1.5">
                         <div class="w-2.5 h-2.5 rounded-full bg-rose-500/50"></div>
                         <div class="w-2.5 h-2.5 rounded-full bg-amber-500/50"></div>
@@ -106,96 +106,88 @@
                     <div class="text-[10px] font-mono text-emerald-500 animate-pulse">● PROCESSING</div>
                 </div>
 
-                <!-- The Pitch Engine -->
-                <div class="relative w-full h-full mt-4 flex items-center justify-center">
-                    <svg viewBox="0 0 400 300" class="w-full h-full">
-                        <!-- Pitch Markings -->
-                        <rect x="10" y="10" width="380" height="280" fill="none" stroke="rgba(16, 185, 129, 0.1)" stroke-width="1" rx="4"/>
-                        <line x1="200" y1="10" x2="200" y2="290" stroke="rgba(16, 185, 129, 0.1)" stroke-width="1"/>
-                        <circle cx="200" cy="150" r="40" fill="none" stroke="rgba(16, 185, 129, 0.1)" stroke-width="1"/>
-                        
-                        <!-- Passing Lanes (Animated) -->
-                        <g class="passing-lanes">
-                            <path d="M60,150 L160,80" stroke="rgba(52, 211, 153, 0.2)" stroke-width="1.5" fill="none" stroke-dasharray="10,5">
-                                <animate attributeName="stroke-dashoffset" from="15" to="0" dur="1s" repeatCount="indefinite" />
-                            </path>
-                            <path d="M160,80 L280,60" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.5" fill="none" stroke-dasharray="10,5">
-                                <animate attributeName="stroke-dashoffset" from="15" to="0" dur="1.2s" repeatCount="indefinite" />
-                            </path>
-                            <path d="M160,80 L320,150" stroke="rgba(244, 63, 94, 0.2)" stroke-width="1.5" fill="none" stroke-dasharray="10,5">
-                                <animate attributeName="stroke-dashoffset" from="15" to="0" dur="0.8s" repeatCount="indefinite" />
-                            </path>
-                        </g>
-
-                        <!-- Zone of Control (Heatmap Glows) -->
-                        <defs>
-                            <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
-                                <stop offset="0%" style="stop-color:rgba(16, 185, 129, 0.3);stop-opacity:1" />
-                                <stop offset="100%" style="stop-color:rgba(16, 185, 129, 0);stop-opacity:0" />
-                            </radialGradient>
-                        </defs>
-                        <circle cx="160" cy="80" r="45" fill="url(#grad1)" class="animate-pulse" />
-
-                        <!-- Movement Vectors (Arrows) -->
-                        <path d="M320,150 L360,150" stroke="white" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.5" />
-                        <defs>
-                            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-                                <polygon points="0 0, 10 3.5, 0 7" fill="white" />
-                            </marker>
-                        </defs>
-
-                        <!-- Players (Data Nodes) -->
-                        <g class="players">
-                            <!-- Defender -->
-                            <g transform="translate(60, 150)">
-                                <circle r="5" fill="#10b981" />
-                                <text y="-12" text-anchor="middle" class="text-[8px] fill-slate-400 font-mono">CB_4</text>
+                <!-- Split Pane Body -->
+                <div class="flex flex-row h-full mt-10 gap-6 relative z-10">
+                    <!-- Left Pane: Tactical Map -->
+                    <div class="flex-grow border border-slate-800/50 rounded-2xl bg-slate-900/30 p-4 flex items-center justify-center">
+                        <svg viewBox="0 0 400 300" class="w-full h-full max-h-[250px]">
+                            <!-- Pitch Markings -->
+                            <rect x="10" y="10" width="380" height="280" fill="none" stroke="rgba(16, 185, 129, 0.1)" stroke-width="1" rx="4"/>
+                            <line x1="200" y1="10" x2="200" y2="290" stroke="rgba(16, 185, 129, 0.1)" stroke-width="1"/>
+                            <circle cx="200" cy="150" r="40" fill="none" stroke="rgba(16, 185, 129, 0.1)" stroke-width="1"/>
+                            
+                            <!-- Passing Lanes -->
+                            <g class="passing-lanes">
+                                <path d="M60,150 L160,80" stroke="rgba(52, 211, 153, 0.2)" stroke-width="1.5" fill="none" stroke-dasharray="10,5">
+                                    <animate attributeName="stroke-dashoffset" from="15" to="0" dur="1s" repeatCount="indefinite" />
+                                </path>
+                                <path d="M160,80 L280,60" stroke="rgba(99, 102, 241, 0.2)" stroke-width="1.5" fill="none" stroke-dasharray="10,5">
+                                    <animate attributeName="stroke-dashoffset" from="15" to="0" dur="1.2s" repeatCount="indefinite" />
+                                </path>
                             </g>
-                            <!-- Midfielder (Focus) -->
-                            <g transform="translate(160, 80)">
-                                <circle r="7" fill="#6366f1" class="animate-pulse" />
-                                <circle r="12" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.3">
-                                    <animate attributeName="r" from="7" to="20" dur="2s" repeatCount="indefinite" />
-                                    <animate attributeName="opacity" from="0.3" to="0" dur="2s" repeatCount="indefinite" />
-                                </circle>
-                                <text y="-15" text-anchor="middle" class="text-[10px] fill-white font-bold font-mono">CM_8</text>
-                                <text y="20" text-anchor="middle" class="text-[8px] fill-indigo-400 font-mono">G+ PASS: 0.82</text>
-                            </g>
-                            <!-- Forward -->
-                            <g transform="translate(320, 150)">
-                                <circle r="6" fill="#f43f5e" />
-                                <text y="-12" text-anchor="middle" class="text-[8px] fill-slate-400 font-mono">ST_9</text>
-                            </g>
-                        </g>
-                    </svg>
 
-                    <!-- Sidebar Stats Overlay -->
-                    <div class="absolute right-4 top-12 bottom-4 w-32 glass border-slate-800/50 rounded-xl p-3 flex flex-col gap-4">
-                        <div class="border-b border-slate-800 pb-2">
+                            <!-- Zones -->
+                            <defs>
+                                <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+                                    <stop offset="0%" style="stop-color:rgba(16, 185, 129, 0.3);stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:rgba(16, 185, 129, 0);stop-opacity:0" />
+                                </radialGradient>
+                            </defs>
+                            <circle cx="160" cy="80" r="45" fill="url(#grad1)" class="animate-pulse" />
+
+                            <!-- Players -->
+                            <g class="players">
+                                <g transform="translate(60, 150)">
+                                    <circle r="4" fill="#10b981" />
+                                    <text y="-10" text-anchor="middle" class="text-[7px] fill-slate-500 font-mono">CB_4</text>
+                                </g>
+                                <g transform="translate(160, 80)">
+                                    <circle r="6" fill="#6366f1" class="animate-pulse" />
+                                    <text y="-12" text-anchor="middle" class="text-[9px] fill-white font-bold font-mono">CM_8</text>
+                                </g>
+                                <g transform="translate(300, 150)">
+                                    <circle r="5" fill="#f43f5e" />
+                                    <text y="-10" text-anchor="middle" class="text-[7px] fill-slate-500 font-mono">ST_9</text>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <!-- Right Pane: Analysis -->
+                    <div class="w-32 flex flex-col gap-3">
+                        <div class="glass border-slate-800/50 rounded-xl p-3 flex flex-col gap-1">
                             <div class="text-[8px] text-slate-500 uppercase">Field Tilt</div>
                             <div class="text-xs font-bold text-emerald-400">62.4%</div>
+                            <div class="w-full h-1 bg-slate-800 rounded-full overflow-hidden mt-1">
+                                <div class="h-full bg-emerald-500" style="width: 62%"></div>
+                            </div>
                         </div>
-                        <div class="border-b border-slate-800 pb-2">
+                        <div class="glass border-slate-800/50 rounded-xl p-3 flex flex-col gap-1">
                             <div class="text-[8px] text-slate-500 uppercase">Verticality</div>
-                            <div class="text-xs font-bold text-indigo-400">High</div>
+                            <div class="text-xs font-bold text-indigo-400">0.78</div>
                         </div>
-                        <div class="flex-grow flex items-end">
-                            <div class="w-full h-12 bg-emerald-500/10 rounded border border-emerald-500/20 p-1 flex items-end gap-0.5">
-                                <div class="w-full h-1/2 bg-emerald-500/40"></div>
-                                <div class="w-full h-3/4 bg-emerald-500/40"></div>
-                                <div class="w-full h-1/4 bg-emerald-500/40"></div>
-                                <div class="w-full h-full bg-emerald-500/40"></div>
-                                <div class="w-full h-1/2 bg-emerald-500/40"></div>
+                        <div class="glass border-slate-800/50 rounded-xl p-3 flex-grow">
+                            <div class="text-[8px] text-slate-500 uppercase mb-2">G+ Comp</div>
+                            <div class="space-y-2">
+                                <div class="w-full h-0.5 bg-slate-800 rounded-full relative">
+                                    <div class="absolute h-full bg-emerald-500" style="width: 82%"></div>
+                                </div>
+                                <div class="w-full h-0.5 bg-slate-800 rounded-full relative">
+                                    <div class="absolute h-full bg-emerald-500" style="width: 45%"></div>
+                                </div>
+                                <div class="w-full h-0.5 bg-slate-800 rounded-full relative">
+                                    <div class="absolute h-full bg-emerald-500" style="width: 30%"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 <!-- Bottom Status Bar -->
-                <div class="absolute bottom-3 left-8 text-[9px] font-mono text-slate-500 flex gap-4">
+                <div class="absolute bottom-3 left-8 text-[9px] font-mono text-slate-500 flex gap-4 z-20">
                     <span>FRAME: 2026.05.05</span>
                     <span>ENGINE: TVMS_CORE_V1</span>
-                    <span class="text-emerald-500/50">COORDS: [160, 80]</span>
+                    <span class="text-emerald-500/50">ACTIVE: CM_8</span>
                 </div>
             </div>
         </div>
@@ -312,7 +304,7 @@
         </div>
     </section>
 
-    <footer class="container mx-auto px-6 py-12 border-t border-slate-800 flex justify-between items-center text-slate-500 text-sm">
+    <footer class="container mx-auto px-6 py-12 border-t border-slate-800 flex justify-between items-center text-slate-500 text-sm reveal">
         <p>&copy; 2026 TVMS Project. Built for North American Soccer Analysis.</p>
         <div class="flex gap-6">
             <a href="https://github.com/sash-wat/tactical-value-system" class="hover:text-white transition-colors">GitHub</a>
@@ -320,6 +312,33 @@
         </div>
     </footer>
 
-    <script>lucide.createIcons();</script>
+    <script>
+        lucide.createIcons();
+
+        // Scroll Progress Bar
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            const progress = document.getElementById("scroll-progress");
+            if (progress) progress.style.width = scrolled + "%";
+        };
+
+        // Reveal on Scroll Engine
+        const revealCallback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(revealCallback, {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
