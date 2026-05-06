@@ -26,29 +26,39 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         'avg_vertical_distance_against': 'Opponent Directness'
     }
 
-    # Analyze PCA components to generate descriptive axis names
+    # Chippy, sharp names for clusters based on their dominant defining trait
+    CHIPPY_NAMES = {
+        'passing': 'The Metronomes',
+        'receiving': 'Box Infiltrators',
+        'shooting': 'The Gunslingers',
+        'interrupting': 'The Disruptors',
+        'dribbling': 'Progressive Carriers',
+        'claiming': 'Air Superiority',
+        'xgoals_for': 'Attacking Juggernauts',
+        'xgoals_against': 'Leaky Sieves',
+        'shots_for': 'Volume Shooters',
+        'shots_against': 'Siege Defenders',
+        'attempted_passes_for': 'The Architects',
+        'pass_completion_percentage_for': 'Tiki-Taka Purists',
+        'avg_vertical_distance_for': 'Route One Bombers',
+        'pass_completion_percentage_against': 'Passive Observers',
+        'avg_vertical_distance_against': 'High-Press Hounds'
+    }
+
+    # Analyze PCA components to generate single descriptive axis names
     features = df_scaled.columns
     def get_axis_descs(comp1, comp2):
-        # Axis 1
-        pos1_idx = np.argmax(comp1)
-        neg1_idx = np.argmin(comp1)
+        # Find the absolute strongest driver for each axis
+        idx1 = np.argmax(np.abs(comp1))
         
-        # Axis 2 (Prevent using the exact same metrics as Axis 1)
-        sorted_pos2 = np.argsort(comp2)[::-1]
-        sorted_neg2 = np.argsort(comp2)
+        # Prevent duplicate drivers
+        sorted_idx2 = np.argsort(np.abs(comp2))[::-1]
+        idx2 = sorted_idx2[0] if sorted_idx2[0] != idx1 else sorted_idx2[1]
         
-        pos2_idx = sorted_pos2[0] if sorted_pos2[0] not in [pos1_idx, neg1_idx] else sorted_pos2[1]
-        neg2_idx = sorted_neg2[0] if sorted_neg2[0] not in [pos1_idx, neg1_idx] else sorted_neg2[1]
+        t1 = FEATURE_MAP.get(features[idx1], features[idx1])
+        t2 = FEATURE_MAP.get(features[idx2], features[idx2])
         
-        pos1_t = FEATURE_MAP.get(features[pos1_idx], features[pos1_idx])
-        neg1_t = FEATURE_MAP.get(features[neg1_idx], features[neg1_idx])
-        pos2_t = FEATURE_MAP.get(features[pos2_idx], features[pos2_idx])
-        neg2_t = FEATURE_MAP.get(features[neg2_idx], features[neg2_idx])
-        
-        c1 = f"← More {neg1_t}  |  More {pos1_t} →" if comp1[neg1_idx] < 0 else f"More {pos1_t} →"
-        c2 = f"← More {neg2_t}  |  More {pos2_t} →" if comp2[neg2_idx] < 0 else f"More {pos2_t} →"
-        
-        return c1, c2
+        return f"Primary Driver: {t1}", f"Primary Driver: {t2}"
         
     c1_desc, c2_desc = get_axis_descs(pca.components_[0], pca.components_[1])
 
@@ -60,12 +70,8 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
     for c in centroids.index:
         c_stats = centroids.loc[c]
         top1 = c_stats.nlargest(1).index[0]
-        top2 = c_stats.nlargest(2).index[1]
         
-        t1_name = FEATURE_MAP.get(top1, top1)
-        t2_name = FEATURE_MAP.get(top2, top2)
-        
-        name = f"High {t1_name} & {t2_name}"
+        name = CHIPPY_NAMES.get(top1, "The Enigmas")
             
         if list(cluster_names.values()).count(name) > 0:
             name = f"{name} II"
@@ -84,7 +90,7 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
     plt.title('Holistic Tactical Profiles (MLS 2025)', fontsize=16, pad=20)
     plt.xlabel(c1_desc, fontsize=12, fontweight='bold', color='#cbd5e1')
     plt.ylabel(c2_desc, fontsize=12, fontweight='bold', color='#cbd5e1')
-    plt.legend(title='Tactical Identity (Top 2 Traits)', loc='center left', bbox_to_anchor=(1, 0.5))
+    plt.legend(title='Tactical Identity', loc='center left', bbox_to_anchor=(1, 0.5))
     plt.grid(True, linestyle='--', alpha=0.2)
     
     plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='#0B0F19')
