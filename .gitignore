@@ -8,11 +8,12 @@ venv/
 .env
 
 # Analysis
-*.png
-*.jpg
-*.jpeg
-*.pdf
+data/
+output/
 
 # IDE
 .vscode/
 .idea/
+
+# OmG
+.omg/
