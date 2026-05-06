@@ -17,8 +17,11 @@ def run_phase_1():
     df_scaled, team_names = preprocess_tactical_data(df)
     
     print("Clustering teams...")
+    # Create the composite metric requested by the user
+    df_scaled['passing_vs_shooting'] = df_scaled['passing'] - df_scaled['shooting']
+    
     # Cluster explicitly on the visual dimensions to guarantee no overlaps in the scatter plot
-    df_2d = df_scaled[['shooting', 'interrupting']]
+    df_2d = df_scaled[['passing_vs_shooting', 'interrupting']]
     clusters, model = cluster_teams(df_2d, n_clusters=4)
     
     df['cluster'] = clusters
