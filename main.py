@@ -17,7 +17,10 @@ def run_phase_1():
     df_scaled, team_names = preprocess_tactical_data(df)
     
     print("Clustering teams...")
-    clusters, model = cluster_teams(df_scaled, n_clusters=4)
+    # Reduce to 2 dimensions BEFORE clustering so the 2D visual plot perfectly matches the cluster groupings without overlapping
+    from sklearn.decomposition import PCA
+    df_pca = pd.DataFrame(PCA(n_components=2).fit_transform(df_scaled), columns=['pca1', 'pca2'])
+    clusters, model = cluster_teams(df_pca, n_clusters=4)
     
     df['cluster'] = clusters
     result = df[['team_name', 'cluster']].sort_values('cluster')
