@@ -4,7 +4,7 @@ import numpy as np
 
 def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_clusters.png'):
     # Extract the user-requested axes directly instead of using PCA
-    xy = df_scaled[['passing_vs_shooting', 'interrupting']].values
+    xy = df_scaled[['passing_vs_shooting', 'dribbling_vs_interrupting']].values
 
     # 2. Dynamically name the clusters based on their dominant g+ trait
     cluster_names = {}
@@ -44,7 +44,7 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         
     plt.title('Tactical DNA Clusters (MLS 2025)', fontsize=16, pad=20)
     plt.xlabel('← More Shooting  |  More Passing →', fontsize=12, fontweight='bold', color='#cbd5e1')
-    plt.ylabel('More Interrupting →', fontsize=12, fontweight='bold', color='#cbd5e1')
+    plt.ylabel('← More Interrupting  |  More Dribbling →', fontsize=12, fontweight='bold', color='#cbd5e1')
     plt.legend(title='Dominant Tactical Identity', loc='center left', bbox_to_anchor=(1, 0.5))
     plt.grid(True, linestyle='--', alpha=0.2)
     
