@@ -35,7 +35,7 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         'dribbling': 'Progressive Carriers',
         'claiming': 'Air Superiority',
         'xgoals_for': 'Attacking Juggernauts',
-        'xgoals_against': 'Leaky Sieves',
+        'xgoals_against': 'Open Defenses',
         'shots_for': 'Volume Shooters',
         'shots_against': 'Siege Defenders',
         'attempted_passes_for': 'The Architects',
