@@ -40,7 +40,7 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         'shots_against': 'Siege Defenders',
         'attempted_passes_for': 'The Architects',
         'pass_completion_percentage_for': 'Tiki-Taka Purists',
-        'avg_vertical_distance_for': 'Route One Bombers',
+        'avg_vertical_distance_for': 'Vertical Threats',
         'pass_completion_percentage_against': 'Passive Observers',
         'avg_vertical_distance_against': 'High-Press Hounds'
     }
