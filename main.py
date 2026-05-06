@@ -3,6 +3,8 @@ from src.preprocessor import preprocess_tactical_data
 from src.clustering import cluster_teams
 import pandas as pd
 
+from src.visualizer import plot_clusters
+
 def run_phase_1():
     print("Loading USLC 2023 data...")
     try:
@@ -21,6 +23,10 @@ def run_phase_1():
     result = df[['team_name', 'cluster']].sort_values('cluster')
     print("\n--- Tactical Clusters (USLC 2023) ---")
     print(result.to_string(index=False))
+    
+    print("Generating visualization...")
+    plot_clusters(df_scaled, clusters, df['team_name'])
+    
     return df
 
 if __name__ == "__main__":
