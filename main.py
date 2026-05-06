@@ -17,12 +17,9 @@ def run_phase_1():
     df_scaled, team_names = preprocess_tactical_data(df)
     
     print("Clustering teams...")
-    # Create the composite metrics requested by the user
-    df_scaled['passing_vs_shooting'] = df_scaled['passing'] - df_scaled['shooting']
-    df_scaled['dribbling_vs_interrupting'] = df_scaled['dribbling'] - df_scaled['interrupting']
-    
-    # Cluster explicitly on the visual dimensions to guarantee no overlaps in the scatter plot
-    df_2d = df_scaled[['passing_vs_shooting', 'dribbling_vs_interrupting']]
+    # Reduce the 4 complex tactical metrics into 2 dimensions for visualization using PCA
+    from sklearn.decomposition import PCA
+    df_2d = pd.DataFrame(PCA(n_components=2).fit_transform(df_scaled), columns=['pca1', 'pca2'])
     clusters, model = cluster_teams(df_2d, n_clusters=4)
     
     df['cluster'] = clusters

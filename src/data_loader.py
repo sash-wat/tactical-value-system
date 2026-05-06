@@ -16,6 +16,16 @@ def load_team_xgoals(leagues, season):
         rows.append(team_data)
         
     df = pd.DataFrame(rows)
+    
+    # Fetch base xgoals
+    df_xg = asa.get_team_xgoals(leagues=leagues, season_name=season)
+    df = df.merge(df_xg[['team_id', 'xgoals_for', 'xgoals_against', 'shots_against']], on='team_id', how='left')
+    
+    # Fetch set piece xgoals
+    df_sp = asa.get_team_xgoals(leagues=leagues, season_name=season, shot_pattern='Set piece')
+    df_sp = df_sp.rename(columns={'xgoals_for': 'xgoals_set_piece'})
+    df = df.merge(df_sp[['team_id', 'xgoals_set_piece']], on='team_id', how='left')
+    
     teams_df = asa.get_teams(leagues=leagues)
     df = df.merge(teams_df[['team_id', 'team_name']], on='team_id', how='left')
     return df
