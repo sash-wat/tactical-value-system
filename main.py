@@ -17,10 +17,9 @@ def run_phase_1():
     df_scaled, team_names = preprocess_tactical_data(df)
     
     print("Clustering teams...")
-    # Reduce to 2 dimensions BEFORE clustering so the 2D visual plot perfectly matches the cluster groupings without overlapping
-    from sklearn.decomposition import PCA
-    df_pca = pd.DataFrame(PCA(n_components=2).fit_transform(df_scaled), columns=['pca1', 'pca2'])
-    clusters, model = cluster_teams(df_pca, n_clusters=4)
+    # Cluster explicitly on the visual dimensions to guarantee no overlaps in the scatter plot
+    df_2d = df_scaled[['shooting', 'interrupting']]
+    clusters, model = cluster_teams(df_2d, n_clusters=4)
     
     df['cluster'] = clusters
     result = df[['team_name', 'cluster']].sort_values('cluster')
