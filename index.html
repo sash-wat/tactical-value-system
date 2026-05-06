@@ -4,8 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TVMS | Tactical-Value Mapping System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .mesh-gradient { background: radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.15) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(79, 70, 229, 0.15) 0px, transparent 50%); }
+    </style>
 </head>
-<body>
-    <h1>TVMS Project Coming Soon</h1>
+<body class="bg-[#0f172a] text-slate-200 mesh-gradient min-h-screen">
+    <nav class="container mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="text-2xl font-bold text-white tracking-tight">TV<span class="text-emerald-500">MS</span></div>
+        <div class="space-x-8 hidden md:flex items-center">
+            <a href="#clusters" class="hover:text-emerald-400 transition-colors">Clusters</a>
+            <a href="#methodology" class="hover:text-emerald-400 transition-colors">Methodology</a>
+            <a href="https://github.com/sash-wat/american-soccer-stuff" class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-full font-semibold transition-all flex items-center gap-2">
+                <i data-lucide="github" class="w-4 h-4"></i> View Source
+            </a>
+        </div>
+    </nav>
+
+    <section class="container mx-auto px-6 pt-20 pb-32 text-center">
+        <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
+            Quantifying the <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-indigo-500">Unseen Value</span> in Soccer.
+        </h1>
+        <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+            A machine-learning-driven approach to mapping team tactical identities and identifying market inefficiencies across North American leagues.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <a href="#clusters" class="bg-emerald-500 hover:bg-emerald-600 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg transition-all">
+                Explore the Clusters
+            </a>
+            <a href="#methodology" class="glass hover:bg-white/5 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all">
+                How it Works
+            </a>
+        </div>
+    </section>
+
+    <section id="clusters" class="container mx-auto px-6 py-24 border-t border-slate-800">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-white mb-4">The Schools of Thought</h2>
+            <p class="text-slate-400">Phase 1 K-Means clustering identifies four primary tactical archetypes in USL Championship.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card 1 -->
+            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300">
+                <div class="w-12 h-12 bg-emerald-500/20 text-emerald-400 rounded-2xl flex items-center justify-center mb-6">
+                    <i data-lucide="zap" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">The Disruptors</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Aggressive high-pressing systems characterized by elite PPDA and high interrupting g+.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300">
+                <div class="w-12 h-12 bg-indigo-500/20 text-indigo-400 rounded-2xl flex items-center justify-center mb-6">
+                    <i data-lucide="activity" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Progressive Carriers</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Technical systems that bypass lines through dribbling and vertical ball carries.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300">
+                <div class="w-12 h-12 bg-rose-500/20 text-rose-400 rounded-2xl flex items-center justify-center mb-6">
+                    <i data-lucide="target" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">Direct Punishers</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Low-block counter-attacking units with extreme shooting efficiency and directness.</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300">
+                <div class="w-12 h-12 bg-amber-500/20 text-amber-400 rounded-2xl flex items-center justify-center mb-6">
+                    <i data-lucide="layers" class="w-6 h-6"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-3">The Architects</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">High-possession teams built on pass volume, receiving g+, and field tilt control.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="methodology" class="container mx-auto px-6 py-24 border-t border-slate-800">
+        <div class="flex flex-col lg:flex-row gap-16 items-center">
+            <div class="lg:w-1/2">
+                <h2 class="text-4xl font-bold text-white mb-6">The System Engine</h2>
+                <div class="space-y-8">
+                    <div class="flex gap-4">
+                        <div class="text-emerald-500 font-bold text-2xl">01</div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1 text-lg">Data Ingestion</h4>
+                            <p class="text-slate-400">Automated fetching of advanced g+ metrics via ASA's itscalledsoccer library.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="text-emerald-500 font-bold text-2xl">02</div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1 text-lg">Statistical Normalization</h4>
+                            <p class="text-slate-400">Standardizing performance metrics across disparate league tiers and environments.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="text-emerald-500 font-bold text-2xl">03</div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1 text-lg">Unsupervised Synthesis</h4>
+                            <p class="text-slate-400">Leveraging K-Means to cluster teams by tactical DNA rather than final standings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lg:w-1/2 w-full">
+                <div class="bg-[#020617] rounded-3xl p-1 border border-slate-800 shadow-2xl">
+                    <div class="flex gap-1.5 p-4 border-b border-slate-800">
+                        <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                    </div>
+                    <div class="p-6 overflow-x-auto">
+                        <pre class="text-sm font-mono text-emerald-400"><code><span class="text-slate-500"># Tactical Clustering Logic</span>
+<span class="text-indigo-400">def</span> cluster_teams(df_scaled, n_clusters=4):
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+    clusters = kmeans.fit_predict(df_scaled)
+    <span class="text-indigo-400">return</span> clusters</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-24 border-t border-slate-800 text-center">
+        <h2 class="text-3xl font-bold text-white mb-12">System Roadmap</h2>
+        <div class="flex flex-col md:flex-row justify-between items-start gap-8 max-w-4xl mx-auto text-left">
+            <div class="flex-1">
+                <div class="text-emerald-400 text-xs font-bold uppercase mb-2">Phase 01</div>
+                <h4 class="text-white font-bold mb-2">Tactical DNA (Complete)</h4>
+                <p class="text-slate-400 text-sm">Clustering team identities in USLC and MLS.</p>
+            </div>
+            <div class="flex-1 opacity-50">
+                <div class="text-slate-500 text-xs font-bold uppercase mb-2">Phase 02</div>
+                <h4 class="text-white font-bold mb-2">Player Archetypes</h4>
+                <p class="text-slate-400 text-sm">Classifying player roles using PCA reduction.</p>
+            </div>
+            <div class="flex-1 opacity-50">
+                <div class="text-slate-500 text-xs font-bold uppercase mb-2">Phase 03</div>
+                <h4 class="text-white font-bold mb-2">Valuation Engine</h4>
+                <p class="text-slate-400 text-sm">Predicting Fair Market Value based on system fit.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container mx-auto px-6 py-12 border-t border-slate-800 flex justify-between items-center text-slate-500 text-sm">
+        <p>&copy; 2026 TVMS Project. Built for North American Soccer Analysis.</p>
+        <div class="flex gap-6">
+            <a href="https://github.com/sash-wat/american-soccer-stuff" class="hover:text-white transition-colors">GitHub</a>
+            <a href="#" class="hover:text-white transition-colors">Documentation</a>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
 </body>
 </html>
