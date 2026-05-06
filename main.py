@@ -1,4 +1,4 @@
-from src.data_loader import load_team_xgoals
+from src.data_loader import load_tactical_data
 from src.preprocessor import preprocess_tactical_data
 from src.clustering import cluster_teams
 import pandas as pd
@@ -8,7 +8,7 @@ from src.visualizer import plot_clusters
 def run_phase_1():
     print("Loading MLS 2025 data...")
     try:
-        df = load_team_xgoals('mls', '2025')
+        df = load_tactical_data('mls', '2025')
     except Exception as e:
         print(f"Error loading data: {e}")
         return
