@@ -9,13 +9,16 @@ venv/
 .DS_Store
 .pytest_cache/
 
-# Analysis
+# TVMS Analysis & Scratch
+scratch/
+[0-9]*.png
 data/
 output/
 
-# IDE
+# IDE & OS
 .vscode/
 .idea/
+.DS_Store
 
-# OmG
+# Misc
 .omg/
