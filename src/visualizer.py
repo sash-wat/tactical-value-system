@@ -3,7 +3,7 @@ import seaborn as sns
 from sklearn.decomposition import PCA
 import numpy as np
 
-def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_clusters.png'):
+def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_clusters.png', title='Tactical Identity Groupings'):
     pca = PCA(n_components=2)
     xy = pca.fit_transform(df_scaled)
     
@@ -62,20 +62,33 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         
     c1_desc, c2_desc = get_axis_descs(pca.components_[0], pca.components_[1])
 
+    # Sticky Archetypes: Restoring the user's preferred sharp names
+    ARCHETYPE_CONFIG = [
+        {'name': 'High-Press Hounds', 'metric': 'avg_vertical_distance_against'},
+        {'name': 'Open Defenses', 'metric': 'xgoals_against'},
+        {'name': 'Vertical Threats', 'metric': 'avg_vertical_distance_for'},
+        {'name': 'Attacking Juggernauts', 'metric': 'xgoals_for'}
+    ]
+
     cluster_names = {}
     df_temp = df_scaled.copy()
     df_temp['cluster'] = clusters
     centroids = df_temp.groupby('cluster').mean()
     
-    for c in centroids.index:
-        c_stats = centroids.loc[c]
-        top1 = c_stats.nlargest(1).index[0]
+    # Priority Assignment: Assign names to the cluster that best fits the archetype
+    remaining_clusters = list(centroids.index)
+    for config in ARCHETYPE_CONFIG:
+        if not remaining_clusters:
+            break
         
-        name = CHIPPY_NAMES.get(top1, "The Enigmas")
-            
-        if list(cluster_names.values()).count(name) > 0:
-            name = f"{name} II"
-        cluster_names[c] = name
+        # Find the cluster (among remaining) that has the highest value for this archetype's metric
+        best_cluster = centroids.loc[remaining_clusters, config['metric']].idxmax()
+        cluster_names[best_cluster] = config['name']
+        remaining_clusters.remove(best_cluster)
+    
+    # Fallback for any leftover clusters
+    for c in remaining_clusters:
+        cluster_names[c] = f"Tactical Hybrid {c}"
 
     named_clusters = [cluster_names[c] for c in clusters]
 
@@ -87,7 +100,7 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
     for i, name in enumerate(team_names):
         plt.annotate(name, (xy[i, 0] + 0.05, xy[i, 1] + 0.05), fontsize=9, alpha=0.8)
         
-    plt.title('Holistic Tactical Profiles (MLS 2025)', fontsize=16, pad=20)
+    plt.title(title, fontsize=16, pad=20)
     plt.xlabel(c1_desc, fontsize=12, fontweight='bold', color='#cbd5e1')
     plt.ylabel(c2_desc, fontsize=12, fontweight='bold', color='#cbd5e1')
     plt.legend(title='Tactical Identity', loc='center left', bbox_to_anchor=(1, 0.5))
