@@ -62,28 +62,20 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         
     c1_desc, c2_desc = get_axis_descs(pca.components_[0], pca.components_[1])
 
-    # Tactical Anchors for Identification
-    ANCHORS = {
-        'avg_vertical_distance_against': 'High-Press Hounds',
-        'xgoals_against': 'Open Defenses',
-        'avg_vertical_distance_for': 'Vertical Threats',
-        'xgoals_for': 'Attacking Juggernauts'
-    }
-
     cluster_names = {}
     df_temp = df_scaled.copy()
     df_temp['cluster'] = clusters
     centroids = df_temp.groupby('cluster').mean()
     
-    # Threshold-based identification: Only assign names to tactical outliers
+    # Threshold-based dynamic identification: Only assign names to tactical outliers across ALL metrics
     for c in centroids.index:
-        c_stats = centroids.loc[c, list(ANCHORS.keys())]
+        c_stats = centroids.loc[c]
         best_trait = c_stats.idxmax()
         peak_value = c_stats.max()
         
         # If the peak trait is at least 0.5 standard deviations above the mean, assign identity
         if peak_value > 0.5:
-            cluster_names[c] = ANCHORS[best_trait]
+            cluster_names[c] = CHIPPY_NAMES.get(best_trait, "The Enigmas")
         else:
             cluster_names[c] = 'Balanced Systems'
     
