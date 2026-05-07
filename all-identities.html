@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVMS | The 15 Identities</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(56, 189, 248, 0.08); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .mesh-gradient { background: radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.08) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.08) 0px, transparent 50%); }
+        .pitch-grid { 
+            background-image: 
+                linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+    </style>
+</head>
+<body class="bg-[#0B0F19] text-slate-100 mesh-gradient min-h-screen pitch-grid">
+    <nav class="container mx-auto px-6 py-8 flex justify-between items-center relative z-10">
+        <a href="index.html" class="text-2xl font-bold text-slate-100 tracking-tight hover:opacity-80 transition-opacity">TV<span class="text-sky-300">MS</span></a>
+        <div class="space-x-8 hidden md:flex items-center">
+            <a href="index.html" class="hover:text-sky-300 transition-colors text-sm font-medium">Home</a>
+            <a href="identities.html" class="hover:text-sky-300 transition-colors text-sm font-medium">League Identities</a>
+            <a href="all-identities.html" class="text-sky-300 font-medium text-sm">The 15 Identities</a>
+            <a href="https://github.com/sash-wat/tactical-value-system" class="bg-sky-600/5 hover:bg-indigo-600 border border-indigo-500/20 hover:border-indigo-500 text-indigo-200/70 hover:text-slate-100 px-6 py-2 rounded-xl font-semibold transition-all text-sm">
+                View Source
+            </a>
+        </div>
+    </nav>
+
+    <section class="container mx-auto px-6 pt-12 pb-24 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-slate-100 mb-6 tracking-tight">
+            The 15 <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-400">Tactical Identities</span>
+        </h1>
+        <p class="text-indigo-200/70 max-w-3xl mx-auto mb-16">
+            The TVMS clustering engine evaluates teams across a comprehensive 15-metric matrix. When a team exhibits statistically elite variance (≥ 0.5 standard deviations above the mean) in a specific metric, they are classified under the corresponding identity.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+            
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-rose-500/20 text-rose-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="flame" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Attacking Juggernauts</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Expected Goals For (xG)</p>
+                <p class="text-slate-400 text-sm mt-2">Teams generating overwhelming shot quality and volume, regardless of possession style.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-emerald-500/20 text-emerald-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="crosshair" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">High-Press Hounds</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Opponent Directness</p>
+                <p class="text-slate-400 text-sm mt-2">Chaotic pressing teams that force opponents into long, direct clearances rather than short build-up passing.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-sky-500/20 text-sky-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="zap" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Vertical Threats</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Attacking Directness</p>
+                <p class="text-slate-400 text-sm mt-2">Transitional units that bypass the midfield with rapid, vertical ball progression into the final third.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-amber-500/20 text-amber-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="unlock" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Open Defenses</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Expected Goals Against (xGA)</p>
+                <p class="text-slate-400 text-sm mt-2">Systems exhibiting severe structural vulnerability or transitional defensive liabilities.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-indigo-500/20 text-indigo-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="layers" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">The Architects</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Possession Volume</p>
+                <p class="text-slate-400 text-sm mt-2">Methodical build-up teams that dictate the pace and shape of the game entirely with the ball.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-fuchsia-500/20 text-fuchsia-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="shield-alert" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">The Disruptors</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Defensive Disruption (g+)</p>
+                <p class="text-slate-400 text-sm mt-2">Midfield destroyers who aggressively break up plays, intercept passes, and force turnovers in the middle third.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-blue-500/20 text-blue-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="activity" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">The Metronomes</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Passing Impact (g+)</p>
+                <p class="text-slate-400 text-sm mt-2">Teams that generate extreme offensive value specifically through line-breaking and high-leverage passing.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-violet-500/20 text-violet-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="move-up-right" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Progressive Carriers</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Dribbling Impact (g+)</p>
+                <p class="text-slate-400 text-sm mt-2">Sides built around dynamic ball-carriers who generate attacking value through take-ons and progressive runs.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-cyan-500/20 text-cyan-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="target" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">The Gunslingers</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Shooting Impact (g+)</p>
+                <p class="text-slate-400 text-sm mt-2">Exceptionally clinical finishing teams whose value comes from converting difficult chances well above expected rates.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-yellow-500/20 text-yellow-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="box-select" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Box Infiltrators</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Receiving Impact (g+)</p>
+                <p class="text-slate-400 text-sm mt-2">Teams defined by elite off-ball movement, consistently finding space in dangerous, high-value receiving zones.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-stone-500/20 text-stone-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="wind" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Air Superiority</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Claiming Impact (g+)</p>
+                <p class="text-slate-400 text-sm mt-2">Dominant aerial teams that neutralize opposition crosses and set-pieces through elite box command.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-orange-500/20 text-orange-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="gallery-thumbnails" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Volume Shooters</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Shots For</p>
+                <p class="text-slate-400 text-sm mt-2">Systems designed to simply bombard the opponent's goal with attempts, prioritizing quantity over perfect shot locations.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-red-500/20 text-red-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="shield-half" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Siege Defenders</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Shots Against</p>
+                <p class="text-slate-400 text-sm mt-2">Low-block teams that willingly concede massive shot volumes, betting on shot-blocking and poor opposition finishing.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-teal-500/20 text-teal-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="git-merge" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Tiki-Taka Purists</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Possession Quality (%)</p>
+                <p class="text-slate-400 text-sm mt-2">Systems that prioritize retaining the ball at all costs, resulting in elite pass completion percentages.</p>
+            </div>
+
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
+                <div class="w-10 h-10 bg-gray-500/20 text-gray-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="eye-off" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Passive Observers</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> Opponent Pass Quality (%)</p>
+                <p class="text-slate-400 text-sm mt-2">Defensive shapes that apply zero pressure to the ball, allowing opponents historically high completion rates.</p>
+            </div>
+            
+            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300 border-dashed border-2 border-slate-600/50 bg-slate-800/20">
+                <div class="w-10 h-10 bg-slate-500/20 text-slate-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="scale" class="w-5 h-5"></i></div>
+                <h3 class="text-xl font-bold text-slate-100 mb-2">Balanced Systems</h3>
+                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Metric:</strong> None (Below Threshold)</p>
+                <p class="text-slate-400 text-sm mt-2">Teams that lack a single extreme statistical outlier. They play a versatile, balanced game without leaning heavily into any specific tactical ideology.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="container mx-auto px-6 py-12 border-t border-indigo-500/20 flex justify-center text-indigo-400/50 text-sm">
+        <p>&copy; 2026 TVMS Project. Built for North American Soccer Analysis.</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
