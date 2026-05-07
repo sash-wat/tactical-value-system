@@ -104,7 +104,17 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
     plt.xlabel(c1_desc, fontsize=12, fontweight='bold', color='#cbd5e1')
     plt.ylabel(c2_desc, fontsize=12, fontweight='bold', color='#cbd5e1')
     plt.legend(title='Tactical Identity', loc='center left', bbox_to_anchor=(1, 0.5))
-    plt.grid(True, linestyle='--', alpha=0.2)
     
-    plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='#0B0F19')
-    print(f"Saved cluster visualization to {output_path}")
+    if output_path:
+        plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='#0B0F19')
+    else:
+        plt.show()
+        
+    plt.close()
+
+    # Build mapping of team names to their identities
+    team_identities = {}
+    for team, c_id in zip(team_names, clusters):
+        team_identities[team] = cluster_names[c_id]
+        
+    return team_identities
