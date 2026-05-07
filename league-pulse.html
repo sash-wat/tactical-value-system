@@ -122,10 +122,28 @@
                 const teams = Object.entries(data).map(([team, identity]) => ({ team, identity }));
                 // Sort by identity, then team
                 teams.sort((a, b) => a.identity.localeCompare(b.identity) || a.team.localeCompare(b.team));
+                const identityColors = {
+                    'Attacking Juggernauts': 'bg-rose-500/10 text-rose-300 border-rose-500/30',
+                    'High-Press Hounds': 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30',
+                    'Vertical Threats': 'bg-sky-500/10 text-sky-300 border-sky-500/30',
+                    'Open Defenses': 'bg-amber-500/10 text-amber-300 border-amber-500/30',
+                    'The Architects': 'bg-indigo-500/10 text-indigo-300 border-indigo-500/30',
+                    'The Disruptors': 'bg-fuchsia-500/10 text-fuchsia-300 border-fuchsia-500/30',
+                    'The Metronomes': 'bg-blue-500/10 text-blue-300 border-blue-500/30',
+                    'Progressive Carriers': 'bg-violet-500/10 text-violet-300 border-violet-500/30',
+                    'The Gunslingers': 'bg-cyan-500/10 text-cyan-300 border-cyan-500/30',
+                    'Box Infiltrators': 'bg-yellow-500/10 text-yellow-300 border-yellow-500/30',
+                    'Air Superiority': 'bg-stone-500/10 text-stone-300 border-stone-500/30',
+                    'Volume Shooters': 'bg-orange-500/10 text-orange-300 border-orange-500/30',
+                    'Siege Defenders': 'bg-red-500/10 text-red-300 border-red-500/30',
+                    'Tiki-Taka Purists': 'bg-teal-500/10 text-teal-300 border-teal-500/30',
+                    'Passive Observers': 'bg-gray-500/10 text-gray-300 border-gray-500/30',
+                    'Balanced Systems': 'bg-slate-500/20 text-slate-300 border-slate-500/30'
+                };
                 
                 let html = '';
                 teams.forEach(t => {
-                    let badgeColor = t.identity === 'Balanced Systems' ? 'bg-slate-500/20 text-slate-300 border-slate-500/30' : 'bg-sky-500/10 text-sky-300 border-sky-500/30';
+                    let badgeColor = identityColors[t.identity] || 'bg-sky-500/10 text-sky-300 border-sky-500/30';
                     html += `
                         <tr class="border-b border-indigo-500/10 hover:bg-white/5 transition-colors">
                             <td class="py-4 px-6 font-medium text-slate-200">${t.team}</td>
