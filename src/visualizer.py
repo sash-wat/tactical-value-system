@@ -62,35 +62,43 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         
     c1_desc, c2_desc = get_axis_descs(pca.components_[0], pca.components_[1])
 
-    # Sticky Archetypes: Restoring the user's preferred sharp names
-    ARCHETYPE_CONFIG = [
-        {'name': 'High-Press Hounds', 'metric': 'avg_vertical_distance_against'},
-        {'name': 'Open Defenses', 'metric': 'xgoals_against'},
-        {'name': 'Vertical Threats', 'metric': 'avg_vertical_distance_for'},
-        {'name': 'Attacking Juggernauts', 'metric': 'xgoals_for'}
-    ]
+    # Tactical Anchors for Identification
+    ANCHORS = {
+        'avg_vertical_distance_against': 'High-Press Hounds',
+        'xgoals_against': 'Open Defenses',
+        'avg_vertical_distance_for': 'Vertical Threats',
+        'xgoals_for': 'Attacking Juggernauts'
+    }
 
     cluster_names = {}
     df_temp = df_scaled.copy()
     df_temp['cluster'] = clusters
     centroids = df_temp.groupby('cluster').mean()
     
-    # Priority Assignment: Assign names to the cluster that best fits the archetype
-    remaining_clusters = list(centroids.index)
-    for config in ARCHETYPE_CONFIG:
-        if not remaining_clusters:
-            break
+    # Threshold-based identification: Only assign names to tactical outliers
+    for c in centroids.index:
+        c_stats = centroids.loc[c, list(ANCHORS.keys())]
+        best_trait = c_stats.idxmax()
+        peak_value = c_stats.max()
         
-        # Find the cluster (among remaining) that has the highest value for this archetype's metric
-        best_cluster = centroids.loc[remaining_clusters, config['metric']].idxmax()
-        cluster_names[best_cluster] = config['name']
-        remaining_clusters.remove(best_cluster)
+        # If the peak trait is at least 0.5 standard deviations above the mean, assign identity
+        if peak_value > 0.5:
+            cluster_names[c] = ANCHORS[best_trait]
+        else:
+            cluster_names[c] = 'Balanced Systems'
     
-    # Fallback for any leftover clusters
-    for c in remaining_clusters:
-        cluster_names[c] = f"Tactical Hybrid {c}"
+    # Ensure unique names in legend if multiple clusters hit the same anchor
+    final_names = {}
+    name_counts = {}
+    for c, name in cluster_names.items():
+        if name not in name_counts:
+            name_counts[name] = 0
+            final_names[c] = name
+        else:
+            name_counts[name] += 1
+            final_names[c] = f"{name} ({name_counts[name] + 1})"
 
-    named_clusters = [cluster_names[c] for c in clusters]
+    named_clusters = [final_names[c] for c in clusters]
 
     plt.figure(figsize=(14, 10))
     plt.style.use('dark_background')
