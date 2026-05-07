@@ -139,21 +139,35 @@
                     'Balanced Systems': 'bg-slate-500/20 text-slate-300 border-slate-500/30'
                 };
                 
+                function getHumanIntensity(z) {
+                    const absZ = Math.abs(z);
+                    if (absZ > 2.5) return "League-Defining";
+                    if (absZ > 2.0) return "Elite";
+                    if (absZ > 1.5) return "Exceptional";
+                    if (absZ > 1.0) return "Significant";
+                    return "Strong";
+                }
+                
                 let html = '';
                 teams.forEach(t => {
                     let badgeColor = identityColors[t.identity] || 'bg-sky-500/10 text-sky-300 border-sky-500/30';
-                    let z_text = t.z_score > 0 ? `+${t.z_score.toFixed(2)}` : `${t.z_score.toFixed(2)}`;
+                    let intensity = getHumanIntensity(t.z_score);
+                    let traitWord = t.z_score > 0 ? "Above Average" : "Below Average";
+                    
                     let detailHtml = t.identity === 'Balanced Systems' 
-                        ? `<p class="text-xs text-slate-500 mt-3">No extreme statistical variance</p>`
-                        : `<p class="text-xs text-indigo-300/70 mt-3"><strong>Driver:</strong> ${t.metric} <span class="text-sky-300 font-mono ml-1 bg-sky-900/30 px-1 py-0.5 rounded">Z: ${z_text}</span></p>`;
+                        ? `<p class="text-xs text-slate-500 mt-3 font-medium">Plays a versatile game with no extreme statistical outliers.</p>`
+                        : `<p class="text-xs text-indigo-200/60 mt-3 leading-relaxed">
+                             Exhibits <span class="text-sky-300 font-bold">${intensity}</span> levels of 
+                             <span class="text-slate-100">${t.metric}</span> compared to the league mean.
+                           </p>`;
                         
                     html += `
-                        <div class="glass p-5 rounded-2xl border border-indigo-500/10 hover:bg-white/5 transition-colors text-left flex flex-col justify-between h-full">
-                            <div class="mb-3">
-                                <h4 class="font-bold text-slate-200 text-lg">${t.team}</h4>
+                        <div class="glass p-6 rounded-2xl border border-indigo-500/10 hover:border-sky-500/30 hover:bg-white/[0.02] transition-all text-left flex flex-col justify-between h-full group">
+                            <div class="mb-4">
+                                <h4 class="font-bold text-slate-100 text-lg group-hover:text-sky-300 transition-colors">${t.team}</h4>
                             </div>
                             <div>
-                                <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold border ${badgeColor}">
+                                <span class="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-wider font-bold border ${badgeColor}">
                                     ${t.identity}
                                 </span>
                                 ${detailHtml}
