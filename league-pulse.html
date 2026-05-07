@@ -78,22 +78,14 @@
             <img id="cluster-map" alt="Tactical Clusters" class="w-full rounded-2xl border border-indigo-500/20 shadow-[0_0_50px_-12px_rgba(56,189,248,0.2)] transition-opacity duration-300 opacity-0">
         </div>
 
-        <div id="team-table-container" class="mt-16 max-w-4xl mx-auto hidden glass rounded-3xl overflow-hidden reveal">
+        <div id="team-table-container" class="mt-16 max-w-6xl mx-auto hidden glass rounded-3xl overflow-hidden reveal">
             <div class="p-6 border-b border-indigo-500/20 bg-indigo-900/20">
-                <h3 class="text-xl font-bold text-slate-100 text-left">Team Directory</h3>
+                <h3 class="text-xl font-bold text-slate-100 text-left">Team Directory & Diagnostics</h3>
             </div>
-            <div class="overflow-x-auto">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="bg-indigo-900/40 text-indigo-200 uppercase text-xs tracking-wider">
-                            <th class="py-4 px-6 font-semibold">Team</th>
-                            <th class="py-4 px-6 font-semibold">Tactical Identity</th>
-                        </tr>
-                    </thead>
-                    <tbody id="team-table-body">
-                        <!-- Populated by JS -->
-                    </tbody>
-                </table>
+            <div class="p-6 bg-[#0B0F19]/50">
+                <div id="team-table-body" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Populated by JS -->
+                </div>
             </div>
         </div>
     </section>
@@ -119,7 +111,12 @@
                 if (!response.ok) throw new Error("Data not found");
                 const data = await response.json();
                 
-                const teams = Object.entries(data).map(([team, identity]) => ({ team, identity }));
+                const teams = Object.entries(data).map(([team, info]) => ({ 
+                    team, 
+                    identity: info.identity,
+                    metric: info.metric,
+                    z_score: info.z_score
+                }));
                 // Sort by identity, then team
                 teams.sort((a, b) => a.identity.localeCompare(b.identity) || a.team.localeCompare(b.team));
                 const identityColors = {
@@ -144,15 +141,23 @@
                 let html = '';
                 teams.forEach(t => {
                     let badgeColor = identityColors[t.identity] || 'bg-sky-500/10 text-sky-300 border-sky-500/30';
+                    let z_text = t.z_score > 0 ? `+${t.z_score.toFixed(2)}` : `${t.z_score.toFixed(2)}`;
+                    let detailHtml = t.identity === 'Balanced Systems' 
+                        ? `<p class="text-xs text-slate-500 mt-3">No extreme statistical variance</p>`
+                        : `<p class="text-xs text-indigo-300/70 mt-3"><strong>Driver:</strong> ${t.metric} <span class="text-sky-300 font-mono ml-1 bg-sky-900/30 px-1 py-0.5 rounded">Z: ${z_text}</span></p>`;
+                        
                     html += `
-                        <tr class="border-b border-indigo-500/10 hover:bg-white/5 transition-colors">
-                            <td class="py-4 px-6 font-medium text-slate-200">${t.team}</td>
-                            <td class="py-4 px-6">
-                                <span class="px-3 py-1 rounded-full text-xs font-semibold border ${badgeColor}">
+                        <div class="glass p-5 rounded-2xl border border-indigo-500/10 hover:bg-white/5 transition-colors text-left flex flex-col justify-between h-full">
+                            <div class="mb-3">
+                                <h4 class="font-bold text-slate-200 text-lg">${t.team}</h4>
+                            </div>
+                            <div>
+                                <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold border ${badgeColor}">
                                     ${t.identity}
                                 </span>
-                            </td>
-                        </tr>
+                                ${detailHtml}
+                            </div>
+                        </div>
                     `;
                 });
                 

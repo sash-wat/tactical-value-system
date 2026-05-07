@@ -112,9 +112,24 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         
     plt.close()
 
-    # Build mapping of team names to their identities
+    # Build mapping of team names to their identities and stats
     team_identities = {}
     for team, c_id in zip(team_names, clusters):
-        team_identities[team] = cluster_names[c_id]
+        identity = cluster_names[c_id]
+        if identity == 'Balanced Systems':
+            metric_name = "None"
+            team_z = 0.0
+        else:
+            c_stats = centroids.loc[c_id]
+            best_trait = c_stats.idxmax()
+            metric_name = FEATURE_MAP.get(best_trait, best_trait)
+            team_idx = list(team_names).index(team)
+            team_z = df_scaled.iloc[team_idx][best_trait]
+            
+        team_identities[team] = {
+            "identity": identity,
+            "metric": metric_name,
+            "z_score": float(team_z)
+        }
         
     return team_identities
