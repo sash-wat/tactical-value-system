@@ -107,8 +107,9 @@
 
         async function fetchTeamData(league, season) {
             try {
-                const response = await fetch(`assets/teams_${league}_${season}.json`);
-                if (!response.ok) throw new Error("Data not found");
+                // Add cache buster to avoid stale data
+                const response = await fetch(`assets/teams_${league}_${season}.json?v=${Date.now()}`);
+                if (!response.ok) throw new Error(`Fetch failed: ${response.status}`);
                 const data = await response.json();
                 
                 const teams = Object.entries(data).map(([team, info]) => ({ 
@@ -164,11 +165,11 @@
                 teamTableBody.innerHTML = html;
                 teamTableContainer.classList.remove('hidden');
                 
-                // Simple reveal animation
                 setTimeout(() => {
                     teamTableContainer.classList.add('active');
-                }, 100);
+                }, 50);
             } catch (error) {
+                console.error("Directory Load Error:", error);
                 teamTableContainer.classList.add('hidden');
             }
         }
@@ -176,7 +177,8 @@
         function updateMap() {
             const league = leagueSelect.value;
             const season = seasonSelect.value;
-            const imgPath = `assets/tactical_clusters_${league}_${season}.png`;
+            // Add cache buster to image as well
+            const imgPath = `assets/tactical_clusters_${league}_${season}.png?v=${Date.now()}`;
             
             clusterMap.style.opacity = '0';
             teamTableContainer.classList.add('hidden');
@@ -184,11 +186,9 @@
             errorState.classList.add('hidden');
             loadingState.classList.remove('hidden');
             
-            // Artificial delay for UI feel
-            setTimeout(() => {
-                clusterMap.src = imgPath;
-                fetchTeamData(league, season);
-            }, 200);
+            // Set source immediately, remove timeout
+            clusterMap.src = imgPath;
+            fetchTeamData(league, season);
         }
 
         clusterMap.onload = function() {
