@@ -1,95 +1,16 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.decomposition import PCA
-import numpy as np
+
+from src.identity import build_team_identities, describe_pca_axes, name_clusters, unique_legend_names
 
 def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_clusters.png', title='Tactical Identity Groupings'):
     pca = PCA(n_components=2)
     xy = pca.fit_transform(df_scaled)
-    
-    # Translate raw metric names into explainable tactical concepts
-    FEATURE_MAP = {
-        'passing': 'Passing Impact',
-        'receiving': 'Receiving Impact',
-        'shooting': 'Shooting Impact',
-        'interrupting': 'Defensive Disruption',
-        'dribbling': 'Dribbling Impact',
-        'claiming': 'Claiming Impact',
-        'xgoals_for': 'Attacking Threat (xG)',
-        'xgoals_against': 'Defensive Vulnerability (xGA)',
-        'shots_for': 'Shot Volume',
-        'shots_against': 'Shots Conceded',
-        'attempted_passes_for': 'Possession Volume',
-        'pass_completion_percentage_for': 'Possession Quality',
-        'avg_vertical_distance_for': 'Attacking Directness',
-        'pass_completion_percentage_against': 'Opponent Pass Completion',
-        'avg_vertical_distance_against': 'Opponent Directness'
-    }
 
-    # Chippy, sharp names for clusters based on their dominant defining trait
-    CHIPPY_NAMES = {
-        'passing': 'The Metronomes',
-        'receiving': 'Box Infiltrators',
-        'shooting': 'The Gunslingers',
-        'interrupting': 'The Disruptors',
-        'dribbling': 'Progressive Carriers',
-        'claiming': 'Air Superiority',
-        'xgoals_for': 'Attacking Juggernauts',
-        'xgoals_against': 'Open Defenses',
-        'shots_for': 'Volume Shooters',
-        'shots_against': 'Siege Defenders',
-        'attempted_passes_for': 'The Architects',
-        'pass_completion_percentage_for': 'Tiki-Taka Purists',
-        'avg_vertical_distance_for': 'Vertical Threats',
-        'pass_completion_percentage_against': 'Passive Observers',
-        'avg_vertical_distance_against': 'High-Press Hounds'
-    }
-
-    # Analyze PCA components to generate single descriptive axis names
-    features = df_scaled.columns
-    def get_axis_descs(comp1, comp2):
-        # Find the absolute strongest driver for each axis
-        idx1 = np.argmax(np.abs(comp1))
-        
-        # Prevent duplicate drivers
-        sorted_idx2 = np.argsort(np.abs(comp2))[::-1]
-        idx2 = sorted_idx2[0] if sorted_idx2[0] != idx1 else sorted_idx2[1]
-        
-        t1 = FEATURE_MAP.get(features[idx1], features[idx1])
-        t2 = FEATURE_MAP.get(features[idx2], features[idx2])
-        
-        return f"Primary Driver: {t1}", f"Primary Driver: {t2}"
-        
-    c1_desc, c2_desc = get_axis_descs(pca.components_[0], pca.components_[1])
-
-    cluster_names = {}
-    df_temp = df_scaled.copy()
-    df_temp['cluster'] = clusters
-    centroids = df_temp.groupby('cluster').mean()
-    
-    # Threshold-based dynamic identification: Only assign names to tactical outliers across ALL metrics
-    for c in centroids.index:
-        c_stats = centroids.loc[c]
-        best_trait = c_stats.idxmax()
-        peak_value = c_stats.max()
-        
-        # If the peak trait is at least 0.5 standard deviations above the mean, assign identity
-        if peak_value > 0.5:
-            cluster_names[c] = CHIPPY_NAMES.get(best_trait, "The Enigmas")
-        else:
-            cluster_names[c] = 'Balanced Systems'
-    
-    # Ensure unique names in legend if multiple clusters hit the same anchor
-    final_names = {}
-    name_counts = {}
-    for c, name in cluster_names.items():
-        if name not in name_counts:
-            name_counts[name] = 0
-            final_names[c] = name
-        else:
-            name_counts[name] += 1
-            final_names[c] = f"{name} ({name_counts[name] + 1})"
-
+    c1_desc, c2_desc = describe_pca_axes(df_scaled.columns, pca.components_)
+    cluster_names, _ = name_clusters(df_scaled, clusters)
+    final_names = unique_legend_names(cluster_names)
     named_clusters = [final_names[c] for c in clusters]
 
     plt.figure(figsize=(14, 10))
@@ -112,24 +33,4 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         
     plt.close()
 
-    # Build mapping of team names to their identities and stats
-    team_identities = {}
-    for team, c_id in zip(team_names, clusters):
-        identity = cluster_names[c_id]
-        if identity == 'Balanced Systems':
-            metric_name = "None"
-            team_z = 0.0
-        else:
-            c_stats = centroids.loc[c_id]
-            best_trait = c_stats.idxmax()
-            metric_name = FEATURE_MAP.get(best_trait, best_trait)
-            team_idx = list(team_names).index(team)
-            team_z = df_scaled.iloc[team_idx][best_trait]
-            
-        team_identities[team] = {
-            "identity": identity,
-            "metric": metric_name,
-            "z_score": float(team_z)
-        }
-        
-    return team_identities
+    return build_team_identities(df_scaled, clusters, team_names)

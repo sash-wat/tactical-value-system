@@ -12,5 +12,24 @@ This project uses ASA (American Soccer Analysis) data to:
 ## Documentation
 Design specs and implementation plans are located in the `docs/` directory.
 
+## Development
+Install the project with development dependencies:
+
+```bash
+python -m pip install -e ".[dev]"
+```
+
+Run the test suite:
+
+```bash
+pytest
+```
+
+Regenerate tactical map assets:
+
+```bash
+python scripts/generate_assets.py --league mls --season 2025
+```
+
 ## License
 MIT

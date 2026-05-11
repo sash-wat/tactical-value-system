@@ -17,7 +17,7 @@ def run_phase_1():
     df_scaled, team_names = preprocess_tactical_data(df)
     
     print("Clustering teams...")
-    # Reduce the 4 complex tactical metrics into 2 dimensions for visualization using PCA
+    # Reduce the tactical feature matrix into 2 dimensions for clustering/visualization.
     from sklearn.decomposition import PCA
     df_2d = pd.DataFrame(PCA(n_components=2).fit_transform(df_scaled), columns=['pca1', 'pca2'])
     clusters, model = cluster_teams(df_2d, n_clusters=4)
