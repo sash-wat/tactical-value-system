@@ -1,0 +1,24 @@
+{
+  "cluster_model": "GaussianMixture",
+  "cluster_n_init": 10,
+  "cluster_random_state": 42,
+  "features": [
+    "passing",
+    "receiving",
+    "interrupting",
+    "dribbling",
+    "claiming",
+    "attempted_passes_for",
+    "pass_completion_percentage_for",
+    "avg_vertical_distance_for",
+    "avg_vertical_distance_against"
+  ],
+  "generated_at": "2026-05-11T23:32:57.572960+00:00",
+  "league": "mls",
+  "n_clusters": 4,
+  "pca_explained_variance_ratio": [
+    0.300840869905891,
+    0.2950713980161801
+  ],
+  "season": "2020"
+}

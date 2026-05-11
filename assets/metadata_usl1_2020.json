@@ -1,0 +1,24 @@
+{
+  "cluster_model": "GaussianMixture",
+  "cluster_n_init": 10,
+  "cluster_random_state": 42,
+  "features": [
+    "passing",
+    "receiving",
+    "interrupting",
+    "dribbling",
+    "claiming",
+    "attempted_passes_for",
+    "pass_completion_percentage_for",
+    "avg_vertical_distance_for",
+    "avg_vertical_distance_against"
+  ],
+  "generated_at": "2026-05-11T23:34:35.570082+00:00",
+  "league": "usl1",
+  "n_clusters": 4,
+  "pca_explained_variance_ratio": [
+    0.3603224290788872,
+    0.24397954676649045
+  ],
+  "season": "2020"
+}

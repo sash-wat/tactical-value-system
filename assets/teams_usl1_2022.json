@@ -1,1 +1,57 @@
-{"FC Tucson": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.30733081640608517}, "North Carolina FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.4282028246462435}, "Richmond Kickers": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.4941405425155505}, "Greenville Triumph SC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.1432978390618518}, "Forward Madison FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.6973589111679164}, "Northern Colorado Hailstorm FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.1108116121249276}, "South Georgia Tormenta FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.398533728788199}, "Union Omaha": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 2.288559711712007}, "Charlotte Independence": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.18013406432830764}, "Chattanooga Red Wolves SC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.3076903301771061}, "Central Valley Fuego FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.2725180549834043}}
+{
+  "Central Valley Fuego FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.2725180549834043
+  },
+  "Charlotte Independence": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 0.9003591068343673
+  },
+  "Chattanooga Red Wolves SC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.3076903301771061
+  },
+  "FC Tucson": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": -0.28348358421966063
+  },
+  "Forward Madison FC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 1.6973589111679164
+  },
+  "Greenville Triumph SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.7768942844252497
+  },
+  "North Carolina FC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 0.4282028246462435
+  },
+  "Northern Colorado Hailstorm FC": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 2.2167975643757662
+  },
+  "Richmond Kickers": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.2960582741953929
+  },
+  "South Georgia Tormenta FC": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 0.6376021123978121
+  },
+  "Union Omaha": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.288559711712007
+  }
+}

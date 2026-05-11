@@ -1,1 +1,72 @@
-{"Bay FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.2648621462931412}, "Houston Dash": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.14905051180641693}, "Kansas City Current": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 1.8141295802002904}, "San Diego Wave FC": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 2.1583324518101907}, "Seattle Reign FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.18208191988699757}, "Chicago Stars FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.6358027418564125}, "Portland Thorns FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 1.1107223690483385}, "Orlando Pride": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 0.8942620673741997}, "Washington Spirit": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 1.1641634244196724}, "Utah Royals FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.0298288934685134}, "Racing Louisville FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 2.6836330445934453}, "Angel City FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.28995439815699126}, "NJ/NY Gotham FC": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 0.778405129937414}, "North Carolina Courage": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 0.4735525180227434}}
+{
+  "Angel City FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.12366140670988847
+  },
+  "Bay FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Chicago Stars FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Houston Dash": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": -0.353215488281067
+  },
+  "Kansas City Current": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 2.0792311149932403
+  },
+  "NJ/NY Gotham FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 1.8314538531623938
+  },
+  "North Carolina Courage": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Orlando Pride": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Portland Thorns FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.1639655156041708
+  },
+  "Racing Louisville FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.6836330445934453
+  },
+  "San Diego Wave FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.451393920806112
+  },
+  "Seattle Reign FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.580468837640781
+  },
+  "Utah Royals FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 1.9384824478857972
+  },
+  "Washington Spirit": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 0.6589635059506167
+  }
+}

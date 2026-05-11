@@ -1,1 +1,137 @@
-{"San Jose Earthquakes": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.1557190103536226}, "New England Revolution": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.2974606460609996}, "Philadelphia Union": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.6499142071780224}, "CF Montr\u00e9al": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.0805915198488505}, "D.C. United": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.7361668471663694}, "Atlanta United FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 2.260559493025828}, "FC Cincinnati": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.738869027317543}, "New York City FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 2.3842662934856156}, "Portland Timbers FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.9065099960609031}, "Chicago Fire FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": -0.09639926702593819}, "Houston Dynamo FC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.4527673142197879}, "Sporting Kansas City": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.0023702728205262}, "Real Salt Lake": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.5989471762741299}, "New York Red Bulls": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 2.775746166526054}, "Los Angeles FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.3090239753267676}, "Austin FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.9029083093618422}, "Seattle Sounders FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": -0.15451052046982622}, "Orlando City SC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": -1.1198081759249032}, "Toronto FC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.8860070511963857}, "Minnesota United FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.0902781924011025}, "LA Galaxy": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.8379394223672423}, "Vancouver Whitecaps FC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.6121668400885331}, "FC Dallas": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.9486682006281171}, "Columbus Crew": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": -0.07447727134607553}, "Colorado Rapids": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.047507718334859936}, "Nashville SC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.8333680507876648}, "Inter Miami CF": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 1.5236051546713847}}
+{
+  "Atlanta United FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 2.260559493025828
+  },
+  "Austin FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 0.9029083093618422
+  },
+  "CF Montr\u00e9al": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.0805915198488505
+  },
+  "Chicago Fire FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.45328590772987165
+  },
+  "Colorado Rapids": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.17613290901677897
+  },
+  "Columbus Crew": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.1210289737750951
+  },
+  "D.C. United": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.7361668471663694
+  },
+  "FC Cincinnati": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": -0.6220326326580459
+  },
+  "FC Dallas": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 0.9486682006281171
+  },
+  "Houston Dynamo FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.798306849194731
+  },
+  "Inter Miami CF": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": -0.23744326791192882
+  },
+  "LA Galaxy": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 0.8379394223672423
+  },
+  "Los Angeles FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 2.6615471653686096
+  },
+  "Minnesota United FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 1.9501979200367217
+  },
+  "Nashville SC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.2388333664862409
+  },
+  "New England Revolution": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.853594656586231
+  },
+  "New York City FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 1.1518049811067157
+  },
+  "New York Red Bulls": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.775746166526054
+  },
+  "Orlando City SC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.6699453876668013
+  },
+  "Philadelphia Union": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.3906549823357377
+  },
+  "Portland Timbers FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 0.9753540053636872
+  },
+  "Real Salt Lake": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 0.24809599096686957
+  },
+  "San Jose Earthquakes": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": -0.16861581203063494
+  },
+  "Seattle Sounders FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.48369905837881383
+  },
+  "Sporting Kansas City": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.0023702728205262
+  },
+  "Toronto FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.6142940940548528
+  },
+  "Vancouver Whitecaps FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.12515273004758343
+  }
+}

@@ -1,1 +1,122 @@
-{"Charleston Battery": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.6348638497912615}, "New Mexico United": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.4659695238819643}, "Sacramento Republic FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.7890697436956435}, "Indy Eleven": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.07939867726411844}, "Tampa Bay Rowdies": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.4981867563286808}, "Monterey Bay FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": -0.12118645665182874}, "North Carolina FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.0284658065846823}, "El Paso Locomotive FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": -0.10027391901610631}, "Oakland Roots SC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.4760175191586189}, "San Antonio FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": -0.015610759730460286}, "Colorado Springs Switchbacks FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.8375718513577894}, "The Miami FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.6792007587138305}, "Rhode Island FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": -0.08172103532149633}, "Loudoun United FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.3133051221945056}, "Detroit City FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.1116590219481984}, "Phoenix Rising FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.2811268389343258}, "Birmingham Legion FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.5544916880292056}, "Louisville City FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.993787918330253}, "Las Vegas Lights FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.1286919985810695}, "FC Tulsa": {"identity": "The Metronomes", "metric": "Passing Impact", "z_score": 3.238273330730714}, "Hartford Athletic": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.1945876820296912}, "Pittsburgh Riverhounds SC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.5408755314534596}, "Orange County SC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.05717771853975}, "Lexington SC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.7257044636897504}}
+{
+  "Birmingham Legion FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": -0.26539133360527173
+  },
+  "Charleston Battery": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 1.9249996047692854
+  },
+  "Colorado Springs Switchbacks FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 0.8375718513577894
+  },
+  "Detroit City FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 0.26232253711347503
+  },
+  "El Paso Locomotive FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 0.6098947632653938
+  },
+  "FC Tulsa": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.704560247036266
+  },
+  "Hartford Athletic": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.1387887455687242
+  },
+  "Indy Eleven": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.270913421017661
+  },
+  "Las Vegas Lights FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": -0.18472014372564372
+  },
+  "Lexington SC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 0.7257044636897504
+  },
+  "Loudoun United FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 1.1349506793672288
+  },
+  "Louisville City FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.4094727516185541
+  },
+  "Monterey Bay FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 0.6778016904914913
+  },
+  "New Mexico United": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 2.3668600412070973
+  },
+  "North Carolina FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 0.8921916440650643
+  },
+  "Oakland Roots SC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.162186913681222
+  },
+  "Orange County SC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 2.253422057950242
+  },
+  "Phoenix Rising FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 0.4613754254948044
+  },
+  "Pittsburgh Riverhounds SC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 1.3555727661799715
+  },
+  "Rhode Island FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 1.016628219400618
+  },
+  "Sacramento Republic FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.7890697436956435
+  },
+  "San Antonio FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": -0.015610759730460286
+  },
+  "Tampa Bay Rowdies": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": -0.6593108107197312
+  },
+  "The Miami FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.8857210352141776
+  }
+}

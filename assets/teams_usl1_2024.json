@@ -1,1 +1,62 @@
-{"One Knoxville SC": {"identity": "The Architects", "metric": "Possession Volume", "z_score": -0.10543234885691814}, "Spokane Velocity FC": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 1.6159244528242267}, "Richmond Kickers": {"identity": "The Architects", "metric": "Possession Volume", "z_score": -0.06918053836170274}, "Greenville Triumph SC": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 0.8117384566720316}, "Forward Madison FC": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 1.8370604968450408}, "Northern Colorado Hailstorm FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 2.1609595166287265}, "South Georgia Tormenta FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.6250711881371432}, "Union Omaha": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 1.6953394522236218}, "Charlotte Independence": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 2.071674131082457}, "Chattanooga Red Wolves SC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 2.262480559345009}, "Central Valley Fuego FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.6371294223727353}, "Lexington SC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.4877225445131383}}
+{
+  "Central Valley Fuego FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.064391104682387
+  },
+  "Charlotte Independence": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.3913236878061424
+  },
+  "Chattanooga Red Wolves SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.8662125306572899
+  },
+  "Forward Madison FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 1.8370604968450408
+  },
+  "Greenville Triumph SC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 0.8117384566720316
+  },
+  "Lexington SC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.45739234385064315
+  },
+  "Northern Colorado Hailstorm FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 1.9376518187646028
+  },
+  "One Knoxville SC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.5956737501310702
+  },
+  "Richmond Kickers": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.0413653596041388
+  },
+  "South Georgia Tormenta FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.258529078665517
+  },
+  "Spokane Velocity FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 1.6159244528242267
+  },
+  "Union Omaha": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 1.2408048095050659
+  }
+}

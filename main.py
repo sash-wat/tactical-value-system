@@ -17,13 +17,12 @@ def run_phase_1():
     df_scaled, team_names = preprocess_tactical_data(df)
     
     print("Clustering teams...")
-    # Reduce the tactical feature matrix into 2 dimensions for clustering/visualization.
-    from sklearn.decomposition import PCA
-    df_2d = pd.DataFrame(PCA(n_components=2).fit_transform(df_scaled), columns=['pca1', 'pca2'])
-    clusters, model = cluster_teams(df_2d, n_clusters=4)
+    # Use Gaussian Mixture Model with dynamic cluster selection (BIC)
+    clusters, model, probs = cluster_teams(df_scaled)
     
     df['cluster'] = clusters
-    result = df[['team_name', 'cluster']].sort_values('cluster')
+    df['cluster_confidence'] = probs.max(axis=1)
+    result = df[['team_name', 'cluster', 'cluster_confidence']].sort_values('cluster')
     print("\n--- Tactical Clusters (MLS 2025) ---")
     print(result.to_string(index=False))
     

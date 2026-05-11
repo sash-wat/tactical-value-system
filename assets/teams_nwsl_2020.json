@@ -1,1 +1,47 @@
-{"Houston Dash": {"identity": "Box Infiltrators", "metric": "Receiving Impact", "z_score": 0.45979760442052026}, "Seattle Reign FC": {"identity": "High-Press Hounds", "metric": "Opponent Directness", "z_score": 0.911076804560204}, "Chicago Stars FC": {"identity": "Box Infiltrators", "metric": "Receiving Impact", "z_score": 1.1522003611447629}, "Portland Thorns FC": {"identity": "Box Infiltrators", "metric": "Receiving Impact", "z_score": 0.9763721785101349}, "Orlando Pride": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.1542955698658006}, "Washington Spirit": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.8655307245496153}, "Utah Royals FC": {"identity": "High-Press Hounds", "metric": "Opponent Directness", "z_score": 0.4804105286953934}, "NJ/NY Gotham FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.504599865222122}, "North Carolina Courage": {"identity": "Box Infiltrators", "metric": "Receiving Impact", "z_score": 0.9117369266686173}}
+{
+  "Chicago Stars FC": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 1.1522003611447629
+  },
+  "Houston Dash": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 0.45979760442052026
+  },
+  "NJ/NY Gotham FC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 1.504599865222122
+  },
+  "North Carolina Courage": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 0.9117369266686173
+  },
+  "Orlando Pride": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.1542955698658006
+  },
+  "Portland Thorns FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 1.6139989538976807
+  },
+  "Seattle Reign FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 0.911076804560204
+  },
+  "Utah Royals FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 0.4804105286953934
+  },
+  "Washington Spirit": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 1.8655307245496153
+  }
+}

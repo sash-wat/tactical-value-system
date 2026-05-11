@@ -1,1 +1,87 @@
-{"Athletic Club Boise": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.5204934563940495}, "One Knoxville SC": {"identity": "High-Press Hounds", "metric": "Opponent Directness", "z_score": 1.3804809340822317}, "FC Naples": {"identity": "High-Press Hounds", "metric": "Opponent Directness", "z_score": 2.645488652757984}, "Spokane Velocity FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.4929010689316681}, "Richmond Kickers": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.8594943640337007}, "Greenville Triumph SC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 0.18390458387078276}, "Sarasota Paradise": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.004477526742757884}, "New York Cosmos": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.12711200919711682}, "Forward Madison FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.1465341255189576}, "Corpus Christi FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 0.7440540436315406}, "Westchester SC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.38929607513402015}, "Union Omaha": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.321741019312849}, "Fort Wayne FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": -1.0178934176528593}, "Portland Hearts of Pine": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": -0.003980023771334864}, "Charlotte Independence": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.2624328174226149}, "Chattanooga Red Wolves SC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 2.1616715184806434}, "AV Alta FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.7784487470739065}}
+{
+  "AV Alta FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": -0.26965701555361676
+  },
+  "Athletic Club Boise": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.1341600820217936
+  },
+  "Charlotte Independence": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.0394086215225773
+  },
+  "Chattanooga Red Wolves SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.1413435469341304
+  },
+  "Corpus Christi FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.7454775559695883
+  },
+  "FC Naples": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 0.12758999800309254
+  },
+  "Fort Wayne FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": -0.6338523568980697
+  },
+  "Forward Madison FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.785160343563794
+  },
+  "Greenville Triumph SC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 1.1396449945402851
+  },
+  "New York Cosmos": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.6178619991609964
+  },
+  "One Knoxville SC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 2.3895324048080977
+  },
+  "Portland Hearts of Pine": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 2.552972927242081
+  },
+  "Richmond Kickers": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.8509570355711706
+  },
+  "Sarasota Paradise": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.5554552989450035
+  },
+  "Spokane Velocity FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 0.5739395825078561
+  },
+  "Union Omaha": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 0.400282120539142
+  },
+  "Westchester SC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 1.1567875827836922
+  }
+}

@@ -45,8 +45,8 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
 
     df_scaled, _ = preprocess_tactical_data(df)
     pca = PCA(n_components=2)
-    df_2d = pd.DataFrame(pca.fit_transform(df_scaled), columns=["pca1", "pca2"])
-    clusters, model = cluster_teams(df_2d, n_clusters=n_clusters)
+    pca.fit(df_scaled)
+    clusters, model, probs = cluster_teams(df_scaled, n_clusters=n_clusters)
 
     image_path = output_dir / f"tactical_clusters_{league}_{season}.png"
     title = f"Tactical Identity Groupings ({league.upper()} {season})"
@@ -64,7 +64,7 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
             "season": season,
             "features": TACTICAL_FEATURES,
             "n_clusters": n_clusters,
-            "cluster_model": "KMeans",
+            "cluster_model": "GaussianMixture",
             "cluster_random_state": model.random_state,
             "cluster_n_init": model.n_init,
             "pca_explained_variance_ratio": [float(value) for value in pca.explained_variance_ratio_],

@@ -1,1 +1,157 @@
-{"Charleston Battery": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 1.120031320760002}, "New Mexico United": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.26765456338415483}, "Sacramento Republic FC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.912618113211855}, "San Diego Loyal SC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.5417704812165969}, "Austin Bold FC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 1.1577428130414835}, "Indy Eleven": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.6599511149259267}, "Sporting Kansas City II": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 1.1954543053229651}, "Tampa Bay Rowdies": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 2.5068224574512525}, "Ventura County FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.075630511277899}, "El Paso Locomotive FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 2.3730534276072732}, "Oakland Roots SC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.16215941681036983}, "San Antonio FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 2.9880965570322107}, "Colorado Springs Switchbacks FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 1.0203524051386483}, "New York Red Bulls II": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.503671219758824}, "The Miami FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.4618795508586124}, "Real Monarchs": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.5845281303629635}, "Loudoun United FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.8425605263085499}, "Tacoma Defiance": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.7240606518044468}, "Memphis 901 FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.800614894517729}, "Phoenix Rising FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 2.1416540853142885}, "Birmingham Legion FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.07731407565918606}, "Louisville City FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 1.8071372482124077}, "Las Vegas Lights FC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.8183393825081487}, "Oklahoma City Energy FC": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.44499560892148005}, "FC Tulsa": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.1433036706696269}, "Hartford Athletic": {"identity": "Passive Observers", "metric": "Opponent Pass Completion", "z_score": 0.4072841166399984}, "Pittsburgh Riverhounds SC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": -1.3560663319023065}, "Orange County SC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.2365785653882408}, "Rio Grande Valley FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.3880740556183181}, "Charlotte Independence": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.17054206964692825}, "Atlanta United 2": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.339776494243162}}
+{
+  "Atlanta United 2": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 1.339776494243162
+  },
+  "Austin Bold FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.1948107264734087
+  },
+  "Birmingham Legion FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Charleston Battery": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Charlotte Independence": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Colorado Springs Switchbacks FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 2.517967595097436
+  },
+  "El Paso Locomotive FC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 2.3730534276072732
+  },
+  "FC Tulsa": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Hartford Athletic": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Indy Eleven": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Las Vegas Lights FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Loudoun United FC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 0.8425605263085499
+  },
+  "Louisville City FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 0.6223386298246654
+  },
+  "Memphis 901 FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.800614894517729
+  },
+  "New Mexico United": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 1.3654797497838
+  },
+  "New York Red Bulls II": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 2.449131027080888
+  },
+  "Oakland Roots SC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Oklahoma City Energy FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Orange County SC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Phoenix Rising FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 0.7977879312326961
+  },
+  "Pittsburgh Riverhounds SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.9466087930647297
+  },
+  "Real Monarchs": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Rio Grande Valley FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Sacramento Republic FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "San Antonio FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.9880965570322107
+  },
+  "San Diego Loyal SC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 1.5417704812165969
+  },
+  "Sporting Kansas City II": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Tacoma Defiance": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Tampa Bay Rowdies": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "The Miami FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Ventura County FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  }
+}

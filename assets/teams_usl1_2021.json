@@ -1,1 +1,62 @@
-{"Toronto FC II": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.6026057331079093}, "FC Tucson": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.9245419104108685}, "North Carolina FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 2.3282128449838977}, "Richmond Kickers": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.9033459420791765}, "Greenville Triumph SC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.169514134202543}, "Forward Madison FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 0.56393947406046}, "South Georgia Tormenta FC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": -1.0991053723092945}, "Union Omaha": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.7146019957233842}, "New England Revolution II": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.2972982147367178}, "North Texas SC": {"identity": "Progressive Carriers", "metric": "Dribbling Impact", "z_score": 1.9100792791729035}, "Chattanooga Red Wolves SC": {"identity": "High-Press Hounds", "metric": "Opponent Directness", "z_score": 2.354346966954135}, "Fort Lauderdale CF": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.03609023238133}}
+{
+  "Chattanooga Red Wolves SC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 2.354346966954135
+  },
+  "FC Tucson": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 0.30126221740679054
+  },
+  "Fort Lauderdale CF": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.9462825866587868
+  },
+  "Forward Madison FC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 0.6494938172692627
+  },
+  "Greenville Triumph SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.169514134202543
+  },
+  "New England Revolution II": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 0.8756648563551963
+  },
+  "North Carolina FC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 0.8613047903814878
+  },
+  "North Texas SC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.1375035143831147
+  },
+  "Richmond Kickers": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.9033459420791765
+  },
+  "South Georgia Tormenta FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.43278845746802763
+  },
+  "Toronto FC II": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.1778906930835116
+  },
+  "Union Omaha": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.7146019957233842
+  }
+}

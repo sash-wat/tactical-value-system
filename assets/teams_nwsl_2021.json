@@ -1,1 +1,52 @@
-{"Houston Dash": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 0.30265859283128854}, "Kansas City Current": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.5230343225309775}, "Seattle Reign FC": {"identity": "Box Infiltrators", "metric": "Receiving Impact", "z_score": 1.1317808956097875}, "Chicago Stars FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.5005258808322228}, "Portland Thorns FC": {"identity": "Box Infiltrators", "metric": "Receiving Impact", "z_score": 1.528629599439122}, "Orlando Pride": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.5733887385250126}, "Washington Spirit": {"identity": "Box Infiltrators", "metric": "Receiving Impact", "z_score": 0.1959479736828248}, "Racing Louisville FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.8443040916941351}, "NJ/NY Gotham FC": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 1.7456119008708901}, "North Carolina Courage": {"identity": "Box Infiltrators", "metric": "Receiving Impact", "z_score": 1.0662511004760924}}
+{
+  "Chicago Stars FC": {
+    "identity": "Progressive Carriers",
+    "metric": "Dribbling Impact",
+    "z_score": 1.5963196316986314
+  },
+  "Houston Dash": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.30265859283128854
+  },
+  "Kansas City Current": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.5230343225309775
+  },
+  "NJ/NY Gotham FC": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 1.3672442732413048
+  },
+  "North Carolina Courage": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 1.0742323388415762
+  },
+  "Orlando Pride": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.6983397783225104
+  },
+  "Portland Thorns FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 1.7233909250113773
+  },
+  "Racing Louisville FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.4415221484481952
+  },
+  "Seattle Reign FC": {
+    "identity": "High-Press Hounds",
+    "metric": "Opponent Directness",
+    "z_score": 0.943959017127229
+  },
+  "Washington Spirit": {
+    "identity": "Tiki-Taka Purists",
+    "metric": "Possession Quality",
+    "z_score": 1.1670395474907178
+  }
+}

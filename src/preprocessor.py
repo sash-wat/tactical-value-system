@@ -2,11 +2,9 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 TACTICAL_FEATURES = [
-    'passing', 'receiving', 'shooting', 'interrupting', 'dribbling', 'claiming',
-    'xgoals_for', 'xgoals_against', 'shots_for', 'shots_against',
+    'passing', 'receiving', 'interrupting', 'dribbling', 'claiming',
     'attempted_passes_for', 'pass_completion_percentage_for',
-    'avg_vertical_distance_for', 'pass_completion_percentage_against',
-    'avg_vertical_distance_against'
+    'avg_vertical_distance_for', 'avg_vertical_distance_against'
 ]
 
 def preprocess_tactical_data(df):

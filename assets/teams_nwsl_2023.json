@@ -1,1 +1,62 @@
-{"Houston Dash": {"identity": "Air Superiority", "metric": "Claiming Impact", "z_score": -0.030244506319577258}, "Kansas City Current": {"identity": "Air Superiority", "metric": "Claiming Impact", "z_score": 1.1469191220012238}, "San Diego Wave FC": {"identity": "Air Superiority", "metric": "Claiming Impact", "z_score": 0.23839787334255017}, "Seattle Reign FC": {"identity": "Air Superiority", "metric": "Claiming Impact", "z_score": 0.4702724217926424}, "Chicago Stars FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 2.973837272518989}, "Portland Thorns FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 2.262267339673375}, "Orlando Pride": {"identity": "Air Superiority", "metric": "Claiming Impact", "z_score": 0.037953890283391065}, "Washington Spirit": {"identity": "Air Superiority", "metric": "Claiming Impact", "z_score": 0.443586092687133}, "Racing Louisville FC": {"identity": "Air Superiority", "metric": "Claiming Impact", "z_score": 1.4962135185155572}, "Angel City FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.7594822738476169}, "NJ/NY Gotham FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.8805105965294256}, "North Carolina Courage": {"identity": "The Architects", "metric": "Possession Volume", "z_score": 2.452346917873435}}
+{
+  "Angel City FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Chicago Stars FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Houston Dash": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.966802193083594
+  },
+  "Kansas City Current": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.1469191220012238
+  },
+  "NJ/NY Gotham FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.5586338226086622
+  },
+  "North Carolina Courage": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 2.452346917873435
+  },
+  "Orlando Pride": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Portland Thorns FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.09251260756576574
+  },
+  "Racing Louisville FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.4962135185155572
+  },
+  "San Diego Wave FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Seattle Reign FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.4702724217926424
+  },
+  "Washington Spirit": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.713378831102464
+  }
+}

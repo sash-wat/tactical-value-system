@@ -1,1 +1,72 @@
-{"One Knoxville SC": {"identity": "Balanced Systems", "metric": "None", "z_score": 0.0}, "FC Naples": {"identity": "Balanced Systems", "metric": "None", "z_score": 0.0}, "Spokane Velocity FC": {"identity": "Balanced Systems", "metric": "None", "z_score": 0.0}, "Richmond Kickers": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.02562119427728}, "Greenville Triumph SC": {"identity": "Balanced Systems", "metric": "None", "z_score": 0.0}, "Texoma FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.4205485616825557}, "Forward Madison FC": {"identity": "Balanced Systems", "metric": "None", "z_score": 0.0}, "Westchester SC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.2637855673032572}, "South Georgia Tormenta FC": {"identity": "Balanced Systems", "metric": "None", "z_score": 0.0}, "Union Omaha": {"identity": "High-Press Hounds", "metric": "Opponent Directness", "z_score": 2.340517213834306}, "Portland Hearts of Pine": {"identity": "Balanced Systems", "metric": "None", "z_score": 0.0}, "Charlotte Independence": {"identity": "Balanced Systems", "metric": "None", "z_score": 0.0}, "Chattanooga Red Wolves SC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 2.924555931059713}, "AV Alta FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.49230798697764}}
+{
+  "AV Alta FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.977747032895477
+  },
+  "Charlotte Independence": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 1.4030353554756676
+  },
+  "Chattanooga Red Wolves SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.924555931059713
+  },
+  "FC Naples": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.5253693289328828
+  },
+  "Forward Madison FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Greenville Triumph SC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "One Knoxville SC": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 0.6792297615844776
+  },
+  "Portland Hearts of Pine": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.7306355800978321
+  },
+  "Richmond Kickers": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.2758036430634876
+  },
+  "South Georgia Tormenta FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Spokane Velocity FC": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 1.328840378269884
+  },
+  "Texoma FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.7132453061436081
+  },
+  "Union Omaha": {
+    "identity": "Box Infiltrators",
+    "metric": "Receiving Impact",
+    "z_score": 1.8239557697822415
+  },
+  "Westchester SC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  }
+}

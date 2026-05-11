@@ -1,1 +1,122 @@
-{"Charleston Battery": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.731190759966859}, "New Mexico United": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.882499918563963}, "Sacramento Republic FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.6422636939563269}, "Indy Eleven": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 2.1504048215995706}, "Tampa Bay Rowdies": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 2.255142417575296}, "Monterey Bay FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.11977688995143478}, "North Carolina FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": -0.083818500156293}, "El Paso Locomotive FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.7062531629483183}, "Oakland Roots SC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": -0.3694597937402665}, "San Antonio FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.5418635393778273}, "Colorado Springs Switchbacks FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.8091243432518792}, "The Miami FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 3.0511514032704743}, "Rhode Island FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.7114970351833764}, "Loudoun United FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.128637628992707}, "Detroit City FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": -0.17801935229568863}, "Memphis 901 FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 0.7026930616984454}, "Phoenix Rising FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.5388671463739458}, "Birmingham Legion FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.7731053805956309}, "Louisville City FC": {"identity": "The Gunslingers", "metric": "Shooting Impact", "z_score": 1.9886724138245815}, "Las Vegas Lights FC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 1.7819661196369032}, "FC Tulsa": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.821723767473024}, "Hartford Athletic": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.11977688995143478}, "Pittsburgh Riverhounds SC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.4454252175342124}, "Orange County SC": {"identity": "Tiki-Taka Purists", "metric": "Possession Quality", "z_score": 0.4692316640169342}}
+{
+  "Birmingham Legion FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 2.0084914144087205
+  },
+  "Charleston Battery": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 2.0213350370625434
+  },
+  "Colorado Springs Switchbacks FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 0.31098324454349036
+  },
+  "Detroit City FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.2532368861585534
+  },
+  "El Paso Locomotive FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 0.1755061751921099
+  },
+  "FC Tulsa": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.821723767473024
+  },
+  "Hartford Athletic": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 0.42560965597236927
+  },
+  "Indy Eleven": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 2.1504048215995706
+  },
+  "Las Vegas Lights FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 2.3943809301672885
+  },
+  "Loudoun United FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 1.1444277519337067
+  },
+  "Louisville City FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 2.346481924394171
+  },
+  "Memphis 901 FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 2.1103868105876935
+  },
+  "Monterey Bay FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.4659772869105405
+  },
+  "New Mexico United": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 1.1000835150118944
+  },
+  "North Carolina FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": -0.23923923850533682
+  },
+  "Oakland Roots SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.4358311637239584
+  },
+  "Orange County SC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 0.8321337897106403
+  },
+  "Phoenix Rising FC": {
+    "identity": "The Architects",
+    "metric": "Possession Volume",
+    "z_score": 0.885568268902628
+  },
+  "Pittsburgh Riverhounds SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.4454252175342124
+  },
+  "Rhode Island FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": -0.20331791549144296
+  },
+  "Sacramento Republic FC": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 0.6503699706403012
+  },
+  "San Antonio FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.5418635393778273
+  },
+  "Tampa Bay Rowdies": {
+    "identity": "The Metronomes",
+    "metric": "Passing Impact",
+    "z_score": 0.8133358554603173
+  },
+  "The Miami FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.8153502803297488
+  }
+}

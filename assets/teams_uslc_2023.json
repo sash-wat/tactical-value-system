@@ -1,1 +1,122 @@
-{"Charleston Battery": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.9933070839903775}, "New Mexico United": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 0.06476129196322047}, "Sacramento Republic FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.969403223193466}, "San Diego Loyal SC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 1.54957956010631}, "Indy Eleven": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": -0.13139595828895148}, "Tampa Bay Rowdies": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.7658217580174982}, "Monterey Bay FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 0.7986469304579132}, "El Paso Locomotive FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": -0.20222304891786602}, "Oakland Roots SC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.70292557048327}, "San Antonio FC": {"identity": "High-Press Hounds", "metric": "Opponent Directness", "z_score": 3.7390017951452825}, "Colorado Springs Switchbacks FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.5811648094447504}, "The Miami FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": -0.06023196602147992}, "Loudoun United FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.4886214862223577}, "Detroit City FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.4400677207313746}, "Memphis 901 FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.8077475352616733}, "Phoenix Rising FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 1.6491965306520318}, "Birmingham Legion FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.3644053819918198}, "Louisville City FC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.3100838959391768}, "Las Vegas Lights FC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 1.2959930257760004}, "FC Tulsa": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.689622186887511}, "Hartford Athletic": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": 1.8681282243013293}, "Pittsburgh Riverhounds SC": {"identity": "Vertical Threats", "metric": "Attacking Directness", "z_score": 0.915488062175909}, "Orange County SC": {"identity": "Attacking Juggernauts", "metric": "Attacking Threat (xG)", "z_score": 0.1617866903155398}, "Rio Grande Valley FC": {"identity": "Open Defenses", "metric": "Defensive Vulnerability (xGA)", "z_score": -0.41898038006321703}}
+{
+  "Birmingham Legion FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Charleston Battery": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.4197304399099722
+  },
+  "Colorado Springs Switchbacks FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Detroit City FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.4400677207313746
+  },
+  "El Paso Locomotive FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.0038234979483835
+  },
+  "FC Tulsa": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Hartford Athletic": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Indy Eleven": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": -0.5475937747023244
+  },
+  "Las Vegas Lights FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 1.2959930257760004
+  },
+  "Loudoun United FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 1.4993659155421986
+  },
+  "Louisville City FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.1585162074665949
+  },
+  "Memphis 901 FC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Monterey Bay FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 2.0920933629399077
+  },
+  "New Mexico United": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.31087398856540827
+  },
+  "Oakland Roots SC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.7957867935244224
+  },
+  "Orange County SC": {
+    "identity": "Balanced Systems",
+    "metric": "None",
+    "z_score": 0.0
+  },
+  "Phoenix Rising FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 0.668627380726578
+  },
+  "Pittsburgh Riverhounds SC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 0.915488062175909
+  },
+  "Rio Grande Valley FC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.5158736608079977
+  },
+  "Sacramento Republic FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.9990173966029432
+  },
+  "San Antonio FC": {
+    "identity": "Vertical Threats",
+    "metric": "Attacking Directness",
+    "z_score": 3.6124467292831706
+  },
+  "San Diego Loyal SC": {
+    "identity": "Air Superiority",
+    "metric": "Claiming Impact",
+    "z_score": 0.2860715590842061
+  },
+  "Tampa Bay Rowdies": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 0.355613567184667
+  },
+  "The Miami FC": {
+    "identity": "The Disruptors",
+    "metric": "Defensive Disruption",
+    "z_score": 1.6714145467760162
+  }
+}
