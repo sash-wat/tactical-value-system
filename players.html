@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVMS | Player Archetypes</title>
+    <meta name="description" content="Explore player tactical archetypes across MLS, USLC, NWSL and USL League One. See how every player is classified by their statistical fingerprint.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(56, 189, 248, 0.08); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .glass-dark { background: rgba(11, 15, 25, 0.7); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.07); }
+        .mesh-gradient { background: radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.08) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.08) 0px, transparent 50%); }
+        .pitch-grid {
+            background-image:
+                linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        /* Player card hover */
+        .player-card {
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .player-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px -10px rgba(56, 189, 248, 0.15);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #0B0F19; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 2px; }
+
+        /* Chip / filter button */
+        .chip { transition: all 0.18s ease; cursor: pointer; }
+        .chip.active { background: rgba(56, 189, 248, 0.2); border-color: rgba(56, 189, 248, 0.6); color: #e0f2fe; }
+
+        /* Search input */
+        input[type="text"]:focus { outline: none; border-color: rgba(56, 189, 248, 0.5); }
+
+        /* Fade in grid items */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .card-animate { animation: fadeUp 0.3s ease forwards; }
+
+        /* Confidence bar */
+        .conf-bar { height: 3px; border-radius: 9999px; background: rgba(255,255,255,0.08); overflow: hidden; }
+        .conf-fill { height: 100%; border-radius: 9999px; transition: width 0.6s ease; }
+
+        /* Sticky controls shadow */
+        .controls-sticky {
+            position: sticky;
+            top: 0;
+            z-index: 40;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(99, 102, 241, 0.1);
+        }
+
+        /* Position pill colours */
+        .pos-AM  { background: rgba(251,191,36,0.15);  color: #fbbf24; border-color: rgba(251,191,36,0.3); }
+        .pos-W   { background: rgba(56,189,248,0.15);  color: #38bdf8; border-color: rgba(56,189,248,0.3); }
+        .pos-CB  { background: rgba(52,211,153,0.15);  color: #34d399; border-color: rgba(52,211,153,0.3); }
+        .pos-FB  { background: rgba(167,139,250,0.15); color: #a78bfa; border-color: rgba(167,139,250,0.3); }
+        .pos-CM  { background: rgba(251,113,133,0.15); color: #fb7185; border-color: rgba(251,113,133,0.3); }
+        .pos-DM  { background: rgba(248,113,113,0.15); color: #f87171; border-color: rgba(248,113,113,0.3); }
+        .pos-ST  { background: rgba(249,115,22,0.15);  color: #f97316; border-color: rgba(249,115,22,0.3); }
+        .pos-GK  { background: rgba(156,163,175,0.15); color: #9ca3af; border-color: rgba(156,163,175,0.3); }
+        .pos-DEFAULT { background: rgba(100,116,139,0.15); color: #94a3b8; border-color: rgba(100,116,139,0.3); }
+    </style>
+</head>
+<body class="bg-[#0B0F19] text-slate-100 mesh-gradient min-h-screen pitch-grid">
+
+    <!-- Nav -->
+    <nav class="container mx-auto px-6 py-8 flex justify-between items-center relative z-10">
+        <a href="index.html" class="text-2xl font-bold text-slate-100 tracking-tight hover:opacity-80 transition-opacity">TV<span class="text-sky-300">MS</span></a>
+        <div class="space-x-6 hidden md:flex items-center">
+            <a href="index.html" class="hover:text-sky-300 transition-colors text-sm font-medium">Home</a>
+            <a href="league-pulse.html" class="hover:text-sky-300 transition-colors text-sm font-medium">League Pulse</a>
+            <a href="players.html" class="text-sky-300 font-medium text-sm">Player Archetypes</a>
+            <a href="all-identities.html" class="hover:text-sky-300 transition-colors text-sm font-medium">Team Identities</a>
+            <a href="https://github.com/sash-wat/tactical-value-system" class="bg-sky-600/5 hover:bg-indigo-600 border border-indigo-500/20 hover:border-indigo-500 text-indigo-200/70 hover:text-slate-100 px-6 py-2 rounded-xl font-semibold transition-all text-sm">
+                View Source
+            </a>
+        </div>
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-btn" class="md:hidden text-slate-400 hover:text-slate-100 transition-colors">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden glass-dark mx-4 mb-4 rounded-2xl p-4 space-y-3 z-30 relative">
+        <a href="index.html" class="block text-sm text-slate-300 hover:text-sky-300 transition-colors py-2 border-b border-indigo-500/10">Home</a>
+        <a href="league-pulse.html" class="block text-sm text-slate-300 hover:text-sky-300 transition-colors py-2 border-b border-indigo-500/10">League Pulse</a>
+        <a href="players.html" class="block text-sm text-sky-300 font-medium py-2 border-b border-indigo-500/10">Player Archetypes</a>
+        <a href="all-identities.html" class="block text-sm text-slate-300 hover:text-sky-300 transition-colors py-2">Team Identities</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="container mx-auto px-6 pt-6 pb-10 text-center reveal active">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-bold uppercase tracking-widest mb-5">
+            <i data-lucide="user-check" class="w-3 h-3"></i> Phase 2 · Player Archetypes
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-slate-100 mb-4 tracking-tight">
+            Find the <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-400">Role</span> Behind the Stats.
+        </h1>
+        <p class="text-indigo-200/60 max-w-2xl mx-auto text-lg leading-relaxed">
+            Every player classified by their tactical fingerprint — not just their output. 
+            Powered by GMM clustering on 10 stylistic metrics per 96 minutes.
+        </p>
+    </section>
+
+    <!-- Sticky Controls -->
+    <div class="controls-sticky py-4 px-4 md:px-6">
+        <div class="max-w-7xl mx-auto space-y-3">
+            <!-- Row 1: League / Season selects + search -->
+            <div class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center">
+                <select id="league-select" class="glass-dark text-slate-100 px-4 py-2.5 rounded-xl text-sm font-bold cursor-pointer border border-indigo-500/20 focus:border-sky-500/50 min-w-[140px]">
+                    <option value="mls">MLS</option>
+                    <option value="uslc">USL Championship</option>
+                    <option value="nwsl">NWSL</option>
+                    <option value="usl1">USL League One</option>
+                </select>
+                <select id="season-select" class="glass-dark text-slate-100 px-4 py-2.5 rounded-xl text-sm font-bold cursor-pointer border border-indigo-500/20 focus:border-sky-500/50 min-w-[120px]">
+                    <option value="2026">2026</option>
+                    <option value="2025" selected>2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                </select>
+                <div class="relative flex-1">
+                    <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500 pointer-events-none"></i>
+                    <input id="player-search" type="text" placeholder="Search player…" 
+                        class="w-full glass-dark text-slate-100 pl-9 pr-4 py-2.5 rounded-xl text-sm border border-indigo-500/20 placeholder:text-slate-600 focus:border-sky-500/50 transition-colors">
+                </div>
+                <div id="result-count" class="text-slate-500 text-xs font-mono self-center whitespace-nowrap hidden sm:block"></div>
+            </div>
+            <!-- Row 2: Archetype + Position chips -->
+            <div class="flex flex-wrap gap-2 items-center">
+                <span class="text-slate-600 text-[10px] uppercase tracking-widest font-bold mr-1">Archetype</span>
+                <div id="archetype-chips" class="flex flex-wrap gap-2"></div>
+                <span class="text-slate-600 text-[10px] uppercase tracking-widest font-bold ml-3 mr-1">Pos</span>
+                <div id="position-chips" class="flex flex-wrap gap-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Grid -->
+    <main class="max-w-7xl mx-auto px-4 md:px-6 py-8">
+        <!-- Loading state -->
+        <div id="loading-state" class="flex flex-col items-center justify-center py-32 gap-4">
+            <i data-lucide="loader-2" class="w-8 h-8 text-sky-400 animate-spin"></i>
+            <p class="text-indigo-200/50 text-sm">Loading archetypes…</p>
+        </div>
+        <!-- Error state -->
+        <div id="error-state" class="hidden flex-col items-center justify-center py-32 gap-4 text-center">
+            <i data-lucide="alert-circle" class="w-10 h-10 text-amber-400"></i>
+            <p class="text-slate-300 font-medium">No data for this league / season yet.</p>
+            <p class="text-indigo-400/50 text-sm">Run the clustering pipeline first.</p>
+        </div>
+        <!-- Empty search state -->
+        <div id="empty-state" class="hidden flex-col items-center justify-center py-32 gap-4 text-center">
+            <i data-lucide="search-x" class="w-10 h-10 text-slate-600"></i>
+            <p class="text-slate-400 font-medium">No players match your filters.</p>
+        </div>
+        <!-- Player grid -->
+        <div id="player-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 hidden"></div>
+    </main>
+
+    <footer class="container mx-auto px-6 py-12 border-t border-indigo-500/20 flex flex-col md:flex-row justify-between items-center gap-4 text-indigo-400/50 text-sm">
+        <div class="flex flex-col items-center md:items-start gap-1">
+            <p>&copy; 2026 TVMS Project. Built for North American Soccer Analysis.</p>
+            <p class="text-[10px] uppercase tracking-wider">Data provided by <a href="https://americansocceranalysis.com" class="text-slate-100 hover:text-sky-300 transition-colors">American Soccer Analysis</a></p>
+        </div>
+        <div class="flex gap-6">
+            <a href="https://github.com/sash-wat/tactical-value-system" class="hover:text-slate-100 transition-colors">GitHub</a>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // ── Archetype colour palette ──────────────────────────────────────────
+        const ARCHETYPE_STYLES = {
+            'The Finishers':         { bg: 'bg-rose-500/10',    text: 'text-rose-300',    border: 'border-rose-500/30',    fill: '#f43f5e' },
+            'The Creators':          { bg: 'bg-sky-500/10',     text: 'text-sky-300',     border: 'border-sky-500/30',     fill: '#38bdf8' },
+            'Progressive Carriers':  { bg: 'bg-violet-500/10',  text: 'text-violet-300',  border: 'border-violet-500/30',  fill: '#8b5cf6' },
+            'Box Infiltrators':      { bg: 'bg-amber-500/10',   text: 'text-amber-300',   border: 'border-amber-500/30',   fill: '#f59e0b' },
+            'The Enforcers':         { bg: 'bg-emerald-500/10', text: 'text-emerald-300', border: 'border-emerald-500/30', fill: '#10b981' },
+            'The Metronomes':        { bg: 'bg-indigo-500/10',  text: 'text-indigo-300',  border: 'border-indigo-500/30',  fill: '#6366f1' },
+            'The Enigmas':           { bg: 'bg-fuchsia-500/10', text: 'text-fuchsia-300', border: 'border-fuchsia-500/30', fill: '#d946ef' },
+            'Balanced Roles':        { bg: 'bg-slate-500/10',   text: 'text-slate-400',   border: 'border-slate-500/30',   fill: '#64748b' },
+        };
+        const DEFAULT_STYLE = { bg: 'bg-sky-500/10', text: 'text-sky-300', border: 'border-sky-500/30', fill: '#38bdf8' };
+
+        function archetypeStyle(name) {
+            return ARCHETYPE_STYLES[name] || DEFAULT_STYLE;
+        }
+
+        // ── Position classes ──────────────────────────────────────────────────
+        function posClass(pos) {
+            const map = { AM:'pos-AM', W:'pos-W', CB:'pos-CB', FB:'pos-FB', CM:'pos-CM', DM:'pos-DM', ST:'pos-ST', GK:'pos-GK' };
+            return map[pos] || 'pos-DEFAULT';
+        }
+
+        // ── Intensity label from z-score ──────────────────────────────────────
+        function intensity(z) {
+            const a = Math.abs(z);
+            if (a > 2.5) return { label: 'League-Defining', color: 'text-rose-400' };
+            if (a > 2.0) return { label: 'Elite',           color: 'text-sky-400' };
+            if (a > 1.5) return { label: 'Exceptional',     color: 'text-emerald-400' };
+            if (a > 1.0) return { label: 'Significant',     color: 'text-amber-400' };
+            return             { label: 'Strong',           color: 'text-slate-400' };
+        }
+
+        // ── State ─────────────────────────────────────────────────────────────
+        let allPlayers = [];       // [{name, archetype, position, primary_metric, z_score, confidence}]
+        let activeArchetypes = new Set();
+        let activePositions  = new Set();
+        let searchQuery = '';
+
+        const grid       = document.getElementById('player-grid');
+        const loading    = document.getElementById('loading-state');
+        const errorState = document.getElementById('error-state');
+        const emptyState = document.getElementById('empty-state');
+        const countEl    = document.getElementById('result-count');
+
+        // ── Data loading ──────────────────────────────────────────────────────
+        async function loadData() {
+            const league = document.getElementById('league-select').value;
+            const season = document.getElementById('season-select').value;
+
+            setLoadingState();
+            activeArchetypes.clear();
+            activePositions.clear();
+
+            try {
+                const res = await fetch(`assets/players_${league}_${season}.json?v=${Date.now()}`);
+                if (!res.ok) throw new Error('not found');
+                const raw = await res.json();
+
+                allPlayers = Object.entries(raw).map(([name, d]) => ({
+                    name,
+                    archetype: d.archetype,
+                    position:  d.position,
+                    metric:    d.primary_metric,
+                    z:         d.z_score,
+                    conf:      d.confidence,
+                }));
+
+                buildChips();
+                renderGrid();
+            } catch (e) {
+                showError();
+            }
+        }
+
+        // ── Chip builders ─────────────────────────────────────────────────────
+        function buildChips() {
+            const archetypes = [...new Set(allPlayers.map(p => p.archetype))].sort();
+            const positions  = [...new Set(allPlayers.map(p => p.position))].sort();
+
+            const ac = document.getElementById('archetype-chips');
+            const pc = document.getElementById('position-chips');
+            ac.innerHTML = '';
+            pc.innerHTML = '';
+
+            archetypes.forEach(a => {
+                const s = archetypeStyle(a);
+                const btn = document.createElement('button');
+                btn.className = `chip px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border ${s.bg} ${s.text} ${s.border}`;
+                btn.textContent = a;
+                btn.dataset.value = a;
+                btn.addEventListener('click', () => {
+                    toggleFilter(activeArchetypes, a, btn);
+                    renderGrid();
+                });
+                ac.appendChild(btn);
+            });
+
+            positions.forEach(p => {
+                const btn = document.createElement('button');
+                btn.className = `chip px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border ${posClass(p)} border-current/30`;
+                btn.textContent = p;
+                btn.dataset.value = p;
+                btn.addEventListener('click', () => {
+                    toggleFilter(activePositions, p, btn);
+                    renderGrid();
+                });
+                pc.appendChild(btn);
+            });
+        }
+
+        function toggleFilter(set, value, btn) {
+            if (set.has(value)) { set.delete(value); btn.classList.remove('active'); }
+            else                { set.add(value);    btn.classList.add('active'); }
+        }
+
+        // ── Render ────────────────────────────────────────────────────────────
+        function renderGrid() {
+            const q = searchQuery.toLowerCase().trim();
+
+            let filtered = allPlayers.filter(p => {
+                if (q && !p.name.toLowerCase().includes(q)) return false;
+                if (activeArchetypes.size && !activeArchetypes.has(p.archetype)) return false;
+                if (activePositions.size  && !activePositions.has(p.position))   return false;
+                return true;
+            });
+
+            // Sort: archetype group, then by z-score desc
+            filtered.sort((a, b) => a.archetype.localeCompare(b.archetype) || b.z - a.z);
+
+            if (filtered.length === 0) {
+                showEmpty();
+                return;
+            }
+
+            grid.innerHTML = '';
+            grid.classList.remove('hidden');
+            errorState.classList.add('hidden');
+            errorState.classList.remove('flex');
+            emptyState.classList.add('hidden');
+            emptyState.classList.remove('flex');
+            loading.classList.add('hidden');
+            loading.classList.remove('flex');
+
+            countEl.textContent = `${filtered.length.toLocaleString()} players`;
+
+            filtered.forEach((p, i) => {
+                const s   = archetypeStyle(p.archetype);
+                const it  = intensity(p.z);
+                const pct = Math.round(p.conf * 100);
+                const isBal = p.archetype === 'Balanced Roles';
+
+                const card = document.createElement('div');
+                card.className = `player-card glass rounded-2xl p-5 border border-indigo-500/10 hover:border-sky-500/30 flex flex-col gap-4 card-animate`;
+                card.style.animationDelay = `${Math.min(i * 20, 300)}ms`;
+
+                card.innerHTML = `
+                    <div class="flex items-start justify-between gap-2">
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-slate-100 text-base leading-snug truncate" title="${p.name}">${p.name}</h3>
+                            <span class="inline-block mt-1.5 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider border ${posClass(p.position)}">${p.position}</span>
+                        </div>
+                        <span class="shrink-0 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border ${s.bg} ${s.text} ${s.border} text-right leading-tight">
+                            ${p.archetype}
+                        </span>
+                    </div>
+
+                    <div class="space-y-2 flex-1">
+                        ${isBal
+                            ? `<p class="text-xs text-slate-600 italic">No extreme statistical outlier. Versatile, adaptable role.</p>`
+                            : `<p class="text-xs text-indigo-200/60 leading-relaxed">
+                                <span class="${it.color} font-bold">${it.label}</span>
+                                levels of <span class="text-slate-200">${p.metric}</span>
+                               </p>`
+                        }
+                    </div>
+
+                    <div class="space-y-1.5">
+                        <div class="flex justify-between items-center text-[10px] font-mono text-slate-500">
+                            <span>ARCHETYPE FIT</span>
+                            <span class="${pct >= 90 ? 'text-emerald-400' : pct >= 70 ? 'text-sky-400' : 'text-amber-400'} font-bold">${pct}%</span>
+                        </div>
+                        <div class="conf-bar">
+                            <div class="conf-fill" style="width: ${pct}%; background: ${s.fill};"></div>
+                        </div>
+                    </div>
+                `;
+
+                grid.appendChild(card);
+            });
+
+            lucide.createIcons();
+        }
+
+        // ── UI state helpers ──────────────────────────────────────────────────
+        function setLoadingState() {
+            loading.classList.remove('hidden');
+            loading.classList.add('flex');
+            grid.classList.add('hidden');
+            errorState.classList.add('hidden');
+            errorState.classList.remove('flex');
+            emptyState.classList.add('hidden');
+            emptyState.classList.remove('flex');
+            countEl.textContent = '';
+            document.getElementById('archetype-chips').innerHTML = '';
+            document.getElementById('position-chips').innerHTML  = '';
+        }
+        function showError() {
+            loading.classList.add('hidden');
+            loading.classList.remove('flex');
+            errorState.classList.remove('hidden');
+            errorState.classList.add('flex');
+            grid.classList.add('hidden');
+        }
+        function showEmpty() {
+            loading.classList.add('hidden');
+            loading.classList.remove('flex');
+            grid.classList.add('hidden');
+            emptyState.classList.remove('hidden');
+            emptyState.classList.add('flex');
+            countEl.textContent = '0 players';
+        }
+
+        // ── Event wiring ──────────────────────────────────────────────────────
+        document.getElementById('league-select').addEventListener('change', loadData);
+        document.getElementById('season-select').addEventListener('change', loadData);
+
+        document.getElementById('player-search').addEventListener('input', function() {
+            searchQuery = this.value;
+            renderGrid();
+        });
+
+        document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        // Scroll reveal
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('active'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // ── Initial load ──────────────────────────────────────────────────────
+        loadData();
+    </script>
+</body>
+</html>
