@@ -1,0 +1,3411 @@
+{
+  "A.J. Cochran": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999904264731958,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.326815942281674
+  },
+  "A.J. Paterson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9196757853285129,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7082403168040108
+  },
+  "Aaron G\u00f3mez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999970539744,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.01759259829025
+  },
+  "Aaron Maund": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999714429589064,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.5039385997132657
+  },
+  "Aaron Molloy": {
+    "archetype": "The Creators",
+    "confidence": 0.9999528346017353,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.07404597083151884
+  },
+  "Aar\u00f3n Guill\u00e9n": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.5565486238722344,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.5342225807190513
+  },
+  "Abdoulaye Cissoko": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.999933388948004,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.4254811197399901
+  },
+  "Abdoulaye Diop": {
+    "archetype": "The Finishers",
+    "confidence": 0.9958722420813333,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7094736777661915
+  },
+  "Adam Saldana": {
+    "archetype": "The Finishers",
+    "confidence": 0.8589180704388706,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8442542750592247
+  },
+  "Adrian Diz Pe": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999999705851184,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.553701985940126
+  },
+  "Adri\u00e1n Vera": {
+    "archetype": "The Creators",
+    "confidence": 0.9402979658578929,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.025607872332590792
+  },
+  "Aedan Stanley": {
+    "archetype": "The Finishers",
+    "confidence": 0.9995784776710204,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8606269199901115
+  },
+  "Aidan Daniels": {
+    "archetype": "The Creators",
+    "confidence": 0.9012191144369393,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.725234447007974
+  },
+  "Aiden Mesias": {
+    "archetype": "The Creators",
+    "confidence": 0.9999989686406703,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.554488277360006
+  },
+  "Ajani Fortune": {
+    "archetype": "The Finishers",
+    "confidence": 0.9830714101312825,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.818570040386655
+  },
+  "Akeem Ward": {
+    "archetype": "The Finishers",
+    "confidence": 0.9147096675744518,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5964878500633436
+  },
+  "Akil Watts": {
+    "archetype": "The Finishers",
+    "confidence": 0.9986762366258812,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5526661134869958
+  },
+  "Alasanne Ates Diouf": {
+    "archetype": "The Creators",
+    "confidence": 0.977241470105467,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.32286000430886674
+  },
+  "Alec Diaz": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999889303854029,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.386529109181606
+  },
+  "Alejandro Alvarado Jr.": {
+    "archetype": "The Creators",
+    "confidence": 0.9993943838749434,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7110618154820715
+  },
+  "Alejandro Lara": {
+    "archetype": "The Creators",
+    "confidence": 0.7885620687889511,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6971052195143198
+  },
+  "Alex Crognale": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999998895010805,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.442186456885548
+  },
+  "Alex Villanueva": {
+    "archetype": "The Creators",
+    "confidence": 0.9607320342943536,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3839905854812295
+  },
+  "Alexander Comsia": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.8839474589111648,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.8993436461101006
+  },
+  "Alexis Souahy": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.994858713877427,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.9046432703080017
+  },
+  "Alfonso Ocampo-Chavez": {
+    "archetype": "The Creators",
+    "confidence": 0.9663263975130078,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1004366059203845
+  },
+  "Alioune Ndour": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999953404382347,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.6101527673435645
+  },
+  "Allexon Saravia": {
+    "archetype": "The Finishers",
+    "confidence": 0.9691884321262193,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8778939337857705
+  },
+  "Amadou Diop": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9963169084337707,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.139233505979796
+  },
+  "Amando Moreno": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9979071374907778,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.816230160799366
+  },
+  "Amir Bashti": {
+    "archetype": "The Creators",
+    "confidence": 0.9999994670292266,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.8711166448951104
+  },
+  "Amobi Okugo": {
+    "archetype": "The Finishers",
+    "confidence": 0.9929159696881038,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.678121679991061
+  },
+  "Anderson Asiedu": {
+    "archetype": "The Finishers",
+    "confidence": 0.987417442483339,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7433773427398097
+  },
+  "Andre Fortune": {
+    "archetype": "The Creators",
+    "confidence": 0.999993422741031,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1983900275951005
+  },
+  "Andre Lewis": {
+    "archetype": "The Finishers",
+    "confidence": 0.9896738872989875,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6324534238058145
+  },
+  "Andrew Brody": {
+    "archetype": "The Finishers",
+    "confidence": 0.9779084254027988,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6960896049729163
+  },
+  "Andrew Carleton": {
+    "archetype": "The Creators",
+    "confidence": 0.9996578842924781,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.2652507961060946
+  },
+  "Andrew Fox": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999988729087,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.6121642391523976
+  },
+  "Andrew Tinari": {
+    "archetype": "The Finishers",
+    "confidence": 0.9060124153517503,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5343140984174082
+  },
+  "Andrew Wheeler-Omiunu": {
+    "archetype": "The Finishers",
+    "confidence": 0.9962024517706495,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8451404949032061
+  },
+  "Angelo Kelly-Rosales": {
+    "archetype": "The Finishers",
+    "confidence": 0.9770124865779427,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.62234072116683
+  },
+  "Anges Kader Bohui": {
+    "archetype": "The Creators",
+    "confidence": 0.9907739364694386,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.7627186746383543
+  },
+  "Anthony Velarde": {
+    "archetype": "The Creators",
+    "confidence": 0.9024239447020767,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.0668894280467874
+  },
+  "Antoine Hoppenot": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9085462866002297,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.11849033128078304
+  },
+  "Anton Sorenson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9695240004774044,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5365529317733805
+  },
+  "Antonee Burke-Gilroy": {
+    "archetype": "The Finishers",
+    "confidence": 0.7320925672779852,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8508087342352402
+  },
+  "Aodhan Quinn": {
+    "archetype": "The Creators",
+    "confidence": 1.0,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5636435612516154
+  },
+  "Ariel Mart\u00ednez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.6604076969314193,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.2146529663198499
+  },
+  "Arthur Bosua": {
+    "archetype": "The Creators",
+    "confidence": 0.9167293232795133,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1827711133637544
+  },
+  "Arthur Rogers": {
+    "archetype": "The Finishers",
+    "confidence": 0.995437692935724,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6722186725207532
+  },
+  "Arun Basuljevic": {
+    "archetype": "The Creators",
+    "confidence": 0.9993182811917886,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6538093910807232
+  },
+  "Ashkanov Apollon": {
+    "archetype": "The Finishers",
+    "confidence": 0.9963801988624342,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7134409372269194
+  },
+  "Atiba Harris": {
+    "archetype": "The Creators",
+    "confidence": 0.7573505238466014,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6945956562303387
+  },
+  "Augustine Williams": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.999999999726283,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.203033099286154
+  },
+  "Austin Yearwood": {
+    "archetype": "The Finishers",
+    "confidence": 0.9775126827012807,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8527620250092626
+  },
+  "Axel Picazo": {
+    "archetype": "The Creators",
+    "confidence": 0.997812899007894,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.20676124019741718
+  },
+  "Ayoze": {
+    "archetype": "The Creators",
+    "confidence": 0.9995888690226563,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.5866484233314804
+  },
+  "Azriel Gonzalez": {
+    "archetype": "The Creators",
+    "confidence": 0.9997039505699093,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7097388879481497
+  },
+  "Baboucarr Njie": {
+    "archetype": "The Finishers",
+    "confidence": 0.9551996806258304,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7137200264497463
+  },
+  "Bah Othello": {
+    "archetype": "The Finishers",
+    "confidence": 0.9919293844033445,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7291758813667076
+  },
+  "Barry Sharifi": {
+    "archetype": "The Finishers",
+    "confidence": 0.9999474827148775,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8160805033873005
+  },
+  "Ben Speas": {
+    "archetype": "The Creators",
+    "confidence": 0.9999475368075591,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.884978860914707
+  },
+  "Benjamin Ofeimu": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9980973165777351,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1537716912980327
+  },
+  "Benji Kikanovi\u0107": {
+    "archetype": "The Creators",
+    "confidence": 0.9996359261419479,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.13607159234933103
+  },
+  "Billy Forbes": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999983079873754,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.4039286213191677
+  },
+  "Blake Smith": {
+    "archetype": "The Finishers",
+    "confidence": 0.9971011658298738,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5841630849880833
+  },
+  "Bode Hidalgo": {
+    "archetype": "The Creators",
+    "confidence": 0.9802409532255364,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.2366146546530608
+  },
+  "Boima Cummins": {
+    "archetype": "The Creators",
+    "confidence": 0.9999994564789534,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7839979104621233
+  },
+  "Boluwatife Akinyode": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9788382456146764,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.7675442964927335
+  },
+  "Brad Dunwell": {
+    "archetype": "The Finishers",
+    "confidence": 0.9943783897521196,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6862333079715907
+  },
+  "Bradley Bourgeois": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9346511230279545,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.3034515121222316
+  },
+  "Brandan Craig": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999923788802266,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.8412712008318424
+  },
+  "Brandon Allen": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999954156968539,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.16015229327529
+  },
+  "Brent Kallman": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999749105311353,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.461219020309315
+  },
+  "Brent Richards": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999999941949,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5026096434710865
+  },
+  "Brenton Griffiths": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9993672464226236,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.2703403818075192
+  },
+  "Brian Iloski": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999991885372973,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.48638625444740685
+  },
+  "Brian James": {
+    "archetype": "The Finishers",
+    "confidence": 0.9960124437911299,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7984085349808941
+  },
+  "Brian Ownby": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.5910431643183354,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.44220609588763854
+  },
+  "Brian Wright": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.5074120093207523,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.519521308419111
+  },
+  "Brunallergene Etou": {
+    "archetype": "The Creators",
+    "confidence": 0.9717130877934228,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0924219521517187
+  },
+  "Bruno Lapa": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9497936227001907,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.5242610237450265
+  },
+  "Bryam Rebell\u00f3n": {
+    "archetype": "The Creators",
+    "confidence": 0.9533312529884469,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.5835581047202879
+  },
+  "Bryan de la Fuente": {
+    "archetype": "The Creators",
+    "confidence": 0.8742735720256433,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7238281072265826
+  },
+  "Caden Clark": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999820001425,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1696086261420682
+  },
+  "Cal Jennings": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999871708387904,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.712952971896154
+  },
+  "Caleb Wiley": {
+    "archetype": "The Finishers",
+    "confidence": 0.9993570687347714,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8417279727392958
+  },
+  "Callum Chapman-Page": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999455361481852,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.3282214947863349
+  },
+  "Callum Montgomery": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9991822478985645,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.7760627813533194
+  },
+  "Camden Riley": {
+    "archetype": "The Finishers",
+    "confidence": 0.9982883336429861,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.825892585673803
+  },
+  "Cameron Iwasa": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999990690928174,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.3123180747055745
+  },
+  "Cameron Lancaster": {
+    "archetype": "The Finishers (2)",
+    "confidence": 1.0,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.601824011161722
+  },
+  "Cameron Lindley": {
+    "archetype": "The Finishers",
+    "confidence": 0.9799777473503627,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.545116955711467
+  },
+  "Cameron Palmer": {
+    "archetype": "The Creators",
+    "confidence": 0.9893942109644497,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.3393629252307901
+  },
+  "Carl Haworth": {
+    "archetype": "The Creators",
+    "confidence": 0.9861797580861756,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.4244357716865403
+  },
+  "Carlos Alvarez": {
+    "archetype": "The Finishers",
+    "confidence": 0.5675720002053019,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5435699429376902
+  },
+  "Carter Manley": {
+    "archetype": "The Finishers",
+    "confidence": 0.9945709308406607,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8224324280751696
+  },
+  "Charlie Adams": {
+    "archetype": "The Finishers",
+    "confidence": 0.5079002647921692,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5691646668041125
+  },
+  "Charlie Ward": {
+    "archetype": "The Finishers",
+    "confidence": 0.9846193292017174,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.849751051504615
+  },
+  "Cherif Dieye": {
+    "archetype": "The Creators",
+    "confidence": 0.99973925095642,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9953742734749508
+  },
+  "Chir\u00f3 N'Toko": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9755934843882504,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.6092237840415217
+  },
+  "Chris Lema": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999971298017,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.6082577293684504
+  },
+  "Christian Duke": {
+    "archetype": "The Finishers",
+    "confidence": 0.9589195531082524,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6468402381847415
+  },
+  "Christian Ibeagha": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9996856218926667,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1380571534590387
+  },
+  "Christian Lucatero": {
+    "archetype": "The Creators",
+    "confidence": 0.9964118849317808,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6698148520746136
+  },
+  "Christian Volesky": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999953805605868,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.3780861862349942
+  },
+  "Christiano Fran\u00e7ois": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999949978005,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6448925179171571
+  },
+  "Christopher Hegardt": {
+    "archetype": "The Finishers",
+    "confidence": 0.9590820117173369,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7350065926366058
+  },
+  "Christopher Wehan": {
+    "archetype": "The Creators",
+    "confidence": 0.9797773786124168,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8231983251608707
+  },
+  "Clay Dimick": {
+    "archetype": "The Finishers",
+    "confidence": 0.9802252242611442,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7876501754205809
+  },
+  "Coleman Gannon": {
+    "archetype": "The Creators",
+    "confidence": 0.9895754184567505,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0614385625282747
+  },
+  "Collin Martin": {
+    "archetype": "The Finishers",
+    "confidence": 0.6738873381837924,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.46093184944632454
+  },
+  "Conner Antley": {
+    "archetype": "The Creators",
+    "confidence": 0.9999847142363737,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.4028255382887337
+  },
+  "Connor Maloney": {
+    "archetype": "The Finishers",
+    "confidence": 0.9417288686311196,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8231636929848938
+  },
+  "Conor Donovan": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9994580694440867,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1572740516375153
+  },
+  "Conor McGlynn": {
+    "archetype": "The Finishers",
+    "confidence": 0.992580720348622,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8372489126353725
+  },
+  "Corben Bone": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9988840415047753,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.21064886663391583
+  },
+  "Cordell Cato": {
+    "archetype": "The Creators",
+    "confidence": 0.9997299064376568,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.4853414366464553
+  },
+  "Corey Hertzog": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9800976079349503,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.2820878152530835
+  },
+  "Corey Whelan": {
+    "archetype": "The Finishers",
+    "confidence": 0.9984998308636998,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7817796451324892
+  },
+  "Cristian Parano": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9992512965326351,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6043074140992885
+  },
+  "DJ Taylor": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999989000159,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7877169091280397
+  },
+  "Daigo Kobayashi": {
+    "archetype": "The Finishers",
+    "confidence": 0.989620052049016,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8414582457625317
+  },
+  "Dane Kelly": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999993101341,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.1277557065236437
+  },
+  "Daniel Barbir": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9996535006949987,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.5856219378939593
+  },
+  "Daniel Bruce": {
+    "archetype": "The Finishers",
+    "confidence": 0.8747357041259687,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8437499682057896
+  },
+  "Daniel Crisostomo": {
+    "archetype": "The Finishers",
+    "confidence": 0.9320743683922917,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8322272323473905
+  },
+  "Daniel Finlayson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9132485174338504,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4907753501439143
+  },
+  "Daniel Griffin": {
+    "archetype": "The Finishers",
+    "confidence": 0.6159485552063111,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.626695808475304
+  },
+  "Daniel Robles": {
+    "archetype": "The Creators",
+    "confidence": 0.993994381159962,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5379711295930715
+  },
+  "Danny Barrera": {
+    "archetype": "The Creators",
+    "confidence": 0.9999991205643729,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.250872766688861
+  },
+  "Danny Flores": {
+    "archetype": "The Creators",
+    "confidence": 0.9999637217230147,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.6232812226949915
+  },
+  "Danny Reynolds": {
+    "archetype": "The Finishers",
+    "confidence": 0.7898516662155151,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7146934148280661
+  },
+  "Dante Huckaby": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9391550906986597,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.8295198602191052
+  },
+  "Dante Marini": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999591978249,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3369822603508364
+  },
+  "Dantouma Toure": {
+    "archetype": "The Creators",
+    "confidence": 0.9128912935058661,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.6484175660462808
+  },
+  "Dario Su\u00e1rez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999917177019976,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.6318682717427737
+  },
+  "Dariusz Formella": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.995306813977442,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.2766026969075717
+  },
+  "Darnell King": {
+    "archetype": "The Finishers",
+    "confidence": 0.9843532773906379,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6547258959093907
+  },
+  "Darwin Jones": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9351144436983398,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.903252431983285
+  },
+  "David Estrada": {
+    "archetype": "The Creators",
+    "confidence": 0.9997220971611972,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.5481113161535922
+  },
+  "David Najem": {
+    "archetype": "The Creators",
+    "confidence": 0.8633053996588342,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.38756227205953686
+  },
+  "David Rabad\u00e1n": {
+    "archetype": "The Creators",
+    "confidence": 0.9425163322649496,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9264112473068162
+  },
+  "Dayonn Harris": {
+    "archetype": "The Creators",
+    "confidence": 0.99655459618569,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.11721012429139634
+  },
+  "Dekel Keinan": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9987250448098555,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.127204444775511
+  },
+  "Derek Gebhard": {
+    "archetype": "The Creators",
+    "confidence": 0.9985522599174675,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.4929639449826477
+  },
+  "Deri Corfe": {
+    "archetype": "The Creators",
+    "confidence": 0.9843510709349582,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.682536320253718
+  },
+  "Deshane Beckford": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9893799884804906,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.088855346158597
+  },
+  "Devon Sandoval": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9995010378746937,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.195709611913899
+  },
+  "Dillon Serna": {
+    "archetype": "The Finishers",
+    "confidence": 0.9912965188828247,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4816631518403318
+  },
+  "Dominic Oduro": {
+    "archetype": "The Finishers",
+    "confidence": 0.9938353429985644,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8646603030389587
+  },
+  "Dominik Resetar": {
+    "archetype": "The Creators",
+    "confidence": 0.9970024101420965,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.1112281906261086
+  },
+  "Drew Conner": {
+    "archetype": "The Finishers",
+    "confidence": 0.8684380406170573,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6799212360272654
+  },
+  "Drew Skundrich": {
+    "archetype": "The Creators",
+    "confidence": 0.9997651362339335,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.42214601334805596
+  },
+  "Duane Muckette": {
+    "archetype": "The Creators",
+    "confidence": 0.998890916091405,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.36056813195390813
+  },
+  "Duke Lacroix": {
+    "archetype": "The Finishers",
+    "confidence": 0.9652598103277396,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8397775054543489
+  },
+  "Dylan Mares": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9983642063219443,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6534216901835433
+  },
+  "Dyson Clapier": {
+    "archetype": "The Creators",
+    "confidence": 0.9993654559325835,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.2659013106744381
+  },
+  "Eder Borelli": {
+    "archetype": "The Finishers",
+    "confidence": 0.9919925697099342,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8524469805418424
+  },
+  "Edgardo Rito": {
+    "archetype": "The Finishers",
+    "confidence": 0.8653949731486031,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8373650369391434
+  },
+  "Eli Crognale": {
+    "archetype": "The Finishers",
+    "confidence": 0.9981688981207253,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7383399643447581
+  },
+  "Elijah Martin": {
+    "archetype": "The Finishers",
+    "confidence": 0.9689714546891733,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7898897949276061
+  },
+  "Elvis Amoh": {
+    "archetype": "The Creators",
+    "confidence": 0.9999995762054478,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3113051134016595
+  },
+  "Ema Twumasi": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9725892120430668,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3935361610023046
+  },
+  "Emrah Klimenta": {
+    "archetype": "The Finishers",
+    "confidence": 0.9641777057630716,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8201900152546586
+  },
+  "Enoch Mushagalusa": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9994397555754521,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.6802211677307302
+  },
+  "Enzo Martinez": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999999999662,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.18322635893257647
+  },
+  "Eric Bird": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.8038004573592299,
+    "position": "CM",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.026633791781815835
+  },
+  "Ever Guzm\u00e1n": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9894077668733418,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.050910014246328
+  },
+  "Fabien Garcia": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9997534795105854,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.528846833443401
+  },
+  "Forrest Lasso": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999322195885606,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.9553052884640714
+  },
+  "Foster Langsdorf": {
+    "archetype": "The Finishers (2)",
+    "confidence": 1.0,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 5.139865450094034
+  },
+  "Francis Atuahene": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9996141325318671,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7880178708016499
+  },
+  "Frank L\u00f3pez": {
+    "archetype": "The Creators",
+    "confidence": 0.999935480116759,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6396713032387384
+  },
+  "Fredlin Mompremier": {
+    "archetype": "The Creators",
+    "confidence": 0.9301821632255791,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.7056571954482123
+  },
+  "Gabriel Torres": {
+    "archetype": "The Finishers",
+    "confidence": 0.8842562106717126,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.585944669385693
+  },
+  "Garrett McLaughlin": {
+    "archetype": "The Creators",
+    "confidence": 0.7906489935268131,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6237702012454663
+  },
+  "Garrison Tubbs": {
+    "archetype": "The Finishers",
+    "confidence": 0.9781794066567435,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8672112351109286
+  },
+  "George Lebese": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9325383997706359,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.00014857678969030228
+  },
+  "Giovanni Calixtro": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9933215929374536,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.6846905281749485
+  },
+  "Gonzalo Di Renzo": {
+    "archetype": "The Creators",
+    "confidence": 0.7000616948735248,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.44511501112281676
+  },
+  "Graham Smith": {
+    "archetype": "The Finishers",
+    "confidence": 0.9981503916097607,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7268181732820561
+  },
+  "Grant Robinson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9979803806740268,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8732696560669863
+  },
+  "Grant Stoneman": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9457934947368891,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.41200164080185
+  },
+  "Guy Abend": {
+    "archetype": "The Creators",
+    "confidence": 0.9888689408763076,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.4965596687612109
+  },
+  "Hadji Barry": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9989608331093763,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.5142974825913156
+  },
+  "Harold Hanson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9988785795141465,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.816981853626314
+  },
+  "Harrison Heath": {
+    "archetype": "The Finishers",
+    "confidence": 0.9771776563327348,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7336842751090099
+  },
+  "Harry Swartz": {
+    "archetype": "The Creators",
+    "confidence": 0.9999991024420978,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3019176210627078
+  },
+  "Hassan Ndam": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9995836341816688,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.621175503708574
+  },
+  "Hayden Sargis": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999995095514945,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.8917328399335964
+  },
+  "Hiroki Kurimoto": {
+    "archetype": "The Finishers",
+    "confidence": 0.9477480803104168,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8570695413170674
+  },
+  "Hugh Alexander Dixon": {
+    "archetype": "The Creators",
+    "confidence": 0.998463733472424,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.01153847582496133
+  },
+  "Hugh Roberts": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9974022719990991,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.7473365990076929
+  },
+  "Hunter Gorskie": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999963509460565,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.026158959805576
+  },
+  "Idan Cohen": {
+    "archetype": "The Creators",
+    "confidence": 0.7570926524046859,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.3962709403351524
+  },
+  "Ignacio Bailone": {
+    "archetype": "The Creators",
+    "confidence": 0.9993767292128087,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.450659462919839
+  },
+  "Ilija Ilic": {
+    "archetype": "The Creators",
+    "confidence": 0.9996762003905942,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.09924999458893018
+  },
+  "Isaac Bawa": {
+    "archetype": "The Finishers",
+    "confidence": 0.6846081402017496,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7889136632903632
+  },
+  "Isaac Homer": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.999999999236195,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 3.2338281052855513
+  },
+  "Isidro Martinez": {
+    "archetype": "The Finishers",
+    "confidence": 0.9785004675640058,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5879363990093996
+  },
+  "Ismaila Jome": {
+    "archetype": "The Finishers",
+    "confidence": 0.9799184352605989,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5680688715844633
+  },
+  "Iv\u00e1n Guti\u00e9rrez": {
+    "archetype": "The Creators",
+    "confidence": 0.9956154951460854,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.866156756521371
+  },
+  "Jack Blake": {
+    "archetype": "The Creators",
+    "confidence": 0.9999968299263025,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.4526445115958133
+  },
+  "Jack Gurr": {
+    "archetype": "The Creators",
+    "confidence": 0.999749920304599,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.9472709736646714
+  },
+  "Jack McGlynn": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999999999769,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.7138755230173002
+  },
+  "Jack Metcalf": {
+    "archetype": "The Creators",
+    "confidence": 0.9613608176153511,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.2665879065903587
+  },
+  "Jackson Conway": {
+    "archetype": "The Creators",
+    "confidence": 0.9998567754864551,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.5292064562260981
+  },
+  "Jacob Greene": {
+    "archetype": "The Finishers",
+    "confidence": 0.9918754580875787,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8611214183320737
+  },
+  "Jacob Rufe": {
+    "archetype": "The Finishers",
+    "confidence": 0.9993063412947288,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8396002651435243
+  },
+  "Jaden Servania": {
+    "archetype": "The Creators",
+    "confidence": 0.9851363362988539,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.12776916138727504
+  },
+  "Jaiden Waggoner": {
+    "archetype": "The Finishers",
+    "confidence": 0.9811102977186258,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8420809134093165
+  },
+  "Jaime Ch\u00e1vez": {
+    "archetype": "The Creators",
+    "confidence": 0.9104050371642707,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8842861264508058
+  },
+  "Jaime Villarreal": {
+    "archetype": "The Creators",
+    "confidence": 0.6943277008058083,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.46800839929999105
+  },
+  "Jake Areman": {
+    "archetype": "The Creators",
+    "confidence": 0.9984038091515904,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.7724678259585416
+  },
+  "Jake Davis": {
+    "archetype": "The Finishers",
+    "confidence": 0.9929023702963657,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7763509071145979
+  },
+  "Jake LaCava": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9998900758900053,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.6451039678334523
+  },
+  "Jalen Neal": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9591116713971166,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1137019239930324
+  },
+  "James Moberg": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.7399947695072634,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.3805956069682015
+  },
+  "James Murphy": {
+    "archetype": "The Finishers",
+    "confidence": 0.9969628051435477,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6881379821170477
+  },
+  "Janos Loebe": {
+    "archetype": "The Creators",
+    "confidence": 0.5406630710634256,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7741830917350476
+  },
+  "Jarad van Schaik": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9996738518314809,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.334373667224768
+  },
+  "Jared Trimmer": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9989807828958507,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.600944764379195
+  },
+  "Javan Torre": {
+    "archetype": "The Finishers",
+    "confidence": 0.9814706785363482,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5285019538451278
+  },
+  "Jean-Christophe Koffi": {
+    "archetype": "The Finishers",
+    "confidence": 0.9970346875625034,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5805139764169996
+  },
+  "Jeremy Garay": {
+    "archetype": "The Finishers",
+    "confidence": 0.9564707709629271,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8945713057437933
+  },
+  "Jermaine Taylor": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999762916049771,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1789564271602324
+  },
+  "Jes\u00fas P\u00e9rez": {
+    "archetype": "The Creators",
+    "confidence": 0.9999989736652042,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5450413051422797
+  },
+  "Jes\u00fas Rubio Quintero": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9853197167041827,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.3358022615737672
+  },
+  "Jes\u00fas V\u00e1zquez": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9919928819402528,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.8966477503224729
+  },
+  "Joan Cerv\u00f3s": {
+    "archetype": "The Finishers",
+    "confidence": 0.9998979914429067,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5145558401775381
+  },
+  "Joaquin Rivas": {
+    "archetype": "The Creators",
+    "confidence": 0.9995128216939247,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5679679480584066
+  },
+  "Joel Johnson": {
+    "archetype": "The Finishers",
+    "confidence": 0.7653314670534308,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7395461922350524
+  },
+  "Joey Calistri": {
+    "archetype": "The Finishers",
+    "confidence": 0.7991010391242587,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5580374893880136
+  },
+  "John Tolkin": {
+    "archetype": "The Finishers",
+    "confidence": 0.5393248252929678,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7735194839549493
+  },
+  "Johnny Fenwick": {
+    "archetype": "Progressive Carriers",
+    "confidence": 1.0,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.1387874949331445
+  },
+  "Jon Bakero": {
+    "archetype": "The Creators",
+    "confidence": 0.9923204524892104,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.2270696427847168
+  },
+  "Jonathan Brown": {
+    "archetype": "The Creators",
+    "confidence": 0.953964454957105,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.059627155205239105
+  },
+  "Jonathan Dean": {
+    "archetype": "The Finishers",
+    "confidence": 0.9975403068365049,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.612811546147095
+  },
+  "Jonathan P\u00e9rez": {
+    "archetype": "The Creators",
+    "confidence": 0.9221751252984712,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9976409752382245
+  },
+  "Jordan Burt": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9925850744694185,
+    "position": "FB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.5919654426318348
+  },
+  "Jordan Doherty": {
+    "archetype": "The Finishers",
+    "confidence": 0.9765654986842321,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5371146490888116
+  },
+  "Jordan Dover": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999737640785,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8866014705177736
+  },
+  "Jordan McCrary": {
+    "archetype": "The Finishers",
+    "confidence": 0.9880147642199065,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8872814468179894
+  },
+  "Jordan Murrell": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9952871099740663,
+    "position": "FB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.080014747569852
+  },
+  "Jordan Scarlett": {
+    "archetype": "The Creators",
+    "confidence": 0.8636843088953523,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.10931016951893172
+  },
+  "Jordan Schweitzer": {
+    "archetype": "The Creators",
+    "confidence": 0.9749808387407074,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.41095505020044065
+  },
+  "Jorge Gonzalez Asensi": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9998880293004706,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.7648758987188686
+  },
+  "Jorge Hern\u00e1ndez": {
+    "archetype": "The Finishers",
+    "confidence": 0.6694766433761544,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.46069434041504387
+  },
+  "Jorge Troncoso": {
+    "archetype": "The Finishers",
+    "confidence": 0.9449540206973964,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8589521493543422
+  },
+  "Jose Baxter": {
+    "archetype": "The Creators",
+    "confidence": 0.9997262557478276,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.4910670762391308
+  },
+  "Jose Carlos Anguiano": {
+    "archetype": "The Creators",
+    "confidence": 0.993539779341418,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5395488309480989
+  },
+  "Jose Gallegos": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999954593640533,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.001950130205289021
+  },
+  "Joseph Amico": {
+    "archetype": "The Finishers",
+    "confidence": 0.9430177717987386,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8584198668398892
+  },
+  "Joseph Fala": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999041925372323,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.297707095337162
+  },
+  "Joseph Farrell": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9998805006519412,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.3969322746043402
+  },
+  "Joseph Zalinsky": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999820661116848,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.4265340470348375
+  },
+  "Josh Fawole": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.549791096927696,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.3194562704635255
+  },
+  "Josh Suggs": {
+    "archetype": "The Creators",
+    "confidence": 0.9762097346885282,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8063316116664045
+  },
+  "Josh Yaro": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9953704235824874,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.8085126957269431
+  },
+  "Jos\u00e9 Carrera-Garcia": {
+    "archetype": "The Creators",
+    "confidence": 0.9996795245624212,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.0345733416046201
+  },
+  "Jos\u00e9 Hern\u00e1ndez": {
+    "archetype": "The Creators",
+    "confidence": 0.9943684261763935,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.6641525175123765
+  },
+  "Juan Carlos Obreg\u00f3n Jr": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.5237603066104892,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8509973685785001
+  },
+  "Juan Guzm\u00e1n": {
+    "archetype": "The Finishers",
+    "confidence": 0.9798991553270534,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8945713057437933
+  },
+  "Juan Tejada": {
+    "archetype": "The Creators",
+    "confidence": 0.9959132776810583,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1311067851436651
+  },
+  "Junior Burgos": {
+    "archetype": "The Creators",
+    "confidence": 0.9996194951053226,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.714990872506846
+  },
+  "Junior Flemmings": {
+    "archetype": "The Finishers (2)",
+    "confidence": 1.0,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.953581705089508
+  },
+  "Junior Sandoval": {
+    "archetype": "The Creators",
+    "confidence": 0.9999962750031248,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.4370287761872742
+  },
+  "Justin Haak": {
+    "archetype": "The Finishers",
+    "confidence": 0.9768311087400683,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6466927113440937
+  },
+  "J\u00e9r\u00e9my Gagnon-Lapar\u00e9": {
+    "archetype": "The Finishers",
+    "confidence": 0.9957189985163322,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7635149113392841
+  },
+  "Kadeem Dacres": {
+    "archetype": "The Creators",
+    "confidence": 0.9998733127763803,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.27860731083191054
+  },
+  "Kai Greene": {
+    "archetype": "The Finishers",
+    "confidence": 0.999344062154057,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6795713202655704
+  },
+  "Kairou Amoustapha": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9975113154167651,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.7258202570386718
+  },
+  "Kalen Ryden": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999998671789213,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.2819234319651525
+  },
+  "Karl Ouimette": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9918605057160951,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.954206277480547
+  },
+  "Kaveh Rad": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.923552658611199,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.0055895903558492
+  },
+  "Keanu Marsh-Brown": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9870123069357397,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.5327928174489762
+  },
+  "Kembo Kibato": {
+    "archetype": "The Finishers",
+    "confidence": 0.5004265090268303,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5907674192642388
+  },
+  "Ken Krolicki": {
+    "archetype": "The Creators",
+    "confidence": 0.9998499266231365,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.5755795016397107
+  },
+  "Kenardo Forbes": {
+    "archetype": "The Creators",
+    "confidence": 0.9999986732470552,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.845713195065656
+  },
+  "Kevin Alston": {
+    "archetype": "The Finishers",
+    "confidence": 0.9940761600581991,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6945917236168245
+  },
+  "Kevin Garcia": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9998795200234146,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1574123027035474
+  },
+  "Kevin Partida": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999862989349,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.2489784051668135
+  },
+  "Kevin Politz": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999781287546659,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.6076960247704346
+  },
+  "Kevon Lambert": {
+    "archetype": "The Creators",
+    "confidence": 0.9996835303198617,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.36107348447733084
+  },
+  "Kharlton Belmar": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.6572415231638045,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9530109398113495
+  },
+  "Kl\u00e9ber Gladiador": {
+    "archetype": "The Creators",
+    "confidence": 0.9999946940272038,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8457268692802853
+  },
+  "Kyle Adams": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.8518838194541469,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.131029390935735
+  },
+  "Kyle Coffee": {
+    "archetype": "The Creators",
+    "confidence": 0.7648987561083139,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.09187552943882794
+  },
+  "Kyle Greig": {
+    "archetype": "The Creators",
+    "confidence": 0.9686617276818317,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.34482270382080205
+  },
+  "Kyle Hyland": {
+    "archetype": "The Finishers",
+    "confidence": 0.9977543496613632,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.853955386936091
+  },
+  "Kyle Murphy": {
+    "archetype": "The Creators",
+    "confidence": 0.9967797731866744,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.21362980811927662
+  },
+  "Kyle Nelson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9998935552203642,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8170307571566762
+  },
+  "Lance Rozeboom": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.8260751590826504,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.4264328329026098
+  },
+  "Leandro Carrij\u00f3": {
+    "archetype": "The Creators",
+    "confidence": 0.6475620429624164,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7231297191946456
+  },
+  "Lebo Moloto": {
+    "archetype": "The Creators",
+    "confidence": 0.9998499637569929,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7879207304477386
+  },
+  "Leland Archer": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9804420999157357,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.80850569818221
+  },
+  "Leo Fernandes": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9969908054960074,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3859954296010574
+  },
+  "Leston Paul": {
+    "archetype": "The Finishers",
+    "confidence": 0.997762015410826,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8023259156860727
+  },
+  "Lewis Hilton": {
+    "archetype": "The Creators",
+    "confidence": 0.9826818008570927,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.117335967878622
+  },
+  "Liam Doyle": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999988466238968,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.7657560793891878
+  },
+  "Lloyd Sam": {
+    "archetype": "The Creators",
+    "confidence": 0.9860742041109587,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.12767744645117246
+  },
+  "Logan Gdula": {
+    "archetype": "The Finishers",
+    "confidence": 0.9213370852081162,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7518859473287937
+  },
+  "Louis Herrera": {
+    "archetype": "The Creators",
+    "confidence": 0.9990611011194455,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.4617346473925084
+  },
+  "Luis Arriaga": {
+    "archetype": "The Creators",
+    "confidence": 0.9965462979849751,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.1251807200879924
+  },
+  "Luis Solignac": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9984380148016162,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7930026961279575
+  },
+  "Luka Prpa": {
+    "archetype": "The Creators",
+    "confidence": 0.9978129070763434,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.3461120284211856
+  },
+  "Luke Ferreira": {
+    "archetype": "The Creators",
+    "confidence": 0.9968157595082159,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.19902248774078135
+  },
+  "Luke Haakenson": {
+    "archetype": "The Creators",
+    "confidence": 0.9961939841099691,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.0609024762287143
+  },
+  "Macauley King": {
+    "archetype": "The Finishers",
+    "confidence": 0.9875229999564241,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.809593214331247
+  },
+  "Mads Jorgensen": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999942339439,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0314889898363666
+  },
+  "Malik Johnson": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9997553855482223,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.5903858643548885
+  },
+  "Manny Perez": {
+    "archetype": "The Creators",
+    "confidence": 0.9720650280568326,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.022819926152722
+  },
+  "Marc Burch": {
+    "archetype": "The Finishers",
+    "confidence": 0.9978570317169274,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8328094105881488
+  },
+  "Marco Franco": {
+    "archetype": "The Finishers",
+    "confidence": 0.9975549527268496,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.885423365762306
+  },
+  "Marcus Epps": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999999546549,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.1473329056653219
+  },
+  "Marios Lomis": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9980479294822567,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.0662019960734177
+  },
+  "Mark Segbers": {
+    "archetype": "The Finishers",
+    "confidence": 0.9912584174818493,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5591403669931682
+  },
+  "Marlon": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9082362616608002,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.674226784732794
+  },
+  "Marlon Vargas": {
+    "archetype": "The Creators",
+    "confidence": 0.9998997371533479,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.6033795325363366
+  },
+  "Matheus Silva": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.999989672075559,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.8836151131816408
+  },
+  "Matthew Mahoney": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9817797065726127,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.6965984577738743
+  },
+  "Matthew Sheldon": {
+    "archetype": "The Finishers",
+    "confidence": 0.9920696514744644,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8581825839813657
+  },
+  "Mauricio Cuevas": {
+    "archetype": "The Finishers",
+    "confidence": 0.9942269050259692,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6203956493099761
+  },
+  "Mauro Cichero": {
+    "archetype": "The Creators",
+    "confidence": 0.9996995655024967,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7033987829879683
+  },
+  "Max Ornstil": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9998956997739724,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.5787254288919548
+  },
+  "Mechack Jerome": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9998817944291762,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.959245443845989
+  },
+  "Michael Gamble": {
+    "archetype": "The Creators",
+    "confidence": 0.9999943472237214,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7105490274576376
+  },
+  "Michael Orozco": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999508663247615,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1734724682076216
+  },
+  "Michael Reed": {
+    "archetype": "The Finishers",
+    "confidence": 0.9574450307456094,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.536929307518419
+  },
+  "Miguel Berry": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.7453245666256494,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.7011598004421145
+  },
+  "Miguel Gonz\u00e1lez": {
+    "archetype": "The Creators",
+    "confidence": 0.9990524054920799,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.009042826247703927
+  },
+  "Mikey Lopez": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.808568539796157,
+    "position": "FB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.07444561878461967
+  },
+  "Mitchell Osmond": {
+    "archetype": "The Finishers",
+    "confidence": 0.9696652483822975,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6802901930031865
+  },
+  "Mitchell Taintor": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9990402102412254,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.0558368553138218
+  },
+  "Mobi Fehr": {
+    "archetype": "The Finishers",
+    "confidence": 0.9933151228345517,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8462189793668519
+  },
+  "Modou Jadama": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9998877143281613,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1974820700085478
+  },
+  "Mohamed Thiaw": {
+    "archetype": "The Creators",
+    "confidence": 0.5181969639959229,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5071046888913223
+  },
+  "Mour Samb": {
+    "archetype": "The Creators",
+    "confidence": 0.9969094745494661,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7810174993251415
+  },
+  "Mustapha Dumbuya": {
+    "archetype": "The Creators",
+    "confidence": 0.6794524148484812,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7912919808692055
+  },
+  "Napo Matsoso": {
+    "archetype": "The Creators",
+    "confidence": 0.9998683313432515,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.11772752080476652
+  },
+  "Nathan Harriel": {
+    "archetype": "The Finishers",
+    "confidence": 0.9901683122468933,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6587797254372237
+  },
+  "Nathan Smith": {
+    "archetype": "The Finishers",
+    "confidence": 0.9948771140146274,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.850546455764143
+  },
+  "Nazmi Albadawi": {
+    "archetype": "The Finishers",
+    "confidence": 0.9665302195468276,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4886470887463274
+  },
+  "Neco Brett": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999034410578892,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.5689198544396157
+  },
+  "Nelson Martinez": {
+    "archetype": "The Finishers",
+    "confidence": 0.9974267803379938,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.662134065910723
+  },
+  "Neveal Hackshaw": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9710906481075698,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.8747349563563684
+  },
+  "Nick Moon": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.7565306468064715,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9658229742802356
+  },
+  "Nick Ross": {
+    "archetype": "The Creators",
+    "confidence": 0.9999942479166944,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.4776447981813093
+  },
+  "Nicolas Taravel": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9936673544605383,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.3957571405430664
+  },
+  "Nicol\u00e1s Gim\u00e9nez": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.8927045609392652,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1765831171933463
+  },
+  "Nicque Daley": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9952921779359788,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.6143673294543606
+  },
+  "Noah Billingsley": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.533889442268722,
+    "position": "FB",
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.03945021778157735
+  },
+  "Noah Powder": {
+    "archetype": "The Finishers",
+    "confidence": 0.9998661615635,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5372850512791858
+  },
+  "Omar Ciss": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999928694194,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.2508395254216748
+  },
+  "Omar Ontiveros": {
+    "archetype": "The Finishers",
+    "confidence": 0.9796196048301512,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8368742198631929
+  },
+  "Omar Salgado": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9567891621784188,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.4325550519631505
+  },
+  "Omar Sowe": {
+    "archetype": "The Creators",
+    "confidence": 0.9380574535210978,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.9859222152432292
+  },
+  "Oscar Jimenez": {
+    "archetype": "The Finishers",
+    "confidence": 0.8095819881477901,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6290635232749905
+  },
+  "Oscar Umar": {
+    "archetype": "The Finishers",
+    "confidence": 0.9410389283710325,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7338084477060307
+  },
+  "Owusu-Ansah Kontor": {
+    "archetype": "The Finishers",
+    "confidence": 0.9997266046710015,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7669066928860243
+  },
+  "Paolo DelPiccolo": {
+    "archetype": "The Creators",
+    "confidence": 0.9996247040353109,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.16044799164518908
+  },
+  "Paris Gee": {
+    "archetype": "The Creators",
+    "confidence": 0.9987503879230799,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.32983693055392754
+  },
+  "Pat McMahon": {
+    "archetype": "The Finishers",
+    "confidence": 0.9829984443263121,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6778418411875967
+  },
+  "Patrick Barrett": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.999919900124133,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.127612200428875
+  },
+  "Patrick Nielsen": {
+    "archetype": "The Finishers",
+    "confidence": 0.6890970961826044,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.85195474936017
+  },
+  "Paxten Aaronson": {
+    "archetype": "The Creators",
+    "confidence": 0.999999909207722,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.1915525917189954
+  },
+  "Peabo Doue": {
+    "archetype": "The Finishers",
+    "confidence": 0.9798774232162478,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8099533573388918
+  },
+  "Pecka": {
+    "archetype": "The Finishers",
+    "confidence": 0.955408087072183,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7201270475053346
+  },
+  "Petar Cuic": {
+    "archetype": "The Finishers",
+    "confidence": 0.9879978712411022,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5271347920893322
+  },
+  "Phanuel Kavita": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999689697757375,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.3580907225940239
+  },
+  "Phillip Goodrum": {
+    "archetype": "The Creators",
+    "confidence": 0.7950546199215603,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.0508926676736883
+  },
+  "Preston Kilwien": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999998085525116,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.9478166890539939
+  },
+  "Prince Saydee": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9978631931799381,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.5240979072535983
+  },
+  "Prosper Kasim": {
+    "archetype": "The Creators",
+    "confidence": 0.5307944247345582,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.006746730522158957
+  },
+  "Rafael Garcia": {
+    "archetype": "The Finishers",
+    "confidence": 0.9755298330277514,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8046695349568826
+  },
+  "Rafael Mentzingen": {
+    "archetype": "The Creators",
+    "confidence": 0.9980469864014075,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.2217203525565161
+  },
+  "Ram\u00f3n Del Campo": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999563130197682,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.9588998161809084
+  },
+  "Raphael Ayagwa": {
+    "archetype": "The Finishers",
+    "confidence": 0.9996092207911402,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8522803409676538
+  },
+  "Rashawn Dally": {
+    "archetype": "The Creators",
+    "confidence": 0.8412663447939519,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.40343280088315436
+  },
+  "Raul Mendiola": {
+    "archetype": "The Creators",
+    "confidence": 0.9999814872312776,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.2922805847919323
+  },
+  "Ray Serrano": {
+    "archetype": "The Creators",
+    "confidence": 0.9452295558036649,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.42828458281903026
+  },
+  "Raymond Lee": {
+    "archetype": "The Finishers",
+    "confidence": 0.7775931873286108,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7810234519224203
+  },
+  "Razak Cromwell": {
+    "archetype": "The Finishers",
+    "confidence": 0.9997911556505025,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8945713057437933
+  },
+  "Rece Buckmaster": {
+    "archetype": "The Finishers",
+    "confidence": 0.9968459666694903,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6197762802829098
+  },
+  "Rey Ortiz": {
+    "archetype": "The Creators",
+    "confidence": 0.999756341931909,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.2090429785024481
+  },
+  "Ricardo Avila": {
+    "archetype": "The Finishers",
+    "confidence": 0.993761690471038,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6378677982560572
+  },
+  "Richard Bryan": {
+    "archetype": "The Finishers",
+    "confidence": 0.9902314794313463,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6132925411061828
+  },
+  "Richie Ryan": {
+    "archetype": "The Finishers",
+    "confidence": 0.966294683981235,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6943924233239666
+  },
+  "Rob Kiernan": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999417967406006,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.7688967677639835
+  },
+  "Robbie Crawford": {
+    "archetype": "The Finishers",
+    "confidence": 0.9798500329192092,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.47196006571113525
+  },
+  "Robbie Mertz": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.702812125778475,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8708244462535872
+  },
+  "Robert Castellanos": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9994175383377093,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.6187791518973496
+  },
+  "Robert Coronado": {
+    "archetype": "The Finishers",
+    "confidence": 0.9378796761396833,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7256234381658748
+  },
+  "Robert Kristo": {
+    "archetype": "The Creators",
+    "confidence": 0.9999456255265116,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8756466845527415
+  },
+  "Rodrigo L\u00f3pez": {
+    "archetype": "The Creators",
+    "confidence": 0.999999746253698,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.7894216435980128
+  },
+  "Rodrigo da Costa": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9993328738292513,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8939047437977372
+  },
+  "Romario Piggott": {
+    "archetype": "The Creators",
+    "confidence": 0.9994341863769272,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5855862569171737
+  },
+  "Romario Williams": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999872421946,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 4.1878883769641755
+  },
+  "Romeo Parkes": {
+    "archetype": "The Creators",
+    "confidence": 0.9999932701545516,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.3745728553643345
+  },
+  "Rony Argueta": {
+    "archetype": "The Finishers",
+    "confidence": 0.9748487170231666,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8460912564603434
+  },
+  "Ropapa Mensah": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999777541278282,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7382904950134097
+  },
+  "Roy Boateng": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9992038089891547,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.951296007549138
+  },
+  "Rufat Dadashov": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999998067027223,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.8730772174087567
+  },
+  "Russell Cicerone": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9916489031700505,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6444071375731797
+  },
+  "Ryan James": {
+    "archetype": "The Finishers",
+    "confidence": 0.8946577784680558,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.3990928276037494
+  },
+  "Ryan Sierakowski": {
+    "archetype": "The Creators",
+    "confidence": 0.9345619754564718,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9829709156923391
+  },
+  "Saalih Muhammad": {
+    "archetype": "The Finishers",
+    "confidence": 0.9936063564325901,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8810709100250407
+  },
+  "Saeed Robinson": {
+    "archetype": "The Creators",
+    "confidence": 0.9697127396775385,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.22476336230750046
+  },
+  "Sal Zizzo": {
+    "archetype": "The Finishers",
+    "confidence": 0.5879421777569557,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8599247015044303
+  },
+  "Salvador Villegas Jr.": {
+    "archetype": "The Finishers",
+    "confidence": 0.9347310960866719,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7062587780510727
+  },
+  "Sam Brotherton": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9975161612125993,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.2099707496401235
+  },
+  "Sam Brown": {
+    "archetype": "The Finishers",
+    "confidence": 0.8869217465830305,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6296267277165799
+  },
+  "Sam Fink": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9998487347381895,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.2820386411868454
+  },
+  "Sam Gleadle": {
+    "archetype": "The Finishers",
+    "confidence": 0.9983786463905602,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.578234781584548
+  },
+  "Sam Hamilton": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9508263797413005,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.0815815929848838
+  },
+  "Sam Rogers": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9980189682803638,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.1644170233825126
+  },
+  "Sam Strong": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999997951094862,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.067772530681269
+  },
+  "Sam Werner": {
+    "archetype": "The Creators",
+    "confidence": 0.9699101597317753,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.57339820671597
+  },
+  "Samad Bounthong": {
+    "archetype": "The Finishers",
+    "confidence": 0.99624315042824,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7430578919451937
+  },
+  "Samuel Stanton": {
+    "archetype": "The Creators",
+    "confidence": 0.9960352725099891,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.356471473910077
+  },
+  "Santi Moar": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.6855134885696629,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8411151157836333
+  },
+  "Sean McFarlane": {
+    "archetype": "The Creators",
+    "confidence": 0.9933150812030123,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.443701481280246
+  },
+  "Sean Okoli": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9969159335537551,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.392446673902417
+  },
+  "Sean Totsch": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9620579025524129,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.218611441267136
+  },
+  "Sebastian Dalgaard": {
+    "archetype": "The Finishers",
+    "confidence": 0.48705581444630724,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4223642827628754
+  },
+  "Sebastian Elney": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9882459999575092,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.889928636917051
+  },
+  "Sebastian Nava": {
+    "archetype": "The Creators",
+    "confidence": 0.9980501288722395,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.2278152986369743
+  },
+  "Sebastian Velasquez": {
+    "archetype": "The Creators",
+    "confidence": 0.9994436842366101,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.17810752028701418
+  },
+  "Sebasti\u00e1n Guenzatti": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999243973374,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.4228457308105393
+  },
+  "Selmir Miscic": {
+    "archetype": "The Creators",
+    "confidence": 0.9971325270503978,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0756745909384704
+  },
+  "Sergio Rivas": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.7563513058165487,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.08819340191767015
+  },
+  "Seth Casiple": {
+    "archetype": "The Creators",
+    "confidence": 0.9999963652042162,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7127096630641947
+  },
+  "Seth Moses": {
+    "archetype": "The Finishers",
+    "confidence": 0.5520752879688262,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4001080920037566
+  },
+  "Shane Wiedt": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.506955981131944,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.924321005373252
+  },
+  "Skylar Thomas": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999948002722882,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.7049326078797509
+  },
+  "Solomon Asante": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999999998934,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.9130154706659364
+  },
+  "Sota Kitahara": {
+    "archetype": "The Finishers",
+    "confidence": 0.9899548700879457,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8765448780790415
+  },
+  "Speedy Williams": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.6954411076722449,
+    "position": "DM",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.042140953021761414
+  },
+  "Stavros Zarokostas": {
+    "archetype": "The Creators",
+    "confidence": 0.9568777133431097,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.43906973047463677
+  },
+  "Steevan Dos Santos": {
+    "archetype": "The Creators",
+    "confidence": 0.9831238729930818,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.3266077876655826
+  },
+  "Steve Jasso": {
+    "archetype": "The Finishers",
+    "confidence": 0.9675015991161945,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6778999782938226
+  },
+  "Steve Kingue": {
+    "archetype": "The Creators",
+    "confidence": 0.9999990018192414,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.43745485914951204
+  },
+  "Steven Miller": {
+    "archetype": "The Creators",
+    "confidence": 0.9997905720657222,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.29808895858216516
+  },
+  "Tarek Morad": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9762400625506703,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.7079580870328537
+  },
+  "Taylor Mueller": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9898890406965708,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.5280403688915465
+  },
+  "Taylor Peay": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.8441559215809752,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.0468805754108006
+  },
+  "Ted Ku-Dipietro": {
+    "archetype": "The Creators",
+    "confidence": 0.9999965059845094,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.04521712873955683
+  },
+  "Thomas Janjigian": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9957417578918529,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.5420267684051379
+  },
+  "Thomas Vancaeyezeele": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999397652244476,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.4932702257844472
+  },
+  "Timmy Mehl": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999998048560133,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.1335569962682595
+  },
+  "Tobi Adewole": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.999518126616335,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.608018610591176
+  },
+  "Todd Wharton": {
+    "archetype": "The Finishers",
+    "confidence": 0.6303301773678688,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6871235785399076
+  },
+  "Tomas Granitto": {
+    "archetype": "The Creators",
+    "confidence": 0.9805629994956587,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.08550035488687088
+  },
+  "Tomas Hilliard-Arce": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999999969627646,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.8063858485030495
+  },
+  "Tommy McCabe": {
+    "archetype": "The Finishers",
+    "confidence": 0.9415895081291137,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8275557371899418
+  },
+  "Tony Alfaro": {
+    "archetype": "The Finishers",
+    "confidence": 0.5790831258430756,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7882346509014184
+  },
+  "Tristan Hodge": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9960546057721308,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.4440989299656601
+  },
+  "Tucker Bone": {
+    "archetype": "The Creators",
+    "confidence": 0.9669636011905761,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.061189695334546
+  },
+  "Tucker Stephenson": {
+    "archetype": "The Creators",
+    "confidence": 0.9998898685513933,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.49479638269399606
+  },
+  "Tumi Moshobane": {
+    "archetype": "The Creators",
+    "confidence": 0.9808963990384384,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.4580656189099193
+  },
+  "Tyler Blackwood": {
+    "archetype": "The Creators",
+    "confidence": 0.8711804464286474,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.18537436003043642
+  },
+  "Tyler Freeman": {
+    "archetype": "The Creators",
+    "confidence": 0.9997666321336576,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.24141132336842255
+  },
+  "Tyler Gabarra": {
+    "archetype": "The Finishers",
+    "confidence": 0.7982250659072673,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4380951505589895
+  },
+  "Tyler Gibson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9726029939906609,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7485795884704585
+  },
+  "Tyler Pasher": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9998547530830544,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.5909636044265727
+  },
+  "Tyreke Johnson": {
+    "archetype": "The Creators",
+    "confidence": 0.9999993968277898,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.04570765540428941
+  },
+  "Uvaldo Luna": {
+    "archetype": "The Creators",
+    "confidence": 0.9911212924221182,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.251508330677306
+  },
+  "Valent\u00edn Sabella": {
+    "archetype": "The Creators",
+    "confidence": 0.9877307198668209,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.212020801904161
+  },
+  "Vangjel Zguro": {
+    "archetype": "The Finishers",
+    "confidence": 0.9995780368369384,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8598827024387563
+  },
+  "Victor Giro": {
+    "archetype": "The Creators",
+    "confidence": 0.9986688466962252,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.35535122127087787
+  },
+  "Villyan Bijev": {
+    "archetype": "The Creators",
+    "confidence": 0.9973339698495348,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.2851529268852153
+  },
+  "Vincent Bezecourt": {
+    "archetype": "The Creators",
+    "confidence": 0.9956575007632107,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.054476335328679
+  },
+  "Wal Fall": {
+    "archetype": "The Creators",
+    "confidence": 0.9964012585412365,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.017727536638679334
+  },
+  "Wesley Charpie": {
+    "archetype": "The Finishers",
+    "confidence": 0.9901276314607013,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8121166161342599
+  },
+  "William Reilly": {
+    "archetype": "The Finishers",
+    "confidence": 0.9917694223859077,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8617596665695737
+  },
+  "Wilson Harris": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.997304139309093,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.2328312683299125
+  },
+  "Xavier B\u00e1ez": {
+    "archetype": "The Creators",
+    "confidence": 0.99999006376348,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9650745968595585
+  },
+  "Yamikani Chester": {
+    "archetype": "The Creators",
+    "confidence": 0.9145586069086178,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.5495116998758676
+  },
+  "Yann Ekra": {
+    "archetype": "The Creators",
+    "confidence": 0.9998735829385529,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3360953384357706
+  },
+  "Yuma Monsalvez": {
+    "archetype": "The Creators",
+    "confidence": 0.7161370438224851,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8278276478507027
+  },
+  "Zach Carroll": {
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999999613941161,
+    "position": "CB",
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.3913030670409636
+  },
+  "Zach Steinberger": {
+    "archetype": "The Creators",
+    "confidence": 0.7195302391582821,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9806688414129975
+  },
+  "Zachary Ellis-Hayden": {
+    "archetype": "The Finishers",
+    "confidence": 0.9915989237469779,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6925911704985465
+  },
+  "Zachary Herivaux": {
+    "archetype": "The Finishers",
+    "confidence": 0.9802059336517286,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7524076079007299
+  },
+  "Zack Farnsworth": {
+    "archetype": "The Finishers",
+    "confidence": 0.9047354096653002,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7500989287288534
+  },
+  "Zeiko Lewis": {
+    "archetype": "The Creators",
+    "confidence": 0.9977968899287646,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.3811076243120346
+  }
+}

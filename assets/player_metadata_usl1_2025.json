@@ -1,0 +1,20 @@
+{
+  "cluster_model": "GaussianMixture",
+  "features": [
+    "g_passing",
+    "g_receiving",
+    "g_shooting",
+    "g_dribbling",
+    "g_interrupting",
+    "xgoals_p96",
+    "xassists_p96",
+    "passes_completed_over_expected_p100",
+    "avg_vertical_distance_yds",
+    "share_team_touches"
+  ],
+  "generated_at": "2026-05-12T00:07:00.298285+00:00",
+  "league": "usl1",
+  "n_archetypes": 7,
+  "n_players": 244,
+  "season": "2025"
+}

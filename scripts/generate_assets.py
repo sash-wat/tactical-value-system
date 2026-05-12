@@ -36,6 +36,9 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
     from src.data_loader import load_tactical_data
     from src.preprocessor import TACTICAL_FEATURES, preprocess_tactical_data
     from src.visualizer import plot_clusters
+    from src.player_loader import load_player_data
+    from src.player_preprocessor import preprocess_player_data
+    from src.player_archetype import build_player_profiles
 
     print(f"Generating {league.upper()} {season}...")
     df = load_tactical_data(league, season)
@@ -74,6 +77,42 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
     print(f"Saved {image_path}, {teams_path}, and {metadata_path}")
 
 
+def generate_players(league: str, season: str, output_dir: Path):
+    from src.clustering import cluster_teams
+    from src.player_loader import load_player_data
+    from src.player_preprocessor import PLAYER_FEATURES, preprocess_player_data
+    from src.player_archetype import build_player_profiles
+
+    print(f"  Generating player archetypes for {league.upper()} {season}...")
+    df = load_player_data(league, season)
+    if df.empty:
+        print(f"  No player data for {league} {season}")
+        return
+
+    df_scaled, player_names, positions = preprocess_player_data(df)
+    clusters, model, probs = cluster_teams(df_scaled)
+
+    profiles = build_player_profiles(df_scaled, clusters, probs, player_names, positions)
+
+    players_path = output_dir / f"players_{league}_{season}.json"
+    write_json(players_path, profiles)
+
+    player_meta_path = output_dir / f"player_metadata_{league}_{season}.json"
+    write_json(
+        player_meta_path,
+        {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "league": league,
+            "season": season,
+            "features": PLAYER_FEATURES,
+            "n_players": len(profiles),
+            "n_archetypes": model.n_components,
+            "cluster_model": "GaussianMixture",
+        },
+    )
+    print(f"  Saved {players_path} ({len(profiles)} players, {model.n_components} archetypes)")
+
+
 def main():
     args = parse_args()
     leagues = args.league or DEFAULT_LEAGUES
@@ -85,6 +124,7 @@ def main():
         for season in seasons:
             try:
                 generate_combo(league, season, output_dir, args.clusters)
+                generate_players(league, season, output_dir)
             except Exception as exc:
                 print(f"Error on {league} {season}: {exc}")
 

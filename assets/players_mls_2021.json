@@ -1,0 +1,3572 @@
+{
+  "A.J. DeLaGarza": {
+    "archetype": "The Finishers",
+    "confidence": 0.9987044509076689,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7736830603909624
+  },
+  "Aaron Herrera": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9998256249266908,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.9419541246599399
+  },
+  "Aaron Long": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9491057485282371,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.532855484948392
+  },
+  "Abdoulaye Cissoko": {
+    "archetype": "The Finishers",
+    "confidence": 0.9662115804908182,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5251968087353532
+  },
+  "Aboubacar Keita": {
+    "archetype": "The Finishers",
+    "confidence": 0.9994079544961345,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9161854208968685
+  },
+  "Adam Buksa": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999999999929,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 4.4404884002034954
+  },
+  "Adam Lundkvist": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9876682791160769,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1952498114000274
+  },
+  "Adam Saldana": {
+    "archetype": "The Finishers",
+    "confidence": 0.9998139976119559,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.736611973528146
+  },
+  "Adrien Hunou": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999979167755814,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.4026832481591307
+  },
+  "Adrien P\u00e9rez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9305830004472614,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.46679192793011787
+  },
+  "Ahmed Hamdi": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.898695414551174,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.22017586411238013
+  },
+  "Alan Franco": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9989286297919852,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.0562357105271711
+  },
+  "Alan Pulido": {
+    "archetype": "The Creators",
+    "confidence": 0.9999741695278354,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.2359656862119084
+  },
+  "Albert Rusn\u00e1k": {
+    "archetype": "The Creators",
+    "confidence": 0.9999998723157307,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.7104086867136719
+  },
+  "Alejandro Bedoya": {
+    "archetype": "The Creators",
+    "confidence": 0.9999968872013116,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.38552301535257244
+  },
+  "Alejandro Pozuelo": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999723214014,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.1896366653262045
+  },
+  "Alex Muyl": {
+    "archetype": "The Creators",
+    "confidence": 0.9761939037903088,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.08666911544049617
+  },
+  "Alex Ring": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9202391132717118,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 2.3788555845460593
+  },
+  "Alex Roldan": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9881864988342518,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8576441378516624
+  },
+  "Alexander Callens": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999971618120689,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7742356773279485
+  },
+  "Alexandru Matan": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9996582314541673,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.25455598425090403
+  },
+  "Alfredo Morales": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999533588021202,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.3571933747093805
+  },
+  "Alistair Johnston": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9678099559061899,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1714188226789661
+  },
+  "Aljaz Struna": {
+    "archetype": "The Finishers",
+    "confidence": 0.8112120972413243,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8098746900777098
+  },
+  "Allan Cruz": {
+    "archetype": "The Creators",
+    "confidence": 0.9994966947083957,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.819651461103306
+  },
+  "Alvas Powell": {
+    "archetype": "The Finishers",
+    "confidence": 0.9923780945171009,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6208535064431933
+  },
+  "Amar Sejdi\u0107": {
+    "archetype": "The Finishers",
+    "confidence": 0.9903949222368719,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7037797984331142
+  },
+  "Amro Tarek": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9910020266956769,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.1903764536619534
+  },
+  "Anderson Julio": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999191755258435,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.3906871464680286
+  },
+  "Andre Shinyashiki": {
+    "archetype": "The Creators",
+    "confidence": 0.8888068174023946,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9988506208533566
+  },
+  "Andres Jasson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9997260354411057,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5803470998748891
+  },
+  "Andreu Font\u00e0s": {
+    "archetype": "The Creators",
+    "confidence": 0.999331981820808,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9860584279531557
+  },
+  "Andrew Brody": {
+    "archetype": "The Creators",
+    "confidence": 0.8735311483755124,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.38951807535644467
+  },
+  "Andrew Farrell": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999999496145721,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.2071653057605578
+  },
+  "Andrew Gutman": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9989610496826818,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.6678977543677378
+  },
+  "Andr\u00e9s Perea": {
+    "archetype": "The Creators",
+    "confidence": 0.9999980650941801,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.2747688408917817
+  },
+  "Andr\u00e9s Reyes": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9996790865882949,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.6590525651761535
+  },
+  "Andr\u00e9s Ricaurte": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.8339936123863962,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.0864836311586024
+  },
+  "Andr\u00e9s R\u00edos": {
+    "archetype": "The Creators",
+    "confidence": 0.547022392780165,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.13953367974566042
+  },
+  "Andy Najar": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9991487669268067,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.5368273164019022
+  },
+  "Andy Rose": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9975566515421698,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1118413508763136
+  },
+  "Anton Tinnerholm": {
+    "archetype": "The Metronomes",
+    "confidence": 0.7824643705889466,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8218976547700709
+  },
+  "Anton Walkes": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9987313454627977,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.103897687969293
+  },
+  "Ant\u00f4nio Carlos": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9338029120793879,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1237568452368438
+  },
+  "An\u00edbal Godoy": {
+    "archetype": "The Creators",
+    "confidence": 0.8125268086034854,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3903199291414387
+  },
+  "Ariel Lassiter": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999996552489322,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.3178792889512192
+  },
+  "Arn\u00f3r Ingvi Traustason": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.8441906651891787,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.2856602436669066
+  },
+  "Auro": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8558988785205284,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.2548272832026794
+  },
+  "Auston Trusty": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999952385117307,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.4653343502387193
+  },
+  "Ayo Akinola": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999487549286824,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.8570643709529455
+  },
+  "Bakaye Dibassy": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999960163355597,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.5557849473848894
+  },
+  "Benji Kikanovi\u0107": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9995777050388417,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.4670963921955005
+  },
+  "Benji Michel": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9985059756392894,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8312443662760649
+  },
+  "Bill Tuiloma": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9366328946221053,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.11093982459174988
+  },
+  "Bj\u00f8rn Maars Johnsen": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999999997868,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7120756515126327
+  },
+  "Blaise Matuidi": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9604397835165902,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.4326581723260738
+  },
+  "Bobby Wood": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999995189835877,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.1322215779185685
+  },
+  "Boniek Garc\u00eda": {
+    "archetype": "The Finishers",
+    "confidence": 0.9644055334409406,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6732896471251927
+  },
+  "Boris Sekulic": {
+    "archetype": "The Creators",
+    "confidence": 0.9557720464895565,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9273494546438533
+  },
+  "Brad Smith": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9261274127172907,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.037525292269509944
+  },
+  "Bradley Wright-Phillips": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9983926248139607,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.7250344713132686
+  },
+  "Braian Galv\u00e1n": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9876914762790814,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.525396505572907
+  },
+  "Brandon Bye": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9793245535272344,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.3660385639009647
+  },
+  "Brandon Servania": {
+    "archetype": "The Finishers",
+    "confidence": 0.8052067926255589,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4738292344734829
+  },
+  "Brandon V\u00e1zquez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999782292934254,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.8423744548377627
+  },
+  "Brek Shea": {
+    "archetype": "The Creators",
+    "confidence": 0.9997761196626057,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8092113865016161
+  },
+  "Brendan Hines-Ike": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9944817696350751,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.6233060820945621
+  },
+  "Brenner": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999894530127,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.2593106174764185
+  },
+  "Brent Kallman": {
+    "archetype": "The Finishers",
+    "confidence": 0.8538020537720215,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6211990201613606
+  },
+  "Bressan": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9998730210830117,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.3819258897150053
+  },
+  "Brian Anunga": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9921597268186991,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": -0.24255317477065574
+  },
+  "Brian Guti\u00e9rrez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.998971134250658,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.2877791787345879
+  },
+  "Brian Rodr\u00edguez": {
+    "archetype": "The Creators",
+    "confidence": 0.7348580420181903,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.3132950814159068
+  },
+  "Brian White": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999778207604,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7794933530998687
+  },
+  "Brooks Lennon": {
+    "archetype": "The Creators",
+    "confidence": 0.9992888825946863,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.7423863310178136
+  },
+  "Bruno Gaspar": {
+    "archetype": "The Finishers",
+    "confidence": 0.9979176556937792,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5772228490546905
+  },
+  "Bryan Acosta": {
+    "archetype": "The Creators",
+    "confidence": 0.7295802297760412,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5455487256009439
+  },
+  "Bryce Duke": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9968929623601641,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5482827718069443
+  },
+  "C.J. Sapong": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9987443002310171,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.985219475835297
+  },
+  "Cade Cowell": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999369443283622,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.763979371025646
+  },
+  "Caden Clark": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9785843858824498,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.0695583712597729
+  },
+  "Caio Alexandre": {
+    "archetype": "The Finishers",
+    "confidence": 0.9544493333894519,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.35309193550301604
+  },
+  "Caleb Stanko": {
+    "archetype": "The Finishers",
+    "confidence": 0.9850446838794916,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8694950958882373
+  },
+  "Calvin Harris": {
+    "archetype": "The Finishers",
+    "confidence": 0.9686668772066105,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.44467894863434165
+  },
+  "Cameron Duke": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9754015625216854,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.04794182702637445
+  },
+  "Carles Gil": {
+    "archetype": "The Creators",
+    "confidence": 1.0,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 5.9856063241121475
+  },
+  "Carlos Fierro": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9690431122060252,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9521423252710722
+  },
+  "Carlos Ter\u00e1n": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999401829935827,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8218976547700709
+  },
+  "Carlos Vela": {
+    "archetype": "The Creators",
+    "confidence": 0.9999703095587147,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.7511927460262853
+  },
+  "Cecilio Dom\u00ednguez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9396827020109554,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7470858537064191
+  },
+  "Chase Gasper": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9814965328590821,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.4653343502387193
+  },
+  "Chicharito": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999999593019,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.9357028887014174
+  },
+  "Chris Mavinga": {
+    "archetype": "The Metronomes",
+    "confidence": 0.615566155274899,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.15462997058036193
+  },
+  "Chris Mueller": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.8971278762719965,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.17586395096751342
+  },
+  "Chris Wondolowski": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999333868843585,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.619348896236284
+  },
+  "Christian Mafla": {
+    "archetype": "The Finishers",
+    "confidence": 0.9976191328050779,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8880631611503492
+  },
+  "Christian Makoun": {
+    "archetype": "The Metronomes",
+    "confidence": 0.99907167564649,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.2468836202956595
+  },
+  "Claudio Bravo": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999700202847671,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 2.227925989312672
+  },
+  "Coco Carrasquilla": {
+    "archetype": "The Finishers",
+    "confidence": 0.9780522228793316,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.2387658336237304
+  },
+  "Cole Bassett": {
+    "archetype": "The Creators",
+    "confidence": 0.9998667004923733,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.6225348586653988
+  },
+  "Collen Warner": {
+    "archetype": "The Finishers",
+    "confidence": 0.9887325795076848,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7259049829301442
+  },
+  "Corey Baird": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9986875081042774,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8141860483196104
+  },
+  "Cory Burke": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9968107763490146,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.01106615552389
+  },
+  "Cristhian Paredes": {
+    "archetype": "The Creators",
+    "confidence": 0.9976048946472256,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.48696998238080796
+  },
+  "Cristian Arango": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999905158674,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 4.2419667320840615
+  },
+  "Cristian C\u00e1sseres Jr": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.7244743674480795,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.007540084353630693
+  },
+  "Cristian D\u00e1jome": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999999969766,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.0698963780759716
+  },
+  "Cristian Espinoza": {
+    "archetype": "The Creators",
+    "confidence": 0.943887999480939,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1204009196899345
+  },
+  "Cristian Roldan": {
+    "archetype": "The Creators",
+    "confidence": 0.9999994993797784,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.6449576228292921
+  },
+  "Cristi\u00e1n Guti\u00e9rrez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8698451946201797,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.7830808665195328
+  },
+  "DJ Taylor": {
+    "archetype": "The Finishers",
+    "confidence": 0.9493540291581216,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8441244888158227
+  },
+  "Dairon Asprilla": {
+    "archetype": "The Creators",
+    "confidence": 0.9910459174530278,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.08118485593784629
+  },
+  "Damir Kreilach": {
+    "archetype": "The Creators",
+    "confidence": 0.9985573855096713,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.3287718160637625
+  },
+  "Dani Pereira": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9378071604599999,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.023559532614525765
+  },
+  "Daniel Lovitz": {
+    "archetype": "The Creators",
+    "confidence": 0.6584732399999871,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1994563455226075
+  },
+  "Daniel Royer": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9994830000784264,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.2482476996252416
+  },
+  "Daniel Steres": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8932701093935381,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.3571933747093805
+  },
+  "Danny Leyva": {
+    "archetype": "The Finishers",
+    "confidence": 0.9711324163001944,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7418284513942119
+  },
+  "Danny Musovski": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999968633642,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.2236821012513266
+  },
+  "Danny Wilson": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999999998856683,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.2031934743070474
+  },
+  "Dario \u017dupari\u0107": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999857863990317,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.42074267796554343
+  },
+  "Darlington Nagbe": {
+    "archetype": "The Creators",
+    "confidence": 0.9999276067136884,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3749185192470192
+  },
+  "Darwin Cer\u00e9n": {
+    "archetype": "The Finishers",
+    "confidence": 0.9863342149596773,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8168997709228053
+  },
+  "Darwin Quintero": {
+    "archetype": "The Creators",
+    "confidence": 0.9731835209296734,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.272524943852333
+  },
+  "Daryl Dike": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999735840891,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.412485261882932
+  },
+  "Dave Romney": {
+    "archetype": "The Metronomes",
+    "confidence": 0.999999780661681,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.3024892606448017
+  },
+  "Dax McCarty": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9997833453402595,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8933906209332538
+  },
+  "DeJuan Jones": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9995597582132261,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.9340104617529192
+  },
+  "Dejan Joveljic": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.999998190186277,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.608266167530343
+  },
+  "Derrick Etienne Jr.": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9473528642702317,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.16280669669693212
+  },
+  "Derrick Jones": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8643191986468512,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": -0.1909193658750234
+  },
+  "Derrick Williams": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8710395482228831,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1912779799465172
+  },
+  "Diego Char\u00e1": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9998635855392052,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.6400949341931663
+  },
+  "Diego Fagundez": {
+    "archetype": "The Creators",
+    "confidence": 0.998199143908242,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9508567056404572
+  },
+  "Diego Palacios": {
+    "archetype": "The Metronomes",
+    "confidence": 0.7912762104119143,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.6511089022691335
+  },
+  "Diego Rossi": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9985140806735976,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.3861271534218793
+  },
+  "Diego Rubio": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9294445048566491,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.0131420378750424
+  },
+  "Diego Valeri": {
+    "archetype": "The Creators",
+    "confidence": 0.844352095202764,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.9085543193887946
+  },
+  "Djordje Mihailovic": {
+    "archetype": "The Creators",
+    "confidence": 0.9999611657906002,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.1879890745672466
+  },
+  "Dom Dwyer": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9998197312074294,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6394922036492049
+  },
+  "Dominique Badji": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999995864402289,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.8113617838273544
+  },
+  "Donny Toia": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9972913484190412,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.57167227319893
+  },
+  "Donovan Pines": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999999427757852,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.9489962612823962
+  },
+  "Drew Skundrich": {
+    "archetype": "The Finishers",
+    "confidence": 0.9865945320599184,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.3145153634393523
+  },
+  "Dru Yearwood": {
+    "archetype": "The Finishers",
+    "confidence": 0.9263144415130902,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.46409282611002806
+  },
+  "D\u00e1niel Gazdag": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9911164506622505,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.4913099282748237
+  },
+  "D\u00e1niel Sall\u00f3i": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9878211358000019,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.9389755163172915
+  },
+  "D\u00e9iber Caicedo": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999478508381,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7258238211497393
+  },
+  "Eddie Segura": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999984558393654,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1317005081438645
+  },
+  "Edgar Castillo": {
+    "archetype": "The Finishers",
+    "confidence": 0.5861766767692899,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7370163607227156
+  },
+  "Edison Flores": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9877372630013123,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.2203814704886653
+  },
+  "Eduard Atuesta": {
+    "archetype": "The Creators",
+    "confidence": 0.9999874281803963,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.0592963840966718
+  },
+  "Edwin Cerrillo": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9938546288729134,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.41677084651203317
+  },
+  "Edwin Munjoma": {
+    "archetype": "The Finishers",
+    "confidence": 0.9657333717890876,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8489713956917755
+  },
+  "Efrain \u00c1lvarez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9966510277989059,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3791038989648126
+  },
+  "Ema Twumasi": {
+    "archetype": "The Creators",
+    "confidence": 0.9856065082484952,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.460748616156601
+  },
+  "Emanuel Maciel": {
+    "archetype": "The Finishers",
+    "confidence": 0.7886884678340459,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7165990778441669
+  },
+  "Emanuel Reynoso": {
+    "archetype": "The Creators",
+    "confidence": 1.0,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.054275633220675
+  },
+  "Emerson Hyndman": {
+    "archetype": "The Finishers",
+    "confidence": 0.9918275880962824,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.3033379963412405
+  },
+  "Emmanuel M\u00e1s": {
+    "archetype": "The Finishers",
+    "confidence": 0.997614260630022,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8183711808025377
+  },
+  "Eric Miller": {
+    "archetype": "The Metronomes",
+    "confidence": 0.6681927550235258,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.988714575817498
+  },
+  "Eric Remedi": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9990658869867994,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.2786582719237407
+  },
+  "Erick Torres": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999985968041031,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8867127437219426
+  },
+  "Erik Godoy": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9975917374362768,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.9926864072710082
+  },
+  "Erik Holt": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9772771757612984,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.5994750933735009
+  },
+  "Erik Hurtado": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9921225680902382,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.4469766630009464
+  },
+  "Erik L\u00f3pez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999870409462739,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.976405780964416
+  },
+  "Eriq Zavaleta": {
+    "archetype": "The Finishers",
+    "confidence": 0.9944306873514634,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9103385572805249
+  },
+  "Eryk Williamson": {
+    "archetype": "The Finishers",
+    "confidence": 0.9635373695303124,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.2978124754858314
+  },
+  "Ethan Finlay": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9990879154130708,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.42777370824250727
+  },
+  "Ethan Zubak": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9979832709217077,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.17987078677509197
+  },
+  "Everton Luiz": {
+    "archetype": "The Metronomes",
+    "confidence": 0.97221147702025,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.08710883587068871
+  },
+  "Ezequiel Barco": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999997961737,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.9520021937196737
+  },
+  "Fabian Herbers": {
+    "archetype": "The Creators",
+    "confidence": 0.9929138682463278,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.1391794136715289
+  },
+  "Fabio": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9910843749877691,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.039362372543599
+  },
+  "Facundo Quign\u00f3n": {
+    "archetype": "The Finishers",
+    "confidence": 0.8579679833664555,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.36256025451080426
+  },
+  "Fafa Picault": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999916994808895,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.5841364067745758
+  },
+  "Federico Higua\u00edn": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9669056091970828,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.10684179408856188
+  },
+  "Federico Navarro": {
+    "archetype": "The Metronomes",
+    "confidence": 0.991551096000896,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.4057568784360666
+  },
+  "Felipe": {
+    "archetype": "The Finishers",
+    "confidence": 0.9947202245807174,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.44674246235297
+  },
+  "Felipe Mora": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999933114390991,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.474769189316641
+  },
+  "Florian Jungwirth": {
+    "archetype": "The Metronomes",
+    "confidence": 0.99212604460951,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.9211934411078253
+  },
+  "Francisco Calvo": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999828209917776,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.71555973180986
+  },
+  "Francisco Ginella": {
+    "archetype": "The Finishers",
+    "confidence": 0.8830230239423865,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.38778211035927856
+  },
+  "Franco Fragapane": {
+    "archetype": "The Creators",
+    "confidence": 0.9999546545162907,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.1599011008957145
+  },
+  "Franco Ibarra": {
+    "archetype": "The Finishers",
+    "confidence": 0.9997732142525286,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8227047737530482
+  },
+  "Franco Jara": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999901861933,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.449286098374403
+  },
+  "Frankie Amaya": {
+    "archetype": "The Finishers",
+    "confidence": 0.9993464684888501,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4925905969255901
+  },
+  "Freddy Vargas": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9982304289625562,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.017166956548039337
+  },
+  "Fredy Montero": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9984585316608657,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.9184650683434294
+  },
+  "Fr\u00e9d\u00e9ric Brillant": {
+    "archetype": "The Finishers",
+    "confidence": 0.7581756211017789,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6438675955125682
+  },
+  "Gadi Kinda": {
+    "archetype": "The Creators",
+    "confidence": 0.8850580655457718,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8995329520495238
+  },
+  "Gast\u00f3n Gim\u00e9nez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9896284658231593,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1952498114000274
+  },
+  "Geoff Cameron": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9964591595468733,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.917221609654315
+  },
+  "George Bello": {
+    "archetype": "The Creators",
+    "confidence": 0.9996878573773982,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.029428772181840902
+  },
+  "George Campbell": {
+    "archetype": "The Finishers",
+    "confidence": 0.999959850671202,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8379974924569339
+  },
+  "George Fochive": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.6994584781297553,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.269668545119927
+  },
+  "Gianluca Busio": {
+    "archetype": "The Creators",
+    "confidence": 0.9998206603910934,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.3095743435775958
+  },
+  "Gonzalo Higua\u00edn": {
+    "archetype": "The Creators",
+    "confidence": 1.0,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8226470171760123
+  },
+  "Graham Zusi": {
+    "archetype": "The Creators",
+    "confidence": 0.6860802484216919,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9550738126496979
+  },
+  "Gregore": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9880869705721856,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.6678977543677378
+  },
+  "Griffin Dorsey": {
+    "archetype": "The Creators",
+    "confidence": 0.9992162607188818,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.1019170859286502
+  },
+  "Gudmundur Th\u00f3rarinsson": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.6847571185143698,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6435779870555873
+  },
+  "Gustavo Bou": {
+    "archetype": "The Creators",
+    "confidence": 0.9999994987885786,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.7865818733606185
+  },
+  "Gustavo Vallecilla": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9996972239572018,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7662920144209285
+  },
+  "Gyasi Zardes": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9960147195481988,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.251265509877112
+  },
+  "Hany Mukhtar": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999999689564,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.7939545604750196
+  },
+  "Haris Medunjanin": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9989564644041412,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.38102436343044166
+  },
+  "Harrison Afful": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9665990254495982,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.095954025062273
+  },
+  "Hassani Dotson": {
+    "archetype": "The Creators",
+    "confidence": 0.9993295102709633,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.0208235326447869
+  },
+  "Henry Kessler": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9969458507966107,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.6074187562805214
+  },
+  "H\u00e9ctor Jim\u00e9nez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9614343981930555,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.666996228083174
+  },
+  "Ifunanyachi Achara": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.998436623078901,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.902536760857584
+  },
+  "Ignacio Aliseda": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.5565628927596943,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3524291950657104
+  },
+  "Ilie S\u00e1nchez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9992220952301105,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.8466301697756957
+  },
+  "Indiana Vassilev": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9984295614553388,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.2722862558098265
+  },
+  "Isaac Atanga": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999024794204154,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.333099201981169
+  },
+  "Ismael Tajouri-Shradi": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.6290228257494296,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.3686029855322597
+  },
+  "Jack Elliott": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999999999999165,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1197850137833336
+  },
+  "Jack Maher": {
+    "archetype": "The Finishers",
+    "confidence": 0.6954321667159886,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7694780661402911
+  },
+  "Jack McGlynn": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9968755848583172,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5447465075884736
+  },
+  "Jack Price": {
+    "archetype": "The Creators",
+    "confidence": 0.9997558145258165,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.4883522722498865
+  },
+  "Jackson Yueill": {
+    "archetype": "The Finishers",
+    "confidence": 0.9672017769038627,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.3299907737434091
+  },
+  "Jacob Shaffelburg": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.994172362243969,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.4985623113823958
+  },
+  "Jacori Hayes": {
+    "archetype": "The Finishers",
+    "confidence": 0.9994595290240813,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7692519942556952
+  },
+  "Jake Mulraney": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9955599473240458,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3135312655278387
+  },
+  "Jake Nerwinski": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9470105847996155,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.48429198122170586
+  },
+  "Jakob Glesnes": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999999969391329,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7464328571533776
+  },
+  "Jalil Anibaba": {
+    "archetype": "The Finishers",
+    "confidence": 0.9759347830726617,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7617658471796339
+  },
+  "James Sands": {
+    "archetype": "The Metronomes",
+    "confidence": 0.988116806207691,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.4057568784360666
+  },
+  "Jamiro Monteiro": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999139246684,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.2044413441351283
+  },
+  "Janio Bikel": {
+    "archetype": "The Creators",
+    "confidence": 0.8113439054462219,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8178828226685615
+  },
+  "Jared Stroud": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9997711967186069,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3304215261931568
+  },
+  "Javain Brown": {
+    "archetype": "The Metronomes",
+    "confidence": 0.7525831970953824,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7067145426182758
+  },
+  "Javier L\u00f3pez": {
+    "archetype": "The Creators",
+    "confidence": 0.9956427247544994,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.687835758499718
+  },
+  "Jay Chapman": {
+    "archetype": "The Metronomes",
+    "confidence": 0.7047800261110821,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": -0.5086658821558373
+  },
+  "Jaylin Lindsey": {
+    "archetype": "The Finishers",
+    "confidence": 0.8532968768267496,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5109811073137148
+  },
+  "Jeremy Ebobisse": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.999832423104749,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7268065418970662
+  },
+  "Jes\u00fas Ferreira": {
+    "archetype": "The Creators",
+    "confidence": 0.999927154463465,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.441439179876227
+  },
+  "Jes\u00fas Medina": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9458892450413648,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.3290772764620091
+  },
+  "Jes\u00fas Murillo": {
+    "archetype": "The Metronomes",
+    "confidence": 0.998452851749658,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.42471450941905375
+  },
+  "Jhegson M\u00e9ndez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9278239848495833,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.219080800121088
+  },
+  "Jhohan Roma\u00f1a": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9970693270763291,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.5319539586638282
+  },
+  "Jhon Espinoza": {
+    "archetype": "The Finishers",
+    "confidence": 0.9855885993955501,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.46885003357849026
+  },
+  "Jhonder C\u00e1diz": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999994957925998,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.843880428414277
+  },
+  "Jimmy Medranda": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9755448030601692,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.14742096874072066
+  },
+  "Joaqu\u00edn Torres": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.8517639040712536,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3177174206876698
+  },
+  "Joe Corona": {
+    "archetype": "The Finishers",
+    "confidence": 0.9219564218981129,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5495718547511608
+  },
+  "Joe Gyau": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9971251546814962,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7186300369788061
+  },
+  "Joel Waterman": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9988513877634972,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.3660385639009647
+  },
+  "Joevin Jones": {
+    "archetype": "The Finishers",
+    "confidence": 0.9995274237672331,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9161854208968685
+  },
+  "Joey Dezart": {
+    "archetype": "The Finishers",
+    "confidence": 0.9998603233578295,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8417478486763196
+  },
+  "Johan Kappelhof": {
+    "archetype": "The Finishers",
+    "confidence": 0.8524446577622938,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6927719456882026
+  },
+  "John Nelson": {
+    "archetype": "The Finishers",
+    "confidence": 0.997025866096021,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9161854208968685
+  },
+  "John Tolkin": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9814008935503514,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.03240472180611
+  },
+  "Johnny Russell": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9696912667178272,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.812909837353462
+  },
+  "Jon Bell": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9976262188518492,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": -0.09559541099077899
+  },
+  "Jon Gallagher": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999940833238015,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6947305575526365
+  },
+  "Jonathan Bornstein": {
+    "archetype": "The Metronomes",
+    "confidence": 0.5228117749688838,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.5677004417454197
+  },
+  "Jonathan Lewis": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999756461136823,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.113613668197306
+  },
+  "Jonathan Mensah": {
+    "archetype": "The Creators",
+    "confidence": 0.999980110649693,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.053301445716065
+  },
+  "Jonathan Men\u00e9ndez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9718090522506859,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.04584311127983555
+  },
+  "Jonathan Osorio": {
+    "archetype": "The Creators",
+    "confidence": 0.9993651581188037,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.41224278890954247
+  },
+  "Jonathan dos Santos": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9957971420037183,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8536723063981521
+  },
+  "Jorge Villafa\u00f1a": {
+    "archetype": "The Finishers",
+    "confidence": 0.520701271145685,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8197681437492188
+  },
+  "Josef Mart\u00ednez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999983398550323,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.0721564013976677
+  },
+  "Joseph Mora": {
+    "archetype": "The Finishers",
+    "confidence": 0.5101058775875353,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8353230524250582
+  },
+  "Josh Atencio": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8855183296756175,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": -0.0320461077346166
+  },
+  "Josh Williams": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9997554513250074,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.5319539586638282
+  },
+  "Jos\u00e9 Antonio Mart\u00ednez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9961021487784344,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1396441710508844
+  },
+  "Jos\u00e9 Cifuentes": {
+    "archetype": "The Creators",
+    "confidence": 0.9954748645833308,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.3373360509221635
+  },
+  "Jos\u00e9 Mart\u00ednez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9940219650469396,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.755278046344962
+  },
+  "Jos\u00e9 Mauri": {
+    "archetype": "The Finishers",
+    "confidence": 0.8803002845202057,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7535657097845546
+  },
+  "Jos\u00e9 Van Rankin": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9988251636014958,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8775032951192132
+  },
+  "Jozy Altidore": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999049702676,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7001584627947812
+  },
+  "Jo\u00e3o Moutinho": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9977663734160431,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.2905737662842716
+  },
+  "Jo\u00e3o Paulo": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999999041229,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.5906523870474925
+  },
+  "Judson": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9997014199094282,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.6550807337226437
+  },
+  "Jukka Raitala": {
+    "archetype": "The Finishers",
+    "confidence": 0.9999660217323758,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.888731139896553
+  },
+  "Julian Araujo": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999988818863252,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.755278046344962
+  },
+  "Julian Gressel": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999960383441,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.5573671466029415
+  },
+  "Julio Cascante": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999937969031785,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7782075087814588
+  },
+  "Juli\u00e1n Carranza": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999985912975,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.2220984975453239
+  },
+  "Justen Glad": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9998242618540134,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.9141513044853684
+  },
+  "Justin Che": {
+    "archetype": "The Finishers",
+    "confidence": 0.9654105133047569,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7727877279158772
+  },
+  "Justin Meram": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9785225194420155,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.0019397705126182531
+  },
+  "Justin Morrow": {
+    "archetype": "The Finishers",
+    "confidence": 0.9942749395295063,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8956400977368271
+  },
+  "J\u00e1der Obrian": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9981230541651627,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9834822833485368
+  },
+  "J\u00e1n Gregu\u0161": {
+    "archetype": "The Finishers",
+    "confidence": 0.9934891669021996,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4331117730339931
+  },
+  "J\u00fanior Moreno": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9966598149164824,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.42868634087256346
+  },
+  "J\u00fanior Urso": {
+    "archetype": "The Creators",
+    "confidence": 0.9990479736167452,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.24426181504095257
+  },
+  "Kacper Przybylko": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999831515107929,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.553981997367921
+  },
+  "Kai Wagner": {
+    "archetype": "The Creators",
+    "confidence": 0.9638714182917434,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.4996089891673782
+  },
+  "Kamal Miller": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999957070493498,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.6520104285536972
+  },
+  "Kamohelo Mokotjo": {
+    "archetype": "The Finishers",
+    "confidence": 0.9997422407523842,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.780433610551813
+  },
+  "Keaton Parks": {
+    "archetype": "The Creators",
+    "confidence": 0.9984890821827577,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.0359239784398519
+  },
+  "Keegan Rosenberry": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999550757388743,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.6202357769256155
+  },
+  "Kellyn Acosta": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8152016107372981,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.0800666992482324
+  },
+  "Kelvin Leerdam": {
+    "archetype": "The Finishers",
+    "confidence": 0.8740129879465928,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7845165132330157
+  },
+  "Kelyn Rowe": {
+    "archetype": "The Metronomes",
+    "confidence": 0.6560185912909592,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.31747506017427873
+  },
+  "Kemar Lawrence": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9193704184905687,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.6709680595366844
+  },
+  "Kevin Molino": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.8157490684056685,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8306584867637209
+  },
+  "Kevin Paredes": {
+    "archetype": "The Finishers",
+    "confidence": 0.9294158911755175,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.0839061556978659
+  },
+  "Khiry Shelton": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.999855153514457,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.4283220166342854
+  },
+  "Kieran Gibbs": {
+    "archetype": "The Finishers",
+    "confidence": 0.996352070949071,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5975131391423197
+  },
+  "Kim Moon-Hwan": {
+    "archetype": "The Finishers",
+    "confidence": 0.9530596555704058,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6114425232245889
+  },
+  "Kyle Duncan": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9119756818863737,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.8625174955897363
+  },
+  "Kyle Smith": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9530037106906866,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7623201829674182
+  },
+  "K\u00e9vin Cabral": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999960589777853,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.6508421793130534
+  },
+  "Lalas Abubakar": {
+    "archetype": "The Finishers",
+    "confidence": 0.7277152380249374,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6740269262701856
+  },
+  "Larrys Mabiala": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9673864642538922,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.40485535215150287
+  },
+  "Lassi Lappalainen": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.997209592449385,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.7489417511665217
+  },
+  "Latif Blessing": {
+    "archetype": "The Finishers",
+    "confidence": 0.9365598462193108,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.08990190521669678
+  },
+  "Leandro Gonz\u00e1lez Pirez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999999983090326,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.3104329235518224
+  },
+  "Leon Flach": {
+    "archetype": "The Creators",
+    "confidence": 0.97944374558913,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.06400149150120259
+  },
+  "Leonard Owusu": {
+    "archetype": "The Finishers",
+    "confidence": 0.9983597301043512,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8138137382012927
+  },
+  "Lewis Morgan": {
+    "archetype": "The Creators",
+    "confidence": 0.7191603044195901,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.3921169529941422
+  },
+  "Liam Fraser": {
+    "archetype": "The Finishers",
+    "confidence": 0.6869221847351356,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6373513732724142
+  },
+  "Lucas Cavallini": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9994427102609346,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.2020038204806258
+  },
+  "Lucas Esteves": {
+    "archetype": "The Creators",
+    "confidence": 0.9993757279739915,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.03542689713886191
+  },
+  "Lucas Zelaray\u00e1n": {
+    "archetype": "The Creators",
+    "confidence": 0.9999191131937528,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.9782121781864765
+  },
+  "Luciano Abecasis": {
+    "archetype": "The Finishers",
+    "confidence": 0.8353306632413393,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7041203466772156
+  },
+  "Luciano Acosta": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999924585161,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.1329442756904795
+  },
+  "Luis D\u00edaz": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9995192299446031,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3787260397148505
+  },
+  "Luiz Ara\u00fajo": {
+    "archetype": "The Creators",
+    "confidence": 0.9992466544953016,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.6126534575754259
+  },
+  "Luka Stojanovic": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.7784428208589358,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.2964049324816103
+  },
+  "Lu\u00eds Martins": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9873597213326503,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.6877569116352886
+  },
+  "Maciel": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9598099279535913,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.0712215100566481
+  },
+  "Maikel Chang": {
+    "archetype": "The Finishers",
+    "confidence": 0.9856237407401841,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.24875231339544426
+  },
+  "Malte Amundsen": {
+    "archetype": "The Finishers",
+    "confidence": 0.8171266136566508,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5631349228942993
+  },
+  "Mamadou Fall": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999997738805255,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7146582055252965
+  },
+  "Marcelino Moreno": {
+    "archetype": "The Creators",
+    "confidence": 0.9999993357469247,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.7614709354214877
+  },
+  "Marcelo Silva": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9987000322191079,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7583483515139079
+  },
+  "Marco Farfan": {
+    "archetype": "The Finishers",
+    "confidence": 0.9524399783435264,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8438949923632498
+  },
+  "Marcos L\u00f3pez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.992405593094647,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.3969116892444823
+  },
+  "Mark Delgado": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999998316156,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.19325955845017068
+  },
+  "Mark-Anthony Kaye": {
+    "archetype": "The Creators",
+    "confidence": 0.9947043746588838,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5943867650938333
+  },
+  "Marlon Hairston": {
+    "archetype": "The Creators",
+    "confidence": 0.9964367581788743,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6415182764616956
+  },
+  "Marvin Lor\u00eda": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9864914666584601,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.26980773923563994
+  },
+  "Mason Toye": {
+    "archetype": "The Finishers (2)",
+    "confidence": 1.0,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.4577136483604174
+  },
+  "Matheus Rossetto": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9498739364488978,
+    "position": "CM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.4962074755822367
+  },
+  "Mathieu Choini\u00e8re": {
+    "archetype": "The Creators",
+    "confidence": 0.8001725951197335,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.10642747300427209
+  },
+  "Matt Besler": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999989755758747,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.9737287762880211
+  },
+  "Matt Hedges": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999442717570652,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7345173627928467
+  },
+  "Matt Polster": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8690722600265668,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.0363765532596203
+  },
+  "Mat\u00edas Vera": {
+    "archetype": "The Finishers",
+    "confidence": 0.9961486239390763,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.35854523605650007
+  },
+  "Mauricio Pereyra": {
+    "archetype": "The Creators",
+    "confidence": 1.0,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.5791909463468161
+  },
+  "Mauricio Pineda": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9998845477437251,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8338131491306012
+  },
+  "Maxi Moralez": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999999999964,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.6143491557789513
+  },
+  "Maxi Urruti": {
+    "archetype": "The Creators",
+    "confidence": 0.9993693141900762,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.32672141514130915
+  },
+  "Maxime Chanot": {
+    "archetype": "The Metronomes",
+    "confidence": 0.999999945960958,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8060103289560303
+  },
+  "Maynor Figueroa": {
+    "archetype": "The Finishers",
+    "confidence": 0.9968050619625831,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.025265866863058102
+  },
+  "Memo Rodr\u00edguez": {
+    "archetype": "The Creators",
+    "confidence": 0.7285161022528371,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.6554146535305823
+  },
+  "Michael Baldisimo": {
+    "archetype": "The Finishers",
+    "confidence": 0.8628895854259012,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8471146257580691
+  },
+  "Michael Barrios": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9916499507247689,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.2330834885934865
+  },
+  "Michael Boxall": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9842052261634755,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.2737849141856667
+  },
+  "Michael Bradley": {
+    "archetype": "The Creators",
+    "confidence": 0.6460084360009138,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.08794180706667504
+  },
+  "Miguel Berry": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999972156441,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.4630173600493146
+  },
+  "Miguel Navarro": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9752908893762393,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.9053061152937841
+  },
+  "Miles Robinson": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9033226809343206,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.4732780131457393
+  },
+  "Milton Valenzuela": {
+    "archetype": "The Finishers",
+    "confidence": 0.6638752220923966,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6777205718543883
+  },
+  "Moses Nyeman": {
+    "archetype": "The Finishers",
+    "confidence": 0.9988529350928063,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6650685947622771
+  },
+  "Moussa Djitt\u00e9": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9994525074453382,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.45950870425052426
+  },
+  "Mustafa Kizza": {
+    "archetype": "The Finishers",
+    "confidence": 0.8387169898488033,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.3843263846086925
+  },
+  "Nani": {
+    "archetype": "The Creators",
+    "confidence": 0.9999657147990753,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.3739730527650715
+  },
+  "Nathan": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9992107475699934,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 2.037278079544184
+  },
+  "Nicholas DePuy": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999503552089001,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7504046886068879
+  },
+  "Nick Besler": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9871839781861387,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": -0.09956724244428927
+  },
+  "Nick DeLeon": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9883935463738436,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6980062440946118
+  },
+  "Nick Hagglund": {
+    "archetype": "The Finishers",
+    "confidence": 0.526314940856252,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6406483128758584
+  },
+  "Nick Lima": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9264679068934696,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.40485535215150287
+  },
+  "Nicolas Benezet": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9980186091748507,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.022536461800598
+  },
+  "Nicolas Isimat-Mirin": {
+    "archetype": "The Metronomes",
+    "confidence": 0.7208998682997688,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.9053061152937841
+  },
+  "Nicol\u00e1s Acevedo": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9889123381197321,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": -0.03601793918812689
+  },
+  "Nicol\u00e1s Figal": {
+    "archetype": "The Metronomes",
+    "confidence": 0.999994056308911,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.3064610920983122
+  },
+  "Nicol\u00e1s Lodeiro": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.6052111918789577,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.23668273259818243
+  },
+  "Nicol\u00e1s Mezquida": {
+    "archetype": "The Finishers",
+    "confidence": 0.5471408677805365,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.17799738150030192
+  },
+  "Nigel Robertha": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999812201248,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7709778978294346
+  },
+  "Niko Hansen": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9990884355955397,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.072496875381951
+  },
+  "Niko H\u00e4m\u00e4l\u00e4inen": {
+    "archetype": "The Metronomes",
+    "confidence": 0.5181196418245713,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7504046886068879
+  },
+  "Nkosi Tafari": {
+    "archetype": "The Finishers",
+    "confidence": 0.6905251830708299,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7412705595294836
+  },
+  "Nnamdi Chinonso Offor": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999747304399041,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.7034841299397796
+  },
+  "Noble Okello": {
+    "archetype": "The Finishers",
+    "confidence": 0.9738757010949117,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.49668943917915326
+  },
+  "Nouhou": {
+    "archetype": "The Finishers",
+    "confidence": 0.7042746818925496,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7139875855940596
+  },
+  "Ola Kamara": {
+    "archetype": "The Finishers (2)",
+    "confidence": 1.0,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 5.074738588676597
+  },
+  "Olivier Mbaizo": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9893195798888054,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.6440667656466765
+  },
+  "Omar Gonz\u00e1lez": {
+    "archetype": "The Metronomes",
+    "confidence": 0.7172693060941617,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.2578975883716261
+  },
+  "Omir Fern\u00e1ndez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9969570568788487,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.787262047520354
+  },
+  "Oniel Fisher": {
+    "archetype": "The Finishers",
+    "confidence": 0.9999600939343244,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.87034760598802
+  },
+  "Osvaldo Alonso": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9969424210332882,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.4803201497681961
+  },
+  "Oswaldo Alan\u00eds": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9949833272056862,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.3382357437263934
+  },
+  "Pablo Bonilla": {
+    "archetype": "The Finishers",
+    "confidence": 0.989670229789156,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7022663092848979
+  },
+  "Pablo Ruiz": {
+    "archetype": "The Metronomes",
+    "confidence": 0.8361933938183382,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.0641793734341913
+  },
+  "Patrick Mullins": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999996827059056,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.34298045455894505
+  },
+  "Patryk Klimala": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.959716020104196,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.985756399133463
+  },
+  "Paul Arriola": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9849338006588737,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.6413216861180822
+  },
+  "Paul Marie": {
+    "archetype": "The Finishers",
+    "confidence": 0.9986759657740228,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.39343175559676324
+  },
+  "Paxten Aaronson": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9439664637444171,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.20958362060951324
+  },
+  "Paxton Pomykal": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9769561775408133,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.08563418295229383
+  },
+  "Pedro Santos": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999787933282,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.27910587347960764
+  },
+  "Przemyslaw Frankowski": {
+    "archetype": "The Creators",
+    "confidence": 0.985678638386935,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.4002611786444494
+  },
+  "Quinn Sullivan": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999161690494845,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.42327504608869265
+  },
+  "Raheem Edwards": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.7876772652427867,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.3643055656698799
+  },
+  "Ralph Priso": {
+    "archetype": "The Finishers",
+    "confidence": 0.999895758802823,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8232067252445385
+  },
+  "Ram\u00f3n \u00c1bila": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999999999485,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.390709551574263
+  },
+  "Randall Leal": {
+    "archetype": "The Creators",
+    "confidence": 0.9475824065226894,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.9553471584504503
+  },
+  "Ranko Veselinovi\u0107": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999993006289504,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.40088352069799255
+  },
+  "Rayan Raveloson": {
+    "archetype": "The Creators",
+    "confidence": 0.9889322537407368,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.48987498162334
+  },
+  "Ra\u00fal Ruid\u00edaz": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9998005585739839,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.4668193232480076
+  },
+  "Renzo Zambrano": {
+    "archetype": "The Finishers",
+    "confidence": 0.9999803380708623,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8507166985565937
+  },
+  "Ricardo Pepi": {
+    "archetype": "The Creators",
+    "confidence": 0.9999811757416962,
+    "position": "ST",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.0011294070503875301
+  },
+  "Richie Laryea": {
+    "archetype": "The Creators",
+    "confidence": 0.9999795106862365,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.50375338214543
+  },
+  "Robbie Robinson": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9708237714833166,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.3013524087518933
+  },
+  "Robert Beric": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9977829951012196,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.3784289690325653
+  },
+  "Robin Jansson": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999999879222391,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.0165173959920695
+  },
+  "Robin Lod": {
+    "archetype": "The Creators",
+    "confidence": 0.9834584270787203,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9897040238469134
+  },
+  "Rodney Redes": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.999999524082424,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.25795972962929187
+  },
+  "Rodolfo Pizarro": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.5839754800290577,
+    "position": "AM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.18436253950553155
+  },
+  "Rodrigo Schlegel": {
+    "archetype": "The Finishers",
+    "confidence": 0.9501895954916634,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7868457968347701
+  },
+  "Roger Espinoza": {
+    "archetype": "The Creators",
+    "confidence": 0.897534858515231,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.15969574027323535
+  },
+  "Romain M\u00e9tanire": {
+    "archetype": "The Metronomes",
+    "confidence": 0.903479236393405,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.8585456641362261
+  },
+  "Romell Quioto": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999949592591372,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.798992329227804
+  },
+  "Ronald Hern\u00e1ndez": {
+    "archetype": "The Finishers",
+    "confidence": 0.99282883922327,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.3674383296749119
+  },
+  "Ronald Matarrita": {
+    "archetype": "The Metronomes",
+    "confidence": 0.7187044718801834,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 2.120686540067898
+  },
+  "Ruan": {
+    "archetype": "The Creators",
+    "confidence": 0.999458320248912,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5611747842928457
+  },
+  "Rubio Rub\u00edn": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999532331359036,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.4222606442504437
+  },
+  "Rudy Camacho": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999872189116222,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.4772498445992495
+  },
+  "Russell Canouse": {
+    "archetype": "The Creators",
+    "confidence": 0.9751256731069587,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0855149353558113
+  },
+  "Russell Teibert": {
+    "archetype": "The Creators",
+    "confidence": 0.8724867617273627,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.08479775240686564
+  },
+  "Ryan Gauld": {
+    "archetype": "The Creators",
+    "confidence": 0.9978041473495538,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.190696857366067
+  },
+  "Ryan Hollingshead": {
+    "archetype": "The Creators",
+    "confidence": 0.9995415087739276,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.21023806131819392
+  },
+  "Ryan Shawcross": {
+    "archetype": "The Finishers",
+    "confidence": 0.9907040381658098,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7824275853085587
+  },
+  "R\u00e9mi Walter": {
+    "archetype": "The Creators",
+    "confidence": 0.4829456912416671,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6318602354711776
+  },
+  "Saad Abdul-Salaam": {
+    "archetype": "The Finishers",
+    "confidence": 0.9973623355992693,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8728632444696618
+  },
+  "Sacha Kljestan": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.8235301851334255,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8076983404959861
+  },
+  "Sam Junqua": {
+    "archetype": "The Finishers",
+    "confidence": 0.9135441571245311,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7792517762649065
+  },
+  "Sam Vines": {
+    "archetype": "The Finishers",
+    "confidence": 0.7638456821541418,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5990183405038417
+  },
+  "Samuel Grandsir": {
+    "archetype": "The Creators",
+    "confidence": 0.9903619653290435,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.32349907804516814
+  },
+  "Samuel Piette": {
+    "archetype": "The Creators",
+    "confidence": 0.962011828019828,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.639174018507805
+  },
+  "Santiago Moreno": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.865291516865806,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.5415403993245312
+  },
+  "Santiago Rodr\u00edguez": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.7715804219064151,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.065593615379573
+  },
+  "Santiago Sosa": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9965690277974797,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 2.057137236811735
+  },
+  "Sean Davis": {
+    "archetype": "The Creators",
+    "confidence": 0.8403546040122516,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.17672919260128686
+  },
+  "Sean Nealis": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999877578834188,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.0840385307017422
+  },
+  "Sebastian Berhalter": {
+    "archetype": "The Finishers",
+    "confidence": 0.9890317974452629,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6962164868826982
+  },
+  "Sebastian Lletget": {
+    "archetype": "The Creators",
+    "confidence": 0.607130399624476,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8421121143815425
+  },
+  "Sebastien Ibeagha": {
+    "archetype": "The Finishers",
+    "confidence": 0.9986354025147649,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4236621399295629
+  },
+  "Sebasti\u00e1n Blanco": {
+    "archetype": "The Creators",
+    "confidence": 0.9946800162092402,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.110078979545313
+  },
+  "Sebasti\u00e1n Driussi": {
+    "archetype": "The Creators",
+    "confidence": 0.9899657225138553,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.0741996756604117
+  },
+  "Sega Coulibaly": {
+    "archetype": "The Finishers",
+    "confidence": 0.8835976979771921,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8250506551193402
+  },
+  "Sergio Santos": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999986074712,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.6092078442795668
+  },
+  "Shane O'Neill": {
+    "archetype": "The Finishers",
+    "confidence": 0.9303780256068246,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6847808871690548
+  },
+  "Shea Salinas": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.5047026704315993,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.011705222830062468
+  },
+  "Silvester van der Water": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9256922874437641,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6972472957212914
+  },
+  "Stanislav Ivanov": {
+    "archetype": "The Finishers",
+    "confidence": 0.8792452471073605,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.3543318266902089
+  },
+  "Steven Beitashour": {
+    "archetype": "The Finishers",
+    "confidence": 0.9991674566959821,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9161854208968685
+  },
+  "Steven Birnbaum": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9997887683143436,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.11093982459174988
+  },
+  "Steven Moreira": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9924326070466548,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9161854208968685
+  },
+  "Stuart Findlay": {
+    "archetype": "The Finishers",
+    "confidence": 0.9981271853365117,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6560963668423778
+  },
+  "Sunusi Ibrahim": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999995390664506,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.8416340197128327
+  },
+  "Szabolcs Schon": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9998110150457855,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.5580767680651034
+  },
+  "Tajon Buchanan": {
+    "archetype": "The Creators",
+    "confidence": 0.9999996624768742,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1242009968274511
+  },
+  "Talles Magno": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999673772855056,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.033779582868365
+  },
+  "Tanner Beason": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9335747490100759,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8258694862235811
+  },
+  "Taty Castellanos": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9994688905042612,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 3.3555661049000047
+  },
+  "Taylor Washington": {
+    "archetype": "The Finishers",
+    "confidence": 0.9977026773358256,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9161854208968685
+  },
+  "Tayvon Gray": {
+    "archetype": "The Finishers",
+    "confidence": 0.900361957387511,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6332561406978278
+  },
+  "Teal Bunbury": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9997809024967288,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.4703019703119011
+  },
+  "Teenage Hadebe": {
+    "archetype": "The Finishers",
+    "confidence": 0.7909965421342359,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7534941860838009
+  },
+  "Tesho Akindele": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9998654310329004,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.9427145462930875
+  },
+  "Thiago Andrade": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9995963579042478,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.0976414618180275
+  },
+  "Thomas Edwards": {
+    "archetype": "The Metronomes",
+    "confidence": 0.999997943521749,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8973624523867642
+  },
+  "Tim Parker": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999999953134644,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.8417568120376218
+  },
+  "Tom Barlow": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9999999946455276,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.717828014800949
+  },
+  "Tommy McNamara": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.5861927328157698,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.1901557969264962
+  },
+  "Tommy Thompson": {
+    "archetype": "The Finishers",
+    "confidence": 0.8662547427473828,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9161854208968685
+  },
+  "Tom\u00e1s Pochettino": {
+    "archetype": "The Creators",
+    "confidence": 0.9998877793974705,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.13442638448789898
+  },
+  "Toni Datkovic": {
+    "archetype": "The Finishers",
+    "confidence": 0.9959324472802541,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8304696588438475
+  },
+  "Tony Alfaro": {
+    "archetype": "The Finishers",
+    "confidence": 0.6957259019907017,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5887600395313068
+  },
+  "Tristan Blackmon": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9827970519713278,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.0712215100566481
+  },
+  "Tsubasa Endoh": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9997743839947802,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.694988578426819
+  },
+  "Tyler Blackett": {
+    "archetype": "The Metronomes",
+    "confidence": 0.7895687713343623,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.023559532614525765
+  },
+  "Tyler Pasher": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9861272252230164,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.5069581566456273
+  },
+  "Uri Rosell": {
+    "archetype": "The Finishers",
+    "confidence": 0.9998493682094609,
+    "position": "DM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.832756006949102
+  },
+  "Victor Ulloa": {
+    "archetype": "The Metronomes",
+    "confidence": 0.977212030709886,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": -0.1710602086074725
+  },
+  "Victor Wanyama": {
+    "archetype": "The Creators",
+    "confidence": 0.9704858226731725,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6833309820458086
+  },
+  "Vito Wormgoor": {
+    "archetype": "The Finishers",
+    "confidence": 0.8737364833583808,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8048636525403424
+  },
+  "V\u00edctor V\u00e1zquez": {
+    "archetype": "The Creators",
+    "confidence": 0.9999982423391344,
+    "position": "AM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.7613594166842055
+  },
+  "Walker Zimmerman": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9987901871012649,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.9728272500034574
+  },
+  "Waylon Francis": {
+    "archetype": "The Finishers",
+    "confidence": 0.9938596392860376,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.9014373677128751
+  },
+  "Wikelman Carmona": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9418712656633849,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.16239919919297388
+  },
+  "Wil Trapp": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9800055423364226,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.3898695526220255
+  },
+  "Wilfrid Kaptoum": {
+    "archetype": "The Finishers",
+    "confidence": 0.9977159075962211,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6530988440914273
+  },
+  "Will Bruin": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.99999987352935,
+    "position": "ST",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.4448614797094582
+  },
+  "Wyatt Omsberg": {
+    "archetype": "The Finishers",
+    "confidence": 0.9984741911866505,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.7349675280394214
+  },
+  "Xavier Arreaga": {
+    "archetype": "The Metronomes",
+    "confidence": 0.999658186645355,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 0.7345173627928467
+  },
+  "Yamil Asad": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9987414902582868,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6632058483709151
+  },
+  "Yeferson Soteldo": {
+    "archetype": "The Creators",
+    "confidence": 0.9969454824757642,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.592065571694639
+  },
+  "Yeimar G\u00f3mez Andrade": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9999905820394009,
+    "position": "CB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1237568452368438
+  },
+  "Yimmi Char\u00e1": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999283035369,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.8008213923321703
+  },
+  "Yordy Reyna": {
+    "archetype": "The Finishers (2)",
+    "confidence": 0.9865957499233837,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.2734734055101329
+  },
+  "Younes Namli": {
+    "archetype": "The Finishers",
+    "confidence": 0.9044212581588272,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.4076954167346413
+  },
+  "Yuya Kubo": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9877120898329753,
+    "position": "DM",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.0482920476201507
+  },
+  "Zachary Brault-Guillard": {
+    "archetype": "The Creators",
+    "confidence": 0.9910780770722459,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9536287504867301
+  },
+  "Zarek Valentin": {
+    "archetype": "The Metronomes",
+    "confidence": 0.9957632429743745,
+    "position": "FB",
+    "primary_metric": "Ball Involvement",
+    "z_score": 1.1158131823298238
+  },
+  "Zico Bailey": {
+    "archetype": "The Finishers",
+    "confidence": 0.962830306141654,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.6355613157501553
+  },
+  "Zorhan Bassong": {
+    "archetype": "The Finishers",
+    "confidence": 0.9850920865758284,
+    "position": "FB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8279524631872123
+  },
+  "\u00c1lvaro Barreal": {
+    "archetype": "The Creators",
+    "confidence": 0.686971016179029,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.06254739347141146
+  },
+  "\u00c1lvaro Medr\u00e1n": {
+    "archetype": "The Creators",
+    "confidence": 0.9999999997589448,
+    "position": "CM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.6712966840315147
+  },
+  "\u017dan Kolmani\u010d": {
+    "archetype": "The Creators",
+    "confidence": 0.9343281951999121,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9435172579481133
+  }
+}

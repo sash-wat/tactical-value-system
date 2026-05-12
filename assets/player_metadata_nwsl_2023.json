@@ -1,0 +1,20 @@
+{
+  "cluster_model": "GaussianMixture",
+  "features": [
+    "g_passing",
+    "g_receiving",
+    "g_shooting",
+    "g_dribbling",
+    "g_interrupting",
+    "xgoals_p96",
+    "xassists_p96",
+    "passes_completed_over_expected_p100",
+    "avg_vertical_distance_yds",
+    "share_team_touches"
+  ],
+  "generated_at": "2026-05-12T00:05:23.189862+00:00",
+  "league": "nwsl",
+  "n_archetypes": 2,
+  "n_players": 220,
+  "season": "2023"
+}
