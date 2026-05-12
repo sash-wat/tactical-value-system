@@ -1,566 +1,566 @@
 {
   "Aaron Lombardi": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9938967008414492,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999739586405307,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.4323207941373595
   },
   "Aaron Walker": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.975352095084769,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999995467912314,
     "position": "DM",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.14303479447778558
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6709243996454554
   },
   "Abdou Mbacke Thiam": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.999938357247497,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9824061425558926,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.9850393638041285
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.3628018136452435
   },
   "Adrian Billhardt": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.981821362573104,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999919109323814,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.4237689404954224
   },
   "Alann Torres": {
     "archetype": "The Finishers",
-    "confidence": 0.9944421267346821,
+    "confidence": 0.9742614276324073,
     "position": "CM",
     "primary_metric": "Shooting Impact",
     "z_score": -0.4222550202136719
   },
   "Alex Morrell": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999999776309167,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9998180939733593,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.7777241507325137
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.0086155133226908
   },
   "Alex Tejera": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9998092951112313,
+    "archetype": "The Gunslingers",
+    "confidence": 0.999999999998261,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.2106840654431557
   },
   "Alex Touche": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999964250501311,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999946782898,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.5439340269171178
   },
   "Allen Gavilanes": {
-    "archetype": "Progressive Carriers (2)",
-    "confidence": 0.9999999999999654,
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999999999999369,
     "position": "W",
     "primary_metric": "Dribbling Impact",
     "z_score": 1.3563364310293322
   },
   "Alvin Jones": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999958969245059,
+    "archetype": "The Metronomes",
+    "confidence": 0.9999875876456392,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.256683154696181
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.7090515827072795
   },
   "Andrew Wheeler-Omiunu": {
     "archetype": "The Finishers",
-    "confidence": 0.9999474298332661,
+    "confidence": 0.9987233821943088,
     "position": "CM",
     "primary_metric": "Shooting Impact",
     "z_score": -2.1301747491620917
   },
   "Andr\u00e9s Hern\u00e1ndez": {
-    "archetype": "The Finishers",
-    "confidence": 0.9812081966020886,
+    "archetype": "The Metronomes",
+    "confidence": 0.9979154730925205,
     "position": "CM",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.24655444106050378
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 1.3460903429010338
   },
   "Angel Espana": {
     "archetype": "The Finishers",
-    "confidence": 0.9502120417465021,
+    "confidence": 0.9467332103377768,
     "position": "AM",
     "primary_metric": "Shooting Impact",
     "z_score": -1.6728027454657246
   },
   "Arthur Bosua": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999622738407,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 2.950234263120199
   },
   "Arthur Rogers": {
-    "archetype": "The Creators (2)",
+    "archetype": "The Playmakers",
     "confidence": 1.0,
     "position": "FB",
-    "primary_metric": "Passing Impact",
-    "z_score": 4.805269644321716
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.935205309209876
   },
   "Barry Sharifi": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9998162856634931,
+    "archetype": "The Gunslingers",
+    "confidence": 0.999999985659125,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.3419590261676394
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.378607829474283
   },
   "Brandon Fricke": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.999999999999881,
+    "archetype": "Vertical Threats",
+    "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.5056707211476754
   },
   "Brecc Evans": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.999999922346649,
+    "archetype": "Vertical Threats",
+    "confidence": 0.999999999999897,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.752584603680015
   },
   "Britton Fischer": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999790893736813,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999770645263433,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.9994651618676471
   },
   "Burke Fahling": {
     "archetype": "The Finishers",
-    "confidence": 0.9973672047300169,
+    "confidence": 0.9930802905143099,
     "position": "CM",
     "primary_metric": "Shooting Impact",
     "z_score": -0.6598866129064684
   },
   "Carson Talboys": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999820068919266,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999986434055605,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.7118046509539249
   },
   "Cesar Murillo": {
-    "archetype": "The Finishers",
-    "confidence": 0.8410046136290407,
+    "archetype": "Vertical Threats",
+    "confidence": 0.958087039885971,
     "position": "CB",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.44656867738108164
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.944355729531256
   },
   "Charlie Machell": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9258096695789167,
+    "archetype": "The Finishers",
+    "confidence": 0.9998070595537064,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.691278629962228
+    "primary_metric": "Shooting Impact",
+    "z_score": 0.3291746107338199
   },
   "Chavany Willis": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9988531017417345,
+    "archetype": "The Finishers",
+    "confidence": 0.9987323093041668,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.18099634122612066
+    "primary_metric": "Shooting Impact",
+    "z_score": 0.33009210723070326
   },
   "Cherif Dieye": {
-    "archetype": "Progressive Carriers (2)",
-    "confidence": 0.9999999999999982,
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999999999999911,
     "position": "W",
     "primary_metric": "Dribbling Impact",
     "z_score": 1.2282319419504173
   },
   "Christian Chaney": {
-    "archetype": "The Finishers (2)",
+    "archetype": "The Gunslingers",
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 3.1487526314300034
   },
   "Christian Dean": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999992626524837,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999942286101072,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.2314846032279887
   },
   "Christian Enriquez": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9981960419087086,
+    "archetype": "The Metronomes",
+    "confidence": 0.9996724339841443,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.1042462533220818
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.5047520580475199
   },
   "Christian Young": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9998950978773359,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999869646706482,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.35422769826831696
   },
   "Christopher Heckenberg": {
     "archetype": "The Finishers",
-    "confidence": 0.9993856064787936,
+    "confidence": 0.9622723196086762,
     "position": "CM",
     "primary_metric": "Shooting Impact",
     "z_score": -1.3847088454443421
   },
   "Christopher Hegardt": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999999997744,
+    "archetype": "The Playmakers",
+    "confidence": 0.999999995479576,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 3.0140573596489943
   },
   "Clay Dimick": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999967003929086,
+    "archetype": "The Metronomes",
+    "confidence": 0.9997060509085478,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.027500155110859563
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 1.4487680580214264
   },
   "Conor Doyle": {
-    "archetype": "The Creators (2)",
+    "archetype": "The Architects",
     "confidence": 1.0,
     "position": "CM",
     "primary_metric": "Passing Impact",
     "z_score": 3.767082800097281
   },
   "Corey Hertzog": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9951106258771506,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999999964,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.8222263992688774
   },
   "Curtis Thorn": {
     "archetype": "The Finishers",
-    "confidence": 0.8389966547052923,
+    "confidence": 0.9590243949249124,
     "position": "FB",
     "primary_metric": "Shooting Impact",
     "z_score": -1.0025715544924125
   },
   "Cyrus Rad": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999871385042319,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999878894371373,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.064718222243588
   },
   "Dakota Barnathan": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999999999698,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999982,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.7932618361221604
   },
   "Daltyn Knutson": {
-    "archetype": "Progressive Carriers",
-    "confidence": 1.0,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999929,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 2.174764970693188
   },
   "Daniel Bedoya": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999999999112,
+    "archetype": "The Playmakers",
+    "confidence": 0.9995218408965333,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 1.1873443595444761
   },
   "Daniel Robles": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9659378209601492,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9522275235454051,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.46211607831208207
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.30505470152434183
   },
   "Daniel Scally": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9862422822386377,
+    "archetype": "The Metronomes",
+    "confidence": 0.9944810692243838,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.9136230863914987
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.3059141139792703
   },
   "Denso Ulysse": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.8727732015245002,
+    "archetype": "The Metronomes",
+    "confidence": 0.9999639306426832,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.7891774623923601
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 1.3042182250327887
   },
   "Derek Gebhard": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.999925196973368,
+    "archetype": "The Metronomes",
+    "confidence": 0.999973163801778,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.3666452186591014
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.753618080334003
   },
   "Derek Waldeck": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999267691654509,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999997828891902,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6852438132804702
   },
   "Deri Corfe": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9993878389355718,
+    "archetype": "The Metronomes",
+    "confidence": 0.9978491981939058,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.1724011617194636
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 1.097187910077274
   },
   "Deshawon Nembhard": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9752528285414672,
+    "archetype": "Vertical Threats",
+    "confidence": 0.999967032497474,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.6908497130291833
   },
   "Destan Norman": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9861066269915343,
+    "archetype": "The Finishers",
+    "confidence": 0.9977648779081993,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.5153765455374665
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.7351213256509059
   },
   "Devin Benton": {
     "archetype": "The Finishers",
-    "confidence": 0.993954256578719,
+    "confidence": 0.9620001822495006,
     "position": "FB",
     "primary_metric": "Shooting Impact",
     "z_score": -0.6548403821736098
   },
   "Diego Casillas": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999963444797,
+    "archetype": "The Finishers",
+    "confidence": 0.999973547633371,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.0723067029894662
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.5007009706972012
   },
   "Diego Rocha": {
-    "archetype": "The Finishers",
-    "confidence": 0.9692551453288358,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9940579085714703,
     "position": "FB",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.48097479601420845
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.8684713553445381
   },
   "Dion Acoff": {
     "archetype": "The Finishers",
-    "confidence": 0.9827912401208225,
+    "confidence": 0.982968825997764,
     "position": "FB",
     "primary_metric": "Shooting Impact",
     "z_score": -0.2800430631967473
   },
   "Don Smart": {
-    "archetype": "The Creators",
-    "confidence": 0.9999994228823419,
+    "archetype": "The Playmakers",
+    "confidence": 0.8745823089920276,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.689122059489403
   },
   "Donny Toia": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9989020676173379,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9998323863953632,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.4288062766370466
   },
   "Drew Conner": {
     "archetype": "The Finishers",
-    "confidence": 0.9951925666778176,
+    "confidence": 0.9762824868860115,
     "position": "CM",
     "primary_metric": "Shooting Impact",
     "z_score": -0.587404389652681
   },
   "Eddie Gordon": {
     "archetype": "The Finishers",
-    "confidence": 0.6623606005507092,
+    "confidence": 0.9662053420164279,
     "position": "FB",
     "primary_metric": "Shooting Impact",
     "z_score": -0.8548546184941876
   },
   "Emiliano Terzaghi": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999897698792,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.868567565327339
   },
   "Emir Alihodzic": {
     "archetype": "The Finishers",
-    "confidence": 0.9820694597241956,
+    "confidence": 0.7046101479725034,
     "position": "FB",
     "primary_metric": "Shooting Impact",
     "z_score": -0.5731831939509886
   },
   "Eric Kinzner": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999999996252,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999485,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 2.39034916662236
   },
   "Eric Leonard": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999725398652475,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999996152528382,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.9005712084997805
   },
   "Ethan Bryant": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.5262477886406309,
+    "archetype": "The Orchestrators",
+    "confidence": 0.997849409099322,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.30438908231482475
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.5519181442606047
   },
   "Ethan Vanacore-Decker": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999999990201456,
+    "archetype": "The Metronomes",
+    "confidence": 0.9999915064177962,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.4372397338001726
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 1.6935561001329154
   },
   "Evan Lee": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999999999929,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999751,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.1959433849830843
   },
   "Fernando Garcia": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999997887166,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 2.4604062237453017
   },
   "Franco P\u00e9rez": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999999440620646,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9997771174574884,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.0614118949170954
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.22961164094249387
   },
   "Francois Dulysse": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999997629089418,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999401972,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.0428644818343298
   },
   "Fuad Adeniyi": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9013243569108751,
+    "archetype": "The Playmakers",
+    "confidence": 0.8739029972381073,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.4143704245180039
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3729838080653256
   },
   "Gabriel Claudio": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9992094861807028,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999853396525428,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.3404708244934331
   },
   "Gabriel Obertan": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999616720555,
+    "archetype": "The Playmakers",
+    "confidence": 0.9999909627544644,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 2.3486304594971994
   },
   "Gabriel de Freitas": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999994470734689,
+    "archetype": "The Playmakers",
+    "confidence": 0.9959006193476099,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.05203102473341041
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.4969675288560059
   },
   "Garrett McLaughlin": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999947750968,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 2.381827129866962
   },
   "Giovanni Calixtro": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999816010249805,
+    "archetype": "The Gunslingers",
+    "confidence": 0.5308691331076502,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.1084577849638189
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.22943331332248015
   },
   "Grayson Barber": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999989309276186,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9990992126781659,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.0851659605793331
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.247614280007179
   },
   "Gustavo Fernandes": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999997163531,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999854889,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.4785268861152594
   },
   "Hugo Kametani": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9994151068406837,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999969951515935,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.8029198968409905
   },
   "H\u00e9ctor Acosta": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999694373236266,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999990748807945,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.47331383170506
   },
   "Ibrahim Conteh": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9119425988244061,
+    "archetype": "The Finishers",
+    "confidence": 0.9993285595035993,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.3856921870571427
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.40941006925730444
   },
   "Ilya Shevtsov": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.6149656574913347,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9935393655128176,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.030955330727459
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.0607806503140682
   },
   "Irvin Parra": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999999556,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 2.5038475289191067
   },
   "Isaac Bawa": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9986681626958276,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9942410796605443,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6064573554948002
   },
   "Iv\u00e1n Luquetta": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.999976213503763,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.6759359936169274
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7481439891852397
   },
   "Jacob Labovitz": {
-    "archetype": "The Finishers (2)",
+    "archetype": "The Gunslingers",
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
@@ -568,524 +568,524 @@
   },
   "Jaden Servania": {
     "archetype": "The Finishers",
-    "confidence": 0.9999395488715227,
+    "confidence": 0.9977876407358524,
     "position": "W",
     "primary_metric": "Shooting Impact",
     "z_score": -0.5621732359883881
   },
   "Jake Crull": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999986019736531,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999834774711417,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6930248747892898
   },
   "Jake Dengler": {
-    "archetype": "The Creators (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "CB",
-    "primary_metric": "Passing Impact",
-    "z_score": 2.0471777470375785
+    "primary_metric": "Attacking Directness",
+    "z_score": 2.942881573961498
   },
   "Jake Keegan": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.999999625598245,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9993893186049702,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.4649801660176296
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.7039111331592212
   },
   "Jalen Crisler": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999990258424,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999998206,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 2.1783601806312562
   },
   "James Filerman": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999771984161843,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9965386041630273,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.235644774727754
   },
   "Jamie Smith": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999999281215,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999931788,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 2.4501837320202124
   },
   "Jamil Roberts": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9977480919765024,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9913662683233861,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.5838139347156969
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.3564453759273396
   },
   "Jeremiah Streng": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999982368095,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 2.2356754604310605
   },
   "Jerry Desdunes": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999947402323,
+    "archetype": "The Finishers",
+    "confidence": 0.9999978748990855,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.6191866935827088
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.220864539147769
   },
   "Jesus Partida": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.993123964090329,
+    "archetype": "The Finishers",
+    "confidence": 0.9980933549502299,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.5495567200201025
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.7768674162590998
   },
   "Jes\u00fas Ibarra": {
-    "archetype": "The Creators",
-    "confidence": 0.9997844171492587,
+    "archetype": "The Architects",
+    "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.869053316407162
+    "primary_metric": "Passing Impact",
+    "z_score": 1.4038202156225537
   },
   "Jimmie Villalobos": {
-    "archetype": "The Creators",
-    "confidence": 0.9951649089444384,
+    "archetype": "The Finishers",
+    "confidence": 0.9992086626324863,
     "position": "DM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.2575638525459166
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.09975500155916231
   },
   "John Scearce": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999970177456,
+    "archetype": "The Playmakers",
+    "confidence": 0.9999999999647375,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.6061812679926408
   },
   "Jonathan Bolanos": {
-    "archetype": "Progressive Carriers (2)",
-    "confidence": 1.0,
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999999999999991,
     "position": "W",
     "primary_metric": "Dribbling Impact",
     "z_score": 2.710077294859804
   },
   "Jordan Skelton": {
-    "archetype": "The Creators (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "CB",
-    "primary_metric": "Passing Impact",
-    "z_score": 1.4413647084168335
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.5897729536274896
   },
   "Jorge Luna": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.999807955023448,
+    "archetype": "Vertical Threats",
+    "confidence": 0.999974974520173,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.1326933701440671
   },
   "Joseph Brito": {
     "archetype": "The Finishers",
-    "confidence": 0.9961054836185534,
+    "confidence": 0.999859949659966,
     "position": "W",
     "primary_metric": "Shooting Impact",
     "z_score": -2.4196448939288
   },
   "Joshua Phelps": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999999998161,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999352,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.8184026256176526
   },
   "Jos\u00e9 Carrera-Garcia": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9994681399038449,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999736116724,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.06250849369578111
   },
   "Juan Galindrez": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999999964,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 3.275016925493797
   },
   "Justin Sukow": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999999993251372,
+    "archetype": "The Metronomes",
+    "confidence": 0.9999992258573526,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.8653778772821448
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.3900952761630815
   },
   "Kaelon Fox": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.999998984938963,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999998442574288,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.8417638459413761
   },
   "Kazaiah Sterling": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999814897065,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 3.263866068681475
   },
   "Kemal Malcolm": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9995306705670044,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.912269686902951
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.5168064933159968
   },
   "Khori Bennett": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999999538,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 3.306552809343592
   },
   "Kingsford Adjei": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999259880777465,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999989350226,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.6198306095769957
   },
   "Koa Santos": {
-    "archetype": "The Creators",
-    "confidence": 0.9999621522376427,
+    "archetype": "The Playmakers",
+    "confidence": 0.9999911251789767,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 1.7231126407009583
   },
   "Lachlan McLean": {
-    "archetype": "The Finishers (2)",
+    "archetype": "The Gunslingers",
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.7601976975041522
   },
   "Leo Folla": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9997541145069614,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999441794199901,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.2688491065129137
   },
   "Leonardo Baima": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999999999964,
+    "archetype": "The Playmakers",
+    "confidence": 0.9999999988233057,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 4.588723137906937
   },
   "Louis P\u00e9rez": {
-    "archetype": "The Creators",
-    "confidence": 0.9999037873125128,
+    "archetype": "The Playmakers",
+    "confidence": 0.9995749611057262,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 2.137386623854885
   },
   "Luca Mastrantonio": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999584421113,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999993214,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.7080553605899393
   },
   "Lucas Coutinho": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999999999716,
+    "archetype": "The Architects",
+    "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.5919370054934927
+    "primary_metric": "Passing Impact",
+    "z_score": 2.1261436095994606
   },
   "Luis Arriaga": {
     "archetype": "The Finishers",
-    "confidence": 0.9991761786673745,
+    "confidence": 0.9975272788623923,
     "position": "W",
     "primary_metric": "Shooting Impact",
     "z_score": -0.8672408212021133
   },
   "Luis Gil": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9445120031692652,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9973299975133777,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.08815648278027026
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.6827047941586366
   },
   "Mark Hern\u00e1ndez": {
-    "archetype": "The Creators",
-    "confidence": 0.9999902759505919,
+    "archetype": "The Playmakers",
+    "confidence": 0.9432804253150798,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 1.9534407423769276
   },
   "Matheus Cassini": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999953729993154,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999050319143,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.2248714349165684
   },
   "Matthew Bentley": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9884779314237588,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.3040558358376124
   },
   "Max Flick": {
-    "archetype": "The Creators",
-    "confidence": 0.8326824269911501,
+    "archetype": "The Orchestrators",
+    "confidence": 0.8922597585708602,
     "position": "FB",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.41020236487454453
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.7881861206493377
   },
   "Maximiliano Schenfeld": {
     "archetype": "The Finishers",
-    "confidence": 0.999755023854284,
+    "confidence": 0.999971235741448,
     "position": "W",
     "primary_metric": "Shooting Impact",
     "z_score": -0.983762876306303
   },
   "Michael Hornsby": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9834501655399361,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9998615775752391,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.2821694190810321
   },
   "Michael Maldonado": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.981274649966045,
+    "archetype": "The Finishers",
+    "confidence": 0.9285064235974555,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.8748461792023325
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.09149753308721184
   },
   "Miguel Ibarra": {
-    "archetype": "The Creators",
-    "confidence": 0.9999999998960423,
+    "archetype": "The Playmakers",
+    "confidence": 0.9998926905303723,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 2.177115830976715
   },
   "Miles Fenton": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9707498951936125,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9910642078348639,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.07102787543247303
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.8437121899963583
   },
   "Mitchell Osmond": {
-    "archetype": "The Creators (2)",
-    "confidence": 1.0,
+    "archetype": "Vertical Threats",
+    "confidence": 0.925957541739104,
     "position": "CB",
-    "primary_metric": "Passing Impact",
-    "z_score": 2.9455929740659177
+    "primary_metric": "Attacking Directness",
+    "z_score": 1.4291184295378052
   },
   "Moe Espinoza": {
     "archetype": "The Finishers",
-    "confidence": 0.9943558212425151,
+    "confidence": 0.9977029979289801,
     "position": "W",
     "primary_metric": "Shooting Impact",
     "z_score": -1.0378951696224228
   },
   "Mouhamed Dabo": {
-    "archetype": "The Finishers",
-    "confidence": 0.8483312818236034,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9088147465573434,
     "position": "CM",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.7282401019242805
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.3858398656523325
   },
   "Muengnenshime Goshit": {
-    "archetype": "The Finishers",
-    "confidence": 0.996690841775928,
+    "archetype": "The Metronomes",
+    "confidence": 0.9950049188284035,
     "position": "DM",
-    "primary_metric": "Shooting Impact",
-    "z_score": 0.25531614273470743
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.7408743922871459
   },
   "Mukwelle Akale": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9977900315565105,
+    "archetype": "The Orchestrators",
+    "confidence": 0.995357544915118,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.462244478667013
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.6148509589803277
   },
   "M\u00e9l\u00e9 Temguia": {
     "archetype": "The Finishers",
-    "confidence": 0.9999367624766426,
+    "confidence": 0.9982829448801571,
     "position": "CB",
     "primary_metric": "Shooting Impact",
     "z_score": 0.03052950099827828
   },
   "Nate Shultz": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9980757711719754,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9992612951217417,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6805443602899951
   },
   "Nathan Aune": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.999999999014384,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999972915635077,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.544653068904731
   },
   "Nathan Smith": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.999789352313475,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999993974430822,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.32687842266801115
   },
   "Navarro": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999998686073,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999976366,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.2191068090126391
   },
   "Nazeem Bartman": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999999999973568,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9999992229187562,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.2164168033898153
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.0061461605799116355
   },
   "Nelson Blanco": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9640826582821838,
+    "archetype": "The Playmakers",
+    "confidence": 0.9992527554054101,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.5603359480035801
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.3832292009856328
   },
   "Nelson Martinez": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9739401801918901,
+    "archetype": "The Finishers",
+    "confidence": 0.9986565530487768,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.8168605789154867
+    "primary_metric": "Shooting Impact",
+    "z_score": -1.3640651742644656
   },
   "Nico Brown": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999999999991651,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9999996910981108,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -2.0167362156748236
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.9326057177943936
   },
   "Nicol\u00e1s Cardona": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9793023057751925,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9998606655825762,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6852438132804702
   },
   "Nicol\u00e1s Molina": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9895566786594086,
+    "archetype": "The Gunslingers",
+    "confidence": 0.999999995942769,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.46609648931494346
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.3622495310858824
   },
   "Nil Vinyals": {
-    "archetype": "The Creators",
-    "confidence": 0.9999792178290458,
+    "archetype": "The Finishers",
+    "confidence": 0.9999967949505767,
     "position": "CM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.949425040124487
+    "primary_metric": "Shooting Impact",
+    "z_score": 0.20898256964209652
   },
   "Noah Pilato": {
     "archetype": "The Finishers",
-    "confidence": 0.9482669254207652,
+    "confidence": 0.9506626098534317,
     "position": "CM",
     "primary_metric": "Shooting Impact",
     "z_score": -0.23462698660101977
   },
   "Noe Meza": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999944270786417,
+    "archetype": "The Orchestrators",
+    "confidence": 0.988276246429539,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.01428222077744
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.8513584028244728
   },
   "Nortei Nortey": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999987214811521,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9998760476570477,
     "position": "CM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.14745176668741242
   },
   "Oalex Anderson": {
-    "archetype": "Progressive Carriers (2)",
+    "archetype": "Progressive Carriers",
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Dribbling Impact",
     "z_score": 3.363897784103402
   },
   "Omar Ciss": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9998417761883465,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9989869465321151,
     "position": "CM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6340891118759545
   },
   "Owayne Omar Gordon": {
-    "archetype": "Progressive Carriers (2)",
-    "confidence": 0.9999999999999982,
+    "archetype": "Progressive Carriers",
+    "confidence": 0.9999999999999369,
     "position": "W",
     "primary_metric": "Dribbling Impact",
     "z_score": 2.479799502207568
   },
   "Owen Damm": {
-    "archetype": "The Finishers",
-    "confidence": 0.7791171859678514,
+    "archetype": "Vertical Threats",
+    "confidence": 0.7523344382244214,
     "position": "FB",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.6979627175271289
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.6391737659312227
   },
   "Owen Green": {
-    "archetype": "The Finishers",
-    "confidence": 0.9637303643431173,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9509406839350735,
     "position": "FB",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.25435316128401253
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.2380747192406747
   },
   "Ozzie Ramos": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.997597951337988,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9875447276479998,
     "position": "CM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6897635057740421
   },
   "Pecka": {
     "archetype": "The Finishers",
-    "confidence": 0.9998560999922758,
+    "confidence": 0.9999652585600255,
     "position": "DM",
     "primary_metric": "Shooting Impact",
     "z_score": -0.8039335629171598
   },
   "Peter Pearson": {
-    "archetype": "The Finishers",
-    "confidence": 0.960560369091116,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9837468365698763,
     "position": "DM",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.48877351623771725
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -0.9470452947877323
   },
   "Quinn McNeill": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.8585502555668814,
+    "archetype": "The Playmakers",
+    "confidence": 0.9996086109859929,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.12374906116714733
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.13784962305135012
   },
   "Rafael Mentzingen": {
-    "archetype": "Progressive Carriers (2)",
+    "archetype": "Progressive Carriers",
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Dribbling Impact",
@@ -1093,266 +1093,266 @@
   },
   "Raheem Sommersall": {
     "archetype": "The Finishers",
-    "confidence": 0.9999999997505462,
+    "confidence": 0.9999901075001563,
     "position": "CM",
     "primary_metric": "Shooting Impact",
     "z_score": -2.1774258187515865
   },
   "Rey Ortiz": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999969918398756,
+    "archetype": "The Architects",
+    "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.7731974302715664
+    "primary_metric": "Passing Impact",
+    "z_score": 0.8486106238114907
   },
   "Robert Cornwall": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999999321574,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999314868,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.5321468743344508
   },
   "Robert Frame": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999029095047275,
+    "archetype": "The Metronomes",
+    "confidence": 0.9999968350810099,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.8209693902732792
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.9232183629690344
   },
   "Rojay Smith": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999999999919051,
+    "archetype": "The Metronomes",
+    "confidence": 0.999999499112594,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.5287635067949994
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": 0.5004556146488651
   },
   "Ronald Alexis Cerritos": {
-    "archetype": "The Creators",
-    "confidence": 0.9999996397083076,
+    "archetype": "The Finishers",
+    "confidence": 0.9996714376220253,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.8110007611528695
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.9172443802822577
   },
   "Ryan Sierakowski": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9996007024102055,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9448351089055872,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.0034776547722222
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.0238715284416429
   },
   "Ryen Jiba": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999760234591573,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999798607346726,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.503197790059279
   },
   "Sam Strong": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999924488259271,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999965588805743,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.2678219036734657
   },
   "Sebastian Capozucchi": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999855857222322,
+    "archetype": "Vertical Threats",
+    "confidence": 0.999983864456749,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.810331439054264
   },
   "Sergio Chavez": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999956334431,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999993916,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.7274181341135362
   },
   "Shaft Brewer": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9784128892364019,
+    "archetype": "Vertical Threats",
+    "confidence": 0.998600592766761,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.8121290440232981
   },
   "Shak Adams": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999645613998108,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999993818,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.7191900858346267
   },
   "Shalom Dutey": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999997270894,
+    "archetype": "Vertical Threats",
+    "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.7976274481898147
   },
   "Showkat Tahir": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.999996608256403,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9997853877160938,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.305192808789118
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.9696352342048327
   },
   "Simon Fitch": {
-    "archetype": "The Creators",
-    "confidence": 0.9612212636785895,
+    "archetype": "The Finishers",
+    "confidence": 0.9997926972278096,
     "position": "FB",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.9645313287987242
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.4621661178280991
   },
   "Stefan Lukic": {
-    "archetype": "The Creators",
-    "confidence": 0.9999854617933881,
+    "archetype": "The Playmakers",
+    "confidence": 0.9995886294819591,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.8006582221350581
   },
   "Stephen Payne": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.8843891564239322,
+    "archetype": "The Finishers",
+    "confidence": 0.6344226211602106,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.29976026770658104
+    "primary_metric": "Shooting Impact",
+    "z_score": -1.009452778219038
   },
   "Stuart Ritchie": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9706251546675972,
+    "archetype": "Vertical Threats",
+    "confidence": 0.998849537996613,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.5507059213837542
   },
   "Tarn Weir": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9995799378118837,
+    "archetype": "The Orchestrators",
+    "confidence": 0.9999069481719073,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.9883777730323348
+    "primary_metric": "Pass Quality Above Model",
+    "z_score": -1.3359462434405383
   },
   "Tevin Shaw": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.6438450359971244,
+    "archetype": "The Finishers",
+    "confidence": 0.9909420825970834,
     "position": "DM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.1140483961650901
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.14838231589398165
   },
   "Timmy Mehl": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999936017172,
+    "archetype": "Vertical Threats",
+    "confidence": 0.999999999999992,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.7389484859863413
   },
   "Tobias Otieno": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9292975095835864,
+    "archetype": "The Playmakers",
+    "confidence": 0.997252976143745,
     "position": "DM",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.6679097653647834
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.7099729791061371
   },
   "Tom\u00e1s Maya": {
     "archetype": "The Finishers",
-    "confidence": 0.9718863241978162,
+    "confidence": 0.9879180682071899,
     "position": "FB",
     "primary_metric": "Shooting Impact",
     "z_score": -0.7071376824959626
   },
   "Tresor Mbuyu": {
-    "archetype": "Progressive Carriers (2)",
+    "archetype": "Progressive Carriers",
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Dribbling Impact",
     "z_score": 3.9297295498793012
   },
   "Trevor Amann": {
-    "archetype": "The Finishers (2)",
+    "archetype": "The Gunslingers",
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 3.1490162127930064
   },
   "Tunde Akinlosotu": {
-    "archetype": "The Finishers",
-    "confidence": 0.9236166207949621,
+    "archetype": "Vertical Threats",
+    "confidence": 0.8370346463940561,
     "position": "FB",
-    "primary_metric": "Shooting Impact",
-    "z_score": -0.6686028296268606
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.21424563132252586
   },
   "Tyler Allen": {
     "archetype": "The Finishers",
-    "confidence": 0.9999526108279749,
+    "confidence": 0.9731063794415635,
     "position": "FB",
     "primary_metric": "Shooting Impact",
     "z_score": -1.3512202233080988
   },
   "Tyler Moss": {
     "archetype": "The Finishers",
-    "confidence": 0.961649314496556,
+    "confidence": 0.8906778728081729,
     "position": "FB",
     "primary_metric": "Shooting Impact",
     "z_score": -0.5938268651308648
   },
   "Tyler Polak": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9984428213400967,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999662360214819,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.5472904719425893
   },
   "Ualefi": {
-    "archetype": "Progressive Carriers (3)",
-    "confidence": 0.9999898382373308,
+    "archetype": "The Finishers",
+    "confidence": 0.9925007593433197,
     "position": "DM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.42862926574607363
+    "primary_metric": "Shooting Impact",
+    "z_score": -0.658969116409585
   },
   "Venton Evans": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999133917269805,
+    "archetype": "The Gunslingers",
+    "confidence": 1.0,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.6573583715989832
   },
   "Victor Falck": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999984234745752,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999999876,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.30526463174669677
   },
   "Villyan Bijev": {
-    "archetype": "Progressive Carriers (2)",
-    "confidence": 0.9999999999956062,
+    "archetype": "Progressive Carriers",
+    "confidence": 0.999999999990596,
     "position": "W",
     "primary_metric": "Dribbling Impact",
     "z_score": 1.6138752135720644
   },
   "Vincenzo Candela": {
     "archetype": "The Finishers",
-    "confidence": 0.940328494900905,
+    "confidence": 0.9822201660566484,
     "position": "CM",
     "primary_metric": "Shooting Impact",
     "z_score": -0.070395113658894
   },
   "William Gillingham": {
-    "archetype": "Progressive Carriers",
-    "confidence": 0.9999999466950623,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999964,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 2.098520839935152
   },
   "Wolfgang Prentice": {
-    "archetype": "The Creators",
-    "confidence": 0.9999965957981416,
+    "archetype": "The Finishers",
+    "confidence": 0.9996519644273837,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.759217557920063
+    "primary_metric": "Shooting Impact",
+    "z_score": 0.05163192042659612
   },
   "Zacar\u00edas Mor\u00e1n Correa": {
     "archetype": "The Finishers",
-    "confidence": 0.9873104926394328,
+    "confidence": 0.9607594963685607,
     "position": "DM",
     "primary_metric": "Shooting Impact",
     "z_score": -1.7292287800240527

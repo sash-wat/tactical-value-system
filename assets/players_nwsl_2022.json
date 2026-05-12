@@ -1,1372 +1,1372 @@
 {
   "Abby Dahlkemper": {
-    "archetype": "The Finishers",
+    "archetype": "The Gunslingers",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7265340760992982
   },
   "Abby Erceg": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999980936533815,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999968875169355,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5924776865098903
   },
   "Addie McCain": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.999999999960556,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999825882,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.41940195167490635
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.8594119210138592
   },
   "Addisyn Merrick": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999993901971,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999983580627,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8519769120065114
   },
   "Alana Cook": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999994895203,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999987740837,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8166863824531007
   },
   "Alex Morgan": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 3.2729634081843115
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.8032855645477049
   },
   "Alexandra Chidiac": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999848999605857,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999974463833228,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.14470239036800014
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.3602636192327677
   },
   "Alexis Loera": {
-    "archetype": "The Finishers",
-    "confidence": 0.9945618141207277,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9879566327778327,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.624818180171772
   },
   "Ali Krieger": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999976813418,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999959061023,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7793652206427684
   },
   "Ali Riley": {
-    "archetype": "The Finishers",
-    "confidence": 0.9985011928823787,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9977804964873085,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8430283370821051
   },
   "Ally Brazier": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.1041914013487535
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.076452264983963
   },
   "Ally Prisock": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999886794423,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999744595941,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6561153329372301
   },
   "Allysha Chapman": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999981397891382,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999968545985883,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.9229200014709821
   },
   "Amanda Kowalski": {
-    "archetype": "The Finishers",
-    "confidence": 0.999999999999682,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999991109,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5255749528887135
   },
   "Amber Brooks": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999433017839,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999998761691083,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6113469568140549
   },
   "Amirah Ali": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.8437631642431147
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.3705764916277803
   },
   "Andi Sullivan": {
-    "archetype": "The Finishers",
-    "confidence": 0.6409453115607681,
+    "archetype": "Vertical Threats",
+    "confidence": 0.5928363303352534,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.24417129443029953
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.19297364699406525
   },
   "Angelina": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999996662401436,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999215415794,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.5013167558759697
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.5049203172775554
   },
   "Angharad James-Turner": {
-    "archetype": "The Finishers",
-    "confidence": 0.9978085438680887,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9961047447073728,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7557894646078545
   },
   "Anna Heilferty": {
-    "archetype": "The Finishers",
-    "confidence": 0.9942277361632212,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9865086195106549,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.39878019312023055
   },
   "Arin Wright": {
-    "archetype": "The Finishers",
-    "confidence": 0.9828215347709233,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9579712494027324,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.03144230827764365
   },
   "Ashley Hatch": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.4281913144841805
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.2463796476642506
   },
   "Ashley Sanchez": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.059864339673114
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.46771374912180774
   },
   "Ava Cook": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.767346258598872
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.3403014372778101
   },
   "Bayley Feist": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999903307349803,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999958590184613,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.09658541841961323
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.6696053017329976
   },
   "Becky Sauerbrunn": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999969312296524,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999928360119059,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7031285709683759
   },
   "Bethany Bos": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.7662617480873206
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.4642879011824255
   },
   "Bianca St. Georges": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999953317,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999913154,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.40712038195746936
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.47728267336917063
   },
   "Brianna Pinto": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9965976339015501,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9991273362275872,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.19454688926324945
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.6174326738257893
   },
   "Brianna Visalli": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9991696086635261,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9996147219191356,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.14364595804520486
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.6253954278466033
   },
   "Camryn Biegalski": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999950618095408,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999888442662844,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8827774350588985
   },
   "Caprice Dydasco": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999916739739,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999719472172,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8645530574557909
   },
   "Cari Roccaro": {
-    "archetype": "The Finishers",
-    "confidence": 0.7837847825748414,
+    "archetype": "Vertical Threats",
+    "confidence": 0.5386542545520838,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.3023159665790679
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.38308439924099946
   },
   "Carrie Lawrence": {
-    "archetype": "The Finishers",
-    "confidence": 0.999999999336854,
+    "archetype": "The Gunslingers",
+    "confidence": 0.999999998031285,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8623411486693892
   },
   "Carson Pickett": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999999716,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999911,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.324512309498286
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.6789479182850681
   },
   "Cece Delzer": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999999041,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999787,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.8358664111522918
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.5706238455020458
   },
   "Celia Jim\u00e9nez": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999789638407,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999150285729,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7643176033824145
   },
   "Chardonnay Curran": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999864524356281,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999795775945491,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5012265442554313
   },
   "Christen Press": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.6493475778270392
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.8862309189311841
   },
   "Christen Westphal": {
-    "archetype": "The Finishers",
-    "confidence": 0.9998861935350505,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9997905591016192,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8981450216726538
   },
   "Christine Sinclair": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9655716001613306
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.10433271160958699
   },
   "Claire Emslie": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999999236,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999805,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.6650496272871653
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.3626966829613496
   },
   "Claire Lavogez": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.3110853914995861
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.18971112972164839
   },
   "Clarisse Le Bihan": {
-    "archetype": "The Finishers",
-    "confidence": 0.9786336612712841,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9570299625186064,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.4815851569751997
   },
   "Courtney Petersen": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999687315085738,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999467829972627,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8221640329576639
   },
   "Dani Weatherholt": {
-    "archetype": "The Finishers",
-    "confidence": 0.99654624648414,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9944745400461794,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7088891044467246
   },
   "Danielle Colaprico": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999883689282654,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999907481727444,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6701306400433185
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.10411152399789773
   },
   "Darian Jenkins": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999817426546123,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999947962256573,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.33713130304527317
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.5284767979224634
   },
   "Debinha": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.246713546446367
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.58502868871331
   },
   "Denise O'Sullivan": {
-    "archetype": "The Finishers",
-    "confidence": 0.9943178043707978,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9922643288871434,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8021011431990739
   },
   "Desiree Scott": {
-    "archetype": "The Finishers",
-    "confidence": 0.9759452909965588,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9586270775994076,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8755365889932102
   },
   "Diana Ordo\u00f1ez": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.1754985151266926
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.7793311980295656
   },
   "Dorian Bailey": {
-    "archetype": "The Finishers",
-    "confidence": 0.9955171528214617,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9923942098893433,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.522717717571812
   },
   "Ebony Salmon": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.9927238797778888
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.7751394409602442
   },
   "Elizabeth Ball": {
-    "archetype": "The Finishers",
-    "confidence": 0.999999999999968,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999999201,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8473727351720374
   },
   "Elizabeth Eddy": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999336089318,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999998718186742,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5942783161751519
   },
   "Ella Stevens": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.0351144911934536
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.6280388716340994
   },
   "Ellie Jean": {
-    "archetype": "The Finishers",
-    "confidence": 0.9998789931235913,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9998181488040032,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8469892563233152
   },
   "Elyse Bennett": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.1818661194420854
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.403256961254871
   },
   "Emily Curran": {
-    "archetype": "The Finishers",
-    "confidence": 0.9865311358095205,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9688687967920439,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.2374666433274403
   },
   "Emily Fox": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999648785661388,
+    "archetype": "The Gunslingers",
+    "confidence": 0.999932994839615,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7940808275010239
   },
   "Emily Menges": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999975140348,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999945702438,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8859017929990411
   },
   "Emily Sonnett": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999933725912,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999762768604,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6792070676438676
   },
   "Emily van Egmond": {
-    "archetype": "The Finishers",
-    "confidence": 0.9973396485473117,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9964059137837272,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.49549099558363885
   },
   "Emina Ekic": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999999822,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999982,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.940789106147275
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.9209573739664006
   },
   "Erika Tymrak": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9942342894447127,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9975429123595605,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.09857550209575859
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.8375419959080819
   },
   "Estelle Johnson": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999990425,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999961497,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7550505566725415
   },
   "Freja Olofsson": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.971542655484333,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9854915881075323,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5177430129861479
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.0161233438957125
   },
   "Fuka Nagano": {
-    "archetype": "The Finishers",
-    "confidence": 0.7867584601208937,
+    "archetype": "The Gunslingers",
+    "confidence": 0.5466239619690798,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.3740592035197421
   },
   "Gemma Bonner": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999966036,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999888693,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5147281298417272
   },
   "Gunnhildur Jonsdottir": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9902399315337154,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9959398727021593,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.19291330773661952
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.43569940237158633
   },
   "Hailie Mace": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999922093448,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999940064548,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.23207263301413433
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.407357179582096
   },
   "Haley McCutcheon": {
-    "archetype": "The Finishers",
-    "confidence": 0.9931501295443458,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9899059477778465,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6641700948434486
   },
   "Hina Sugita": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9981870262451716,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9991705339118719,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.279820976748427
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.5554724941013304
   },
   "Ifeoma Onumonu": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9497470404563928
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.5678205443516937
   },
   "Imani Dorsey": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999964803801374,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999919841551675,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8263932466441495
   },
   "Isabel Rodriguez": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999712379837,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999152259917,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5834065644094577
   },
   "Isabella Briede": {
-    "archetype": "The Finishers",
-    "confidence": 0.8627448905884979,
+    "archetype": "The Gunslingers",
+    "confidence": 0.7547578236005915,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.3932357510533864
   },
   "Jaelene Daniels": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.133634318741849
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.14453356003411336
   },
   "Jaelin Howell": {
-    "archetype": "The Finishers",
-    "confidence": 0.9997052606737161,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9994301117260136,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.590969050632286
   },
   "Janine Sonis": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9980087182058912,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9992302385632953,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.08318140349133173
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.650279034161647
   },
   "Jasmyne Spencer": {
-    "archetype": "The Finishers",
-    "confidence": 0.999474616818897,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9989373269680168,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7202424142499646
   },
   "Jenna Winebrenner": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999996083,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999988427,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.9089959761591246
   },
   "Jess Fishlock": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.49460877493787503
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.2966251314801513
   },
   "Jessica McDonald": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999868147899701,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999961950057589,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.07904974255260383
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.7764665666303799
   },
   "Jillienne Aguilera": {
-    "archetype": "The Finishers",
-    "confidence": 0.9982731822756339,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9973633078111983,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7551731034412219
   },
   "Jimena L\u00f3pez": {
-    "archetype": "The Finishers",
-    "confidence": 0.999999999672454,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999994167981,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8541329848599027
   },
   "Jodie Taylor": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.2733873444001806
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.219062977620625
   },
   "Jordan Baggett": {
-    "archetype": "The Finishers",
-    "confidence": 0.569784835977251,
+    "archetype": "Vertical Threats",
+    "confidence": 0.6904849763384253,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.13581378506748315
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.2260580358402982
   },
   "Jordyn Huitema": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.458128017177606
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.9616558945172279
   },
   "Jordyn Listro": {
-    "archetype": "The Finishers",
-    "confidence": 0.9971501029876584,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9950825874197629,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.9096585333810339
   },
   "Julia Lester": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999841008896,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999398629331,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8870557206139335
   },
   "Julia Roddar": {
-    "archetype": "The Finishers",
-    "confidence": 0.9995073375070296,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9990682207680155,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7413505374564896
   },
   "Julie Doyle": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.999764041054535,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999276467336284,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.15825406303283288
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.4190995239421154
   },
   "Jun Endo": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999999094,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999698,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.39147067456976836
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.29795481719208866
   },
   "Kaleigh Kurtz": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999363397445,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999998695514029,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.4576309097614476
   },
   "Kaleigh Riehl": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999982740455,
+    "archetype": "The Gunslingers",
+    "confidence": 0.999999996237678,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6009815867779932
   },
   "Karina Rodriguez": {
-    "archetype": "The Finishers",
-    "confidence": 0.9997143164212299,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9995148483856529,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.9131925445764859
   },
   "Kate Del Fava": {
-    "archetype": "The Finishers",
-    "confidence": 0.9998099281381054,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9997114912613836,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.31777214269837395
   },
   "Katie Johnson": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.1181072461697725
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.30541733904480023
   },
   "Katie Lind": {
-    "archetype": "The Finishers",
+    "archetype": "The Gunslingers",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6255624325864877
   },
   "Kayla Sharples": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999928245202,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999824696691,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.790891739036421
   },
   "Kelley O'Hara": {
-    "archetype": "The Finishers",
-    "confidence": 0.9993629084420789,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9989637769127152,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6243432837592918
   },
   "Kelli Hubly": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999617227456,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999205436585,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.810262675972336
   },
   "Kelsey Turnbow": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999888064189,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999933280801,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.01952491653491747
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.8001612895325938
   },
   "Kerolin": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.0890114723659328
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.3913957755780333
   },
   "Kerry Abello": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9971782303295117,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9988647563579633,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.06319143197160276
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.7718216267849051
   },
   "Kim Little": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999610724444626,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999916852793471,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.3429248827838576
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.201948586166167
   },
   "Kirsten Davis": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999982947,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999995755,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.6840092685670008
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.4644982812413398
   },
   "Kristen Edmonds": {
-    "archetype": "The Finishers",
-    "confidence": 0.99999998668235,
+    "archetype": "The Gunslingers",
+    "confidence": 0.99999995678857,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8861286425248195
   },
   "Kristen Hamilton": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.8847221536443386
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.7481545523341524
   },
   "Kristen McNabb": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999998036166724,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999996942841719,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.38874588571428254
   },
   "Kristie Mewis": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999268425,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999732321,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.43851866527262134
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.20452813966302824
   },
   "Kylie Nadaner": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999991675816072,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999983234450699,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8257732715441991
   },
   "Lauren Barnes": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999567580590556,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999724340964116,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8924627606334836
   },
   "Lauren Milliet": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999914506562915,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999762821131951,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.48155282362138924
   },
   "Leah Pruitt": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9774201701969332,
+    "archetype": "Vertical Threats",
+    "confidence": 0.990310701969995,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.13649474360368277
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.1280442754104871
   },
   "Lo'eau LaBonta": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.4204815283762426
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.35651423738682486
   },
   "Madison Hammond": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999977743547556,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999960978647237,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8948599359744575
   },
   "Madison Pogarch": {
-    "archetype": "The Finishers",
-    "confidence": 0.9997131052481292,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9994546300149525,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8415211156459345
   },
   "Makenzy Robbe": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.6193993809765506
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.3274004179982238
   },
   "Mal Swanson": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Progressive Carriers",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.9829215707429513
+    "primary_metric": "Dribbling Impact",
+    "z_score": 6.38721628934638
   },
   "Malia Berkely": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999672221462192,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999196832325432,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7980042208144508
   },
   "Mandy Freeman": {
-    "archetype": "The Finishers",
-    "confidence": 0.999999999996855,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999898632,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7640513892603336
   },
   "Marisa DiGrande": {
-    "archetype": "The Finishers",
-    "confidence": 0.9987175376874132,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9973909569463492,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5297562304176254
   },
   "Marleen Schimmer": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999771182451,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999909316646,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.0487260749638826
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.5033828115485054
   },
   "Mar\u00eda S\u00e1nchez": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.13283878191181275
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.34382359816615254
   },
   "McCall Zerboni": {
-    "archetype": "The Finishers",
-    "confidence": 0.9995991670844881,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9991404203347131,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.4595737594048175
   },
   "Meaghan Nally": {
-    "archetype": "The Finishers",
-    "confidence": 0.999999953943224,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999998987571181,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8265659183737911
   },
   "Megan Montefusco": {
-    "archetype": "The Finishers",
+    "archetype": "The Gunslingers",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.796061406052395
   },
   "Megan Rapinoe": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.3030369618666597
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.11456007860841445
   },
   "Megan Reid": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999560937766,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999998895780599,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7090816330723355
   },
   "Meggie Dougherty Howard": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9874694698620733,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9939853418148434,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.15377027293522122
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.3748175122541127
   },
   "Meghan Klingenberg": {
-    "archetype": "The Finishers",
-    "confidence": 0.9437290294915202,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9309750015091348,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7150155423076754
   },
   "Meredith Speck": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.6630296038445336,
+    "archetype": "Vertical Threats",
+    "confidence": 0.8069796199931523,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.47056499997924683
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.5109031903459409
   },
   "Merritt Mathias": {
-    "archetype": "The Finishers",
-    "confidence": 0.9858688998117023,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9769449780571311,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5831665709791386
   },
   "Michaela Abam": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999997762,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999556,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.6855721665803177
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.662405896800321
   },
   "Midge Purce": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.0768380855346205
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.9654713808188679
   },
   "Mikayla Cluff": {
-    "archetype": "The Finishers",
-    "confidence": 0.8661682672479675,
+    "archetype": "The Gunslingers",
+    "confidence": 0.6887091534303901,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.29752256953073347
   },
   "Morgan Weaver": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.358733609938244
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.5702091187301284
   },
   "Nadia Nadim": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.8087752311246497
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.5354718561421368
   },
   "Nahomi Kawasumi": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9708348468423134,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9795259028874618,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6409664677037992
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.9536101951420304
   },
   "Naomi Girma": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999984486987,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999943603193,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.918097665658874
   },
   "Natalia Kuikka": {
-    "archetype": "The Finishers",
-    "confidence": 0.9998005761811561,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9997648394752507,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6119932644731046
   },
   "Natalie Jacobs": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999970613300468,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999949323770219,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7142938417038665
   },
   "Nealy Martin": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999463831678,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999013880054,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8800612558442409
   },
   "Nichelle Prince": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.999999999996211,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999986144,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.626392078430575
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.7889913151422853
   },
   "Nikki Stanton": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999669200310651,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999501372286292,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6894240841593833
   },
   "Olivia Moultrie": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9987781582480486,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9997625862245544,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.1939281864110174
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.2564160355446516
   },
   "Olivia Van Der Jagt": {
-    "archetype": "The Finishers",
-    "confidence": 0.9994495374312711,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9992339274283547,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7279401065126292
   },
   "Paige Cronin": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999977085,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999993499,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.4966048779789988
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.6543710049778987
   },
   "Paige Nielsen": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999970672,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999949303,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8956311486509562
   },
   "Phoebe McClernon": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999999751,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999999236,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8966314346831092
   },
   "Quinn": {
-    "archetype": "The Finishers",
-    "confidence": 0.999609050758825,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9994073099777263,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7597924286684856
   },
   "Rachel Daly": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.458577384578457
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.6744161322872394
   },
   "Rachel Hill": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9977682747901852,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9981044296046625,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.16699769595631017
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.19728680542200594
   },
   "Rocky Rodr\u00edguez": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.999999999999881,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999999999893,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9225733323758627
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.49221283715819686
   },
   "Rose Lavelle": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.4514284909157116
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.7743376358678706
   },
   "Ryan Gareis": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9997146144818887,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9998668641834968,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.26833873091566873
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.3478326236280207
   },
   "Ryan Williams": {
-    "archetype": "The Finishers",
-    "confidence": 0.9934103936628916,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9889014115777361,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8867626489181342
   },
   "Sam Coffey": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9988887533931627,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9993478753845242,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6613877306415713
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.23590913207144457
   },
   "Sam Hiatt": {
-    "archetype": "The Finishers",
+    "archetype": "The Gunslingers",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.9044075161890492
   },
   "Sam Staab": {
-    "archetype": "The Finishers",
-    "confidence": 0.9998981073409073,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999247981955549,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.685045947975498
   },
   "Sarah Griffith": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.0988588506771815
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.2555865820008167
   },
   "Sarah Luebbert": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999643947184,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999792584957,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.26128697409239937
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.7346621080211064
   },
   "Satara Murray": {
-    "archetype": "The Finishers",
-    "confidence": 0.99999997518954,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999470757125,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7196896582554706
   },
   "Savannah DeMelo": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9995127799645219,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9997351064925053,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.039490358353805724
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.06838972471007937
   },
   "Savannah McCaskill": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.198989322905042
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.09136558787430309
   },
   "Shea Groom": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999992887475535,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999995582142044,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.12261068766407257
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.5576567217667618
   },
   "Simone Charley": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.3891180023021499
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.611339206951559
   },
   "Sofia Huerta": {
-    "archetype": "The Finishers",
-    "confidence": 0.9811596974818326,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9463668157100201,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6321201442863653
   },
   "Sofia Jakobsson": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.999998365420817,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999994046449454,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.06105761149565956
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.9599416905266359
   },
   "Sophia Wilson": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Progressive Carriers",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 4.178467693359588
+    "primary_metric": "Dribbling Impact",
+    "z_score": 6.668817506766774
   },
   "Sophie Schmidt": {
-    "archetype": "The Finishers",
-    "confidence": 0.9952903385851887,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9899914297632657,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.21690010450615965
   },
   "Sydney Leroux": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.453529403610856
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.3244588745905657
   },
   "Tara Rudd": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.0650017234328195
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.358079391567336
   },
   "Taryn Torres": {
-    "archetype": "The Finishers",
-    "confidence": 0.9905216523776442,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9845948596613315,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7736356039721032
   },
   "Tatumn Milazzo": {
-    "archetype": "The Finishers",
-    "confidence": 0.999999999295607,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999987687396,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.744161259049946
   },
   "Taylor Aylmer": {
-    "archetype": "The Finishers",
-    "confidence": 0.9926140623605233,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9873786238336912,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6183199513265285
   },
   "Taylor Flint": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.212124914494677
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.8891590947442655
   },
   "Taylor Leach": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999995440758,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999991080601,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8009935676400225
   },
   "Taylor Porter": {
-    "archetype": "The Finishers",
-    "confidence": 0.9993166907545624,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9989335190286092,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6184453538665522
   },
   "Taylor Smith": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999891996848,
+    "archetype": "Vertical Threats",
+    "confidence": 0.999999995651299,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.010141210538418512
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.662389055901635
   },
   "Tegan McGrady": {
-    "archetype": "The Finishers",
-    "confidence": 0.9998115293352487,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9997011058597047,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6931402553227384
   },
   "Toni Pressley": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999596589,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999998739426,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.4266734223043966
   },
   "Trinity Rodman": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9818500591530593
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.6529056370504571
   },
   "Tyler Lussi": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999996081694945,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999989515282807,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.4924616710725593
   },
   "Tziarra King": {
-    "archetype": "The Finishers (2)",
+    "archetype": "Vertical Threats",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.2034260671789125
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.5168920967602373
   },
   "Vanessa DiBernardo": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.999998789871125,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999993294941599,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.34862880722042
+    "primary_metric": "Attacking Directness",
+    "z_score": 0.3534979961357569
   },
   "Vanessa Gilles": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999992877,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999999976339,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.2890065876443321
   },
   "Veronica Latsko": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999955217263512,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999984847682435,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.38931564763634524
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.3654891765589268
   },
   "Victoria Pickett": {
-    "archetype": "The Finishers",
-    "confidence": 0.9463299770817413,
+    "archetype": "The Gunslingers",
+    "confidence": 0.8572434438370343,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.22093303367965092
   },
   "Viviana Villacorta": {
-    "archetype": "The Finishers",
-    "confidence": 0.9893677661635771,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9821022661472962,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.9090035750142966
   },
   "Yazmeen Ryan": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999999991935,
+    "archetype": "Vertical Threats",
+    "confidence": 0.999999999999881,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.6922929823655798
+    "primary_metric": "Attacking Directness",
+    "z_score": -1.3025889494847882
   },
   "Yuki Nagasato": {
-    "archetype": "The Finishers (2)",
-    "confidence": 0.9999999978681302,
+    "archetype": "Vertical Threats",
+    "confidence": 0.9999999965088939,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.2903349346508948
+    "primary_metric": "Attacking Directness",
+    "z_score": -0.715363488901217
   },
   "Zoe Morse": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999889398873,
+    "archetype": "The Gunslingers",
+    "confidence": 0.9999999776269093,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.9229200014709821

@@ -7,18 +7,19 @@ import pandas as pd
 
 from src.player_preprocessor import PLAYER_FEATURE_LABELS
 
-# Maps the dominant centroid feature → archetype name
+# Maps each feature → a unique archetype name.
+# One name per feature so the dedup walkdown always resolves cleanly.
 ARCHETYPE_MAP = {
-    "g_shooting": "The Finishers",
-    "xgoals_p96": "The Finishers",
-    "g_passing": "The Creators",
-    "xassists_p96": "The Creators",
-    "passes_completed_over_expected_p100": "The Creators",
-    "g_dribbling": "Progressive Carriers",
-    "avg_vertical_distance_yds": "Progressive Carriers",
-    "g_receiving": "Box Infiltrators",
-    "g_interrupting": "The Enforcers",
-    "share_team_touches": "The Metronomes",
+    "g_shooting":                        "The Finishers",
+    "xgoals_p96":                        "The Gunslingers",
+    "g_passing":                         "The Architects",
+    "xassists_p96":                      "The Playmakers",
+    "passes_completed_over_expected_p100": "The Metronomes",
+    "g_dribbling":                       "Progressive Carriers",
+    "avg_vertical_distance_yds":         "Vertical Threats",
+    "g_receiving":                       "Box Infiltrators",
+    "g_interrupting":                    "The Enforcers",
+    "share_team_touches":                "The Orchestrators",
 }
 
 BALANCED_ARCHETYPE = "Balanced Roles"

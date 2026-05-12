@@ -4,7 +4,7 @@ import numpy as np
 def cluster_teams(df_scaled, n_clusters=None):
     if n_clusters is None:
         bics = []
-        n_range = range(2, 8)
+        n_range = range(3, 9)  # minimum 3 archetypes — 2 is never useful UX
         for n in n_range:
             gmm = GaussianMixture(n_components=n, random_state=42, n_init=10)
             gmm.fit(df_scaled)
