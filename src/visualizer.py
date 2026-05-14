@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.decomposition import PCA
 
-from src.identity import build_team_identities, describe_pca_axes, name_clusters, unique_legend_names
+from src.identity import build_team_identities, describe_pca_axes, name_clusters
 
 def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_clusters.png', title='Tactical Identity Groupings'):
     pca = PCA(n_components=2)
@@ -10,8 +10,7 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
 
     c1_desc, c2_desc = describe_pca_axes(df_scaled.columns, pca.components_)
     cluster_names, _ = name_clusters(df_scaled, clusters)
-    final_names = unique_legend_names(cluster_names)
-    named_clusters = [final_names[c] for c in clusters]
+    named_clusters = [cluster_names[c] for c in clusters]
 
     plt.figure(figsize=(14, 10))
     plt.style.use('dark_background')

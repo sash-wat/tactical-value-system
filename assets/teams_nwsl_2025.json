@@ -1,6 +1,6 @@
 {
   "Angel City FC": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 0.12366140670988847
   },
@@ -15,17 +15,17 @@
     "z_score": 0.0
   },
   "Houston Dash": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": -0.353215488281067
   },
   "Kansas City Current": {
-    "identity": "Progressive Carriers",
+    "identity": "Progressive Dribbling",
     "metric": "Dribbling Impact",
     "z_score": 2.0792311149932403
   },
   "NJ/NY Gotham FC": {
-    "identity": "High-Press Hounds",
+    "identity": "High-Line Pressing",
     "metric": "Opponent Directness",
     "z_score": 1.8314538531623938
   },
@@ -40,32 +40,32 @@
     "z_score": 0.0
   },
   "Portland Thorns FC": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 0.1639655156041708
   },
   "Racing Louisville FC": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 2.6836330445934453
   },
   "San Diego Wave FC": {
-    "identity": "Progressive Carriers",
+    "identity": "Progressive Dribbling",
     "metric": "Dribbling Impact",
     "z_score": 1.451393920806112
   },
   "Seattle Reign FC": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 0.580468837640781
   },
   "Utah Royals FC": {
-    "identity": "High-Press Hounds",
+    "identity": "High-Line Pressing",
     "metric": "Opponent Directness",
     "z_score": 1.9384824478857972
   },
   "Washington Spirit": {
-    "identity": "Progressive Carriers",
+    "identity": "Progressive Dribbling",
     "metric": "Dribbling Impact",
     "z_score": 0.6589635059506167
   }

@@ -1,947 +1,968 @@
 {
   "Aissata Traore": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999727096123483,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999990470734,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -2.3923343441175096
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.8828591986909657
   },
   "Alba Ca\u00f1o": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999827683673069,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999768479741,
     "position": "CM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.25366285552113044
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.32349263596589356
   },
   "Aldana Cometti": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999994406378302,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999994613317774,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8934955638347168
+    "z_score": -0.8926411374418886
   },
   "Ally Lemos": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9997259801749795,
+    "archetype": "Primary Creators",
+    "confidence": 0.9996902719501075,
     "position": "DM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.0149492940259803
+    "z_score": 0.9356611399261173
   },
   "Ally Sentnor": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999946935624935,
+    "archetype": "Primary Creators",
+    "confidence": 0.9793275224695331,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.8328410981627095
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.10048782837692904
   },
   "Amanda Santos": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999999970048332,
+    "archetype": "Primary Creators",
+    "confidence": 0.9980969142648771,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.8910820627211905
+    "z_score": 0.8923128960869118
   },
   "Amelia Van Zanten": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.99999036846699,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999989892386579,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.32359897578425423
+    "z_score": -0.32023411405827
   },
   "Ana Tejada": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9997811322958605,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9922655958347474,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.2879122530710849
+    "z_score": -0.2843901887727355
   },
   "Angelina": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9289949853817798,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9980698284107017,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.678227097993587
+    "z_score": -0.6877851189819504
   },
   "Annie Karich": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999999999999984,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999997583089336,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9007372838067299
+    "z_score": -0.8908170439427455
   },
   "Ary Borges": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999896744528861,
+    "archetype": "Possession Hubs",
+    "confidence": 0.8809535428168964,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.12607738146093508
+    "z_score": -0.12184242294923953
   },
   "Ashley Sanchez": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999999325,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.999999981814817,
     "position": "W",
-    "primary_metric": "Shooting Impact",
-    "z_score": 3.129806851686062
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.7890406628660317
   },
   "Avery Patterson": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9986671650301664,
+    "archetype": "Possession Hubs",
+    "confidence": 0.999998127004594,
     "position": "FB",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.39722657214190454
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5067448617509114
   },
   "Barbra Banda": {
-    "archetype": "The Finishers",
+    "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shooting Impact",
-    "z_score": 4.246443507951074
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 4.3968608182491575
   },
   "Bianca St. Georges": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.99996820176888,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9986680153761334,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5284596469929274
+    "z_score": -0.20048070432307458
+  },
+  "B\u00e1rbara Olivieri": {
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999412168754994,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.36052758089605697
   },
   "Carson Pickett": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999994590804924,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999833288977324,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5741508165615381
+    "z_score": -0.5712363442845225
   },
   "Cassandra Bogere": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999994941815036,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9997214144373516,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9614374322129752
+    "z_score": -0.9608822946219291
   },
   "Cece Delzer": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999411042523969,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.999999999999444,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.8270803910359944
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.081724511188971
   },
   "Claire Hutton": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999996980423246,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999817594912644,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7944164359766068
+    "z_score": -0.79312555892138
   },
   "Cloe Lacasse": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9989066215064792,
+    "archetype": "Primary Creators",
+    "confidence": 0.9992161971937354,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.1186085172022855
+    "z_score": 1.1976262123237322
   },
   "Cori Dyke": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999150708971,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9997146932963965,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9208019248648043
+    "z_score": -0.929724743296906
   },
   "Courtney Petersen": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9991335030176888,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9326182073458026,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9565904175928132
+    "z_score": -0.9560139285548241
   },
   "Croix Bethune": {
-    "archetype": "The Playmakers",
-    "confidence": 1.0,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999992291,
     "position": "DM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.0489420257674924
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9309047111678996
   },
   "Dani Weatherholt": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9910874533756285,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9888943941633318,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.06030129556902387
+    "z_score": 0.06535726551678271
   },
   "Danielle Colaprico": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999372181227228,
+    "archetype": "Primary Creators",
+    "confidence": 0.8532449675693166,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8830777355685071
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.23328150055166527
   },
   "Delanie Sheehan": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999829156863334,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9974875713237178,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.3481886292092075
+    "z_score": -0.34376698353704666
   },
   "Devin Lynch": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999928861376203,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9981714837324072,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9779646745571198
+    "z_score": -0.9774457942961753
   },
   "Dudinha": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999999982,
+    "archetype": "High-xG Attackers",
+    "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shooting Impact",
-    "z_score": 2.3807102942753633
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.805272695712006
   },
   "Ella Hase": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9956711919946963,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9994094097929398,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.7373884949787153
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.1461106156114344
   },
   "Ellie Bravo-Young": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999997487235475,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9986694241689181,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9053145862432299
+    "z_score": -0.9045122234915601
   },
   "Ellie Jean": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999993464481,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9979368561345547,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9868805255728813
+    "z_score": -0.9864374666324094
+  },
+  "Emerson Elgin": {
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999997196260237,
+    "position": "CB",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.8055670689142042
   },
   "Emily Mason": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9997857379756707,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999461286269271,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8863735768638263
+    "z_score": -0.8854877776077297
   },
   "Emily Sams": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999988536364428,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999999993008863,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.613291029302593
+    "z_score": -0.5985259872975982
   },
   "Emily Sonnett": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999997566639894,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999999083147288,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8315886972085205
+    "z_score": -0.8304615666293502
   },
   "Emma Sears": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999995313602273,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.8139778120903254,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.47171448368603774
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8433480057772162
   },
   "Esme Morgan": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999999973799,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999999994857216,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9553821368642325
+    "z_score": -0.9548003252629976
   },
   "Esther Gonz\u00e1lez": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999985938735128,
+    "archetype": "High-xG Attackers",
+    "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.9340317011259154
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.3050945988786014
   },
   "Evelyn Shores": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999982235539569,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9974220197608269,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5581906905633696
+    "z_score": -0.5558592221617107
   },
   "Gisele Thompson": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9909394021582936,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9997566637129633,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.493574389571687
+    "z_score": -0.49095828173103395
   },
   "Hailie Mace": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999999999999492,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999999999979234,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.926599514630561
+    "z_score": -0.7223403767974801
   },
   "Hal Hershfelt": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999902620171,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9992141572291999,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5995243983970251
+    "z_score": -0.597375007942088
   },
   "Haley McCutcheon": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999988738677191,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9487895143209295,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9188143903936318
+    "z_score": 0.7984960112783401
   },
   "Hannah Bebar": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9991349243207526,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9927806429874376,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8209266512803659
+    "z_score": -0.8197525536243908
   },
   "Isabel Rodriguez": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9997780504071583,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999985977439563,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.8309178658638992
+    "z_score": 1.820259929883297
   },
   "Jaedyn Shaw": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9682912617864489,
+    "archetype": "High-xG Attackers",
+    "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.29884647437282413
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.7835757371048437
   },
   "Jaelin Howell": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9998759691132854,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9002799613134865,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.38527666842332337
+    "z_score": -0.43493569600838994
   },
   "Janine Sonis": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9505483590780485,
+    "archetype": "Possession Hubs",
+    "confidence": 0.999947993835152,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.3968184154288802
+    "z_score": -0.392811470728024
   },
   "Janni Thomsen": {
-    "archetype": "The Playmakers",
-    "confidence": 0.8349368747046411,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9817751025506892,
     "position": "FB",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.23462386099698582
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5825824629063747
   },
   "Jenna Bike": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9989588293025791,
+    "archetype": "Possession Hubs",
+    "confidence": 0.942412457688013,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9218051942274403
+    "z_score": -0.9139477744528938
   },
   "Jess Carter": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999989991526,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999596105613733,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -1.004744825166007
+    "z_score": -1.0043804597461508
   },
   "Jessie Fleming": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999842092305,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9987588604037053,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8867836486805651
+    "z_score": -0.8875532608994416
   },
   "Jordyn Huitema": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999996802058814,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999936186508552,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.1305358220038602
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.7908555651028154
   },
   "Jordynn Dudley": {
-    "archetype": "The Finishers",
+    "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shooting Impact",
-    "z_score": 1.3341554365207073
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.8016553867525844
   },
   "Jorelyn Carabali": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999978637715143,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999999741235083,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9389441739990823
+    "z_score": -0.9477967470223188
+  },
+  "Josefine Hasbo": {
+    "archetype": "Possession Hubs",
+    "confidence": 0.9991390635964659,
+    "position": "CM",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5314051040187397
   },
   "Julia Grosso": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999591362547,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999998701032289,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6898386505631674
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.11701323869896112
   },
   "Kaleigh Kurtz": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999814193272,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999997183974983,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9231004708752425
+    "z_score": -0.9222743341739307
   },
   "Kaleigh Riehl": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999991134727,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999997878556289,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.806741504552546
+    "z_score": -0.8020303131823159
   },
   "Kate Del Fava": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9994958570131478,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999996858945308,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.3423588694648711
+    "z_score": -0.30041315726379336
   },
   "Katherine Rader": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999999999999964,
+    "archetype": "Primary Creators",
+    "confidence": 0.9780233805753897,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.14333739339656
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.162494449023689
   },
   "Kathrin Hendrich": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999999999998618,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999998529059121,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9204437529513751
+    "z_score": -0.911536653200664
   },
   "Katie O'Kane": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9995976358747616,
+    "archetype": "Primary Creators",
+    "confidence": 0.9704647391264456,
     "position": "DM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.7577480374088786
+    "z_score": 0.7563272214440983
   },
   "Kayla Fischer": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.999999981723976,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999998148566285,
     "position": "AM",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.38714865556159933
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.17726619010431055
   },
   "Kayla Sharples": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999954185165233,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999952093474018,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.4840305503618146
+    "z_score": -0.48137240122512853
   },
   "Kennedy Fuller": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999999918809745,
+    "archetype": "Primary Creators",
+    "confidence": 0.9962442154106484,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.2808954837738473
+    "z_score": 1.2732437067855622
   },
   "Kennedy Wesley": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999999906404,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999999999999929,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8926524649724301
+    "z_score": -0.8917943246686615
   },
   "Kenza Dali": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999999997057785,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999999316671,
     "position": "DM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 2.6595807974137475
+    "z_score": 2.6443937866092955
   },
   "Kiana Palacios": {
-    "archetype": "Vertical Threats",
+    "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.336466554543702
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8930785995837758
   },
   "Kiki Van Zanten": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999995888555936,
+    "archetype": "Primary Creators",
+    "confidence": 0.9993094898653407,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 2.0482250033236085
+    "z_score": 2.0363793705753097
   },
   "Kimmi Ascanio": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9971307224004631,
+    "archetype": "Primary Creators",
+    "confidence": 0.9998574865731549,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.443686699343226
+    "z_score": 1.435145183514324
   },
   "Kristen McNabb": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999994243387,
+    "archetype": "Possession Hubs",
+    "confidence": 0.999999970853708,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7565114918647527
+    "z_score": -0.7550536408128483
   },
   "Lauren Milliet": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9996548984167036,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9985298779108384,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.018452113493014302
+    "z_score": 0.02332373479305324
   },
   "Laurina Fazer": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999999998348,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999999271547155,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9728799975833962
+    "z_score": -0.972375265313263
   },
   "Leah Klenke": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999804921738407,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999994013563949,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.745614325573416
+    "z_score": -0.7441084717226484
   },
   "Leicy Santos": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999708310187729,
+    "archetype": "Primary Creators",
+    "confidence": 0.9578437230142841,
     "position": "AM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.6382572129936696
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.3608065674233347
   },
   "Lia Eugenia Godfrey": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9976925978365234,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.999999999997895,
     "position": "AM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.6259750218926399
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9853828532945624
   },
   "Lilly Reale": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999996566906,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999325788739339,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8175591405150974
+    "z_score": -0.8163702087327436
   },
   "Linda Ullmark": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9705289709350573,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9944244642660847,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.8795086447851885
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.25065389554652595
   },
   "Lo'eau LaBonta": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999999799414,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9912425805571478,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.961891932588794
+    "z_score": -0.9616078074960024
   },
   "Lucia Di Guglielmo": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999982836093344,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9987941592312246,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7707760415808881
+    "z_score": -0.7693810268932817
   },
   "Ludmila": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999112794556699,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999998419,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.9987669201003642
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.761487016084081
   },
   "Maddie Mercado": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9998496429824866,
+    "archetype": "Primary Creators",
+    "confidence": 0.9972486992635108,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.5256153045275389
+    "z_score": 0.5220915273743372
   },
   "Madison Curry": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999591300877978,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9979007503034794,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7107462824979692
+    "z_score": -0.7090868324173416
   },
   "Maggie Graham": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.991397511898311,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999982042898,
     "position": "CM",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.35715224623006814
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8308780402954812
   },
   "Maiara Niehues": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999296741556626,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9988433399473052,
     "position": "AM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.06551923270393718
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.25554615916839096
   },
   "Malia Berkely": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999795248081209,
+    "archetype": "Possession Hubs",
+    "confidence": 0.999999994950791,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.11679694055292197
+    "z_score": -0.11252110103359932
   },
   "Manaka Hayashi": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999994782896062,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999607505058429,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8463106457585235
+    "z_score": -0.8452483664183109
   },
   "Manaka Matsukubo": {
-    "archetype": "The Finishers",
-    "confidence": 0.9999999999999982,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999728673149,
     "position": "CM",
-    "primary_metric": "Shooting Impact",
-    "z_score": 2.8487009709945212
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.714587663647436
   },
   "Marie-Yasmine Alidou": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9998892601030532,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9996914559559608,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.6197240289546926
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.2510188997155711
   },
   "Mary Vignola": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999988110790843,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999996052634132,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6942957057374958
+    "z_score": -0.6030842082105613
   },
   "Maycee Bell": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999988277840516,
+    "archetype": "Possession Hubs",
+    "confidence": 0.999999175309532,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.4396395281354349
+    "z_score": -0.4367858333629112
   },
   "Melissa Kossler": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999999426689817,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999999112,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -2.2169237215570816
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.6347582139113699
   },
   "Michelle Alozie": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999989532193901,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9995788960992051,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.08145977600242235
+    "z_score": -0.04049177147436987
   },
   "Michelle Cooper": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999999999998899,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.8425424713806325,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.1610696955596458
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.929200476334662
   },
   "Midge Purce": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.919763208684245,
+    "archetype": "Primary Creators",
+    "confidence": 0.9998962617503979,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6613271287088824
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.3408846592779593
   },
   "Mina Tanaka": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9997810584077008,
+    "archetype": "Primary Creators",
+    "confidence": 0.9722146147896903,
     "position": "AM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.5376775941196609
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.281499961146611
   },
   "Natasha Flint": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999999996015898,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999997859295,
     "position": "AM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.9885838519470801
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.791619161583495
   },
   "Nealy Martin": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999966980662,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999659794076554,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9126964024876133
+    "z_score": -0.9119265571657917
   },
   "Nichelle Prince": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9994001834060926,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9998923389707096,
     "position": "FB",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.0584978884394847
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.11496270744780109
   },
   "N\u00e9rilia Mond\u00e9sir": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999888347179179,
+    "archetype": "Primary Creators",
+    "confidence": 0.9990072986964463,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.070540674531216
+    "z_score": 1.0640385962133356
   },
   "Oihane Hern\u00e1ndez": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999338096795042,
+    "archetype": "Primary Creators",
+    "confidence": 0.9998242411306876,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.8621203665253407
+    "z_score": 1.408915904701226
   },
   "Olivia Moultrie": {
-    "archetype": "The Playmakers",
-    "confidence": 1.0,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999992668362078,
     "position": "AM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.902996246908258
+    "z_score": 0.8909455508308127
   },
   "Paige Nielsen": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999909992248607,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999998481800931,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9767255195633705
+    "z_score": -0.9762377270932913
   },
   "Perle Morroni": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9998270467422967,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9998109734237827,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6034460541384243
+    "z_score": -0.601313938858219
   },
   "Phoebe McClernon": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999993540885804,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999999999804619,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9630010662790278
+    "z_score": -0.9624528166081585
   },
   "Pietra Tordin": {
-    "archetype": "The Playmakers",
-    "confidence": 0.957318135691757,
+    "archetype": "High-xG Attackers",
+    "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.8363977998594317
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.779989587640775
   },
   "Rafaelle": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9995232308962135,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9995500587940113,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9336896755392915
+    "z_score": -0.9382473961326292
   },
   "Rebeca Bernal": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999997274362274,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9989451241110038,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.10958124140210339
+    "z_score": -0.10527361621064045
   },
   "Reilyn Turner": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999999989644941,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999988505248,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.7413389571853425
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9997390449357421
   },
   "Reyna Reyes": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999646948214,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999913090644902,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9886469942218231
+    "z_score": -0.9882117167024093
   },
   "Riley Jackson": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999984315795153,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9998787856370762,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5091029130063917
+    "z_score": -0.48650855504954393
   },
   "Riley Tiernan": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999971653919365,
+    "archetype": "Primary Creators",
+    "confidence": 0.9963916293563311,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.4577323490090965
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.47460815113833127
   },
   "Rose Lavelle": {
-    "archetype": "The Finishers",
-    "confidence": 1.0,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999997122,
     "position": "AM",
-    "primary_metric": "Shooting Impact",
-    "z_score": 1.8496459988968845
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.5780738961556455
   },
   "Rosemonde Kouassi": {
-    "archetype": "The Playmakers",
-    "confidence": 1.0,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999979801402,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 4.226505566945986
+    "z_score": 4.154147155513821
   },
   "Ryan Gareis": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999999989311821,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999842121706822,
     "position": "W",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.7210310098396503
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.5189501491696646
   },
   "Ryan Williams": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999999940042343,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999793591192,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 3.1294362547711922
+    "z_score": 3.139238739013038
   },
   "Sam Hiatt": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9996425943455398,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999793975244949,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7780100638079874
+    "z_score": -0.7766469155069862
   },
   "Sam Staab": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999998318566712,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999995899472781,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8972964658269135
+    "z_score": -0.891265559121818
   },
   "Samantha Meza": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999987856536593,
+    "archetype": "Possession Hubs",
+    "confidence": 0.999969635563623,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7594695075893323
+    "z_score": -0.7580246868087906
   },
   "Samantha Smith": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999971093476869,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9994413765069672,
     "position": "FB",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.5491769728221708
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.4707031503835269
   },
   "Sarah Gorden": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999993762563,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999821267710798,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -1.004744825166007
+    "z_score": -1.0043804597461508
   },
   "Sarah Weber": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.9999620867246897,
+    "archetype": "Primary Creators",
+    "confidence": 0.9937235535301417,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.6159190391502554
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.34296744640653126
   },
   "Savannah McCaskill": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999122445003178,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9818856742733448,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6428423624403762
+    "z_score": -0.6236696456700441
   },
   "Shinomi Koyama": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999868873502808,
+    "archetype": "Primary Creators",
+    "confidence": 0.9395822914494578,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.3355725771759447
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.008725116346738091
   },
   "Sofia Cantore": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.999992198543734,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999971543,
     "position": "ST",
-    "primary_metric": "Attacking Directness",
-    "z_score": -1.7291547570147743
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.1153494552018555
   },
   "Sofia Huerta": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9946644876670089,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9925414860732564,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8039651999280304
+    "z_score": -0.8027163858626762
   },
   "Sophia Wilson": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999999982193195,
+    "archetype": "High-xG Attackers",
+    "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.9505565156007598
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.5123404843561339
   },
   "Sveind\u00eds Jane J\u00f3nsd\u00f3ttir": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999986452367928,
+    "archetype": "Primary Creators",
+    "confidence": 0.9971852137994066,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.2838960353450684
+    "z_score": 1.2762278587785454
   },
   "Sydney Collins": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999981794897044,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9984474713333062,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.32168806609946005
+    "z_score": -0.31831478667929797
   },
   "Tara Rudd": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.999999166547453,
+    "archetype": "Possession Hubs",
+    "confidence": 0.99999999905301,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.642751777619661
+    "z_score": -0.6407928068696943
   },
   "Taylor Flint": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999999992675193,
+    "archetype": "Possession Hubs",
+    "confidence": 0.9999980323658728,
     "position": "DM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.840252105403611
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.2293637292328317
   },
   "Taylor Huff": {
-    "archetype": "Vertical Threats",
-    "confidence": 0.999958023810115,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9995970348429467,
     "position": "AM",
-    "primary_metric": "Attacking Directness",
-    "z_score": -0.6580996486523546
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.04316586144977494
   },
   "Tessa Dellarose": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999999675939,
+    "archetype": "Possession Hubs",
+    "confidence": 0.999971582408673,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5593538263272572
+    "z_score": -0.5570274816220375
   },
   "Trinity Rodman": {
-    "archetype": "The Finishers",
+    "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shooting Impact",
-    "z_score": 2.583168823305282
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.622569598665099
   },
   "Uno Shiragaki": {
-    "archetype": "The Gunslingers",
-    "confidence": 0.9999999071108546,
+    "archetype": "Possession Hubs",
+    "confidence": 0.999997850037425,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6556339236748256
+    "z_score": -0.6537316997019091
   },
   "Yazmeen Ryan": {
-    "archetype": "The Playmakers",
-    "confidence": 0.9999481102052223,
+    "archetype": "Primary Creators",
+    "confidence": 0.9997466908653591,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.2452135080267497
+    "z_score": 1.241080676962877
   }
 }

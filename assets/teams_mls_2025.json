@@ -5,7 +5,7 @@
     "z_score": 0.0
   },
   "Austin FC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 1.1358371788385742
   },
@@ -15,37 +15,37 @@
     "z_score": 0.0
   },
   "Charlotte FC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 0.37805106990253506
   },
   "Chicago Fire FC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 1.0610300885974522
   },
   "Colorado Rapids": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 1.2115516566686746
   },
   "Columbus Crew": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.6976176354890913
   },
   "D.C. United": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 1.296508800482751
   },
   "FC Cincinnati": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": -0.24032182540232247
   },
   "FC Dallas": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 1.9440862904558613
   },
@@ -55,7 +55,7 @@
     "z_score": 0.0
   },
   "Inter Miami CF": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.8648632485205185
   },
@@ -70,7 +70,7 @@
     "z_score": 0.0
   },
   "Minnesota United FC": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 2.2813641893389933
   },
@@ -80,52 +80,52 @@
     "z_score": 0.0
   },
   "New England Revolution": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": -0.6503035407497693
   },
   "New York City FC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 1.3068248136754241
   },
   "New York Red Bulls": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 1.353457804994565
   },
   "Orlando City SC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 0.3396760041294921
   },
   "Philadelphia Union": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 2.0386575221380427
   },
   "Portland Timbers FC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": -0.010557191090305498
   },
   "Real Salt Lake": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 0.31684526879616265
   },
   "San Diego FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 2.7249835441107164
   },
   "San Jose Earthquakes": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 0.5509264760174208
   },
   "Seattle Sounders FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.0058629012318707
   },
@@ -135,17 +135,17 @@
     "z_score": 0.0
   },
   "St. Louis City SC": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 0.6256809143388131
   },
   "Toronto FC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 0.8652686771223088
   },
   "Vancouver Whitecaps FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.8613895703319546
   }

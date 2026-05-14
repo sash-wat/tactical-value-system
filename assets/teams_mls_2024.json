@@ -1,6 +1,6 @@
 {
   "Atlanta United FC": {
-    "identity": "The Disruptors",
+    "identity": "High-Disruption Defense",
     "metric": "Defensive Disruption",
     "z_score": 1.7286271092315508
   },
@@ -15,7 +15,7 @@
     "z_score": 0.0
   },
   "Charlotte FC": {
-    "identity": "The Disruptors",
+    "identity": "High-Disruption Defense",
     "metric": "Defensive Disruption",
     "z_score": 0.5049401296906121
   },
@@ -25,22 +25,22 @@
     "z_score": 0.0
   },
   "Colorado Rapids": {
-    "identity": "The Disruptors",
+    "identity": "High-Disruption Defense",
     "metric": "Defensive Disruption",
     "z_score": -0.9648172381109573
   },
   "Columbus Crew": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.6908982245716062
   },
   "D.C. United": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 2.2173566221273933
   },
   "FC Cincinnati": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.49774336087060117
   },
@@ -50,27 +50,27 @@
     "z_score": 0.0
   },
   "Houston Dynamo FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.3125605702619594
   },
   "Inter Miami CF": {
-    "identity": "The Disruptors",
+    "identity": "High-Disruption Defense",
     "metric": "Defensive Disruption",
     "z_score": 2.178416814440966
   },
   "LA Galaxy": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 2.702567298005525
   },
   "Los Angeles FC": {
-    "identity": "The Disruptors",
+    "identity": "High-Disruption Defense",
     "metric": "Defensive Disruption",
     "z_score": 1.5894246221409158
   },
   "Minnesota United FC": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 1.5595839383359116
   },
@@ -85,32 +85,32 @@
     "z_score": 0.0
   },
   "New York City FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.6966717213693069
   },
   "New York Red Bulls": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 1.6784412665391621
   },
   "Orlando City SC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.133566575742247
   },
   "Philadelphia Union": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 1.4055944842059176
   },
   "Portland Timbers FC": {
-    "identity": "The Disruptors",
+    "identity": "High-Disruption Defense",
     "metric": "Defensive Disruption",
     "z_score": -0.1326491552298643
   },
   "Real Salt Lake": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.40845401325635955
   },
@@ -120,7 +120,7 @@
     "z_score": 0.0
   },
   "Seattle Sounders FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.7523218263939969
   },
@@ -130,7 +130,7 @@
     "z_score": 0.0
   },
   "St. Louis City SC": {
-    "identity": "Vertical Threats",
+    "identity": "Direct Attacking",
     "metric": "Attacking Directness",
     "z_score": 1.6337623672627593
   },
@@ -140,7 +140,7 @@
     "z_score": 0.0
   },
   "Vancouver Whitecaps FC": {
-    "identity": "The Disruptors",
+    "identity": "High-Disruption Defense",
     "metric": "Defensive Disruption",
     "z_score": 1.1426817565942229
   }

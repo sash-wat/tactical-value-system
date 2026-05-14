@@ -10,16 +10,16 @@ from src.player_preprocessor import PLAYER_FEATURE_LABELS
 # Maps each feature → a unique archetype name.
 # One name per feature so the dedup walkdown always resolves cleanly.
 ARCHETYPE_MAP = {
-    "g_shooting":                        "The Finishers",
-    "xgoals_p96":                        "The Gunslingers",
-    "g_passing":                         "The Architects",
-    "xassists_p96":                      "The Playmakers",
-    "passes_completed_over_expected_p100": "The Metronomes",
-    "g_dribbling":                       "Progressive Carriers",
-    "avg_vertical_distance_yds":         "Vertical Threats",
-    "g_receiving":                       "Box Infiltrators",
-    "g_interrupting":                    "The Enforcers",
-    "share_team_touches":                "The Orchestrators",
+    "g_shooting":                        "Elite Finishers",
+    "xgoals_p96":                        "High-xG Attackers",
+    "g_passing":                         "Elite Distributors",
+    "xassists_p96":                      "Primary Creators",
+    "passes_completed_over_expected_p100": "High-Efficiency Passers",
+    "g_dribbling":                       "Progressive Ball Carriers",
+    "avg_vertical_distance_yds":         "Direct Progressors",
+    "g_receiving":                       "Advanced Targets",
+    "g_interrupting":                    "Elite Disruptors",
+    "share_team_touches":                "Possession Hubs",
 }
 
 BALANCED_ARCHETYPE = "Balanced Roles"

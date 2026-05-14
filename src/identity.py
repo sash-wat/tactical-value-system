@@ -25,21 +25,21 @@ FEATURE_MAP = {
 }
 
 IDENTITY_NAMES = {
-    "passing": "The Metronomes",
-    "receiving": "Box Infiltrators",
-    "shooting": "The Gunslingers",
-    "interrupting": "The Disruptors",
-    "dribbling": "Progressive Carriers",
-    "claiming": "Air Superiority",
-    "xgoals_for": "Attacking Juggernauts",
-    "xgoals_against": "Open Defenses",
-    "shots_for": "Volume Shooters",
-    "shots_against": "Siege Defenders",
-    "attempted_passes_for": "The Architects",
-    "pass_completion_percentage_for": "Tiki-Taka Purists",
-    "avg_vertical_distance_for": "Vertical Threats",
-    "pass_completion_percentage_against": "Passive Observers",
-    "avg_vertical_distance_against": "High-Press Hounds",
+    "passing": "High-Volume Passing",
+    "receiving": "Advanced Receiving",
+    "shooting": "Shot-Creation Focus",
+    "interrupting": "High-Disruption Defense",
+    "dribbling": "Progressive Dribbling",
+    "claiming": "Aerial Dominance",
+    "xgoals_for": "Elite xG Generation",
+    "xgoals_against": "Vulnerable Defense",
+    "shots_for": "High-Volume Shooting",
+    "shots_against": "Low-Block Defense",
+    "attempted_passes_for": "Possession Dominant",
+    "pass_completion_percentage_for": "High-Efficiency Passing",
+    "avg_vertical_distance_for": "Direct Attacking",
+    "pass_completion_percentage_against": "Passive Block",
+    "avg_vertical_distance_against": "High-Line Pressing",
 }
 
 BALANCED_IDENTITY = "Balanced Systems"
@@ -69,29 +69,26 @@ def name_clusters(
     centroids = df_temp.groupby("cluster").mean()
 
     cluster_names = {}
+    used_names: set[str] = set()
+    
     for cluster_id in centroids.index:
         c_stats = centroids.loc[cluster_id]
-        best_trait = c_stats.idxmax()
-        peak_value = c_stats.max()
-        if peak_value > threshold:
-            cluster_names[int(cluster_id)] = IDENTITY_NAMES.get(best_trait, "The Enigmas")
-        else:
-            cluster_names[int(cluster_id)] = BALANCED_IDENTITY
+        
+        ranked_features = c_stats.sort_values(ascending=False).index
+        
+        assigned = BALANCED_IDENTITY
+        for feature in ranked_features:
+            if c_stats[feature] <= threshold:
+                break
+            candidate = IDENTITY_NAMES.get(feature, "The Enigmas")
+            if candidate not in used_names:
+                assigned = candidate
+                break
+                
+        used_names.add(assigned)
+        cluster_names[int(cluster_id)] = assigned
 
     return cluster_names, centroids
-
-
-def unique_legend_names(cluster_names: dict[int, str]) -> dict[int, str]:
-    final_names = {}
-    name_counts = {}
-    for cluster_id, name in cluster_names.items():
-        if name not in name_counts:
-            name_counts[name] = 0
-            final_names[cluster_id] = name
-        else:
-            name_counts[name] += 1
-            final_names[cluster_id] = f"{name} ({name_counts[name] + 1})"
-    return final_names
 
 
 def build_team_identities(

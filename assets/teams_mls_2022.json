@@ -1,16 +1,16 @@
 {
   "Atlanta United FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.9337766078845187
   },
   "Austin FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.1032153537541671
   },
   "CF Montr\u00e9al": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.449386566342158
   },
@@ -40,7 +40,7 @@
     "z_score": 0.0
   },
   "FC Cincinnati": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 2.3638571921322202
   },
@@ -60,12 +60,12 @@
     "z_score": 0.0
   },
   "LA Galaxy": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 2.0654254503318072
   },
   "Los Angeles FC": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 2.0922267171772946
   },
@@ -80,17 +80,17 @@
     "z_score": 0.0
   },
   "New England Revolution": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.4759553607665277
   },
   "New York City FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.9666796911494957
   },
   "New York Red Bulls": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 0.28428304767021795
   },
@@ -100,7 +100,7 @@
     "z_score": 0.0
   },
   "Philadelphia Union": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 2.3018276816214422
   },
@@ -115,7 +115,7 @@
     "z_score": 0.0
   },
   "San Jose Earthquakes": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.7043049288756237
   },

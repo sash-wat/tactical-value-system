@@ -1,6 +1,6 @@
 {
   "Atlanta United FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.0500910907368983
   },
@@ -20,7 +20,7 @@
     "z_score": 0.0
   },
   "Chicago Fire FC": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": -0.8747128592066109
   },
@@ -30,7 +30,7 @@
     "z_score": 0.0
   },
   "Columbus Crew": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 2.727915592982057
   },
@@ -40,17 +40,17 @@
     "z_score": 0.0
   },
   "FC Cincinnati": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 0.5785105670245916
   },
   "FC Dallas": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 0.31756158568759457
   },
   "Houston Dynamo FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.327782468264312
   },
@@ -60,27 +60,27 @@
     "z_score": 0.0
   },
   "LA Galaxy": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 0.9693727561356941
   },
   "Los Angeles FC": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 0.6654178289605247
   },
   "Minnesota United FC": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 1.8097953120942332
   },
   "Nashville SC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 0.8775367689767574
   },
   "New England Revolution": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 1.2754485462787037
   },
@@ -90,57 +90,57 @@
     "z_score": 0.0
   },
   "New York Red Bulls": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 1.8391585366485508
   },
   "Orlando City SC": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 0.2617424653560669
   },
   "Philadelphia Union": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 1.755207304030166
   },
   "Portland Timbers FC": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 1.0599886222669326
   },
   "Real Salt Lake": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": -0.010488127928056751
   },
   "San Jose Earthquakes": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 2.013298199553836
   },
   "Seattle Sounders FC": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.7841710393742658
   },
   "Sporting Kansas City": {
-    "identity": "The Architects",
+    "identity": "Possession Dominant",
     "metric": "Possession Volume",
     "z_score": 1.1612691742442176
   },
   "St. Louis City SC": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 0.9772592150998014
   },
   "Toronto FC": {
-    "identity": "Air Superiority",
+    "identity": "Aerial Dominance",
     "metric": "Claiming Impact",
     "z_score": 1.5916698262537603
   },
   "Vancouver Whitecaps FC": {
-    "identity": "The Metronomes",
+    "identity": "High-Volume Passing",
     "metric": "Passing Impact",
     "z_score": 0.2863760430023065
   }

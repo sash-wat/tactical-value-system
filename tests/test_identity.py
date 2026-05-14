@@ -15,7 +15,7 @@ def test_name_clusters_uses_centroid_outlier_trait():
 
     names, centroids = name_clusters(df_scaled, clusters)
 
-    assert names[0] == "The Metronomes"
+    assert names[0] == "High-Volume Passing"
     assert names[1] == "Balanced Systems"
     assert centroids.loc[0, "passing"] == 1.3
 
@@ -30,7 +30,7 @@ def test_build_team_identities_reports_team_z_score_for_cluster_trait():
     identities = build_team_identities(df_scaled, [0, 0, 1, 1], ["A", "B", "C", "D"])
 
     assert identities["A"] == {
-        "identity": "The Metronomes",
+        "identity": "High-Volume Passing",
         "metric": "Passing Impact",
         "z_score": 1.5,
     }
