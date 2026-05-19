@@ -1,70 +1,70 @@
 {
   "Abby Dahlkemper": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999998716009,
+    "confidence": 0.9999999988754262,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.1514933364474564
   },
   "Abby Erceg": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9998555037154621,
+    "confidence": 0.9991342949540252,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.07073343140728
   },
   "Addie McCain": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9956321311052785,
+    "confidence": 0.9952993806466656,
     "position": "AM",
     "primary_metric": "Ball Involvement",
-    "z_score": -0.4212096159068112
+    "z_score": -0.4212096159068115
   },
   "Alana Cook": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999992738348799,
+    "confidence": 0.9999965348420052,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.784426773681194
   },
   "Alex Morgan": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999995101552887,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999995676502575,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.2523092305204413
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5785370731931974
   },
   "Ali Krieger": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999964011196234,
+    "confidence": 0.9999976993983252,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.5495772509570143
   },
   "Ali Riley": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9416154488990509,
+    "confidence": 0.9543404887197194,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.35922360174920187
   },
   "Allie Long": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999774255808412,
+    "confidence": 0.9999710938660461,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.49304808786341503
   },
   "Ally Prisock": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9983930686170912,
+    "confidence": 0.9983836307829053,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.0508124953994422
   },
   "Allysha Chapman": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999920678123677,
+    "confidence": 0.9999152021604829,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.3876103376931432
@@ -77,330 +77,330 @@
     "z_score": 2.4242809189313976
   },
   "Amy Rodriguez": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.7254850279162537
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.542679374489756
   },
   "Amy Turner": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999996149231714,
+    "confidence": 0.9999996898800189,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.1270525242025466
   },
   "Andi Sullivan": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999982650751034,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999462661805,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.11437688108394484
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1044564867097038
   },
   "Angela Salem": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9992012807371963,
+    "confidence": 0.9983413731685742,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.13954115380836968
   },
   "Angelina": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9982143326592386,
+    "confidence": 0.9983764523597131,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -1.378519024511919
   },
   "Angharad James-Turner": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999322692796412,
+    "confidence": 0.9999504658360706,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.05794634865588174
   },
   "Anna Heilferty": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9902922286894021,
+    "confidence": 0.9969543657348457,
     "position": "FB",
     "primary_metric": "Ball Involvement",
     "z_score": -1.1634406992305952
   },
   "Arin Wright": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999348750613497,
+    "confidence": 0.9998508302939217,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.7115587160390803
   },
   "Ashley Hatch": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999993134718,
+    "archetype": "Primary Creators",
+    "confidence": 0.999999999256163,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.9944679928527107
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3693249682891981
   },
   "Ashley Sanchez": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999881807932,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999884763434,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.61909997676835
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.3937422349046205
   },
   "Becky Sauerbrunn": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999996140936,
+    "confidence": 0.9999999953187491,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.0871389081196168
   },
   "Bethany Bos": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999982485,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999999986038,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.211835468901243
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.4102120398627985
   },
   "Brianna Visalli": {
     "archetype": "Possession Hubs",
-    "confidence": 0.833036807176162,
+    "confidence": 0.8652963889519028,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -0.7754562693113446
   },
   "Brooke Hendrix": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999999997629,
+    "confidence": 0.9999999999998401,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 2.328478674456732
   },
   "Caprice Dydasco": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999999973035,
+    "confidence": 0.9999999990527808,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": -0.0322598585728851
   },
   "Cari Roccaro": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999989953895191,
+    "confidence": 0.9999993946960155,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.07949136951583692
   },
   "Carli Lloyd": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.4489548428597527
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8476867172092949
   },
   "Carson Pickett": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999297571163752,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999659524181934,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7595977499399873
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.8628976713242391
   },
   "Casey Krueger": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999768420901155,
+    "confidence": 0.999979615102467,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.115166923727282
   },
   "Cece Delzer": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.999426636496675,
+    "archetype": "Primary Creators",
+    "confidence": 0.9992187683617519,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.39930008402880485
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.424045449527422
   },
   "Celeste Boureille": {
     "archetype": "Possession Hubs",
-    "confidence": 0.982874998701804,
+    "confidence": 0.9822830444652825,
     "position": "CM",
     "primary_metric": "Ball Involvement",
     "z_score": -0.4507301703571892
   },
   "Celia Jim\u00e9nez": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9976886936378019,
+    "confidence": 0.9978378830823492,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6241266127441782
   },
   "Cheyna Matthews": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999998578233077,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999998916590022,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.9500695075584598
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3730918439604878
   },
   "Christen Westphal": {
     "archetype": "Direct Progressors",
-    "confidence": 0.7493983264163404,
+    "confidence": 0.8070735341202304,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.17271294157498346
   },
   "Christine Sinclair": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999832525,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999999807088,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.5723619621790792
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.9368358028461703
   },
   "Courtney Petersen": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999958392907184,
+    "confidence": 0.9999859317260364,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.8802051034667746
   },
   "Crystal Dunn": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.2897567134362272
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.33470640967997
   },
   "Dani Weatherholt": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9967359491025826,
+    "confidence": 0.99584950409978,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.4246281623911187
   },
   "Danielle Colaprico": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9976801023256691,
+    "confidence": 0.9978889510991521,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.4010982223371051
   },
   "Darian Jenkins": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9953010917098506,
+    "confidence": 0.9921055277392108,
     "position": "W",
     "primary_metric": "Ball Involvement",
-    "z_score": -0.7501529369253064
+    "z_score": -0.7501529369253067
   },
   "Debinha": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.3331484773495728
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.335361026425832
   },
   "Denise O'Sullivan": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9999976505978102,
+    "confidence": 0.9999917460838471,
     "position": "DM",
     "primary_metric": "Ball Involvement",
     "z_score": 1.4765403130460453
   },
   "Desiree Scott": {
     "archetype": "Direct Progressors",
-    "confidence": 0.8986238517503229,
+    "confidence": 0.8868084831480576,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.2248209350856185
   },
   "Diane Caldwell": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999950133973,
+    "confidence": 0.9999999953703318,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.2160390822879765
   },
   "Dorian Bailey": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9923825853756195,
+    "confidence": 0.9935669273425112,
     "position": "DM",
     "primary_metric": "Ball Involvement",
-    "z_score": 0.11437758626432844
+    "z_score": 0.11437758626432785
   },
   "Dzsenifer Marozs\u00e1n": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999743831613379,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999982791278682,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.44340623225587666
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.305382520367045
   },
   "Ebony Salmon": {
     "archetype": "Possession Hubs",
-    "confidence": 0.999982668347258,
+    "confidence": 0.9999262441413538,
     "position": "ST",
     "primary_metric": "Ball Involvement",
-    "z_score": -1.49660124231343
+    "z_score": -1.4966012423134303
   },
   "Elizabeth Ball": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999955277767749,
+    "confidence": 0.9999966130886448,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.5171489325577014
   },
   "Elizabeth Eddy": {
     "archetype": "Possession Hubs",
-    "confidence": 0.999946248642333,
+    "confidence": 0.9999484265562099,
     "position": "FB",
     "primary_metric": "Ball Involvement",
-    "z_score": -1.2815229170321063
+    "z_score": -1.2815229170321065
   },
   "Emily Curran": {
     "archetype": "Possession Hubs",
-    "confidence": 0.7656867981281312,
+    "confidence": 0.6405204698459281,
     "position": "DM",
     "primary_metric": "Ball Involvement",
     "z_score": -0.4085579497137924
   },
   "Emily Fox": {
     "archetype": "Direct Progressors",
-    "confidence": 1.0,
+    "confidence": 0.9999999999838458,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": -0.019632902735984673
   },
   "Emily Menges": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999987153654,
+    "confidence": 0.9999995256143658,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.269273180191273
   },
   "Emily Sonnett": {
     "archetype": "Direct Progressors",
-    "confidence": 0.999999976181915,
+    "confidence": 0.9999999587509016,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.322124643069209
   },
   "Emina Ekic": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9997971174919054,
+    "confidence": 0.9996919174885195,
     "position": "W",
     "primary_metric": "Ball Involvement",
-    "z_score": -1.49660124231343
+    "z_score": -1.4966012423134303
   },
   "Erica Skroski": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999831515780127,
+    "confidence": 0.999989064330518,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": -0.021713480686382885
   },
   "Erika Tymrak": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9999150713870021,
+    "confidence": 0.9999294242613157,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -1.7116795675947538
   },
   "Erin Simon": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9950620311819129,
+    "confidence": 0.9961255187597682,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.7749087274253486
@@ -413,526 +413,526 @@
     "z_score": 0.732364495543064
   },
   "Eug\u00e9nie Le Sommer": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 3.2425136176458587
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5678795540300599
   },
   "Freja Olofsson": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9993562873931876,
+    "confidence": 0.9988447799014256,
     "position": "DM",
     "primary_metric": "Ball Involvement",
     "z_score": 0.671050898757166
   },
   "Gabby Seiler": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9913838347392497,
+    "confidence": 0.9470336350946138,
     "position": "CM",
     "primary_metric": "Ball Involvement",
     "z_score": -0.1766107361751097
   },
   "Gaby Vincent": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9998358935806284,
+    "confidence": 0.9998657773292953,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.7737608223492664
   },
   "Ga\u00ebtane Thiney": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9973495942030512,
+    "confidence": 0.9977353785925085,
     "position": "CM",
     "primary_metric": "Ball Involvement",
-    "z_score": -0.9441451518849318
+    "z_score": -0.944145151884932
   },
   "Gemma Bonner": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999978817503319,
+    "confidence": 0.9999981670664612,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.6464556564405066
   },
   "Gina Lewandowski": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9998814100671825,
+    "confidence": 0.9998401572326819,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.4288631763648354
   },
   "Gunnhildur Jonsdottir": {
     "archetype": "Possession Hubs",
-    "confidence": 0.997831970507121,
+    "confidence": 0.9999022416027782,
     "position": "DM",
     "primary_metric": "Ball Involvement",
     "z_score": 0.9156497784888674
   },
   "Hailie Mace": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9986189834471094,
+    "confidence": 0.9988418252166396,
     "position": "FB",
     "primary_metric": "Ball Involvement",
-    "z_score": -0.8302801561477603
+    "z_score": -0.8302801561477606
   },
   "Haley McCutcheon": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999740144547455,
+    "confidence": 0.9998256469212307,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.3574300000678241
   },
   "Havana Solaun": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9970922721527757,
+    "confidence": 0.9934043384402451,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.41147719740001204
   },
   "Ifeoma Onumonu": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.4814256681544782
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1442232398366332
   },
   "Imani Dorsey": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9990910600021916,
+    "confidence": 0.9991067643196716,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.3598932130435831
   },
   "Jasmyne Spencer": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9873892052310388,
+    "confidence": 0.9894347709632076,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -1.420691245155316
   },
   "Jennifer Cudjoe": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9912895845958335,
+    "confidence": 0.9923015785217353,
     "position": "CM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.312396526515031
   },
   "Jess Fishlock": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.7431019976973979
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.367258431573774
   },
   "Jessica McDonald": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.882487348012082
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.9653899397171497
   },
   "Jodie Taylor": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9890805423490613,
+    "confidence": 0.9847675015695644,
     "position": "ST",
     "primary_metric": "Ball Involvement",
     "z_score": -1.1043995903298398
   },
   "Jorian Baucom": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9999998874192314,
+    "confidence": 0.9999996389459772,
     "position": "ST",
     "primary_metric": "Ball Involvement",
     "z_score": -2.1249673299000427
   },
   "Julia Ashley": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999995139273743,
+    "confidence": 0.9999996378676447,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.0598283331845022
   },
   "Julia Roddar": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9371739574701776,
+    "confidence": 0.9730671420192201,
     "position": "FB",
     "primary_metric": "Ball Involvement",
     "z_score": -0.5097712792579447
   },
   "J\u00e9ssica Silva": {
     "archetype": "Possession Hubs",
-    "confidence": 0.999438889850822,
+    "confidence": 0.9995181862485998,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -1.0453584814290844
   },
   "Kaleigh Kurtz": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999733676489,
+    "confidence": 0.9999999751851026,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.2753714259079578
   },
   "Kaleigh Riehl": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999966685117966,
+    "confidence": 0.999996897070129,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.3552225727629026
   },
   "Kate Del Fava": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999489597768,
+    "confidence": 0.9999999580667662,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.398316842494143
   },
   "Katie Bowen": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9965457365630346,
+    "confidence": 0.9974003362127666,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.4983592628459584
   },
   "Katie Johnson": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9999790467125279,
+    "confidence": 0.9999745104217201,
     "position": "AM",
     "primary_metric": "Ball Involvement",
     "z_score": -1.2730884729034269
   },
   "Katie Lind": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999611976403,
+    "confidence": 0.9999997971240556,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.1788278260716558
   },
   "Katie McClure": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9895990310546346,
+    "confidence": 0.9873303602807871,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -1.9014545604900395
   },
   "Kayla Sharples": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999578865638458,
+    "confidence": 0.9999603746674584,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.3876269764731306
   },
   "Kealia Watt": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.0696031685473186
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.5043090771699938
   },
   "Kelley O'Hara": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9998988888333259,
+    "confidence": 0.9998574088811556,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6222373523064599
   },
   "Kelli Hubly": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999997006919,
+    "confidence": 0.9999999990595398,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.9817468733218498
   },
   "Kiara Pickett": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999991845500732,
+    "confidence": 0.9999958838359806,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.0462447897842
   },
   "Kristen Edmonds": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9995631007549111,
+    "confidence": 0.9995505094688091,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.34040274143927635
   },
   "Kristen Hamilton": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9906656185419165,
+    "archetype": "Primary Creators",
+    "confidence": 0.9907139938128193,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.1976726694350899
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.42564999864093656
   },
   "Kristen McNabb": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9988818618610656,
+    "confidence": 0.998910679680382,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.7384627412597492
   },
   "Kristie Mewis": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.4789817901379893
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 3.3418624204683436
   },
   "Kumi Yokoyama": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999710457317565,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999801242818984,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9706391512648318
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.23322969626435
   },
   "Lauren Barnes": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999981233020907,
+    "confidence": 0.9999945285723814,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.9721809976878345
   },
   "Lauren Milliet": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999995864530613,
+    "confidence": 0.9999975937752583,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.4948677182395428
   },
   "Leah Pruitt": {
     "archetype": "Possession Hubs",
-    "confidence": 0.904307476357882,
+    "confidence": 0.9159261590577706,
     "position": "ST",
     "primary_metric": "Ball Involvement",
     "z_score": -1.471297909927392
   },
   "Lee So-Dam": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9992494372628542,
+    "confidence": 0.9989954488869334,
     "position": "CM",
     "primary_metric": "Ball Involvement",
     "z_score": -0.8682351547268177
   },
   "Lindsey Heaps": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9506660989920169
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.708161311511926
   },
   "Lo'eau LaBonta": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999628940734,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999546760502,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.07473701776503035
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.409177681411288
   },
   "Lynn Biyendolo": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999999609,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999999999716,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.0044555155506214
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.6553945287689719
   },
   "Madison Hammond": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999866002950693,
+    "confidence": 0.9999828972713792,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.2250143666039636
   },
   "Madison Pogarch": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9949352686940828,
+    "confidence": 0.9930477896780142,
     "position": "FB",
     "primary_metric": "Ball Involvement",
     "z_score": -1.3363468038685222
   },
   "Makenzy Robbe": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9999687322639859,
+    "confidence": 0.9999440108914819,
     "position": "ST",
     "primary_metric": "Ball Involvement",
     "z_score": -1.6231179042436206
   },
   "Mal Swanson": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.2208253541906904
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.6960178976860345
   },
   "Mallory Weber": {
     "archetype": "Direct Progressors",
-    "confidence": 0.999891063584777,
+    "confidence": 0.9998874310680824,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.2933313574108223
   },
   "Mandy Freeman": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999435840434,
+    "confidence": 0.9999999545150243,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.098570129502265
   },
   "Mariana Larroquette": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9975485480683305,
+    "confidence": 0.9979192555000368,
     "position": "W",
     "primary_metric": "Ball Involvement",
-    "z_score": -1.7707206764955092
+    "z_score": -1.7707206764955095
   },
   "Marisa DiGrande": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9262018472687567,
+    "confidence": 0.9067557561377635,
     "position": "DM",
     "primary_metric": "Ball Involvement",
     "z_score": -0.12600407140303385
   },
   "Marissa Everett": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9472307476535501,
+    "confidence": 0.9493133873785327,
     "position": "AM",
     "primary_metric": "Ball Involvement",
     "z_score": -1.2646540287747476
   },
   "Marta": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.017624620039241347
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.3858882649980595
   },
   "McCall Zerboni": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9186675290045508,
+    "confidence": 0.9383582938478955,
     "position": "CM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.4265652522070068
   },
   "Megan Montefusco": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999991183617724,
+    "confidence": 0.9999993565577513,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.7562719087190057
   },
   "Megan Rapinoe": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.73032918898866
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 4.398288386258493
   },
   "Meggie Dougherty Howard": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9978011409220394,
+    "confidence": 0.9976240716279973,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.15523130385381997
   },
   "Meghan Klingenberg": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999379226027,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999190049669,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.795915970869021
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 2.5213892547668477
   },
   "Meredith Speck": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9845830009551201,
+    "confidence": 0.9750036541320217,
     "position": "AM",
     "primary_metric": "Ball Involvement",
     "z_score": -0.47603350274322714
   },
   "Merritt Mathias": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9991869198799469,
+    "confidence": 0.9983149199040127,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.41714497871316625
   },
   "Michele Vasconcelos": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9985495519212979,
+    "confidence": 0.9987287724718509,
     "position": "W",
     "primary_metric": "Ball Involvement",
-    "z_score": -0.9863173725283286
+    "z_score": -0.9863173725283289
   },
   "Michelle Maemone": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999989607740636,
+    "confidence": 0.999999134673899,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.984760124146565
   },
   "Midge Purce": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.820743711085946
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.5360554837310019
   },
   "Morgan Gautrat": {
-    "archetype": "Direct Progressors",
-    "confidence": 0.9665334181636475,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999997996252633,
     "position": "DM",
-    "primary_metric": "Attacking Directness",
-    "z_score": 0.8541141776749972
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.3880049368715249
   },
   "Morgan Weaver": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999899597047577,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999940162203388,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.6163470713192265
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.4268348292045614
   },
   "Nadia Nadim": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999515925,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999999689475,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.6094832966401214
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.598991974729188
   },
   "Nahomi Kawasumi": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.999692903255194,
+    "archetype": "Primary Creators",
+    "confidence": 0.9998560478975232,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.17057622565385078
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.8137098143947135
   },
   "Natalia Kuikka": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999997961572514,
+    "confidence": 0.9999880886219095,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.34250723407875977
   },
   "Nealy Martin": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999995734915575,
+    "confidence": 0.999999609478944,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.4061130311358658
   },
   "Nichelle Prince": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.2298632669883408
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.610811343189557
   },
   "Paige Cronin": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999055683135564,
+    "archetype": "Primary Creators",
+    "confidence": 0.9998968226788274,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.13576030126046304
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.433887735678291
   },
   "Paige Nielsen": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999849195296926,
+    "confidence": 0.9999752401748921,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.1689583353886324
@@ -946,182 +946,182 @@
   },
   "Quinn": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9997348987964589,
+    "confidence": 0.9997201828182214,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": -0.1842855370864775
   },
   "Rachel Corsie": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999999996074,
+    "confidence": 0.9999999999996785,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.3438630954475093
   },
   "Rachel Daly": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.9961348356616955
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.30202955865153336
   },
   "Rachel Hill": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9914694582000124,
+    "archetype": "Primary Creators",
+    "confidence": 0.995337347531921,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.3260222996565658
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.4251995263786637
   },
   "Rocky Rodr\u00edguez": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9791514881494839,
+    "archetype": "Primary Creators",
+    "confidence": 0.9860622328765538,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.2094084972562229
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.2892720914077709
   },
   "Rose Lavelle": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.1827244352123392
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.795724780211943
   },
   "Ryan Williams": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9999935477393281,
+    "confidence": 0.9999936543499683,
     "position": "FB",
     "primary_metric": "Ball Involvement",
     "z_score": -1.7622862323668302
   },
   "Sam Hiatt": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999984969747489,
+    "confidence": 0.9999985330964035,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.056001982930896
   },
   "Sam Staab": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999997328374547,
+    "confidence": 0.9999953720248097,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.7977472555015606
   },
   "Saori Takarada": {
     "archetype": "Direct Progressors",
-    "confidence": 0.999519859131638,
+    "confidence": 0.9995988448399655,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6687035931986905
   },
   "Sarah Gorden": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9996192989085769,
+    "confidence": 0.9996022137264486,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.7985603549304517
   },
   "Sarah Woldmoe": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9552185496736348,
+    "confidence": 0.8325780324457714,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.6280007923759545
   },
   "Savannah McCaskill": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.99999859127355,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999989098119705,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.3375340500236257
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.2479877882501798
   },
   "Shea Groom": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9996941894038945,
+    "archetype": "Primary Creators",
+    "confidence": 0.9996733178195167,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.2292982391542869
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.6714604689568587
   },
   "Shirley Cruz": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9852093236950322,
+    "confidence": 0.9851038689644237,
     "position": "DM",
     "primary_metric": "Ball Involvement",
-    "z_score": -0.7712390472470049
+    "z_score": -0.7712390472470051
   },
   "Simone Charley": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 3.1982209611324506
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.16392508967795974
   },
   "Sofia Huerta": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9998693150578619,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999861044010456,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.19203099282646227
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.1868396006758064
   },
   "Sophia Wilson": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 3.217634806744267
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.0693775872078209
   },
   "Sophie Schmidt": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9978065623177921,
+    "confidence": 0.9904239502317638,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.29429522088332133
   },
   "Sydney Leroux": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999995114500425,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999995835031786,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.3450564983402102
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.42930684430775234
   },
   "Tara Rudd": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9998294654874632,
+    "confidence": 0.9998203544780734,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -1.3194779156111636
   },
   "Tatumn Milazzo": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999999996929985,
+    "confidence": 0.9999999987460866,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.3107173363756452
   },
   "Taylor Flint": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9708315740200097,
+    "confidence": 0.8923050723353664,
     "position": "W",
     "primary_metric": "Ball Involvement",
-    "z_score": -0.07118018456661758
+    "z_score": -0.07118018456661816
   },
   "Taylor Leach": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9999998249808313,
+    "confidence": 0.999999300726736,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.1450363703944957
   },
   "Tegan McGrady": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9947670119827353,
+    "confidence": 0.9966308350145393,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": -0.44837544865256235
   },
   "Tierna Davidson": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9995610901184545,
+    "confidence": 0.9995951677724959,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.5459183035270034
@@ -1135,51 +1135,51 @@
   },
   "Tori Huster": {
     "archetype": "Possession Hubs",
-    "confidence": 0.8280237234745883,
+    "confidence": 0.8748695810388307,
     "position": "CM",
     "primary_metric": "Ball Involvement",
     "z_score": 0.09750869800696924
   },
   "Trinity Rodman": {
-    "archetype": "High-xG Attackers",
+    "archetype": "Primary Creators",
     "confidence": 1.0,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.4898323706740875
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 1.950905394411348
   },
   "Tziarra King": {
     "archetype": "Possession Hubs",
-    "confidence": 0.986175186147942,
+    "confidence": 0.980150174282423,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -1.3869534686405984
   },
   "Vanessa DiBernardo": {
     "archetype": "Possession Hubs",
-    "confidence": 0.970352306230743,
+    "confidence": 0.9727317778663487,
     "position": "AM",
     "primary_metric": "Ball Involvement",
-    "z_score": 0.3168042453526331
+    "z_score": 0.3168042453526325
   },
   "Veronica Latsko": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9867583901747845,
+    "confidence": 0.9680951814370622,
     "position": "ST",
     "primary_metric": "Ball Involvement",
     "z_score": -1.0917479241368206
   },
   "Victoria Pickett": {
     "archetype": "Possession Hubs",
-    "confidence": 0.9882846304061041,
+    "confidence": 0.986264534271105,
     "position": "CM",
     "primary_metric": "Ball Involvement",
     "z_score": 0.06377092149225198
   },
   "Yuki Nagasato": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9999999833134795,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999999824492926,
     "position": "W",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.33952257890608484
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": 0.027665435809874156
   }
 }

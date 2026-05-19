@@ -124,51 +124,39 @@
                 
                 const teams = Object.entries(data).map(([team, info]) => ({ 
                     team, 
-                    identity: info.identity,
+                    identity: info.primary_identity || info.identity,
+                    secondary_identity: info.secondary_identity || '',
+                    hybrid_flag: info.hybrid_flag || false,
+                    explanation: info.explanation || '',
                     metric: info.metric,
                     z_score: info.z_score
                 }));
                 // Sort by identity, then team
                 teams.sort((a, b) => a.identity.localeCompare(b.identity) || a.team.localeCompare(b.team));
                 const identityColors = {
-                    'Attacking Juggernauts': 'bg-rose-500/10 text-rose-300 border-rose-500/30',
-                    'High-Press Hounds': 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30',
-                    'Vertical Threats': 'bg-sky-500/10 text-sky-300 border-sky-500/30',
-                    'Open Defenses': 'bg-amber-500/10 text-amber-300 border-amber-500/30',
-                    'The Architects': 'bg-indigo-500/10 text-indigo-300 border-indigo-500/30',
-                    'The Disruptors': 'bg-fuchsia-500/10 text-fuchsia-300 border-fuchsia-500/30',
-                    'The Metronomes': 'bg-blue-500/10 text-blue-300 border-blue-500/30',
-                    'Progressive Carriers': 'bg-violet-500/10 text-violet-300 border-violet-500/30',
-                    'The Gunslingers': 'bg-cyan-500/10 text-cyan-300 border-cyan-500/30',
-                    'Box Infiltrators': 'bg-yellow-500/10 text-yellow-300 border-yellow-500/30',
-                    'Air Superiority': 'bg-stone-500/10 text-stone-300 border-stone-500/30',
-                    'Volume Shooters': 'bg-orange-500/10 text-orange-300 border-orange-500/30',
-                    'Siege Defenders': 'bg-red-500/10 text-red-300 border-red-500/30',
-                    'Tiki-Taka Purists': 'bg-teal-500/10 text-teal-300 border-teal-500/30',
-                    'Passive Observers': 'bg-gray-500/10 text-gray-300 border-gray-500/30',
-                    'Balanced Systems': 'bg-slate-500/20 text-slate-300 border-slate-500/30'
+                    'High-Efficiency Passing': 'bg-teal-500/10 text-teal-300 border-teal-500/30',
+                    'High-Line Pressing': 'bg-rose-500/10 text-rose-300 border-rose-500/30',
+                    'High-Disruption Defense': 'bg-fuchsia-500/10 text-fuchsia-300 border-fuchsia-500/30',
+                    'Progressive Dribbling': 'bg-violet-500/10 text-violet-300 border-violet-500/30',
+                    'Balanced Systems': 'bg-slate-500/20 text-slate-300 border-slate-500/30',
+                    'Direct Attacking': 'bg-amber-500/10 text-amber-300 border-amber-500/30'
                 };
-                
-                function getHumanIntensity(z) {
-                    const absZ = Math.abs(z);
-                    if (absZ > 2.5) return { label: "League-Defining", color: "text-rose-400" };
-                    if (absZ > 2.0) return { label: "Elite", color: "text-sky-400" };
-                    if (absZ > 1.5) return { label: "Exceptional", color: "text-emerald-400" };
-                    if (absZ > 1.0) return { label: "Significant", color: "text-amber-400" };
-                    return { label: "Strong", color: "text-slate-400" };
-                }
                 
                 let html = '';
                 teams.forEach(t => {
                     let badgeColor = identityColors[t.identity] || 'bg-sky-500/10 text-sky-300 border-sky-500/30';
-                    let intensity = getHumanIntensity(t.z_score);
+                    let secondaryBadgeHtml = '';
                     
-                    let detailHtml = t.identity === 'Balanced Systems' 
-                        ? `<p class="text-xs text-slate-500 mt-3 font-medium italic">Plays a versatile game with no extreme statistical outliers.</p>`
-                        : `<p class="text-xs text-indigo-200/60 mt-3 leading-relaxed">
-                             Exhibits <span class="${intensity.color} font-bold">${intensity.label}</span> levels of 
-                             <span class="text-slate-100">${t.metric}</span> compared to the league mean.
-                           </p>`;
+                    if (t.hybrid_flag && t.secondary_identity) {
+                        let secColor = identityColors[t.secondary_identity] || 'bg-sky-500/10 text-sky-300 border-sky-500/30';
+                        secondaryBadgeHtml = `
+                            <span class="inline-block px-2.5 py-0.5 rounded-full text-[9px] uppercase tracking-wider font-bold border ${secColor} ml-2">
+                                Hybrid: ${t.secondary_identity}
+                            </span>
+                        `;
+                    }
+                    
+                    let detailHtml = `<p class="text-xs text-indigo-200/60 mt-3 leading-relaxed">${t.explanation}</p>`;
                         
                     html += `
                         <div class="glass p-6 rounded-2xl border border-indigo-500/10 hover:border-sky-500/30 hover:bg-white/[0.02] transition-all text-left flex flex-col justify-between h-full group">
@@ -176,9 +164,12 @@
                                 <h4 class="font-bold text-slate-100 text-lg group-hover:text-sky-300 transition-colors">${t.team}</h4>
                             </div>
                             <div>
-                                <span class="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-wider font-bold border ${badgeColor}">
-                                    ${t.identity}
-                                </span>
+                                <div class="flex flex-wrap items-center gap-y-1">
+                                    <span class="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-wider font-bold border ${badgeColor}">
+                                        ${t.identity}
+                                    </span>
+                                    ${secondaryBadgeHtml}
+                                </div>
                                 ${detailHtml}
                             </div>
                         </div>

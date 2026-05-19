@@ -32,21 +32,21 @@
     "confidence": 1.0,
     "position": "FB",
     "primary_metric": "Ball Involvement",
-    "z_score": 1.4449567581770315
+    "z_score": 1.4449567581770308
   },
   "Amber Brooks": {
     "archetype": "Elite Disruptors",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Defensive Disruption",
-    "z_score": -1.5284224355613107
+    "z_score": -1.5313240043186649
   },
   "Aminata Diallo": {
     "archetype": "High-Efficiency Passers",
-    "confidence": 0.9999985627107346,
+    "confidence": 0.999998528161409,
     "position": "DM",
     "primary_metric": "Ball Involvement",
-    "z_score": -0.6741950294130714
+    "z_score": -0.6741950294130721
   },
   "Amy Rodriguez": {
     "archetype": "High-Efficiency Passers",
@@ -57,21 +57,21 @@
   },
   "Angela Salem": {
     "archetype": "High-Efficiency Passers",
-    "confidence": 0.9999989957244806,
+    "confidence": 0.9999990127185294,
     "position": "DM",
     "primary_metric": "Ball Involvement",
     "z_score": -0.5221689229120424
   },
   "Ashley Hatch": {
     "archetype": "High-Efficiency Passers",
-    "confidence": 0.999999999999984,
+    "confidence": 0.9999999999999845,
     "position": "ST",
     "primary_metric": "Ball Involvement",
-    "z_score": -1.5172488927369605
+    "z_score": -1.5172488927369607
   },
   "Ashley Sanchez": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999792622412,
+    "confidence": 0.9999999782908973,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.5389280759574715
@@ -81,7 +81,7 @@
     "confidence": 1.0,
     "position": "CM",
     "primary_metric": "Dribbling Impact",
-    "z_score": -0.4311323000616353
+    "z_score": -0.4325316328405607
   },
   "Bethany Bos": {
     "archetype": "High-xG Attackers",
@@ -102,14 +102,14 @@
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Dribbling Impact",
-    "z_score": -0.8037148689209316
+    "z_score": -0.8054380304169939
   },
   "Brittany Ratcliffe": {
     "archetype": "Elite Distributors",
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Passing Impact",
-    "z_score": -0.5040057837295686
+    "z_score": -0.5006623981027933
   },
   "Christen Westphal": {
     "archetype": "Possession Hubs",
@@ -144,39 +144,39 @@
     "confidence": 1.0,
     "position": "AM",
     "primary_metric": "Receiving Impact",
-    "z_score": 3.4298675806289523
+    "z_score": 3.436412797133054
   },
   "Dominique Richardson": {
     "archetype": "Progressive Ball Carriers",
     "confidence": 1.0,
     "position": "DM",
     "primary_metric": "Dribbling Impact",
-    "z_score": -1.0206822536219833
+    "z_score": -1.0211387897994404
   },
   "Dorian Bailey": {
     "archetype": "Elite Distributors",
     "confidence": 1.0,
     "position": "FB",
     "primary_metric": "Passing Impact",
-    "z_score": -1.605503924463681
+    "z_score": -1.6076132628399098
   },
   "Elizabeth Ball": {
     "archetype": "Elite Disruptors",
-    "confidence": 0.9999999999981597,
+    "confidence": 0.999999999998181,
     "position": "CB",
     "primary_metric": "Defensive Disruption",
-    "z_score": -0.6718110637850883
+    "z_score": -0.6747715368784375
   },
   "Emily Menges": {
     "archetype": "Elite Disruptors",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Defensive Disruption",
-    "z_score": -3.819430052673746
+    "z_score": -3.8221740817498713
   },
   "Estelle Johnson": {
     "archetype": "High-Efficiency Passers",
-    "confidence": 0.9999999999989471,
+    "confidence": 0.9999999999989204,
     "position": "CB",
     "primary_metric": "Ball Involvement",
     "z_score": -0.701836139685986
@@ -186,7 +186,7 @@
     "confidence": 0.9999999999999822,
     "position": "CB",
     "primary_metric": "Defensive Disruption",
-    "z_score": -2.1226483421087803
+    "z_score": -2.1255090492997235
   },
   "Haley McCutcheon": {
     "archetype": "Possession Hubs",
@@ -200,7 +200,7 @@
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Passing Impact",
-    "z_score": -3.8028088403398774
+    "z_score": -3.8022408181754663
   },
   "Imani Dorsey": {
     "archetype": "Possession Hubs",
@@ -214,14 +214,14 @@
     "confidence": 1.0,
     "position": "DM",
     "primary_metric": "Dribbling Impact",
-    "z_score": -1.4822458285665423
+    "z_score": -1.4834127336360208
   },
   "Julie Ertz": {
     "archetype": "Possession Hubs",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Ball Involvement",
-    "z_score": 0.7308947427934099
+    "z_score": 0.7308947427934093
   },
   "Kate Del Fava": {
     "archetype": "Possession Hubs",
@@ -242,7 +242,7 @@
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Defensive Disruption",
-    "z_score": -2.761835440907724
+    "z_score": -2.764987703017339
   },
   "Kealia Watt": {
     "archetype": "High-xG Attackers",
@@ -253,17 +253,17 @@
   },
   "Kelli Hubly": {
     "archetype": "Elite Disruptors",
-    "confidence": 0.9999999999991225,
+    "confidence": 0.999999999999126,
     "position": "CB",
     "primary_metric": "Defensive Disruption",
-    "z_score": -0.575849116143882
+    "z_score": -0.5764676305094651
   },
   "Kristen McNabb": {
     "archetype": "Progressive Ball Carriers",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Dribbling Impact",
-    "z_score": -0.8691301291023348
+    "z_score": -0.8684015289184612
   },
   "Kristie Mewis": {
     "archetype": "Primary Creators",
@@ -274,7 +274,7 @@
   },
   "Kumi Yokoyama": {
     "archetype": "High-Efficiency Passers",
-    "confidence": 0.9999999996317799,
+    "confidence": 0.9999999996081903,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -0.9137513184449966
@@ -284,7 +284,7 @@
     "confidence": 1.0,
     "position": "CM",
     "primary_metric": "Receiving Impact",
-    "z_score": 3.1736307160874886
+    "z_score": 3.171330719648005
   },
   "Lo'eau LaBonta": {
     "archetype": "Possession Hubs",
@@ -302,7 +302,7 @@
   },
   "Mallory Weber": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999735014299,
+    "confidence": 0.9999999713257481,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.28467077259500495
@@ -319,7 +319,7 @@
     "confidence": 0.9999999999999787,
     "position": "CB",
     "primary_metric": "Defensive Disruption",
-    "z_score": -0.9415782172939339
+    "z_score": -0.9441846318077373
   },
   "Meghan Klingenberg": {
     "archetype": "Possession Hubs",
@@ -333,14 +333,14 @@
     "confidence": 1.0,
     "position": "FB",
     "primary_metric": "Ball Involvement",
-    "z_score": 0.753929001354172
+    "z_score": 0.7539290013541713
   },
   "Morgan Gautrat": {
     "archetype": "Possession Hubs",
     "confidence": 1.0,
     "position": "DM",
     "primary_metric": "Ball Involvement",
-    "z_score": 0.6019028948531429
+    "z_score": 0.6019028948531423
   },
   "Morgan Weaver": {
     "archetype": "High-xG Attackers",
@@ -354,7 +354,7 @@
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Passing Impact",
-    "z_score": -1.1125441047233748
+    "z_score": -1.1086749822955586
   },
   "Nichelle Prince": {
     "archetype": "High-Efficiency Passers",
@@ -365,7 +365,7 @@
   },
   "Paige Cronin": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999996528546,
+    "confidence": 0.9999999996505204,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.9067752397192527
@@ -382,21 +382,21 @@
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 2.4773019369992486
+    "z_score": 2.477301936999248
   },
   "Rachel Hill": {
     "archetype": "Elite Distributors",
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Passing Impact",
-    "z_score": -1.4667221634888348
+    "z_score": -1.4661233026855416
   },
   "Rocky Rodr\u00edguez": {
     "archetype": "Possession Hubs",
     "confidence": 1.0,
     "position": "CM",
     "primary_metric": "Ball Involvement",
-    "z_score": 0.13200402021359828
+    "z_score": 0.13200402021359764
   },
   "Sabrina Flores": {
     "archetype": "Possession Hubs",
@@ -410,14 +410,14 @@
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Ball Involvement",
-    "z_score": 2.1313776632877395
+    "z_score": 2.131377663287738
   },
   "Sarah Gorden": {
     "archetype": "Possession Hubs",
     "confidence": 1.0,
     "position": "CB",
     "primary_metric": "Ball Involvement",
-    "z_score": 1.136297693462821
+    "z_score": 1.1362976934628204
   },
   "Sarah Woldmoe": {
     "archetype": "Possession Hubs",
@@ -456,7 +456,7 @@
   },
   "Sofia Huerta": {
     "archetype": "High-Efficiency Passers",
-    "confidence": 0.9999999843940058,
+    "confidence": 0.9999999849073747,
     "position": "W",
     "primary_metric": "Ball Involvement",
     "z_score": -0.23193726504644138
@@ -466,7 +466,7 @@
     "confidence": 1.0,
     "position": "DM",
     "primary_metric": "Ball Involvement",
-    "z_score": 0.7815701116270865
+    "z_score": 0.7815701116270858
   },
   "Stephanie Cox": {
     "archetype": "Possession Hubs",

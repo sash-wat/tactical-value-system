@@ -36,7 +36,7 @@
   },
   "Aar\u00f3n Guill\u00e9n": {
     "archetype": "Direct Progressors",
-    "confidence": 0.5565486238722344,
+    "confidence": 0.5565486238722388,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.5342225807190513
@@ -57,7 +57,7 @@
   },
   "Adam Saldana": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.8589180704388706,
+    "confidence": 0.8589180704388576,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8442542750592247
@@ -71,7 +71,7 @@
   },
   "Adri\u00e1n Vera": {
     "archetype": "Primary Creators",
-    "confidence": 0.9402979658578929,
+    "confidence": 0.9402979658578913,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.025607872332590792
@@ -95,7 +95,7 @@
     "confidence": 0.9999989686406703,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.554488277360006
+    "z_score": -0.5544882773600062
   },
   "Ajani Fortune": {
     "archetype": "High-xG Attackers",
@@ -120,10 +120,10 @@
   },
   "Alasanne Ates Diouf": {
     "archetype": "Primary Creators",
-    "confidence": 0.977241470105467,
+    "confidence": 0.9772414701054654,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.32286000430886674
+    "z_score": -0.32286000430886697
   },
   "Alec Diaz": {
     "archetype": "Elite Finishers",
@@ -141,10 +141,10 @@
   },
   "Alejandro Lara": {
     "archetype": "Primary Creators",
-    "confidence": 0.7885620687889511,
+    "confidence": 0.7885620687889455,
     "position": "CB",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.6971052195143198
+    "z_score": -0.6971052195143199
   },
   "Alex Crognale": {
     "archetype": "Direct Progressors",
@@ -158,11 +158,11 @@
     "confidence": 0.9607320342943536,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.3839905854812295
+    "z_score": -0.38399058548122966
   },
   "Alexander Comsia": {
     "archetype": "Direct Progressors",
-    "confidence": 0.8839474589111648,
+    "confidence": 0.883947458911171,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.8993436461101006
@@ -190,7 +190,7 @@
   },
   "Allexon Saravia": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9691884321262193,
+    "confidence": 0.9691884321262184,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8778939337857705
@@ -218,14 +218,14 @@
   },
   "Amobi Okugo": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9929159696881038,
+    "confidence": 0.9929159696881034,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.678121679991061
   },
   "Anderson Asiedu": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.987417442483339,
+    "confidence": 0.9874174424833381,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7433773427398097
@@ -246,7 +246,7 @@
   },
   "Andrew Brody": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9779084254027988,
+    "confidence": 0.9779084254027979,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6960896049729163
@@ -267,7 +267,7 @@
   },
   "Andrew Tinari": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9060124153517503,
+    "confidence": 0.9060124153517486,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5343140984174082
@@ -281,7 +281,7 @@
   },
   "Angelo Kelly-Rosales": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9770124865779427,
+    "confidence": 0.9770124865779436,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.62234072116683
@@ -302,21 +302,21 @@
   },
   "Antoine Hoppenot": {
     "archetype": "Elite Finishers",
-    "confidence": 0.9085462866002297,
+    "confidence": 0.9085462866002282,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.11849033128078304
   },
   "Anton Sorenson": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9695240004774044,
+    "confidence": 0.9695240004774035,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5365529317733805
+    "z_score": -0.5365529317733806
   },
   "Antonee Burke-Gilroy": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.7320925672779852,
+    "confidence": 0.7320925672779879,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8508087342352402
@@ -330,7 +330,7 @@
   },
   "Ariel Mart\u00ednez": {
     "archetype": "Elite Finishers",
-    "confidence": 0.6604076969314193,
+    "confidence": 0.6604076969314217,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.2146529663198499
@@ -354,7 +354,7 @@
     "confidence": 0.9993182811917886,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.6538093910807232
+    "z_score": -0.6538093910807233
   },
   "Ashkanov Apollon": {
     "archetype": "High-xG Attackers",
@@ -365,7 +365,7 @@
   },
   "Atiba Harris": {
     "archetype": "Primary Creators",
-    "confidence": 0.7573505238466014,
+    "confidence": 0.7573505238466108,
     "position": "CB",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.6945956562303387
@@ -379,7 +379,7 @@
   },
   "Austin Yearwood": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9775126827012807,
+    "confidence": 0.9775126827012798,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8527620250092626
@@ -477,7 +477,7 @@
   },
   "Boluwatife Akinyode": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9788382456146764,
+    "confidence": 0.9788382456146772,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.7675442964927335
@@ -547,7 +547,7 @@
   },
   "Brian Ownby": {
     "archetype": "Elite Finishers",
-    "confidence": 0.5910431643183354,
+    "confidence": 0.5910431643183364,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.44220609588763854
@@ -575,7 +575,7 @@
   },
   "Bryam Rebell\u00f3n": {
     "archetype": "Primary Creators",
-    "confidence": 0.9533312529884469,
+    "confidence": 0.9533312529884435,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.5835581047202879
@@ -648,7 +648,7 @@
     "confidence": 0.9799777473503627,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.545116955711467
+    "z_score": -0.5451169557114671
   },
   "Cameron Palmer": {
     "archetype": "Primary Creators",
@@ -666,10 +666,10 @@
   },
   "Carlos Alvarez": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.5675720002053019,
+    "confidence": 0.5675720002053098,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5435699429376902
+    "z_score": -0.5435699429376903
   },
   "Carter Manley": {
     "archetype": "High-xG Attackers",
@@ -680,14 +680,14 @@
   },
   "Charlie Adams": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.5079002647921692,
+    "confidence": 0.5079002647921764,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5691646668041125
   },
   "Charlie Ward": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9846193292017174,
+    "confidence": 0.9846193292017165,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.849751051504615
@@ -697,7 +697,7 @@
     "confidence": 0.99973925095642,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.9953742734749508
+    "z_score": 0.9953742734749501
   },
   "Chir\u00f3 N'Toko": {
     "archetype": "Direct Progressors",
@@ -715,10 +715,10 @@
   },
   "Christian Duke": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9589195531082524,
+    "confidence": 0.9589195531082532,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6468402381847415
+    "z_score": -0.6468402381847416
   },
   "Christian Ibeagha": {
     "archetype": "Direct Progressors",
@@ -757,7 +757,7 @@
   },
   "Christopher Wehan": {
     "archetype": "Primary Creators",
-    "confidence": 0.9797773786124168,
+    "confidence": 0.9797773786124151,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.8231983251608707
@@ -778,7 +778,7 @@
   },
   "Collin Martin": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.6738873381837924,
+    "confidence": 0.673887338183796,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.46093184944632454
@@ -788,11 +788,11 @@
     "confidence": 0.9999847142363737,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.4028255382887337
+    "z_score": -0.40282553828873385
   },
   "Connor Maloney": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9417288686311196,
+    "confidence": 0.9417288686311146,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8231636929848938
@@ -816,7 +816,7 @@
     "confidence": 0.9988840415047753,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.21064886663391583
+    "z_score": 0.21064886663391566
   },
   "Cordell Cato": {
     "archetype": "Primary Creators",
@@ -876,28 +876,28 @@
   },
   "Daniel Bruce": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.8747357041259687,
+    "confidence": 0.8747357041259695,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8437499682057896
   },
   "Daniel Crisostomo": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9320743683922917,
+    "confidence": 0.9320743683922926,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8322272323473905
   },
   "Daniel Finlayson": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9132485174338504,
+    "confidence": 0.9132485174338512,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.4907753501439143
   },
   "Daniel Griffin": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.6159485552063111,
+    "confidence": 0.6159485552063199,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.626695808475304
@@ -925,7 +925,7 @@
   },
   "Danny Reynolds": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.7898516662155151,
+    "confidence": 0.7898516662155122,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7146934148280661
@@ -974,7 +974,7 @@
   },
   "Darwin Jones": {
     "archetype": "Elite Finishers",
-    "confidence": 0.9351144436983398,
+    "confidence": 0.9351144436983415,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.903252431983285
@@ -988,14 +988,14 @@
   },
   "David Najem": {
     "archetype": "Primary Creators",
-    "confidence": 0.8633053996588342,
+    "confidence": 0.8633053996588311,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.38756227205953686
   },
   "David Rabad\u00e1n": {
     "archetype": "Primary Creators",
-    "confidence": 0.9425163322649496,
+    "confidence": 0.9425163322649479,
     "position": "DM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.9264112473068162
@@ -1075,7 +1075,7 @@
     "confidence": 0.9997651362339335,
     "position": "DM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.42214601334805596
+    "z_score": -0.422146013348056
   },
   "Duane Muckette": {
     "archetype": "Primary Creators",
@@ -1086,7 +1086,7 @@
   },
   "Duke Lacroix": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9652598103277396,
+    "confidence": 0.9652598103277379,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8397775054543489
@@ -1128,7 +1128,7 @@
   },
   "Elijah Martin": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9689714546891733,
+    "confidence": 0.9689714546891708,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7898897949276061
@@ -1142,14 +1142,14 @@
   },
   "Ema Twumasi": {
     "archetype": "Elite Finishers",
-    "confidence": 0.9725892120430668,
+    "confidence": 0.9725892120430686,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.3935361610023046
   },
   "Emrah Klimenta": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9641777057630716,
+    "confidence": 0.9641777057630708,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8201900152546586
@@ -1170,7 +1170,7 @@
   },
   "Eric Bird": {
     "archetype": "Direct Progressors",
-    "confidence": 0.8038004573592299,
+    "confidence": 0.8038004573592413,
     "position": "CM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.026633791781815835
@@ -1226,14 +1226,14 @@
   },
   "Gabriel Torres": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.8842562106717126,
+    "confidence": 0.8842562106717141,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.585944669385693
   },
   "Garrett McLaughlin": {
     "archetype": "Primary Creators",
-    "confidence": 0.7906489935268131,
+    "confidence": 0.7906489935268173,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.6237702012454663
@@ -1247,10 +1247,10 @@
   },
   "George Lebese": {
     "archetype": "Elite Finishers",
-    "confidence": 0.9325383997706359,
+    "confidence": 0.9325383997706376,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.00014857678969030228
+    "z_score": 0.00014857678969013764
   },
   "Giovanni Calixtro": {
     "archetype": "Elite Finishers",
@@ -1261,10 +1261,10 @@
   },
   "Gonzalo Di Renzo": {
     "archetype": "Primary Creators",
-    "confidence": 0.7000616948735248,
+    "confidence": 0.7000616948735234,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.44511501112281676
+    "z_score": -0.445115011122817
   },
   "Graham Smith": {
     "archetype": "High-xG Attackers",
@@ -1282,14 +1282,14 @@
   },
   "Grant Stoneman": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9457934947368891,
+    "confidence": 0.94579349473689,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.41200164080185
   },
   "Guy Abend": {
     "archetype": "Primary Creators",
-    "confidence": 0.9888689408763076,
+    "confidence": 0.9888689408763058,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.4965596687612109
@@ -1338,7 +1338,7 @@
   },
   "Hiroki Kurimoto": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9477480803104168,
+    "confidence": 0.947748080310415,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8570695413170674
@@ -1366,7 +1366,7 @@
   },
   "Idan Cohen": {
     "archetype": "Primary Creators",
-    "confidence": 0.7570926524046859,
+    "confidence": 0.7570926524046833,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.3962709403351524
@@ -1387,7 +1387,7 @@
   },
   "Isaac Bawa": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.6846081402017496,
+    "confidence": 0.6846081402017454,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7889136632903632
@@ -1411,7 +1411,7 @@
     "confidence": 0.9799184352605989,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5680688715844633
+    "z_score": -0.5680688715844634
   },
   "Iv\u00e1n Guti\u00e9rrez": {
     "archetype": "Primary Creators",
@@ -1453,11 +1453,11 @@
     "confidence": 0.9998567754864551,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.5292064562260981
+    "z_score": -0.5292064562260982
   },
   "Jacob Greene": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9918754580875787,
+    "confidence": 0.9918754580875778,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8611214183320737
@@ -1492,7 +1492,7 @@
   },
   "Jaime Villarreal": {
     "archetype": "Primary Creators",
-    "confidence": 0.6943277008058083,
+    "confidence": 0.6943277008057996,
     "position": "DM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.46800839929999105
@@ -1516,7 +1516,7 @@
     "confidence": 0.9998900758900053,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.6451039678334523
+    "z_score": 2.645103967833452
   },
   "Jalen Neal": {
     "archetype": "Direct Progressors",
@@ -1527,10 +1527,10 @@
   },
   "James Moberg": {
     "archetype": "Direct Progressors",
-    "confidence": 0.7399947695072634,
+    "confidence": 0.7399947695072595,
     "position": "CB",
     "primary_metric": "Attacking Directness",
-    "z_score": 1.3805956069682015
+    "z_score": 1.380595606968201
   },
   "James Murphy": {
     "archetype": "High-xG Attackers",
@@ -1541,14 +1541,14 @@
   },
   "Janos Loebe": {
     "archetype": "Primary Creators",
-    "confidence": 0.5406630710634256,
+    "confidence": 0.5406630710634227,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.7741830917350476
   },
   "Jarad van Schaik": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9996738518314809,
+    "confidence": 0.99967385183148,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.334373667224768
@@ -1562,7 +1562,7 @@
   },
   "Javan Torre": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9814706785363482,
+    "confidence": 0.9814706785363498,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5285019538451278
@@ -1576,7 +1576,7 @@
   },
   "Jeremy Garay": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9564707709629271,
+    "confidence": 0.9564707709629254,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8945713057437933
@@ -1614,7 +1614,7 @@
     "confidence": 0.9998979914429067,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5145558401775381
+    "z_score": -0.5145558401775382
   },
   "Joaquin Rivas": {
     "archetype": "Primary Creators",
@@ -1625,24 +1625,24 @@
   },
   "Joel Johnson": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.7653314670534308,
+    "confidence": 0.7653314670534349,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7395461922350524
   },
   "Joey Calistri": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.7991010391242587,
+    "confidence": 0.7991010391242644,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5580374893880136
+    "z_score": -0.5580374893880137
   },
   "John Tolkin": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.5393248252929678,
+    "confidence": 0.5393248252929448,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7735194839549493
+    "z_score": -0.7735194839549494
   },
   "Johnny Fenwick": {
     "archetype": "Direct Progressors",
@@ -1677,18 +1677,18 @@
     "confidence": 0.9221751252984712,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.9976409752382245
+    "z_score": 0.9976409752382241
   },
   "Jordan Burt": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9925850744694185,
+    "confidence": 0.9925850744694202,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.5919654426318348
   },
   "Jordan Doherty": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9765654986842321,
+    "confidence": 0.9765654986842304,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5371146490888116
@@ -1698,7 +1698,7 @@
     "confidence": 0.9999999737640785,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.8866014705177736
+    "z_score": 0.8866014705177729
   },
   "Jordan McCrary": {
     "archetype": "High-xG Attackers",
@@ -1716,14 +1716,14 @@
   },
   "Jordan Scarlett": {
     "archetype": "Primary Creators",
-    "confidence": 0.8636843088953523,
+    "confidence": 0.8636843088953554,
     "position": "CB",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.10931016951893172
   },
   "Jordan Schweitzer": {
     "archetype": "Primary Creators",
-    "confidence": 0.9749808387407074,
+    "confidence": 0.9749808387407056,
     "position": "CM",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.41095505020044065
@@ -1737,7 +1737,7 @@
   },
   "Jorge Hern\u00e1ndez": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.6694766433761544,
+    "confidence": 0.6694766433761604,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.46069434041504387
@@ -1754,7 +1754,7 @@
     "confidence": 0.9997262557478276,
     "position": "AM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.4910670762391308
+    "z_score": 0.49106707623913043
   },
   "Jose Carlos Anguiano": {
     "archetype": "Primary Creators",
@@ -1772,7 +1772,7 @@
   },
   "Joseph Amico": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9430177717987386,
+    "confidence": 0.943017771798736,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8584198668398892
@@ -1800,14 +1800,14 @@
   },
   "Josh Fawole": {
     "archetype": "Elite Finishers",
-    "confidence": 0.549791096927696,
+    "confidence": 0.549791096927695,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 1.3194562704635255
   },
   "Josh Suggs": {
     "archetype": "Primary Creators",
-    "confidence": 0.9762097346885282,
+    "confidence": 0.9762097346885265,
     "position": "FB",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 0.8063316116664045
@@ -1835,14 +1835,14 @@
   },
   "Juan Carlos Obreg\u00f3n Jr": {
     "archetype": "Elite Finishers",
-    "confidence": 0.5237603066104892,
+    "confidence": 0.5237603066104882,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.8509973685785001
   },
   "Juan Guzm\u00e1n": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9798991553270534,
+    "confidence": 0.9798991553270516,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8945713057437933
@@ -1877,7 +1877,7 @@
   },
   "Justin Haak": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9768311087400683,
+    "confidence": 0.9768311087400674,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6466927113440937
@@ -1926,7 +1926,7 @@
   },
   "Kaveh Rad": {
     "archetype": "Direct Progressors",
-    "confidence": 0.923552658611199,
+    "confidence": 0.9235526586111997,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.0055895903558492
@@ -1940,7 +1940,7 @@
   },
   "Kembo Kibato": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.5004265090268303,
+    "confidence": 0.5004265090268338,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.5907674192642388
@@ -1950,7 +1950,7 @@
     "confidence": 0.9998499266231365,
     "position": "DM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.5755795016397107
+    "z_score": -0.5755795016397109
   },
   "Kenardo Forbes": {
     "archetype": "Primary Creators",
@@ -2017,7 +2017,7 @@
   },
   "Kyle Coffee": {
     "archetype": "Primary Creators",
-    "confidence": 0.7648987561083139,
+    "confidence": 0.7648987561083126,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.09187552943882794
@@ -2027,7 +2027,7 @@
     "confidence": 0.9686617276818317,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.34482270382080205
+    "z_score": -0.34482270382080227
   },
   "Kyle Hyland": {
     "archetype": "High-xG Attackers",
@@ -2052,14 +2052,14 @@
   },
   "Lance Rozeboom": {
     "archetype": "Direct Progressors",
-    "confidence": 0.8260751590826504,
+    "confidence": 0.8260751590826569,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.4264328329026098
   },
   "Leandro Carrij\u00f3": {
     "archetype": "Primary Creators",
-    "confidence": 0.6475620429624164,
+    "confidence": 0.6475620429624175,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.7231297191946456
@@ -2255,7 +2255,7 @@
   },
   "Matthew Sheldon": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9920696514744644,
+    "confidence": 0.9920696514744635,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8581825839813657
@@ -2304,14 +2304,14 @@
   },
   "Michael Reed": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9574450307456094,
+    "confidence": 0.9574450307456103,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.536929307518419
   },
   "Miguel Berry": {
     "archetype": "Elite Finishers",
-    "confidence": 0.7453245666256494,
+    "confidence": 0.7453245666256467,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.7011598004421145
@@ -2325,7 +2325,7 @@
   },
   "Mikey Lopez": {
     "archetype": "Direct Progressors",
-    "confidence": 0.808568539796157,
+    "confidence": 0.8085685397961698,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.07444561878461967
@@ -2360,10 +2360,10 @@
   },
   "Mohamed Thiaw": {
     "archetype": "Primary Creators",
-    "confidence": 0.5181969639959229,
+    "confidence": 0.518196963995922,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.5071046888913223
+    "z_score": 0.507104688891322
   },
   "Mour Samb": {
     "archetype": "Primary Creators",
@@ -2402,10 +2402,10 @@
   },
   "Nazmi Albadawi": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9665302195468276,
+    "confidence": 0.9665302195468284,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.4886470887463274
+    "z_score": -0.48864708874632745
   },
   "Neco Brett": {
     "archetype": "Elite Finishers",
@@ -2430,7 +2430,7 @@
   },
   "Nick Moon": {
     "archetype": "Elite Finishers",
-    "confidence": 0.7565306468064715,
+    "confidence": 0.7565306468064729,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.9658229742802356
@@ -2451,7 +2451,7 @@
   },
   "Nicol\u00e1s Gim\u00e9nez": {
     "archetype": "Direct Progressors",
-    "confidence": 0.8927045609392652,
+    "confidence": 0.892704560939266,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.1765831171933463
@@ -2465,7 +2465,7 @@
   },
   "Noah Billingsley": {
     "archetype": "Direct Progressors",
-    "confidence": 0.533889442268722,
+    "confidence": 0.5338894422687273,
     "position": "FB",
     "primary_metric": "Attacking Directness",
     "z_score": -0.03945021778157735
@@ -2475,7 +2475,7 @@
     "confidence": 0.9998661615635,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5372850512791858
+    "z_score": -0.5372850512791859
   },
   "Omar Ciss": {
     "archetype": "Primary Creators",
@@ -2507,14 +2507,14 @@
   },
   "Oscar Jimenez": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.8095819881477901,
+    "confidence": 0.8095819881477829,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6290635232749905
   },
   "Oscar Umar": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9410389283710325,
+    "confidence": 0.9410389283710304,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7338084477060307
@@ -2556,7 +2556,7 @@
   },
   "Patrick Nielsen": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.6890970961826044,
+    "confidence": 0.6890970961825965,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.85195474936017
@@ -2577,7 +2577,7 @@
   },
   "Pecka": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.955408087072183,
+    "confidence": 0.9554080870721814,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7201270475053346
@@ -2619,7 +2619,7 @@
   },
   "Prosper Kasim": {
     "archetype": "Primary Creators",
-    "confidence": 0.5307944247345582,
+    "confidence": 0.5307944247345553,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.006746730522158957
@@ -2629,7 +2629,7 @@
     "confidence": 0.9755298330277514,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8046695349568826
+    "z_score": -0.8046695349568829
   },
   "Rafael Mentzingen": {
     "archetype": "Primary Creators",
@@ -2675,10 +2675,10 @@
   },
   "Raymond Lee": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.7775931873286108,
+    "confidence": 0.7775931873286054,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7810234519224203
+    "z_score": -0.7810234519224204
   },
   "Razak Cromwell": {
     "archetype": "High-xG Attackers",
@@ -2692,7 +2692,7 @@
     "confidence": 0.9968459666694903,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6197762802829098
+    "z_score": -0.6197762802829099
   },
   "Rey Ortiz": {
     "archetype": "Primary Creators",
@@ -2738,7 +2738,7 @@
   },
   "Robbie Mertz": {
     "archetype": "Elite Finishers",
-    "confidence": 0.702812125778475,
+    "confidence": 0.7028121257784736,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": 0.8708244462535872
@@ -2752,7 +2752,7 @@
   },
   "Robert Coronado": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9378796761396833,
+    "confidence": 0.9378796761396824,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7256234381658748
@@ -2801,7 +2801,7 @@
   },
   "Rony Argueta": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9748487170231666,
+    "confidence": 0.9748487170231649,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8460912564603434
@@ -2836,7 +2836,7 @@
   },
   "Ryan James": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.8946577784680558,
+    "confidence": 0.8946577784680589,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.3990928276037494
@@ -2860,18 +2860,18 @@
     "confidence": 0.9697127396775385,
     "position": "ST",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.22476336230750046
+    "z_score": 0.22476336230750027
   },
   "Sal Zizzo": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.5879421777569557,
+    "confidence": 0.5879421777569462,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8599247015044303
   },
   "Salvador Villegas Jr.": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9347310960866719,
+    "confidence": 0.9347310960866727,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7062587780510727
@@ -2885,7 +2885,7 @@
   },
   "Sam Brown": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.8869217465830305,
+    "confidence": 0.886921746583032,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6296267277165799
@@ -2906,7 +2906,7 @@
   },
   "Sam Hamilton": {
     "archetype": "Direct Progressors",
-    "confidence": 0.9508263797413005,
+    "confidence": 0.9508263797413014,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.0815815929848838
@@ -2976,10 +2976,10 @@
   },
   "Sebastian Dalgaard": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.48705581444630724,
+    "confidence": 0.48705581444630985,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.4223642827628754
+    "z_score": -0.42236428276287546
   },
   "Sebastian Elney": {
     "archetype": "Elite Finishers",
@@ -3018,7 +3018,7 @@
   },
   "Sergio Rivas": {
     "archetype": "Elite Finishers",
-    "confidence": 0.7563513058165487,
+    "confidence": 0.7563513058165515,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.08819340191767015
@@ -3032,14 +3032,14 @@
   },
   "Seth Moses": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.5520752879688262,
+    "confidence": 0.5520752879688361,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.4001080920037566
+    "z_score": -0.4001080920037567
   },
   "Shane Wiedt": {
     "archetype": "Direct Progressors",
-    "confidence": 0.506955981131944,
+    "confidence": 0.5069559811319475,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 0.924321005373252
@@ -3060,14 +3060,14 @@
   },
   "Sota Kitahara": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9899548700879457,
+    "confidence": 0.9899548700879448,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8765448780790415
   },
   "Speedy Williams": {
     "archetype": "Direct Progressors",
-    "confidence": 0.6954411076722449,
+    "confidence": 0.6954411076722622,
     "position": "DM",
     "primary_metric": "Attacking Directness",
     "z_score": 0.042140953021761414
@@ -3088,7 +3088,7 @@
   },
   "Steve Jasso": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9675015991161945,
+    "confidence": 0.9675015991161936,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6778999782938226
@@ -3123,7 +3123,7 @@
   },
   "Taylor Peay": {
     "archetype": "Direct Progressors",
-    "confidence": 0.8441559215809752,
+    "confidence": 0.8441559215809706,
     "position": "CB",
     "primary_metric": "Attacking Directness",
     "z_score": 1.0468805754108006
@@ -3165,7 +3165,7 @@
   },
   "Todd Wharton": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.6303301773678688,
+    "confidence": 0.6303301773678711,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.6871235785399076
@@ -3193,7 +3193,7 @@
   },
   "Tony Alfaro": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.5790831258430756,
+    "confidence": 0.5790831258430705,
     "position": "CB",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.7882346509014184
@@ -3242,17 +3242,17 @@
   },
   "Tyler Gabarra": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.7982250659072673,
+    "confidence": 0.7982250659072708,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.4380951505589895
+    "z_score": -0.43809515055898957
   },
   "Tyler Gibson": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9726029939906609,
+    "confidence": 0.9726029939906592,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7485795884704585
+    "z_score": -0.7485795884704586
   },
   "Tyler Pasher": {
     "archetype": "Elite Finishers",
@@ -3326,7 +3326,7 @@
   },
   "William Reilly": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9917694223859077,
+    "confidence": 0.9917694223859068,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
     "z_score": -0.8617596665695737
@@ -3347,7 +3347,7 @@
   },
   "Yamikani Chester": {
     "archetype": "Primary Creators",
-    "confidence": 0.9145586069086178,
+    "confidence": 0.9145586069086162,
     "position": "W",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": 1.5495116998758676
@@ -3361,7 +3361,7 @@
   },
   "Yuma Monsalvez": {
     "archetype": "Primary Creators",
-    "confidence": 0.7161370438224851,
+    "confidence": 0.7161370438224647,
     "position": "CB",
     "primary_metric": "Chance Creation (xA/96)",
     "z_score": -0.8278276478507027
@@ -3396,10 +3396,10 @@
   },
   "Zack Farnsworth": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9047354096653002,
+    "confidence": 0.9047354096652994,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7500989287288534
+    "z_score": -0.7500989287288535
   },
   "Zeiko Lewis": {
     "archetype": "Primary Creators",

@@ -1,16 +1,25 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.decomposition import PCA
+import json
+from pathlib import Path
 
-from src.identity import build_team_identities, describe_pca_axes, name_clusters
+from src.identity import describe_pca_axes
 
 def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_clusters.png', title='Tactical Identity Groupings'):
     pca = PCA(n_components=2)
     xy = pca.fit_transform(df_scaled)
 
     c1_desc, c2_desc = describe_pca_axes(df_scaled.columns, pca.components_)
-    cluster_names, _ = name_clusters(df_scaled, clusters)
-    named_clusters = [cluster_names[c] for c in clusters]
+    
+    # Load stable taxonomy names
+    repo_root = Path(__file__).resolve().parents[1]
+    model_path = repo_root / "src" / "models" / "phase1_taxonomy_v1.json"
+    with open(model_path, "r") as f:
+        model_data = json.load(f)
+    
+    id_names = {int(cid): info["name"] for cid, info in model_data["identities"].items()}
+    named_clusters = [id_names.get(c, f"Cluster {c}") for c in clusters]
 
     plt.figure(figsize=(14, 10))
     plt.style.use('dark_background')
@@ -31,5 +40,3 @@ def plot_clusters(df_scaled, clusters, team_names, output_path='tactical_cluster
         plt.show()
         
     plt.close()
-
-    return build_team_identities(df_scaled, clusters, team_names)

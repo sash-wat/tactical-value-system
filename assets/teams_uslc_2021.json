@@ -1,157 +1,932 @@
 {
   "Atlanta United 2": {
-    "identity": "High-Efficiency Passing",
-    "metric": "Possession Quality",
-    "z_score": 1.339776494243162
+    "explanation": "Atlanta United 2 is classified under Progressive Dribbling primarily due to its above-average Opponent Directness (Z-score: +1.3) and above-average Dribbling Impact (g+) (Z-score: +0.6).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.00679816832928488,
+    "identity": "Progressive Dribbling",
+    "metric": "Opponent Directness",
+    "primary_cluster_id": 3,
+    "primary_identity": "Progressive Dribbling",
+    "scores": {
+      "Balanced Systems": 0.18805556311307112,
+      "Direct Attacking": 0.19557350160088993,
+      "High-Disruption Defense": 0.2542174412366778,
+      "High-Efficiency Passing": 0.2556449492486682,
+      "High-Line Pressing": 0.15471774347179587,
+      "Progressive Dribbling": 0.2573947621758138
+    },
+    "secondary_identity": "High-Efficiency Passing",
+    "trait_scores": {
+      "attempted_passes_for": 0.8374349548313326,
+      "avg_vertical_distance_against": 1.2716817628415529,
+      "avg_vertical_distance_for": -1.0138979918671784,
+      "claiming": -1.6910945515446645,
+      "dribbling": 0.6331095112246341,
+      "interrupting": 0.6087961103670666,
+      "pass_completion_percentage_for": 0.9012189597017713,
+      "passing": -0.23242561037938844,
+      "receiving": -0.09710570543646377
+    },
+    "z_score": 1.2716817628415529
   },
   "Austin Bold FC": {
-    "identity": "Direct Attacking",
-    "metric": "Attacking Directness",
-    "z_score": 1.1948107264734087
+    "explanation": "Austin Bold FC is classified under High-Disruption Defense primarily due to its above-average Defensive Disruption (g+) (Z-score: +1.2) and below-average Dribbling Impact (g+) (Z-score: -0.9).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.16056406274230026,
+    "identity": "High-Disruption Defense",
+    "metric": "Defensive Disruption (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.2051000835561551,
+      "Direct Attacking": 0.2642242501707978,
+      "High-Disruption Defense": 0.342158421677916,
+      "High-Efficiency Passing": 0.22900123471821474,
+      "High-Line Pressing": 0.1738065487274621,
+      "Progressive Dribbling": 0.2872200752312526
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": -0.20442462763445363,
+      "avg_vertical_distance_against": -0.6360896500749473,
+      "avg_vertical_distance_for": 1.0346900740442662,
+      "claiming": -0.5749820427639939,
+      "dribbling": -0.9355662588970989,
+      "interrupting": 1.2481359294787229,
+      "pass_completion_percentage_for": -0.4309403978822128,
+      "passing": -0.14509215350715268,
+      "receiving": 0.004717542546100753
+    },
+    "z_score": 1.2481359294787229
   },
   "Birmingham Legion FC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Birmingham Legion FC is classified under High-Efficiency Passing primarily due to its above-average Dribbling Impact (g+) (Z-score: +0.7) and above-average Possession Volume (Z-score: +0.5).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.0541006971664478,
+    "identity": "High-Efficiency Passing",
+    "metric": "Dribbling Impact (g+)",
+    "primary_cluster_id": 0,
+    "primary_identity": "High-Efficiency Passing",
+    "scores": {
+      "Balanced Systems": 0.22727932030244036,
+      "Direct Attacking": 0.22815903370369403,
+      "High-Disruption Defense": 0.37829735055451763,
+      "High-Efficiency Passing": 0.4248467970480563,
+      "High-Line Pressing": 0.17190719848532487,
+      "Progressive Dribbling": 0.4018622890847234
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.5094907465400607,
+      "avg_vertical_distance_against": -0.39306278250055815,
+      "avg_vertical_distance_for": -0.1171389587855461,
+      "claiming": 0.2178695649191846,
+      "dribbling": 0.6782749350276587,
+      "interrupting": 0.5726337329330323,
+      "pass_completion_percentage_for": 0.04727065355819194,
+      "passing": -0.5810417321241388,
+      "receiving": 0.13336519456708254
+    },
+    "z_score": 0.6782749350276587
   },
   "Charleston Battery": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Charleston Battery is classified under High-Disruption Defense primarily due to its above-average Defensive Disruption (g+) (Z-score: +0.9) and above-average Passing Impact (g+) (Z-score: +0.7).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.11847826617213826,
+    "identity": "High-Disruption Defense",
+    "metric": "Defensive Disruption (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.21318699740680047,
+      "Direct Attacking": 0.23779909722949621,
+      "High-Disruption Defense": 0.35283959739939974,
+      "High-Efficiency Passing": 0.2857439318260936,
+      "High-Line Pressing": 0.16967477598156455,
+      "Progressive Dribbling": 0.3110357735441653
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": -0.061851605134725325,
+      "avg_vertical_distance_against": -0.8897239997690488,
+      "avg_vertical_distance_for": 0.48631739462304757,
+      "claiming": 0.7408734324435269,
+      "dribbling": 0.3859158559225472,
+      "interrupting": 0.9434357756576436,
+      "pass_completion_percentage_for": -0.391527399137123,
+      "passing": 0.6898262709076499,
+      "receiving": -0.27558835570841095
+    },
+    "z_score": 0.9434357756576436
   },
   "Charlotte Independence": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Charlotte Independence is classified under High-Disruption Defense primarily due to its above-average Receiving Impact (g+) (Z-score: +0.8) and above-average Possession Volume (Z-score: +0.4).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.112088235773245,
+    "identity": "High-Disruption Defense",
+    "metric": "Receiving Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.208094216274382,
+      "Direct Attacking": 0.2508781530160969,
+      "High-Disruption Defense": 0.4081254724452247,
+      "High-Efficiency Passing": 0.3623794081526291,
+      "High-Line Pressing": 0.16275877497030006,
+      "Progressive Dribbling": 0.3396279520076474
+    },
+    "secondary_identity": "High-Efficiency Passing",
+    "trait_scores": {
+      "attempted_passes_for": 0.44673761140666274,
+      "avg_vertical_distance_against": -0.511845577326243,
+      "avg_vertical_distance_for": 0.21789377693853487,
+      "claiming": 0.5060780791506837,
+      "dribbling": 0.7308804920020369,
+      "interrupting": 0.27041171157570604,
+      "pass_completion_percentage_for": 0.11033145155033212,
+      "passing": 0.3370172366573557,
+      "receiving": 0.8403980917592774
+    },
+    "z_score": 0.8403980917592774
   },
   "Colorado Springs Switchbacks FC": {
-    "identity": "High-Line Pressing",
+    "explanation": "Colorado Springs Switchbacks FC is classified under Direct Attacking primarily due to its above-average Opponent Directness (Z-score: +2.6) and above-average Receiving Impact (g+) (Z-score: +1.1).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.0031961852741699986,
+    "identity": "Direct Attacking",
     "metric": "Opponent Directness",
-    "z_score": 2.517967595097436
+    "primary_cluster_id": 5,
+    "primary_identity": "Direct Attacking",
+    "scores": {
+      "Balanced Systems": 0.16909844327352921,
+      "Direct Attacking": 0.22881393051531826,
+      "High-Disruption Defense": 0.21472203944141358,
+      "High-Efficiency Passing": 0.19860000930632637,
+      "High-Line Pressing": 0.15174624972696757,
+      "Progressive Dribbling": 0.22808259879688406
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.5635792228475082,
+      "avg_vertical_distance_against": 2.6416223249160287,
+      "avg_vertical_distance_for": -0.08987532216553192,
+      "claiming": 0.8805265928143884,
+      "dribbling": 1.206953628645956,
+      "interrupting": -0.08412643957197377,
+      "pass_completion_percentage_for": 0.13135171754771316,
+      "passing": 1.095141146443588,
+      "receiving": 1.072091600654371
+    },
+    "z_score": 2.6416223249160287
   },
   "El Paso Locomotive FC": {
+    "explanation": "El Paso Locomotive FC is classified under High-Efficiency Passing primarily due to its above-average Possession Quality (Z-score: +1.6) and below-average Attacking Directness (Z-score: -1.4).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.05863439597558917,
     "identity": "High-Efficiency Passing",
     "metric": "Possession Quality",
-    "z_score": 2.3730534276072732
+    "primary_cluster_id": 0,
+    "primary_identity": "High-Efficiency Passing",
+    "scores": {
+      "Balanced Systems": 0.1785850221044902,
+      "Direct Attacking": 0.17618928129969352,
+      "High-Disruption Defense": 0.30365463572731827,
+      "High-Efficiency Passing": 0.3225682290576643,
+      "High-Line Pressing": 0.1336396595865133,
+      "Progressive Dribbling": 0.21762920656848095
+    },
+    "secondary_identity": "High-Disruption Defense",
+    "trait_scores": {
+      "attempted_passes_for": 1.136234401617135,
+      "avg_vertical_distance_against": -0.8681939618032968,
+      "avg_vertical_distance_for": -1.354494735064732,
+      "claiming": 0.4955067243815747,
+      "dribbling": -0.6056249686443808,
+      "interrupting": 0.22466722194849198,
+      "pass_completion_percentage_for": 1.6001428041146726,
+      "passing": 0.8991319303060313,
+      "receiving": 0.2784724468891891
+    },
+    "z_score": 1.6001428041146726
   },
   "FC Tulsa": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "FC Tulsa is classified under High-Disruption Defense primarily due to its above-average Defensive Disruption (g+) (Z-score: +0.8) and above-average Passing Impact (g+) (Z-score: +0.6).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.3941628558402034,
+    "identity": "High-Disruption Defense",
+    "metric": "Defensive Disruption (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.20646293956963485,
+      "Direct Attacking": 0.304170998298483,
+      "High-Disruption Defense": 0.5328581939543566,
+      "High-Efficiency Passing": 0.26509222123027737,
+      "High-Line Pressing": 0.1687657796457687,
+      "Progressive Dribbling": 0.3228252860732916
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.389760915490565,
+      "avg_vertical_distance_against": 0.038273148842578285,
+      "avg_vertical_distance_for": 0.2562854285054938,
+      "claiming": -0.622274945678429,
+      "dribbling": -0.7555722679439681,
+      "interrupting": 0.7843396714846631,
+      "pass_completion_percentage_for": -0.07359587592674392,
+      "passing": 0.6384536492180996,
+      "receiving": 0.2034553550511382
+    },
+    "z_score": 0.7843396714846631
   },
   "Hartford Athletic": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Hartford Athletic is classified under High-Disruption Defense primarily due to its above-average Receiving Impact (g+) (Z-score: +0.8) and above-average Defensive Disruption (g+) (Z-score: +0.5).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.10251356850654735,
+    "identity": "High-Disruption Defense",
+    "metric": "Receiving Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.21134609650211905,
+      "Direct Attacking": 0.27391154177244265,
+      "High-Disruption Defense": 0.35826397117729814,
+      "High-Efficiency Passing": 0.27250291248331854,
+      "High-Line Pressing": 0.17006263123847323,
+      "Progressive Dribbling": 0.3215370529220729
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.02453241770580987,
+      "avg_vertical_distance_against": -0.14867059544541344,
+      "avg_vertical_distance_for": 0.5657237298516019,
+      "claiming": 1.29225304171653,
+      "dribbling": -0.23409524169025045,
+      "interrupting": 0.5464573115010873,
+      "pass_completion_percentage_for": -0.32583906789531053,
+      "passing": 0.009403451426862714,
+      "receiving": 0.7943769033341824
+    },
+    "z_score": 0.7943769033341824
   },
   "Indy Eleven": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Indy Eleven is classified under Progressive Dribbling primarily due to its below-average Passing Impact (g+) (Z-score: -1.1).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.10388187102238321,
+    "identity": "Progressive Dribbling",
+    "metric": "Passing Impact (g+)",
+    "primary_cluster_id": 3,
+    "primary_identity": "Progressive Dribbling",
+    "scores": {
+      "Balanced Systems": 0.2534086762152521,
+      "Direct Attacking": 0.2247964774116005,
+      "High-Disruption Defense": 0.354238029525616,
+      "High-Efficiency Passing": 0.34516879972304015,
+      "High-Line Pressing": 0.18429381755155,
+      "Progressive Dribbling": 0.39530282690927016
+    },
+    "secondary_identity": "High-Disruption Defense",
+    "trait_scores": {
+      "attempted_passes_for": 0.46485462531546795,
+      "avg_vertical_distance_against": -0.3719528428365768,
+      "avg_vertical_distance_for": -0.04202485789367027,
+      "claiming": -0.14044372304430094,
+      "dribbling": -0.1858297623991619,
+      "interrupting": 0.08697483964763533,
+      "pass_completion_percentage_for": 0.22857044778559862,
+      "passing": -1.0972610321310472,
+      "receiving": -0.0685659993711002
+    },
+    "z_score": -1.0972610321310472
   },
   "Las Vegas Lights FC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Las Vegas Lights FC is classified under High-Disruption Defense primarily due to its above-average Passing Impact (g+) (Z-score: +1.0) and above-average Defensive Disruption (g+) (Z-score: +0.6).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.1563665541324025,
+    "identity": "High-Disruption Defense",
+    "metric": "Passing Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.207542992657645,
+      "Direct Attacking": 0.23330325203736318,
+      "High-Disruption Defense": 0.41496188440861453,
+      "High-Efficiency Passing": 0.3500757242909846,
+      "High-Line Pressing": 0.1611338546906427,
+      "Progressive Dribbling": 0.31331521011223307
+    },
+    "secondary_identity": "High-Efficiency Passing",
+    "trait_scores": {
+      "attempted_passes_for": 0.26714286483241934,
+      "avg_vertical_distance_against": -0.6199158654567731,
+      "avg_vertical_distance_for": -0.1597433588681341,
+      "claiming": -0.2188943031729523,
+      "dribbling": 0.7295450834841015,
+      "interrupting": 0.5827848977660383,
+      "pass_completion_percentage_for": 0.2995138455267585,
+      "passing": 1.0495101707075756,
+      "receiving": 0.10779989520801923
+    },
+    "z_score": 1.0495101707075756
   },
   "Loudoun United FC": {
-    "identity": "High-Efficiency Passing",
-    "metric": "Possession Quality",
-    "z_score": 0.8425605263085499
+    "explanation": "Loudoun United FC is classified under Progressive Dribbling primarily due to its above-average Opponent Directness (Z-score: +1.5) and below-average Passing Impact (g+) (Z-score: -1.0).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.046546818941569784,
+    "identity": "Progressive Dribbling",
+    "metric": "Opponent Directness",
+    "primary_cluster_id": 3,
+    "primary_identity": "Progressive Dribbling",
+    "scores": {
+      "Balanced Systems": 0.21049584636071625,
+      "Direct Attacking": 0.20295078629962776,
+      "High-Disruption Defense": 0.24997124948855257,
+      "High-Efficiency Passing": 0.2834106814829049,
+      "High-Line Pressing": 0.16632611922480622,
+      "Progressive Dribbling": 0.29724656350177253
+    },
+    "secondary_identity": "High-Efficiency Passing",
+    "trait_scores": {
+      "attempted_passes_for": 0.5696182274837766,
+      "avg_vertical_distance_against": 1.504206172871674,
+      "avg_vertical_distance_for": -0.5773618626627532,
+      "claiming": 1.0674726560996852,
+      "dribbling": 0.7633118417233217,
+      "interrupting": 0.2856659936303673,
+      "pass_completion_percentage_for": 0.5648947037436864,
+      "passing": -1.028512376634737,
+      "receiving": 0.30825300974000364
+    },
+    "z_score": 1.504206172871674
   },
   "Louisville City FC": {
-    "identity": "High-Line Pressing",
-    "metric": "Opponent Directness",
-    "z_score": 0.6223386298246654
+    "explanation": "Louisville City FC is classified under High-Disruption Defense primarily due to its above-average Receiving Impact (g+) (Z-score: +2.1) and above-average Passing Impact (g+) (Z-score: +1.3).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.11876123547735949,
+    "identity": "High-Disruption Defense",
+    "metric": "Receiving Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.16234797165626538,
+      "Direct Attacking": 0.23360546821740735,
+      "High-Disruption Defense": 0.27301129090142656,
+      "High-Efficiency Passing": 0.2405881325759431,
+      "High-Line Pressing": 0.13777713704238098,
+      "Progressive Dribbling": 0.2312509151677154
+    },
+    "secondary_identity": "High-Efficiency Passing",
+    "trait_scores": {
+      "attempted_passes_for": 1.0522134675473136,
+      "avg_vertical_distance_against": 0.7443533695437966,
+      "avg_vertical_distance_for": -0.6782293695747007,
+      "claiming": -0.4086223019238041,
+      "dribbling": 0.7443299635040991,
+      "interrupting": -0.22376461477029624,
+      "pass_completion_percentage_for": 0.30476891202610307,
+      "passing": 1.2899415950119786,
+      "receiving": 2.080105259893953
+    },
+    "z_score": 2.080105259893953
   },
   "Memphis 901 FC": {
+    "explanation": "Memphis 901 FC is classified under Direct Attacking primarily due to its above-average Attacking Directness (Z-score: +1.5) and below-average Possession Quality (Z-score: -1.0).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.1469567411098298,
     "identity": "Direct Attacking",
     "metric": "Attacking Directness",
-    "z_score": 1.800614894517729
+    "primary_cluster_id": 5,
+    "primary_identity": "Direct Attacking",
+    "scores": {
+      "Balanced Systems": 0.17410675772809608,
+      "Direct Attacking": 0.288821264134637,
+      "High-Disruption Defense": 0.24637703224723262,
+      "High-Efficiency Passing": 0.18168692853065818,
+      "High-Line Pressing": 0.16771767523258682,
+      "Progressive Dribbling": 0.23492813739298354
+    },
+    "secondary_identity": "High-Disruption Defense",
+    "trait_scores": {
+      "attempted_passes_for": -0.24643509466936434,
+      "avg_vertical_distance_against": -0.03450888193920744,
+      "avg_vertical_distance_for": 1.5276611361939094,
+      "claiming": -2.057753645904815,
+      "dribbling": 0.20802036406902907,
+      "interrupting": 0.4888177860478558,
+      "pass_completion_percentage_for": -0.985349913563122,
+      "passing": 1.3494356238068625,
+      "receiving": 0.4823744133689698
+    },
+    "z_score": 1.5276611361939094
   },
   "New Mexico United": {
-    "identity": "High-Line Pressing",
-    "metric": "Opponent Directness",
-    "z_score": 1.3654797497838
+    "explanation": "New Mexico United is classified under High-Disruption Defense primarily due to its below-average Dribbling Impact (g+) (Z-score: -1.7) and above-average Possession Volume (Z-score: +0.6).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.0594280395255604,
+    "identity": "High-Disruption Defense",
+    "metric": "Dribbling Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.2057988013703368,
+      "Direct Attacking": 0.2728880691357593,
+      "High-Disruption Defense": 0.2901299216463334,
+      "High-Efficiency Passing": 0.21229549568225353,
+      "High-Line Pressing": 0.1721895144506946,
+      "Progressive Dribbling": 0.2673656756002395
+    },
+    "secondary_identity": "Direct Attacking",
+    "trait_scores": {
+      "attempted_passes_for": 0.6497006802690752,
+      "avg_vertical_distance_against": 1.4881374128289422,
+      "avg_vertical_distance_for": -0.13923601703733604,
+      "claiming": 0.0114499533750027,
+      "dribbling": -1.7240296024151582,
+      "interrupting": -0.3673494453738555,
+      "pass_completion_percentage_for": 0.1760197827921475,
+      "passing": 0.27846755752588276,
+      "receiving": 0.34011383249583804
+    },
+    "z_score": -1.7240296024151582
   },
   "New York Red Bulls II": {
-    "identity": "High-Line Pressing",
+    "explanation": "New York Red Bulls II is classified under Direct Attacking primarily due to its above-average Opponent Directness (Z-score: +2.6) and below-average Possession Quality (Z-score: -1.5).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.26574054410057024,
+    "identity": "Direct Attacking",
     "metric": "Opponent Directness",
-    "z_score": 2.449131027080888
+    "primary_cluster_id": 5,
+    "primary_identity": "Direct Attacking",
+    "scores": {
+      "Balanced Systems": 0.17781729889004533,
+      "Direct Attacking": 0.30068136674602347,
+      "High-Disruption Defense": 0.2001970745506093,
+      "High-Efficiency Passing": 0.15808885881765822,
+      "High-Line Pressing": 0.18220108767683585,
+      "Progressive Dribbling": 0.22077813648029154
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.03240938027485563,
+      "avg_vertical_distance_against": 2.572726203425623,
+      "avg_vertical_distance_for": 1.2860242402031143,
+      "claiming": 1.1537126555318906,
+      "dribbling": -1.0854181718739766,
+      "interrupting": -0.18606028824770446,
+      "pass_completion_percentage_for": -1.5423869624937034,
+      "passing": 0.7753088024396004,
+      "receiving": 0.13776293699787084
+    },
+    "z_score": 2.572726203425623
   },
   "Oakland Roots SC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Oakland Roots SC is classified under High-Disruption Defense primarily due to its below-average Dribbling Impact (g+) (Z-score: -1.9) and above-average Defensive Disruption (g+) (Z-score: +0.7).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.14227141656342573,
+    "identity": "High-Disruption Defense",
+    "metric": "Dribbling Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.20864881837356933,
+      "Direct Attacking": 0.2239595490605966,
+      "High-Disruption Defense": 0.3102568670501174,
+      "High-Efficiency Passing": 0.23377170528548205,
+      "High-Line Pressing": 0.16593307112911046,
+      "Progressive Dribbling": 0.26611618293409534
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.5788080171476633,
+      "avg_vertical_distance_against": -0.3229063661048392,
+      "avg_vertical_distance_for": 0.1578819820460839,
+      "claiming": 0.7542267226781908,
+      "dribbling": -1.8529919107186201,
+      "interrupting": 0.743331168343733,
+      "pass_completion_percentage_for": -0.23650293740644476,
+      "passing": -0.4759545015797792,
+      "receiving": -0.48386981672507634
+    },
+    "z_score": -1.8529919107186201
   },
   "Oklahoma City Energy FC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Oklahoma City Energy FC is classified under High-Disruption Defense primarily due to its above-average Defensive Disruption (g+) (Z-score: +0.9) and below-average Dribbling Impact (g+) (Z-score: -1.2).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.17172362272660688,
+    "identity": "High-Disruption Defense",
+    "metric": "Defensive Disruption (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.1898629050439319,
+      "Direct Attacking": 0.21737729271433928,
+      "High-Disruption Defense": 0.2907732036026069,
+      "High-Efficiency Passing": 0.2136980683759568,
+      "High-Line Pressing": 0.16036188733525197,
+      "Progressive Dribbling": 0.24084057551642235
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.20491486053695782,
+      "avg_vertical_distance_against": -0.6759989887431705,
+      "avg_vertical_distance_for": 0.13896435663627846,
+      "claiming": -2.083347452187921,
+      "dribbling": -1.2449994897672396,
+      "interrupting": 0.9157908312842146,
+      "pass_completion_percentage_for": -0.026300277432640233,
+      "passing": 0.26003385209610297,
+      "receiving": -0.43089618072267755
+    },
+    "z_score": 0.9157908312842146
   },
   "Orange County SC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Orange County SC is classified under High-Disruption Defense primarily due to its above-average Defensive Disruption (g+) (Z-score: +0.7) and above-average Possession Volume (Z-score: +0.7).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.2564220239428869,
+    "identity": "High-Disruption Defense",
+    "metric": "Defensive Disruption (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.19834603843417994,
+      "Direct Attacking": 0.2413055862773527,
+      "High-Disruption Defense": 0.4689184247880319,
+      "High-Efficiency Passing": 0.34867741298335236,
+      "High-Line Pressing": 0.15406987146256698,
+      "Progressive Dribbling": 0.3015622336530161
+    },
+    "secondary_identity": "High-Efficiency Passing",
+    "trait_scores": {
+      "attempted_passes_for": 0.7250569555129464,
+      "avg_vertical_distance_against": -0.6117239485722427,
+      "avg_vertical_distance_for": -0.04623760640929935,
+      "claiming": 0.8382411737379521,
+      "dribbling": 0.05859768954434488,
+      "interrupting": 0.6574960024140167,
+      "pass_completion_percentage_for": 0.15499951679476648,
+      "passing": 0.7054269273471975,
+      "receiving": 0.43524010341575003
+    },
+    "z_score": 0.6574960024140167
   },
   "Phoenix Rising FC": {
-    "identity": "High-Line Pressing",
-    "metric": "Opponent Directness",
-    "z_score": 0.7977879312326961
+    "explanation": "Phoenix Rising FC is classified under Direct Attacking primarily due to its above-average Receiving Impact (g+) (Z-score: +1.4) and above-average Opponent Directness (Z-score: +0.9).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.005079427541537561,
+    "identity": "Direct Attacking",
+    "metric": "Receiving Impact (g+)",
+    "primary_cluster_id": 5,
+    "primary_identity": "Direct Attacking",
+    "scores": {
+      "Balanced Systems": 0.18168603275855014,
+      "Direct Attacking": 0.28429938520418774,
+      "High-Disruption Defense": 0.2752993345947372,
+      "High-Efficiency Passing": 0.2340394644535624,
+      "High-Line Pressing": 0.16151382941233608,
+      "Progressive Dribbling": 0.28285530707185996
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.31335437857082116,
+      "avg_vertical_distance_against": 0.9199544596839779,
+      "avg_vertical_distance_for": 0.32289454654506206,
+      "claiming": -0.6066961070713209,
+      "dribbling": 1.4260083187486927,
+      "interrupting": 0.03612723279876525,
+      "pass_completion_percentage_for": -0.3599970001410529,
+      "passing": 0.9799304875074641,
+      "receiving": 1.3732913374286024
+    },
+    "z_score": 1.3732913374286024
   },
   "Pittsburgh Riverhounds SC": {
+    "explanation": "Pittsburgh Riverhounds SC is classified under Direct Attacking primarily due to its below-average Possession Quality (Z-score: -0.9) and above-average Attacking Directness (Z-score: +0.8).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.30566693840980014,
     "identity": "Direct Attacking",
-    "metric": "Attacking Directness",
-    "z_score": 0.9466087930647297
+    "metric": "Possession Quality",
+    "primary_cluster_id": 5,
+    "primary_identity": "Direct Attacking",
+    "scores": {
+      "Balanced Systems": 0.19684873196193392,
+      "Direct Attacking": 0.4811843540125127,
+      "High-Disruption Defense": 0.33410220540514357,
+      "High-Efficiency Passing": 0.2140090900453689,
+      "High-Line Pressing": 0.17966396138258997,
+      "Progressive Dribbling": 0.3118344902260104
+    },
+    "secondary_identity": "High-Disruption Defense",
+    "trait_scores": {
+      "attempted_passes_for": 0.3293708691278809,
+      "avg_vertical_distance_against": 0.5792547369478852,
+      "avg_vertical_distance_for": 0.8327166027572215,
+      "claiming": -0.9332953307274793,
+      "dribbling": -0.4644532110340822,
+      "interrupting": 0.021772421045763192,
+      "pass_completion_percentage_for": -0.9222891155709817,
+      "passing": 0.705917989172171,
+      "receiving": 0.8594853887825326
+    },
+    "z_score": -0.9222891155709817
   },
   "Real Monarchs": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Real Monarchs is classified under High-Disruption Defense primarily due to its below-average Dribbling Impact (g+) (Z-score: -1.4) and above-average Defensive Disruption (g+) (Z-score: +0.6).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.014297459116310012,
+    "identity": "High-Disruption Defense",
+    "metric": "Dribbling Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.24544696182793224,
+      "Direct Attacking": 0.25687303353367574,
+      "High-Disruption Defense": 0.3188550260852845,
+      "High-Efficiency Passing": 0.22588808921636488,
+      "High-Line Pressing": 0.1993581447147728,
+      "Progressive Dribbling": 0.3142962093715027
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": -0.21282672104143577,
+      "avg_vertical_distance_against": -0.14394448955049213,
+      "avg_vertical_distance_for": 0.6847934897839086,
+      "claiming": -0.13432346502007994,
+      "dribbling": -1.396902208682375,
+      "interrupting": 0.5647220655857895,
+      "pass_completion_percentage_for": -0.4046650653854872,
+      "passing": -0.2199224208358287,
+      "receiving": -0.7859089566188769
+    },
+    "z_score": -1.396902208682375
   },
   "Rio Grande Valley FC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Rio Grande Valley FC is classified under High-Disruption Defense primarily due to its above-average Passing Impact (g+) (Z-score: +0.8) and above-average Possession Volume (Z-score: +0.4).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.35844682741743855,
+    "identity": "High-Disruption Defense",
+    "metric": "Passing Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.2211750975037306,
+      "Direct Attacking": 0.268073191949256,
+      "High-Disruption Defense": 0.521848475249346,
+      "High-Efficiency Passing": 0.31525288567972615,
+      "High-Line Pressing": 0.16841517816108967,
+      "Progressive Dribbling": 0.3347935445451434
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.4459499151497581,
+      "avg_vertical_distance_against": 0.005715530455344076,
+      "avg_vertical_distance_for": -0.15409986557361197,
+      "claiming": 0.5071908533369058,
+      "dribbling": -0.4667901759404689,
+      "interrupting": 0.24094947006219136,
+      "pass_completion_percentage_for": 0.2574733135319965,
+      "passing": 0.8304965967693309,
+      "receiving": 0.18031702558126522
+    },
+    "z_score": 0.8304965967693309
   },
   "Sacramento Republic FC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Sacramento Republic FC is classified under High-Disruption Defense primarily due to its below-average Dribbling Impact (g+) (Z-score: -1.0) and above-average Defensive Disruption (g+) (Z-score: +0.4).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.25479025039829417,
+    "identity": "High-Disruption Defense",
+    "metric": "Dribbling Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.22497998503686822,
+      "Direct Attacking": 0.25895859833807594,
+      "High-Disruption Defense": 0.43921999016798224,
+      "High-Efficiency Passing": 0.27768452531773774,
+      "High-Line Pressing": 0.17488321624266576,
+      "Progressive Dribbling": 0.3273110186383555
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.132709370320705,
+      "avg_vertical_distance_against": -0.7545573711743039,
+      "avg_vertical_distance_for": 0.13824898424683157,
+      "claiming": -0.4158553341342472,
+      "dribbling": -1.0441158941406932,
+      "interrupting": 0.36219439541843146,
+      "pass_completion_percentage_for": -0.16555953966528486,
+      "passing": -0.18279059207051396,
+      "receiving": 0.304822405686111
+    },
+    "z_score": -1.0441158941406932
   },
   "San Antonio FC": {
+    "explanation": "San Antonio FC is classified under Direct Attacking primarily due to its above-average Attacking Directness (Z-score: +2.5) and below-average Possession Quality (Z-score: -1.8).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.2877006330009739,
     "identity": "Direct Attacking",
     "metric": "Attacking Directness",
-    "z_score": 2.9880965570322107
+    "primary_cluster_id": 5,
+    "primary_identity": "Direct Attacking",
+    "scores": {
+      "Balanced Systems": 0.1404889999204325,
+      "Direct Attacking": 0.25322881221243065,
+      "High-Disruption Defense": 0.1781359227401455,
+      "High-Efficiency Passing": 0.14455023010872733,
+      "High-Line Pressing": 0.14568230510423458,
+      "Progressive Dribbling": 0.18037472235712895
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": -0.28581990751459313,
+      "avg_vertical_distance_against": 1.2851249084982177,
+      "avg_vertical_distance_for": 2.4939702626939457,
+      "claiming": -1.0718357169121189,
+      "dribbling": 1.33109892765258,
+      "interrupting": 0.5482929651779415,
+      "pass_completion_percentage_for": -1.7814924882139056,
+      "passing": 2.3674067869772246,
+      "receiving": 1.2528917334520862
+    },
+    "z_score": 2.4939702626939457
   },
   "San Diego Loyal SC": {
+    "explanation": "San Diego Loyal SC is classified under High-Efficiency Passing primarily due to its below-average Attacking Directness (Z-score: -1.4) and above-average Possession Quality (Z-score: +1.0).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.19476544444282162,
     "identity": "High-Efficiency Passing",
-    "metric": "Possession Quality",
-    "z_score": 1.5417704812165969
+    "metric": "Attacking Directness",
+    "primary_cluster_id": 0,
+    "primary_identity": "High-Efficiency Passing",
+    "scores": {
+      "Balanced Systems": 0.17558293257933474,
+      "Direct Attacking": 0.15743495738315783,
+      "High-Disruption Defense": 0.2084644819143098,
+      "High-Efficiency Passing": 0.2709703044329179,
+      "High-Line Pressing": 0.137740059001456,
+      "Progressive Dribbling": 0.21819465246446854
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 1.1617032472570497,
+      "avg_vertical_distance_against": 0.7439332712420259,
+      "avg_vertical_distance_for": -1.4342984993985342,
+      "claiming": 1.5376197497784823,
+      "dribbling": 0.6040166827981874,
+      "interrupting": 0.860482586000588,
+      "pass_completion_percentage_for": 1.0378506886847438,
+      "passing": -2.000663694136405,
+      "receiving": 0.2274330876405807
+    },
+    "z_score": -1.4342984993985342
   },
   "Sporting Kansas City II": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Sporting Kansas City II is classified under High-Efficiency Passing primarily due to its below-average Attacking Directness (Z-score: -1.0) and below-average Opponent Directness (Z-score: -1.3).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.10324593854567032,
+    "identity": "High-Efficiency Passing",
+    "metric": "Attacking Directness",
+    "primary_cluster_id": 0,
+    "primary_identity": "High-Efficiency Passing",
+    "scores": {
+      "Balanced Systems": 0.2180026557841833,
+      "Direct Attacking": 0.16074854592856705,
+      "High-Disruption Defense": 0.22404726025903401,
+      "High-Efficiency Passing": 0.28177933485095913,
+      "High-Line Pressing": 0.16436126548281385,
+      "Progressive Dribbling": 0.2526867628582512
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.19808815964378482,
+      "avg_vertical_distance_against": -1.3046760973431244,
+      "avg_vertical_distance_for": -0.9890984156997019,
+      "claiming": -1.1374893938992172,
+      "dribbling": 0.7520562556435816,
+      "interrupting": 0.3018748155969927,
+      "pass_completion_percentage_for": 0.33104424452282866,
+      "passing": -1.7903003631150036,
+      "receiving": -0.9005604740157322
+    },
+    "z_score": -0.9890984156997019
   },
   "Tacoma Defiance": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Tacoma Defiance is classified under High-Disruption Defense primarily due to its below-average Dribbling Impact (g+) (Z-score: -0.9) and below-average Opponent Directness (Z-score: -0.9).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.10899822189375516,
+    "identity": "High-Disruption Defense",
+    "metric": "Dribbling Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "High-Disruption Defense",
+    "scores": {
+      "Balanced Systems": 0.19576905124767266,
+      "Direct Attacking": 0.1939441841816378,
+      "High-Disruption Defense": 0.2714307179753485,
+      "High-Efficiency Passing": 0.232475945637707,
+      "High-Line Pressing": 0.15852219313233726,
+      "Progressive Dribbling": 0.24184525223969197
+    },
+    "secondary_identity": "Progressive Dribbling",
+    "trait_scores": {
+      "attempted_passes_for": 0.42389441995643,
+      "avg_vertical_distance_against": -0.9133545292436545,
+      "avg_vertical_distance_for": -0.4511383788359825,
+      "claiming": -2.274744612218106,
+      "dribbling": -0.9317508059887124,
+      "interrupting": 0.3120443369667664,
+      "pass_completion_percentage_for": 0.31527904502479215,
+      "passing": -0.47837203671811085,
+      "receiving": -0.19655672721154954
+    },
+    "z_score": -0.9317508059887124
   },
   "Tampa Bay Rowdies": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Tampa Bay Rowdies is classified under High-Efficiency Passing primarily due to its above-average Dribbling Impact (g+) (Z-score: +2.5) and above-average Possession Volume (Z-score: +0.9).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.021841764803558476,
+    "identity": "High-Efficiency Passing",
+    "metric": "Dribbling Impact (g+)",
+    "primary_cluster_id": 0,
+    "primary_identity": "High-Efficiency Passing",
+    "scores": {
+      "Balanced Systems": 0.14542010348451756,
+      "Direct Attacking": 0.18590951782418877,
+      "High-Disruption Defense": 0.21604480250815622,
+      "High-Efficiency Passing": 0.2208689706391013,
+      "High-Line Pressing": 0.1279772876264321,
+      "Progressive Dribbling": 0.20309811013360385
+    },
+    "secondary_identity": "High-Disruption Defense",
+    "trait_scores": {
+      "attempted_passes_for": 0.9033388749923488,
+      "avg_vertical_distance_against": -0.1269305083287765,
+      "avg_vertical_distance_for": -0.2866822150843517,
+      "claiming": -1.4440586822033794,
+      "dribbling": 2.5469883832326308,
+      "interrupting": 0.8696424978480922,
+      "pass_completion_percentage_for": -2.4944935914665497e-05,
+      "passing": 0.671014825612506,
+      "receiving": 1.979322141863898
+    },
+    "z_score": 2.5469883832326308
   },
   "The Miami FC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "The Miami FC is classified under High-Efficiency Passing primarily due to its above-average Claiming Impact (g+) (Z-score: +2.4) and above-average Dribbling Impact (g+) (Z-score: +0.5).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.0006036769187306911,
+    "identity": "High-Efficiency Passing",
+    "metric": "Claiming Impact (g+)",
+    "primary_cluster_id": 0,
+    "primary_identity": "High-Efficiency Passing",
+    "scores": {
+      "Balanced Systems": 0.1832362654387597,
+      "Direct Attacking": 0.20631120766023875,
+      "High-Disruption Defense": 0.267734738966399,
+      "High-Efficiency Passing": 0.2678964618776478,
+      "High-Line Pressing": 0.14644061030871153,
+      "Progressive Dribbling": 0.24439630773715804
+    },
+    "secondary_identity": "High-Disruption Defense",
+    "trait_scores": {
+      "attempted_passes_for": 0.5278703258678341,
+      "avg_vertical_distance_against": 0.21555463218984247,
+      "avg_vertical_distance_for": -0.14948968795273507,
+      "claiming": 2.396125034448759,
+      "dribbling": 0.5221275247519434,
+      "interrupting": 0.4885975076066331,
+      "pass_completion_percentage_for": 0.3073964452757753,
+      "passing": 0.671128147572115,
+      "receiving": 0.693210579532151
+    },
+    "z_score": 2.396125034448759
   },
   "Ventura County FC": {
-    "identity": "Balanced Systems",
-    "metric": "None",
-    "z_score": 0.0
+    "explanation": "Ventura County FC is classified under High-Efficiency Passing primarily due to its below-average Opponent Directness (Z-score: -0.9) and above-average Possession Quality (Z-score: +0.7).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.15745135742718913,
+    "identity": "High-Efficiency Passing",
+    "metric": "Opponent Directness",
+    "primary_cluster_id": 0,
+    "primary_identity": "High-Efficiency Passing",
+    "scores": {
+      "Balanced Systems": 0.2270639019953796,
+      "Direct Attacking": 0.20422619300874068,
+      "High-Disruption Defense": 0.32952649259819555,
+      "High-Efficiency Passing": 0.3911067873178255,
+      "High-Line Pressing": 0.1622338609661842,
+      "Progressive Dribbling": 0.2927537882093389
+    },
+    "secondary_identity": "High-Disruption Defense",
+    "trait_scores": {
+      "attempted_passes_for": 0.16447978601585625,
+      "avg_vertical_distance_against": -0.9167153156578203,
+      "avg_vertical_distance_for": -0.5260935080857587,
+      "claiming": 0.8543763994381713,
+      "dribbling": 0.47462513604253215,
+      "interrupting": -0.51264143389689,
+      "pass_completion_percentage_for": 0.7225466987240399,
+      "passing": 0.5162170287861988,
+      "receiving": 0.474692050035518
+    },
+    "z_score": -0.9167153156578203
   }
 }

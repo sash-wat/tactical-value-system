@@ -32,28 +32,42 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
     import pandas as pd
     from sklearn.decomposition import PCA
 
-    from src.clustering import cluster_teams
     from src.data_loader import load_tactical_data
-    from src.preprocessor import TACTICAL_FEATURES, preprocess_tactical_data
     from src.visualizer import plot_clusters
-    from src.player_loader import load_player_data
-    from src.player_preprocessor import preprocess_player_data
-    from src.player_archetype import build_player_profiles
+    from src.taxonomy_scorer import TaxonomyScorer
 
-    print(f"Generating {league.upper()} {season}...")
+    print(f"Generating {league.upper()} {season} using stable taxonomy scorer...")
     df = load_tactical_data(league, season)
     if df.empty:
         print(f"No data for {league} {season}")
         return
 
-    df_scaled, _ = preprocess_tactical_data(df)
+    scorer = TaxonomyScorer()
+
+    # Preprocess and scale features using the frozen normalizer parameters
+    df_features = df[scorer.features].apply(pd.to_numeric, errors='coerce').fillna(0.0)
+    scaled_values = (df_features.values - scorer.scaler_mean) / (scorer.scaler_scale + 1e-9)
+    df_scaled = pd.DataFrame(scaled_values, columns=scorer.features)
+
+    # Fit PCA dynamically for the 2D visualization projection
     pca = PCA(n_components=2)
     pca.fit(df_scaled)
-    clusters, model, probs = cluster_teams(df_scaled, n_clusters=n_clusters)
+
+    # Score each team and build outputs
+    team_identities = {}
+    clusters = []
+    for idx, row in df.iterrows():
+        team_name = row["team_name"]
+        raw_feats = row[scorer.features].to_dict()
+        score_res = scorer.score_team(team_name, raw_feats)
+        team_identities[team_name] = score_res
+        clusters.append(score_res["primary_cluster_id"])
 
     image_path = output_dir / f"tactical_clusters_{league}_{season}.png"
     title = f"Tactical Identity Groupings ({league.upper()} {season})"
-    team_identities = plot_clusters(df_scaled, clusters, df["team_name"], output_path=image_path, title=title)
+    
+    # Save visualization scatter plot
+    plot_clusters(df_scaled, clusters, df["team_name"], output_path=image_path, title=title)
 
     teams_path = output_dir / f"teams_{league}_{season}.json"
     write_json(teams_path, team_identities)
@@ -65,11 +79,9 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "league": league,
             "season": season,
-            "features": TACTICAL_FEATURES,
-            "n_clusters": n_clusters,
-            "cluster_model": "GaussianMixture",
-            "cluster_random_state": model.random_state,
-            "cluster_n_init": model.n_init,
+            "features": scorer.features,
+            "n_clusters": len(scorer.identities),
+            "cluster_model": f"GaussianMixture ({scorer.version})",
             "pca_explained_variance_ratio": [float(value) for value in pca.explained_variance_ratio_],
         },
     )

@@ -1,968 +1,1101 @@
 {
+  "Aaliyah Farmer": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9631929787526295,
+    "position": "DM",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9633179756500015
+  },
   "Aissata Traore": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999990470734,
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.8828591986909657
+    "z_score": 1.7747364068006448
   },
   "Alba Ca\u00f1o": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999768479741,
+    "confidence": 0.9695584147190922,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.32349263596589356
+    "z_score": 0.2735752357641214
   },
   "Aldana Cometti": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999994613317774,
+    "archetype": "Primary Creators",
+    "confidence": 0.9908204175834754,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8926411374418886
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.07159628725801
   },
   "Ally Lemos": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9996902719501075,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.999651599574993,
     "position": "DM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.9356611399261173
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.40968331440640493
   },
   "Ally Sentnor": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9793275224695331,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999938964,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.10048782837692904
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9219659759143436
   },
   "Amanda Santos": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9980969142648771,
+    "archetype": "High-xG Attackers",
+    "confidence": 1.0,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.8923128960869118
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 2.421364557158812
   },
   "Amelia Van Zanten": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999989892386579,
+    "archetype": "Primary Creators",
+    "confidence": 0.9996903594953068,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.32023411405827
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8168184858250798
   },
   "Ana Tejada": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9922655958347474,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9275219759152267,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.2843901887727355
+    "primary_metric": "Defensive Disruption",
+    "z_score": 0.1829083712638879
   },
   "Angelina": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9980698284107017,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.999988907471405,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6877851189819504
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.0510026983678888
   },
   "Annie Karich": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999997583089336,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.997868934115924,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8908170439427455
+    "primary_metric": "Defensive Disruption",
+    "z_score": -2.0444189990141095
+  },
+  "Anouk Denton": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9873335905139751,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9398725647362871
+  },
+  "Arin Wright": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9976464072561512,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8830368542232283
   },
   "Ary Borges": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.8809535428168964,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9881068055915442,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.12184242294923953
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.0156358205758953
   },
   "Ashley Sanchez": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.999999981814817,
+    "confidence": 0.9999846478897552,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.7890406628660317
+    "z_score": 1.2578281313759143
   },
   "Avery Patterson": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.999998127004594,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999190070731041,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5067448617509114
+    "primary_metric": "Defensive Disruption",
+    "z_score": 0.09370524616630403
+  },
+  "Ayooluwa Oke": {
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9991528275310525,
+    "position": "FB",
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.22027403556483918
   },
   "Barbra Banda": {
     "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 4.3968608182491575
+    "z_score": 4.505779832424469
   },
   "Bianca St. Georges": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9986680153761334,
+    "archetype": "Primary Creators",
+    "confidence": 0.8823561271489924,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.20048070432307458
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6070876530899358
+  },
+  "Brianna Pinto": {
+    "archetype": "Primary Creators",
+    "confidence": 0.997758620884598,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9913630962436485
   },
   "B\u00e1rbara Olivieri": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999412168754994,
+    "confidence": 0.9999980425691524,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.36052758089605697
+    "z_score": -0.3996798692810772
   },
   "Carson Pickett": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999833288977324,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999930922099771,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5712363442845225
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.3994662163776068
   },
   "Cassandra Bogere": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9997214144373516,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999851380170746,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9608822946219291
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9847276682517324
   },
   "Cece Delzer": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.999999999999444,
+    "confidence": 1.0,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.081724511188971
+    "z_score": 1.3143409163298272
   },
   "Claire Hutton": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999817594912644,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.999390671942459,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.79312555892138
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.0765454434398845
   },
   "Cloe Lacasse": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9992161971937354,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.99930632754164,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.1976262123237322
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.06361043123186136
   },
   "Cori Dyke": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9997146932963965,
+    "archetype": "Primary Creators",
+    "confidence": 0.9842315756448468,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.929724743296906
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.039349191656894
   },
   "Courtney Petersen": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9326182073458026,
-    "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9560139285548241
+    "archetype": "Elite Disruptors",
+    "confidence": 0.999999997675733,
+    "position": "CB",
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.9040336728767155
   },
   "Croix Bethune": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999992291,
+    "confidence": 0.9999999999975131,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9309047111678996
+    "z_score": 1.683831262100369
   },
   "Dani Weatherholt": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9888943941633318,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9582626090099212,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.06535726551678271
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.16840261480324856
   },
   "Danielle Colaprico": {
-    "archetype": "Primary Creators",
-    "confidence": 0.8532449675693166,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9731585544362974,
     "position": "CM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.23328150055166527
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.23206299482883708
   },
   "Delanie Sheehan": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9974875713237178,
+    "archetype": "Primary Creators",
+    "confidence": 0.9881586009073434,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.34376698353704666
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6441137072383382
   },
   "Devin Lynch": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9981714837324072,
+    "archetype": "Primary Creators",
+    "confidence": 0.9910584735681194,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9774457942961753
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3817854103133978
   },
   "Dudinha": {
     "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.805272695712006
+    "z_score": 1.7829814073761021
+  },
+  "Elizabeth Ball": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9369224770731983,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.07159628725801
   },
   "Ella Hase": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9994094097929398,
+    "confidence": 0.9845981825743532,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.1461106156114344
+    "z_score": -0.17601590890599397
   },
   "Ellie Bravo-Young": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9986694241689181,
+    "archetype": "Primary Creators",
+    "confidence": 0.9670463891756318,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9045122234915601
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8507425703535197
   },
   "Ellie Jean": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9979368561345547,
+    "archetype": "Primary Creators",
+    "confidence": 0.9862598703205482,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9864374666324094
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0465301421125128
   },
   "Emerson Elgin": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999997196260237,
+    "archetype": "Primary Creators",
+    "confidence": 0.9630052926655417,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8055670689142042
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0415498498939466
   },
   "Emily Mason": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999461286269271,
+    "archetype": "Primary Creators",
+    "confidence": 0.9941766166989694,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8854877776077297
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.07159628725801
   },
   "Emily Sams": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999999993008863,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.995462055415629,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5985259872975982
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.7500879827229623
   },
   "Emily Sonnett": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999999083147288,
+    "archetype": "Primary Creators",
+    "confidence": 0.9825431851496123,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8304615666293502
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.07159628725801
   },
   "Emma Sears": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.8139778120903254,
+    "confidence": 0.9999999565345243,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.8433480057772162
+    "z_score": 0.7466476456957891
   },
   "Esme Morgan": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999999994857216,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999691360921229,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9548003252629976
+    "primary_metric": "Defensive Disruption",
+    "z_score": 0.11453240753270029
   },
   "Esther Gonz\u00e1lez": {
     "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.3050945988786014
+    "z_score": 2.0568914847817243
+  },
+  "Eva Gaetino": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9998865033767903,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9385746397990105
   },
   "Evelyn Shores": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9974220197608269,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999990470069033,
     "position": "FB",
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.8093290334559327
+  },
+  "Gabi Portilho": {
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999241066190586,
+    "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5558592221617107
+    "z_score": 0.5542930112119209
+  },
+  "Gabrielle Carle": {
+    "archetype": "Elite Disruptors",
+    "confidence": 0.7441428306663086,
+    "position": "FB",
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.034008479193672884
+  },
+  "Gabrielle Robinson": {
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999993205271592,
+    "position": "CB",
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.5618575998077966
   },
   "Gisele Thompson": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9997566637129633,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9985454904048239,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.49095828173103395
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.536218143839982
   },
   "Hailie Mace": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999999999979234,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9988933587781423,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7223403767974801
+    "primary_metric": "Defensive Disruption",
+    "z_score": -3.6445737364474198
   },
   "Hal Hershfelt": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9992141572291999,
+    "confidence": 0.998037413753981,
     "position": "DM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.597375007942088
+    "z_score": -0.5495761372947316
   },
   "Haley McCutcheon": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9487895143209295,
+    "confidence": 0.9998372063639799,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.7984960112783401
+    "z_score": 0.7251625290852874
   },
   "Hannah Bebar": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9927806429874376,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999677710237732,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8197525536243908
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.5263940111199837
   },
   "Isabel Rodriguez": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9999985977439563,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.999999809956709,
     "position": "FB",
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.2954271204414447
+  },
+  "Isabella Obaze": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9870389290878401,
+    "position": "CB",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.820259929883297
+    "z_score": -1.0301713195279962
   },
   "Jaedyn Shaw": {
     "archetype": "High-xG Attackers",
-    "confidence": 1.0,
+    "confidence": 0.9999999999999858,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.7835757371048437
+    "z_score": 1.9541250977718916
   },
   "Jaelin Howell": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9002799613134865,
+    "archetype": "Primary Creators",
+    "confidence": 0.9972946864193503,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.43493569600838994
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3542911218598756
   },
   "Janine Sonis": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.999947993835152,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999983069706208,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.392811470728024
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.867977575362941
   },
   "Janni Thomsen": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9817751025506892,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9820578881667201,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5825824629063747
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.41911448181760325
   },
   "Jenna Bike": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.942412457688013,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999706484501627,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9139477744528938
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.3189083280736214
   },
   "Jess Carter": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999596105613733,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999993431303683,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -1.0043804597461508
+    "primary_metric": "Defensive Disruption",
+    "z_score": -2.1442321874492913
   },
   "Jessie Fleming": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9987588604037053,
+    "archetype": "Primary Creators",
+    "confidence": 0.9912970499772754,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8875532608994416
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3863266383263005
+  },
+  "Joelle Anderson": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9594087444749387,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0243385967133654
   },
   "Jordyn Huitema": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999936186508552,
+    "confidence": 0.9999999999258087,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.7908555651028154
+    "z_score": 0.9537093255852803
   },
   "Jordynn Dudley": {
     "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.8016553867525844
+    "z_score": 1.6669997363971216
   },
   "Jorelyn Carabali": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999999741235083,
+    "archetype": "Primary Creators",
+    "confidence": 0.9977696034550235,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9477967470223188
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.5985606844796441
   },
   "Josefine Hasbo": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9991390635964659,
+    "archetype": "Primary Creators",
+    "confidence": 0.9882344219160959,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5314051040187397
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.86639348288664
   },
   "Julia Grosso": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9999998701032289,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999610019,
     "position": "AM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.11701323869896112
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.627050408422881
   },
   "Kaleigh Kurtz": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999997183974983,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.7837313496451938,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9222743341739307
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.8549130092767244
   },
   "Kaleigh Riehl": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999997878556289,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999944343643749,
     "position": "CB",
+    "primary_metric": "Defensive Disruption",
+    "z_score": -3.53493641529224
+  },
+  "Karlie Lema": {
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999986938146,
+    "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8020303131823159
+    "z_score": 1.4764354790013763
   },
   "Kate Del Fava": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999996858945308,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999348103579693,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.30041315726379336
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.867718407292669
+  },
+  "Kate Wiesner": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9262754724504103,
+    "position": "FB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7185550846169904
   },
   "Katherine Rader": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9780233805753897,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999997806768,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.162494449023689
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.977396613839631
   },
   "Kathrin Hendrich": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999998529059121,
+    "archetype": "Primary Creators",
+    "confidence": 0.9903470340363905,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.911536653200664
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9415074087338249
   },
   "Katie O'Kane": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9704647391264456,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9994019032318305,
     "position": "DM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.7563272214440983
+    "primary_metric": "Defensive Disruption",
+    "z_score": 1.66556648136602
   },
   "Kayla Fischer": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999998148566285,
+    "confidence": 0.999991486173945,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.17726619010431055
+    "z_score": -0.22781796599324503
   },
   "Kayla Sharples": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999952093474018,
+    "archetype": "Primary Creators",
+    "confidence": 0.9197308790307982,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.48137240122512853
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7175978094614761
   },
   "Kennedy Fuller": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9962442154106484,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9983399014403904,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.2732437067855622
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.6498548316896418
   },
   "Kennedy Wesley": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999999999999929,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9996410627033404,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8917943246686615
+    "primary_metric": "Defensive Disruption",
+    "z_score": -2.0833225645853024
   },
   "Kenza Dali": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9999999999316671,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9995476040318328,
     "position": "DM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 2.6443937866092955
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.1449214071710718
   },
   "Kiana Palacios": {
     "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.8930785995837758
+    "z_score": 1.4266835890043776
   },
   "Kiki Van Zanten": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9993094898653407,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999939278054936,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 2.0363793705753097
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.0269428864807715
   },
   "Kimmi Ascanio": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9998574865731549,
-    "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.435145183514324
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9221145325239263,
+    "position": "DM",
+    "primary_metric": "Defensive Disruption",
+    "z_score": 0.36092165615025573
   },
   "Kristen McNabb": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.999999970853708,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9983464394351764,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7550536408128483
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.9383183656381284
   },
   "Lauren Milliet": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9985298779108384,
+    "archetype": "Primary Creators",
+    "confidence": 0.9950663030999375,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.02332373479305324
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.23156835488639319
   },
   "Laurina Fazer": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999999271547155,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.8971287831486985,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.972375265313263
+    "primary_metric": "Defensive Disruption",
+    "z_score": -2.1143668239804967
   },
   "Leah Klenke": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999994013563949,
+    "archetype": "Primary Creators",
+    "confidence": 0.9963975850847488,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7441084717226484
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8548367608406482
   },
   "Leicy Santos": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9578437230142841,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9981115196924802,
     "position": "AM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.3608065674233347
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.7782016890589906
   },
   "Lia Eugenia Godfrey": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.999999999997895,
+    "confidence": 0.9999927506740576,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9853828532945624
+    "z_score": 0.9627133113111163
   },
   "Lilly Reale": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999325788739339,
+    "archetype": "Primary Creators",
+    "confidence": 0.969755922625335,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8163702087327436
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6379635677747418
   },
   "Linda Ullmark": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9944244642660847,
+    "confidence": 0.99867676443923,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.25065389554652595
+    "z_score": 0.19193465535585286
   },
   "Lo'eau LaBonta": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9912425805571478,
+    "archetype": "Primary Creators",
+    "confidence": 0.9593125770351486,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9616078074960024
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.6525662314242973
   },
   "Lucia Di Guglielmo": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9987941592312246,
+    "archetype": "Primary Creators",
+    "confidence": 0.8190048592629338,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7693810268932817
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9928422916837787
   },
   "Ludmila": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999998419,
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.761487016084081
+    "z_score": 1.7412782116625882
   },
   "Maddie Mercado": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9972486992635108,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999159952768,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.5220915273743372
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.6842689980587648
+  },
+  "Madeline Dahlien": {
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999991624702983,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.8583484224195931
   },
   "Madison Curry": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9979007503034794,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.8328070225214576,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7090868324173416
+    "primary_metric": "Defensive Disruption",
+    "z_score": 0.2807567331550702
   },
   "Maggie Graham": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999982042898,
+    "confidence": 0.9999999984709866,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.8308780402954812
+    "z_score": 0.6028713330977795
   },
   "Maiara Niehues": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9988433399473052,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.6667905827158652,
     "position": "AM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.25554615916839096
+    "primary_metric": "Defensive Disruption",
+    "z_score": 0.04379865194871304
   },
   "Malia Berkely": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.999999994950791,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999094335708997,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.11252110103359932
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0278469615948964
   },
   "Manaka Hayashi": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999607505058429,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999998656999481,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8452483664183109
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.5795395380586588
   },
   "Manaka Matsukubo": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999728673149,
+    "confidence": 1.0,
     "position": "CM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.714587663647436
+    "z_score": 2.765790872380104
   },
   "Marie-Yasmine Alidou": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9996914559559608,
+    "confidence": 0.9999109131241944,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.2510188997155711
+    "z_score": -0.2802152277931647
   },
   "Mary Vignola": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999996052634132,
+    "archetype": "Primary Creators",
+    "confidence": 0.9930678097304881,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6030842082105613
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.4596163079314092
   },
   "Maycee Bell": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.999999175309532,
+    "archetype": "Primary Creators",
+    "confidence": 0.9982314790624205,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.4367858333629112
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0095906179028091
   },
   "Melissa Kossler": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999999112,
+    "confidence": 1.0,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.6347582139113699
+    "z_score": 1.7753099170381037
   },
   "Michelle Alozie": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9995788960992051,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9597671889464606,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.04049177147436987
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.7283781798431472
   },
   "Michelle Cooper": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.8425424713806325,
+    "confidence": 0.9996910397648301,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.929200476334662
+    "z_score": 0.6521019617385858
   },
   "Midge Purce": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9998962617503979,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9995358322565092,
     "position": "FB",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.3408846592779593
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.12085381243845716
   },
   "Mina Tanaka": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9722146147896903,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999985238,
     "position": "AM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.281499961146611
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.8049567929970904
+  },
+  "Natalia Staude": {
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999998822946095,
+    "position": "CB",
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.7220907349023484
   },
   "Natasha Flint": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999997859295,
+    "confidence": 0.9999996567256083,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.791619161583495
+    "z_score": 0.7482223152332658
   },
   "Nealy Martin": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999659794076554,
+    "archetype": "Primary Creators",
+    "confidence": 0.9661226889147136,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9119265571657917
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7471736500825443
   },
   "Nichelle Prince": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9998923389707096,
+    "confidence": 0.9999999996763052,
     "position": "FB",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.11496270744780109
+    "z_score": -0.1761112141357129
+  },
+  "N\u00e1dia Gomes": {
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999829258676932,
+    "position": "W",
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.288876676683183
   },
   "N\u00e9rilia Mond\u00e9sir": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9990072986964463,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9955918994235617,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.0640385962133356
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.04562944667749992
   },
   "Oihane Hern\u00e1ndez": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9998242411306876,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9977673209714675,
     "position": "FB",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.408915904701226
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.5201065661791849
   },
   "Olivia Moultrie": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9999992668362078,
+    "archetype": "High-xG Attackers",
+    "confidence": 1.0,
     "position": "AM",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 0.8909455508308127
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.5385670567789034
   },
   "Paige Nielsen": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999998481800931,
+    "archetype": "Primary Creators",
+    "confidence": 0.9962794109528944,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9762377270932913
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.9856425593176394
   },
   "Perle Morroni": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9998109734237827,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999040187421003,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.601313938858219
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.5511566820956426
   },
   "Phoebe McClernon": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999999999804619,
+    "archetype": "Primary Creators",
+    "confidence": 0.9994673369371053,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9624528166081585
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7222154285519355
   },
   "Pietra Tordin": {
     "archetype": "High-xG Attackers",
-    "confidence": 1.0,
+    "confidence": 0.9999999999999964,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.779989587640775
+    "z_score": 1.5744141925517856
   },
   "Rafaelle": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9995500587940113,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999875358761119,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9382473961326292
+    "primary_metric": "Defensive Disruption",
+    "z_score": 1.2619911092284928
   },
   "Rebeca Bernal": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9989451241110038,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.985653208891309,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.10527361621064045
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.6082275062461882
   },
   "Reilyn Turner": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999988505248,
+    "confidence": 0.9999999998836202,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.9997390449357421
+    "z_score": 1.5529317244133722
   },
   "Reyna Reyes": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999913090644902,
+    "archetype": "Primary Creators",
+    "confidence": 0.9988024718892474,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.9882117167024093
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7949366813468468
   },
   "Riley Jackson": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9998787856370762,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9999965144130285,
     "position": "CM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.48650855504954393
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.12439050021765652
   },
   "Riley Tiernan": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9963916293563311,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999669885799122,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.47460815113833127
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.2562594057005472
   },
   "Rose Lavelle": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999997122,
+    "confidence": 0.9999999999996945,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.5780738961556455
+    "z_score": 1.6650977306362529
   },
   "Rosemonde Kouassi": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9999999979801402,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999992048368078,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 4.154147155513821
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.18297656950763597
   },
   "Ryan Gareis": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999842121706822,
+    "confidence": 1.0,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5189501491696646
+    "z_score": -0.4970936815117372
   },
   "Ryan Williams": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9999999793591192,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999994536886,
     "position": "FB",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 3.139238739013038
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": -0.775702019162269
   },
   "Sam Hiatt": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999793975244949,
+    "archetype": "Primary Creators",
+    "confidence": 0.9735322111705821,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7766469155069862
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.25851306134657076
   },
   "Sam Staab": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999995899472781,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9797574775863955,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.891265559121818
+    "primary_metric": "Defensive Disruption",
+    "z_score": -0.06623163451526705
   },
   "Samantha Meza": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.999969635563623,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999604330933334,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.7580246868087906
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.7488824504572688
   },
   "Samantha Smith": {
-    "archetype": "High-xG Attackers",
-    "confidence": 0.9994413765069672,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.8849638577272317,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.4707031503835269
+    "primary_metric": "Defensive Disruption",
+    "z_score": 0.8981052332797586
   },
   "Sarah Gorden": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999821267710798,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.6393494655728922,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -1.0043804597461508
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.0301755370014927
   },
   "Sarah Weber": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9937235535301417,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999999867288,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.34296744640653126
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.4063132339320021
   },
   "Savannah McCaskill": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9818856742733448,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9993543940663699,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6236696456700441
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.1095545293790783
   },
   "Shinomi Koyama": {
     "archetype": "Primary Creators",
-    "confidence": 0.9395822914494578,
+    "confidence": 0.794411148918522,
     "position": "DM",
     "primary_metric": "Chance Creation (xA/96)",
-    "z_score": -0.008725116346738091
+    "z_score": 0.05540822635887265
   },
   "Sofia Cantore": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9999999999971543,
+    "confidence": 0.999999999818014,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.1153494552018555
+    "z_score": 0.9345519439454453
   },
   "Sofia Huerta": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9925414860732564,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.9962518629945684,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.8027163858626762
+    "primary_metric": "Defensive Disruption",
+    "z_score": 0.3738895113406534
   },
   "Sophia Wilson": {
     "archetype": "High-xG Attackers",
-    "confidence": 1.0,
+    "confidence": 0.9999999999949427,
     "position": "ST",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.5123404843561339
+    "z_score": 1.6143732112959222
+  },
+  "Summer Yates": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9602480715256341,
+    "position": "W",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.40332362216029455
   },
   "Sveind\u00eds Jane J\u00f3nsd\u00f3ttir": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9971852137994066,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999937367590693,
     "position": "ST",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.2762278587785454
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 1.1388969225430372
   },
   "Sydney Collins": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9984474713333062,
+    "archetype": "Primary Creators",
+    "confidence": 0.9761365683103537,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.31831478667929797
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.3838536847105692
   },
   "Tara Rudd": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.99999999905301,
+    "archetype": "Primary Creators",
+    "confidence": 0.9957107421354229,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6407928068696943
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.0382967268070893
   },
   "Taylor Flint": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.9999980323658728,
+    "archetype": "Primary Creators",
+    "confidence": 0.9999997965275214,
     "position": "DM",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 1.2293637292328317
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.8216871255423464
   },
   "Taylor Huff": {
     "archetype": "High-xG Attackers",
-    "confidence": 0.9995970348429467,
+    "confidence": 0.9999882860847775,
     "position": "AM",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 0.04316586144977494
+    "z_score": 0.16627355387421786
   },
   "Tessa Dellarose": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.999971582408673,
+    "archetype": "Elite Disruptors",
+    "confidence": 0.991719998413464,
     "position": "FB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.5570274816220375
+    "primary_metric": "Defensive Disruption",
+    "z_score": -1.8778017080829397
+  },
+  "Tierna Davidson": {
+    "archetype": "Primary Creators",
+    "confidence": 0.9268011573461142,
+    "position": "CB",
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -0.5285861855351911
   },
   "Trinity Rodman": {
     "archetype": "High-xG Attackers",
     "confidence": 1.0,
     "position": "W",
     "primary_metric": "Shot Quality (xG/96)",
-    "z_score": 2.622569598665099
+    "z_score": 2.5743447133777795
   },
   "Uno Shiragaki": {
-    "archetype": "Possession Hubs",
-    "confidence": 0.999997850037425,
+    "archetype": "Primary Creators",
+    "confidence": 0.9980429476837983,
     "position": "CB",
-    "primary_metric": "Shot Quality (xG/96)",
-    "z_score": -0.6537316997019091
+    "primary_metric": "Chance Creation (xA/96)",
+    "z_score": -1.07159628725801
   },
   "Yazmeen Ryan": {
-    "archetype": "Primary Creators",
-    "confidence": 0.9997466908653591,
+    "archetype": "High-xG Attackers",
+    "confidence": 0.9999999884984804,
     "position": "W",
-    "primary_metric": "Chance Creation (xA/96)",
-    "z_score": 1.241080676962877
+    "primary_metric": "Shot Quality (xG/96)",
+    "z_score": 0.9364643671773243
   }
 }

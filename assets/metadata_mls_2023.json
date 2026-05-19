@@ -1,7 +1,5 @@
 {
-  "cluster_model": "GaussianMixture",
-  "cluster_n_init": 10,
-  "cluster_random_state": 42,
+  "cluster_model": "GaussianMixture (phase1_taxonomy_v1)",
   "features": [
     "passing",
     "receiving",
@@ -13,12 +11,12 @@
     "avg_vertical_distance_for",
     "avg_vertical_distance_against"
   ],
-  "generated_at": "2026-05-14T03:35:41.056354+00:00",
+  "generated_at": "2026-05-19T17:56:54.617518+00:00",
   "league": "mls",
-  "n_clusters": 4,
+  "n_clusters": 6,
   "pca_explained_variance_ratio": [
-    0.3946578254646767,
-    0.23858148104563393
+    0.4654652713441285,
+    0.218571019457299
   ],
   "season": "2023"
 }
