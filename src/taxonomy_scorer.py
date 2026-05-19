@@ -44,20 +44,35 @@ class TaxonomyScorer:
                 "centroid": np.array(info["centroid"])
             }
 
-    def score_team(self, team_name: str, raw_features: dict) -> dict:
+    def score_team(self, team_name: str, raw_features: dict, mean: np.ndarray = None, scale: np.ndarray = None) -> dict:
+        # Get game count for normalization
+        games = float(raw_features.get("count_games", 1.0))
+        if np.isnan(games) or games <= 0.0:
+            games = 1.0
+
+        # Cumulative features to normalize
+        CUMULATIVE_FEATURES = {"passing", "receiving", "interrupting", "dribbling", "claiming", "attempted_passes_for"}
+
         # 1. Align features and fill missing values
         x_raw = []
         for feat in self.features:
             val = raw_features.get(feat, 0.0)
             try:
-                x_raw.append(float(val))
+                val_f = float(val)
             except (ValueError, TypeError):
-                x_raw.append(0.0)
+                val_f = 0.0
+            
+            if feat in CUMULATIVE_FEATURES:
+                val_f = val_f / games
+                
+            x_raw.append(val_f)
                 
         x_raw = np.array(x_raw)
         
-        # 2. Scale features using the frozen scaler
-        x_scaled = (x_raw - self.scaler_mean) / (self.scaler_scale + 1e-9)
+        # 2. Scale features using the provided scaler or global parameters
+        s_mean = mean if mean is not None else self.scaler_mean
+        s_scale = scale if scale is not None else self.scaler_scale
+        x_scaled = (x_raw - s_mean) / (s_scale + 1e-9)
         
         # 3. Compute distance and similarity to all centroids
         similarities = {}

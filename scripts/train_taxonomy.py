@@ -41,6 +41,13 @@ def train_taxonomy():
     
     # 1. Standard Scaling (Pooled)
     df_features = df_all[TACTICAL_FEATURES].apply(pd.to_numeric, errors='coerce')
+    
+    # Normalize cumulative features per game
+    games = pd.to_numeric(df_all["count_games"], errors='coerce').fillna(1.0).clip(lower=1.0)
+    CUMULATIVE_FEATURES = ["passing", "receiving", "interrupting", "dribbling", "claiming", "attempted_passes_for"]
+    for feat in CUMULATIVE_FEATURES:
+        df_features[feat] = df_features[feat] / games
+        
     df_features = df_features.fillna(df_features.mean())
     
     scaler = StandardScaler()

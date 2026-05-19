@@ -4,6 +4,7 @@ import pandas as pd
 REQUIRED_XGOALS_COLUMNS = ['team_id', 'xgoals_for', 'xgoals_against', 'shots_for', 'shots_against']
 REQUIRED_XPASS_COLUMNS = [
     'team_id',
+    'count_games',
     'attempted_passes_for',
     'pass_completion_percentage_for',
     'avg_vertical_distance_for',

@@ -46,7 +46,18 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
 
     # Preprocess and scale features using the frozen normalizer parameters
     df_features = df[scorer.features].apply(pd.to_numeric, errors='coerce').fillna(0.0)
-    scaled_values = (df_features.values - scorer.scaler_mean) / (scorer.scaler_scale + 1e-9)
+    
+    # Normalize cumulative features per game
+    games = pd.to_numeric(df["count_games"], errors='coerce').fillna(1.0).clip(lower=1.0)
+    CUMULATIVE_FEATURES = ["passing", "receiving", "interrupting", "dribbling", "claiming", "attempted_passes_for"]
+    for feat in CUMULATIVE_FEATURES:
+        df_features[feat] = df_features[feat] / games
+
+    # Calculate relative mean and scale for the specific league-season
+    mean = df_features.mean().values
+    scale = df_features.std().fillna(1.0).replace(0.0, 1.0).values
+
+    scaled_values = (df_features.values - mean) / (scale + 1e-9)
     df_scaled = pd.DataFrame(scaled_values, columns=scorer.features)
 
     # Fit PCA dynamically for the 2D visualization projection
@@ -58,8 +69,8 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
     clusters = []
     for idx, row in df.iterrows():
         team_name = row["team_name"]
-        raw_feats = row[scorer.features].to_dict()
-        score_res = scorer.score_team(team_name, raw_feats)
+        raw_feats = row.to_dict() # Pass full row dictionary to include count_games
+        score_res = scorer.score_team(team_name, raw_feats, mean=mean, scale=scale)
         team_identities[team_name] = score_res
         clusters.append(score_res["primary_cluster_id"])
 

@@ -38,6 +38,7 @@ class FakeASA:
             [
                 {
                     "team_id": "one",
+                    "count_games": 34,
                     "attempted_passes_for": 500,
                     "pass_completion_percentage_for": 82.0,
                     "avg_vertical_distance_for": 5.1,
@@ -46,6 +47,7 @@ class FakeASA:
                 },
                 {
                     "team_id": "two",
+                    "count_games": 34,
                     "attempted_passes_for": 390,
                     "pass_completion_percentage_for": 76.0,
                     "avg_vertical_distance_for": 7.0,
