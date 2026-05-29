@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TVMS | Explorer</title>
+  <meta name="description" content="Explore stable team-taxonomy outputs across leagues and seasons with charts, filters, team cards, and explanation details." />
+  <link rel="stylesheet" href="site.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body data-theme="dark">
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html">TV<span class="brand__mark">MS</span></a>
+        <nav class="nav-links" aria-label="Primary">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="methodology.html">Methodology</a>
+          <a class="nav-link is-active" href="explorer.html">Explorer</a>
+          <a class="nav-link" href="players.html">Players</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="button button--secondary" href="methodology.html">Read Method</a>
+        </div>
+        <button class="nav-toggle" data-mobile-toggle aria-expanded="false" aria-label="Open navigation">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+      <div class="container mobile-nav" data-mobile-nav>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="methodology.html">Methodology</a>
+        <a class="nav-link is-active" href="explorer.html">Explorer</a>
+        <a class="nav-link" href="players.html">Players</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow"><i data-lucide="scan-search"></i> Interactive output workspace</span>
+          <h1 class="display">Read the chart, then open the team logic underneath it.</h1>
+          <p class="lede">
+            Switch league and season, move between map and table views, filter identities, and inspect why a team was
+            scored into a particular tactical profile.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 1rem;">
+        <div class="container explorer-layout">
+          <div class="explorer-controls panel reveal">
+            <div class="control-grid">
+              <div class="field">
+                <label for="league-select">League</label>
+                <select id="league-select" data-league-select>
+                  <option value="mls">MLS</option>
+                  <option value="uslc">USL Championship</option>
+                  <option value="nwsl">NWSL</option>
+                  <option value="usl1">USL League One</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="season-select">Season</label>
+                <select id="season-select" data-season-select>
+                  <option value="2026">2026</option>
+                  <option value="2025">2025</option>
+                  <option value="2024">2024</option>
+                  <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="team-search">Search</label>
+                <input id="team-search" data-team-search type="text" placeholder="Find a team">
+              </div>
+              <div class="field">
+                <label>View</label>
+                <div class="toggle-row">
+                  <button class="is-active" data-view-toggle="chart" type="button">Chart</button>
+                  <button data-view-toggle="table" type="button">Table</button>
+                </div>
+              </div>
+            </div>
+            <div class="explorer-subbar">
+              <p class="explorer-summary" data-explorer-summary></p>
+              <div class="field field--compact">
+                <label for="identity-filter">Identity filter</label>
+                <select id="identity-filter" data-identity-select></select>
+              </div>
+            </div>
+          </div>
+
+          <div class="data-panel reveal" data-chart-view>
+            <div class="view-grid">
+              <div class="chart-frame">
+                <img data-cluster-image alt="Tactical cluster image">
+                <div class="empty-state hidden" data-chart-error style="margin-top: 0.9rem;">The tactical map image is not available for this selection.</div>
+              </div>
+              <div class="panel" style="padding: 1rem; border-radius: var(--radius-lg);">
+                <div class="section-header" style="margin-bottom: 1rem;">
+                  <span class="eyebrow"><i data-lucide="layers-3"></i> Identity Summary</span>
+                  <h3>League-season distribution</h3>
+                  <p>Team counts by primary identity for the current selection, using the frozen taxonomy definitions.</p>
+                </div>
+                <div class="summary-list" data-identity-summary></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="data-panel hidden reveal" data-table-view>
+            <div class="section-header" style="margin-bottom: 1rem;">
+              <span class="eyebrow"><i data-lucide="table-properties"></i> Team Table</span>
+              <h3>Primary identity, secondary pull, and team-level explanation</h3>
+              <p>Every team keeps the explanation layer visible, so this page does not collapse the model into a badge-only view.</p>
+            </div>
+            <div class="team-grid" data-team-grid></div>
+            <div class="empty-state hidden" data-empty>No teams match the current search and identity filter.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="drawer" data-team-drawer>
+      <div class="drawer__backdrop" data-drawer-close></div>
+      <div class="drawer__panel">
+        <button class="drawer__close" type="button" data-drawer-close aria-label="Close details">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="section-header" style="margin: 1rem 0 1.2rem;">
+          <span class="eyebrow"><i data-lucide="binoculars"></i> Team detail</span>
+          <h2 data-drawer-title style="font-size: 2.1rem; margin: 0;"></h2>
+          <p data-drawer-subtitle></p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1rem;">
+          <h3>Why this assignment won</h3>
+          <p data-drawer-explanation></p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1rem;">
+          <h3>Identity score distribution</h3>
+          <div class="score-list" style="margin-top: 0.8rem;" data-score-list></div>
+        </div>
+
+        <div class="card">
+          <h3>Top separating features</h3>
+          <div class="feature-list" style="margin-top: 0.8rem;" data-feature-list></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <strong>TVMS Explorer</strong>
+          <div>Dynamic access to chart and table outputs from the stable Phase 1 taxonomy.</div>
+        </div>
+        <div>
+          Data from <a href="https://americansocceranalysis.com">American Soccer Analysis</a> ·
+          <a href="methodology.html">Methodology</a> ·
+          <a href="https://github.com/sash-wat/tactical-value-system">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="site.js"></script>
+  <script>
+    window.TVMS_SITE.init();
+    window.TVMS_SITE.initExplorerPage();
+  </script>
+</body>
+</html>

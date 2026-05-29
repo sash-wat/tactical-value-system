@@ -1,722 +1,2138 @@
 {
   "Birmingham Legion FC": {
-    "explanation": "Birmingham Legion FC is classified under High-Disruption Defense primarily due to its above-average Defensive Disruption (g+) (Z-score: +2.1) and below-average Opponent Directness (Z-score: -1.3).",
-    "hybrid_flag": true,
-    "hybrid_margin": 0.028181801917007955,
-    "identity": "High-Disruption Defense",
-    "metric": "Defensive Disruption (g+)",
-    "primary_cluster_id": 0,
-    "primary_identity": "High-Disruption Defense",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Territorial Occupation than Disruptive Circulation by 1.0000 similarity points, driven most by Claiming Impact (g+), Possession Volume.",
+      "runner_up_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "runner_up_identity": "Disruptive Circulation",
+      "runner_up_score": 9.397003019045334e-06,
+      "score_gap": 0.9999811536261898,
+      "top_feature_deltas": [
+        {
+          "feature": "claiming",
+          "feature_label": "Claiming Impact (g+)",
+          "primary_centroid_z": -0.7113829248919584,
+          "runner_up_centroid_z": -0.013661789610514714,
+          "separation_gain": 0.6977211352814439,
+          "team_z_score": -4.381075624182674
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": 0.5416079736387599,
+          "runner_up_centroid_z": -0.015137144369533563,
+          "separation_gain": 0.18806220818386737,
+          "team_z_score": 0.35726651872654686
+        },
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": 0.5481530957854462,
+          "runner_up_centroid_z": -0.17075468384957485,
+          "separation_gain": 0.17471480230012598,
+          "team_z_score": 0.2760566071179987
+        }
+      ],
+      "winner_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+      "winner_identity": "Territorial Occupation",
+      "winner_score": 0.9999905506292088
+    },
+    "distances": {
+      "Aerial Progression": 11.849777029026383,
+      "Aerial Transition": 7.6806563291935985,
+      "Direct Transition": 7.466945592570579,
+      "Disruptive Circulation": 6.9781851175020675,
+      "Possession Control": 7.728567876980679,
+      "Territorial Occupation": 4.518313400261143,
+      "Transition Surge": 1659.922605150785
+    },
+    "explanation": "Closer to Territorial Occupation than Disruptive Circulation by 1.0000 similarity points, driven most by Claiming Impact (g+), Possession Volume.",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.9999906019081843,
+    "identity": "Territorial Occupation",
+    "identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+    "identity_scores": {
+      "Aerial Progression": 1.251945157343399e-25,
+      "Aerial Transition": 7.666912893084589e-09,
+      "Direct Transition": 2.0087172748530085e-08,
+      "Disruptive Circulation": 9.397003019045334e-06,
+      "Possession Control": 2.4613686524424746e-08,
+      "Territorial Occupation": 0.9999905506292088,
+      "Transition Surge": 0.0
+    },
+    "metric": "Claiming Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "Territorial Occupation",
+    "primary_identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
     "scores": {
-      "Advanced Receiving": 0.16338699111543367,
-      "Direct Attacking": 0.14662767419643405,
-      "High-Disruption Defense": 0.1826202169124712,
-      "High-Efficiency Passing": 0.17562259224382806,
-      "High-Line Pressing": 0.1478448539794372,
-      "Possession Dominant": 0.17747365010522112
+      "Aerial Progression": 1.251945157343399e-25,
+      "Aerial Transition": 7.666912893084589e-09,
+      "Direct Transition": 2.0087172748530085e-08,
+      "Disruptive Circulation": 9.397003019045334e-06,
+      "Possession Control": 2.4613686524424746e-08,
+      "Territorial Occupation": 0.9999905506292088,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "Possession Dominant",
+    "secondary_identity": "Disruptive Circulation",
+    "secondary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "trait_scores": {
-      "attempted_passes_for": 0.48776947298086143,
-      "avg_vertical_distance_against": -1.3226547892110296,
-      "avg_vertical_distance_for": -0.6684590699968852,
-      "claiming": -3.719498970637293,
-      "dribbling": 0.49619328746042374,
-      "interrupting": 2.104443829554586,
-      "pass_completion_percentage_for": 0.7568276323124924,
-      "passing": 0.2887078569416409,
-      "receiving": -0.15761852594164907
+      "attempted_passes_for": 0.35726651872654686,
+      "avg_vertical_distance_against": -1.00136512451631,
+      "avg_vertical_distance_for": -0.5905565094263965,
+      "claiming": -4.381075624182674,
+      "dribbling": -0.03918663922039087,
+      "interrupting": 2.0233723780995363,
+      "pass_completion_percentage_for": 0.7856075173582786,
+      "passing": 0.2760566071179987,
+      "receiving": 0.3683264804292296
     },
-    "z_score": 2.104443829554586
+    "z_score": -4.381075624182674
   },
   "Charleston Battery": {
-    "explanation": "Charleston Battery is classified under Advanced Receiving primarily due to its above-average Receiving Impact (g+) (Z-score: +1.1) and above-average Opponent Directness (Z-score: +1.2).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Possession Control than Territorial Occupation by 0.3495 similarity points, driven most by Possession Quality, Attacking Directness.",
+      "runner_up_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+      "runner_up_identity": "Territorial Occupation",
+      "runner_up_score": 0.27848805347384387,
+      "score_gap": 0.34954585169686825,
+      "top_feature_deltas": [
+        {
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Possession Quality",
+          "primary_centroid_z": 1.1887977455771237,
+          "runner_up_centroid_z": -0.07788439921577744,
+          "separation_gain": 1.266682144792901,
+          "team_z_score": 1.1928751817586196
+        },
+        {
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Attacking Directness",
+          "primary_centroid_z": -1.348143538708539,
+          "runner_up_centroid_z": -0.03720487578532005,
+          "separation_gain": 0.8564234012879226,
+          "team_z_score": -1.1208859078908908
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": 1.2740887100901626,
+          "runner_up_centroid_z": 0.5416079736387599,
+          "separation_gain": 0.7324807364514028,
+          "team_z_score": 1.647102245795601
+        }
+      ],
+      "winner_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+      "winner_identity": "Possession Control",
+      "winner_score": 0.6280339051707121
+    },
+    "distances": {
+      "Aerial Progression": 4.248355767610824,
+      "Aerial Transition": 5.984799774929711,
+      "Direct Transition": 6.569014051213178,
+      "Disruptive Circulation": 6.125107200016069,
+      "Possession Control": 3.632096540821383,
+      "Territorial Occupation": 3.2469778705871435,
+      "Transition Surge": 1402.8181666816718
+    },
+    "explanation": "Closer to Possession Control than Territorial Occupation by 0.3495 similarity points, driven most by Possession Quality, Attacking Directness.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.10217608297528474,
-    "identity": "Advanced Receiving",
-    "metric": "Receiving Impact (g+)",
-    "primary_cluster_id": 1,
-    "primary_identity": "Advanced Receiving",
+    "hybrid_margin": 0.5565716249750611,
+    "identity": "Possession Control",
+    "identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+    "identity_scores": {
+      "Aerial Progression": 0.09347133988413256,
+      "Aerial Transition": 1.6519714656018107e-06,
+      "Direct Transition": 2.1916304680754877e-08,
+      "Disruptive Circulation": 5.027583541156513e-06,
+      "Possession Control": 0.6280339051707121,
+      "Territorial Occupation": 0.27848805347384387,
+      "Transition Surge": 0.0
+    },
+    "metric": "Possession Quality",
+    "primary_cluster_id": 3,
+    "primary_identity": "Possession Control",
+    "primary_identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
     "scores": {
-      "Advanced Receiving": 0.2948065070617748,
-      "Direct Attacking": 0.16542102554966553,
-      "High-Disruption Defense": 0.2165812732308779,
-      "High-Efficiency Passing": 0.2631875181522714,
-      "High-Line Pressing": 0.18033218879399923,
-      "Possession Dominant": 0.26468433283240095
+      "Aerial Progression": 0.09347133988413256,
+      "Aerial Transition": 1.6519714656018107e-06,
+      "Direct Transition": 2.1916304680754877e-08,
+      "Disruptive Circulation": 5.027583541156513e-06,
+      "Possession Control": 0.6280339051707121,
+      "Territorial Occupation": 0.27848805347384387,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "Possession Dominant",
+    "secondary_identity": "Territorial Occupation",
+    "secondary_identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
     "trait_scores": {
-      "attempted_passes_for": 1.678715488412545,
-      "avg_vertical_distance_against": 1.223196662865641,
-      "avg_vertical_distance_for": -1.229857407187566,
-      "claiming": 0.1656974800478359,
-      "dribbling": 0.366401081567241,
-      "interrupting": 0.32502561695110177,
-      "pass_completion_percentage_for": 1.2179148894697922,
-      "passing": 0.9867265744770638,
-      "receiving": 1.1479904832017505
+      "attempted_passes_for": 1.647102245795601,
+      "avg_vertical_distance_against": 0.9965173762282892,
+      "avg_vertical_distance_for": -1.1208859078908908,
+      "claiming": 0.3952535065822281,
+      "dribbling": -0.17736380769431898,
+      "interrupting": 0.32523211484897036,
+      "pass_completion_percentage_for": 1.1928751817586196,
+      "passing": 1.0099817436256961,
+      "receiving": 2.101107453150409
     },
-    "z_score": 1.1479904832017505
+    "z_score": 1.1928751817586196
   },
   "Colorado Springs Switchbacks FC": {
-    "explanation": "Colorado Springs Switchbacks FC is classified under High-Line Pressing primarily due to its below-average Defensive Disruption (g+) (Z-score: -0.9) and above-average Dribbling Impact (g+) (Z-score: +0.7).",
-    "hybrid_flag": false,
-    "hybrid_margin": 0.05468215887389871,
-    "identity": "High-Line Pressing",
-    "metric": "Defensive Disruption (g+)",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Disruptive Circulation than Aerial Progression by 0.1230 similarity points, driven most by Dribbling Impact (g+), Passing Impact (g+).",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.34911969112684027,
+      "score_gap": 0.12304069299469739,
+      "top_feature_deltas": [
+        {
+          "feature": "dribbling",
+          "feature_label": "Dribbling Impact (g+)",
+          "primary_centroid_z": 0.001886773680417217,
+          "runner_up_centroid_z": -0.32203412021872174,
+          "separation_gain": 0.323920893899139,
+          "team_z_score": 0.16052881858159376
+        },
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": -0.17075468384957485,
+          "runner_up_centroid_z": 0.6186880203269597,
+          "separation_gain": 0.1801857445698007,
+          "team_z_score": 0.13387379595379206
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": -0.015137144369533563,
+          "runner_up_centroid_z": -0.040189313021887205,
+          "separation_gain": -0.025052168652353657,
+          "team_z_score": -0.48406530847348317
+        }
+      ],
+      "winner_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "winner_identity": "Disruptive Circulation",
+      "winner_score": 0.47216038412153766
+    },
+    "distances": {
+      "Aerial Progression": 2.7588705084136667,
+      "Aerial Transition": 2.2057220338372785,
+      "Direct Transition": 3.4342675158243403,
+      "Disruptive Circulation": 2.610561009597672,
+      "Possession Control": 5.962449918026522,
+      "Territorial Occupation": 5.717312894339495,
+      "Transition Surge": 847.2403299446308
+    },
+    "explanation": "Closer to Disruptive Circulation than Aerial Progression by 0.1230 similarity points, driven most by Dribbling Impact (g+), Passing Impact (g+).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.26059088579196615,
+    "identity": "Disruptive Circulation",
+    "identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+    "identity_scores": {
+      "Aerial Progression": 0.34911969112684027,
+      "Aerial Transition": 0.17586264812401317,
+      "Direct Transition": 0.002857011807695622,
+      "Disruptive Circulation": 0.47216038412153766,
+      "Possession Control": 1.7731763484772907e-07,
+      "Territorial Occupation": 8.750227836848314e-08,
+      "Transition Surge": 0.0
+    },
+    "metric": "Dribbling Impact (g+)",
     "primary_cluster_id": 5,
-    "primary_identity": "High-Line Pressing",
+    "primary_identity": "Disruptive Circulation",
+    "primary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "scores": {
-      "Advanced Receiving": 0.28907378824311086,
-      "Direct Attacking": 0.2743154981285857,
-      "High-Disruption Defense": 0.3501630463039127,
-      "High-Efficiency Passing": 0.38159913668127443,
-      "High-Line Pressing": 0.4036728390541959,
-      "Possession Dominant": 0.2337290236325266
+      "Aerial Progression": 0.34911969112684027,
+      "Aerial Transition": 0.17586264812401317,
+      "Direct Transition": 0.002857011807695622,
+      "Disruptive Circulation": 0.47216038412153766,
+      "Possession Control": 1.7731763484772907e-07,
+      "Territorial Occupation": 8.750227836848314e-08,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": -0.28905874338167864,
-      "avg_vertical_distance_against": 0.17905362395999058,
-      "avg_vertical_distance_for": 0.2642598400388917,
-      "claiming": 0.1707271497881295,
-      "dribbling": 0.6837894736131124,
-      "interrupting": -0.9367030262155881,
-      "pass_completion_percentage_for": -0.06420516107728129,
-      "passing": 0.153481171592406,
-      "receiving": -0.3794866334630528
+      "attempted_passes_for": -0.48406530847348317,
+      "avg_vertical_distance_against": 0.17711563776383218,
+      "avg_vertical_distance_for": 0.2905438176088142,
+      "claiming": 0.4014368124725788,
+      "dribbling": 0.16052881858159376,
+      "interrupting": -0.8788649293883223,
+      "pass_completion_percentage_for": 0.0604083213938049,
+      "passing": 0.13387379595379206,
+      "receiving": 0.07386708831843278
     },
-    "z_score": -0.9367030262155881
+    "z_score": 0.16052881858159376
   },
   "Detroit City FC": {
-    "explanation": "Detroit City FC is classified under High-Disruption Defense primarily due to its above-average Defensive Disruption (g+) (Z-score: +1.2) and below-average Dribbling Impact (g+) (Z-score: -1.0).",
-    "hybrid_flag": false,
-    "hybrid_margin": 0.07496367317135715,
-    "identity": "High-Disruption Defense",
-    "metric": "Defensive Disruption (g+)",
-    "primary_cluster_id": 0,
-    "primary_identity": "High-Disruption Defense",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Aerial Transition than Aerial Progression by 0.1732 similarity points, driven most by Receiving Impact (g+), Claiming Impact (g+).",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.2918238967744179,
+      "score_gap": 0.17316764064331225,
+      "top_feature_deltas": [
+        {
+          "feature": "receiving",
+          "feature_label": "Receiving Impact (g+)",
+          "primary_centroid_z": -0.5791199629401167,
+          "runner_up_centroid_z": 0.14809294287504798,
+          "separation_gain": 0.7272129058151646,
+          "team_z_score": -0.7576432110853704
+        },
+        {
+          "feature": "claiming",
+          "feature_label": "Claiming Impact (g+)",
+          "primary_centroid_z": 0.6727192496602803,
+          "runner_up_centroid_z": 0.36132791866299435,
+          "separation_gain": 0.31139133099728594,
+          "team_z_score": 0.7243565237433668
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": -0.1900823024469596,
+          "runner_up_centroid_z": -0.040189313021887205,
+          "separation_gain": 0.012764376944541342,
+          "team_z_score": -0.12151799620669407
+        }
+      ],
+      "winner_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "winner_identity": "Aerial Transition",
+      "winner_score": 0.46499153741773014
+    },
+    "distances": {
+      "Aerial Progression": 5.006193039086281,
+      "Aerial Transition": 4.473550214606704,
+      "Direct Transition": 4.472126951976017,
+      "Disruptive Circulation": 6.396403019627206,
+      "Possession Control": 6.299040202765658,
+      "Territorial Occupation": 8.025714743064809,
+      "Transition Surge": 1517.564477274399
+    },
+    "explanation": "Closer to Aerial Transition than Aerial Progression by 0.1732 similarity points, driven most by Receiving Impact (g+), Claiming Impact (g+).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.3724103049973035,
+    "identity": "Aerial Transition",
+    "identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+    "identity_scores": {
+      "Aerial Progression": 0.2918238967744179,
+      "Aerial Transition": 0.46499153741773014,
+      "Direct Transition": 0.24297293155054464,
+      "Disruptive Circulation": 9.574031190156195e-05,
+      "Possession Control": 0.00011589388724311856,
+      "Territorial Occupation": 5.816255415343674e-11,
+      "Transition Surge": 0.0
+    },
+    "metric": "Receiving Impact (g+)",
+    "primary_cluster_id": 6,
+    "primary_identity": "Aerial Transition",
+    "primary_identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
     "scores": {
-      "Advanced Receiving": 0.2106797844332749,
-      "Direct Attacking": 0.22068948893492507,
-      "High-Disruption Defense": 0.3797566254449368,
-      "High-Efficiency Passing": 0.3512886738154614,
-      "High-Line Pressing": 0.24628170823656756,
-      "Possession Dominant": 0.22187661179386176
+      "Aerial Progression": 0.2918238967744179,
+      "Aerial Transition": 0.46499153741773014,
+      "Direct Transition": 0.24297293155054464,
+      "Disruptive Circulation": 9.574031190156195e-05,
+      "Possession Control": 0.00011589388724311856,
+      "Territorial Occupation": 5.816255415343674e-11,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": 0.04569262680306334,
-      "avg_vertical_distance_against": 0.1667412477001446,
-      "avg_vertical_distance_for": -0.4865431220043408,
-      "claiming": 0.4333988547182739,
-      "dribbling": -1.020550721775996,
-      "interrupting": 1.1578995971838473,
-      "pass_completion_percentage_for": -0.17427115149547684,
-      "passing": 0.36477181841997347,
-      "receiving": -1.006009751611245
+      "attempted_passes_for": -0.12151799620669407,
+      "avg_vertical_distance_against": 0.16745337681295688,
+      "avg_vertical_distance_for": -0.418708164180557,
+      "claiming": 0.7243565237433668,
+      "dribbling": -1.6539168231619672,
+      "interrupting": 1.120063161327724,
+      "pass_completion_percentage_for": -0.03681041139853508,
+      "passing": 0.3560333354046129,
+      "receiving": -0.7576432110853704
     },
-    "z_score": 1.1578995971838473
+    "z_score": -0.7576432110853704
   },
   "El Paso Locomotive FC": {
-    "explanation": "El Paso Locomotive FC is classified under High-Efficiency Passing primarily due to its above-average Possession Quality (Z-score: +0.7) and above-average Possession Volume (Z-score: +0.6).",
-    "hybrid_flag": false,
-    "hybrid_margin": 0.18954364321908754,
-    "identity": "High-Efficiency Passing",
-    "metric": "Possession Quality",
-    "primary_cluster_id": 2,
-    "primary_identity": "High-Efficiency Passing",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Aerial Progression than Disruptive Circulation by 0.0349 similarity points, driven most by Opponent Directness, Defensive Disruption (g+).",
+      "runner_up_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "runner_up_identity": "Disruptive Circulation",
+      "runner_up_score": 0.40684938383352787,
+      "score_gap": 0.03493660009891214,
+      "top_feature_deltas": [
+        {
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Opponent Directness",
+          "primary_centroid_z": 0.20324432923089208,
+          "runner_up_centroid_z": -0.8008287684673406,
+          "separation_gain": 1.0040730976982328,
+          "team_z_score": 0.3849592727832063
+        },
+        {
+          "feature": "interrupting",
+          "feature_label": "Defensive Disruption (g+)",
+          "primary_centroid_z": 0.08363615848853104,
+          "runner_up_centroid_z": 0.5926843480643369,
+          "separation_gain": 0.5090481895758059,
+          "team_z_score": -0.09096465334641508
+        },
+        {
+          "feature": "claiming",
+          "feature_label": "Claiming Impact (g+)",
+          "primary_centroid_z": 0.36132791866299435,
+          "runner_up_centroid_z": -0.013661789610514714,
+          "separation_gain": 0.374989708273509,
+          "team_z_score": 0.5788876601166851
+        }
+      ],
+      "winner_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "winner_identity": "Aerial Progression",
+      "winner_score": 0.44178598393244
+    },
+    "distances": {
+      "Aerial Progression": 3.4388115504811214,
+      "Aerial Transition": 3.141206692657889,
+      "Direct Transition": 4.770772473973904,
+      "Disruptive Circulation": 3.4347721935803985,
+      "Possession Control": 4.760177069961291,
+      "Territorial Occupation": 7.788278937016796,
+      "Transition Surge": 1385.9927492272284
+    },
+    "explanation": "Closer to Aerial Progression than Disruptive Circulation by 0.0349 similarity points, driven most by Opponent Directness, Defensive Disruption (g+).",
+    "hybrid_flag": true,
+    "hybrid_margin": 0.0790803721495484,
+    "identity": "Aerial Progression",
+    "identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+    "identity_scores": {
+      "Aerial Progression": 0.44178598393244,
+      "Aerial Transition": 0.15007847600556437,
+      "Direct Transition": 0.0001235854929818584,
+      "Disruptive Circulation": 0.40684938383352787,
+      "Possession Control": 0.0011625707347170963,
+      "Territorial Occupation": 7.687795838157351e-13,
+      "Transition Surge": 0.0
+    },
+    "metric": "Opponent Directness",
+    "primary_cluster_id": 1,
+    "primary_identity": "Aerial Progression",
+    "primary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "scores": {
-      "Advanced Receiving": 0.25566977946036157,
-      "Direct Attacking": 0.21332873052558135,
-      "High-Disruption Defense": 0.3712433708317783,
-      "High-Efficiency Passing": 0.45806707284754966,
-      "High-Line Pressing": 0.2902396255963325,
-      "Possession Dominant": 0.3097137072678639
+      "Aerial Progression": 0.44178598393244,
+      "Aerial Transition": 0.15007847600556437,
+      "Direct Transition": 0.0001235854929818584,
+      "Disruptive Circulation": 0.40684938383352787,
+      "Possession Control": 0.0011625707347170963,
+      "Territorial Occupation": 7.687795838157351e-13,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Disruption Defense",
+    "secondary_identity": "Disruptive Circulation",
+    "secondary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "trait_scores": {
-      "attempted_passes_for": 0.5766488785786383,
-      "avg_vertical_distance_against": 0.4439035437234202,
-      "avg_vertical_distance_for": -0.39095731399345746,
-      "claiming": 0.3150705115127729,
-      "dribbling": -0.3753743575583404,
-      "interrupting": -0.11109154332160266,
-      "pass_completion_percentage_for": 0.6913829893611341,
-      "passing": -0.2982696531702398,
-      "receiving": -0.7142602777948379
+      "attempted_passes_for": 0.45352598914353326,
+      "avg_vertical_distance_against": 0.3849592727832063,
+      "avg_vertical_distance_for": -0.3284122713964345,
+      "claiming": 0.5788876601166851,
+      "dribbling": -0.9670601466734919,
+      "interrupting": -0.09096465334641508,
+      "pass_completion_percentage_for": 0.7278017843466181,
+      "passing": -0.3411153087825924,
+      "receiving": -0.37043851696169405
     },
-    "z_score": 0.6913829893611341
+    "z_score": 0.3849592727832063
   },
   "FC Tulsa": {
-    "explanation": "FC Tulsa is classified under Direct Attacking primarily due to its above-average Attacking Directness (Z-score: +1.8) and below-average Possession Quality (Z-score: -1.3).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Direct Transition than Aerial Progression by 0.8995 similarity points, driven most by Attacking Directness, Possession Volume.",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.05017805196111337,
+      "score_gap": 0.8995091793769042,
+      "top_feature_deltas": [
+        {
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Attacking Directness",
+          "primary_centroid_z": 1.3189209198285048,
+          "runner_up_centroid_z": 0.016829658786145014,
+          "separation_gain": 1.3020912610423598,
+          "team_z_score": 1.725580831979016
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": -1.1623123678861884,
+          "runner_up_centroid_z": -0.040189313021887205,
+          "separation_gain": 1.1221230548643013,
+          "team_z_score": -1.7403589193529454
+        },
+        {
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Possession Quality",
+          "primary_centroid_z": -1.5340930732389342,
+          "runner_up_centroid_z": 0.17038562346653843,
+          "separation_gain": 0.7593893616199254,
+          "team_z_score": -1.0615484056961606
+        }
+      ],
+      "winner_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+      "winner_identity": "Direct Transition",
+      "winner_score": 0.9496872313380176
+    },
+    "distances": {
+      "Aerial Progression": 4.629137000731582,
+      "Aerial Transition": 9.185216895469525,
+      "Direct Transition": 3.1810924497595807,
+      "Disruptive Circulation": 5.751234420652715,
+      "Possession Control": 10.12173053931051,
+      "Territorial Occupation": 10.206663097430697,
+      "Transition Surge": 838.4975152553451
+    },
+    "explanation": "Closer to Direct Transition than Aerial Progression by 0.8995 similarity points, driven most by Attacking Directness, Possession Volume.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.21374419633396946,
-    "identity": "Direct Attacking",
+    "hybrid_margin": 0.9471636016022024,
+    "identity": "Direct Transition",
+    "identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+    "identity_scores": {
+      "Aerial Progression": 0.05017805196111337,
+      "Aerial Transition": 1.3781526923546707e-16,
+      "Direct Transition": 0.9496872313380176,
+      "Disruptive Circulation": 0.0001347167008688802,
+      "Possession Control": 7.583713577712261e-20,
+      "Territorial Occupation": 3.771481394155242e-21,
+      "Transition Surge": 0.0
+    },
     "metric": "Attacking Directness",
     "primary_cluster_id": 4,
-    "primary_identity": "Direct Attacking",
+    "primary_identity": "Direct Transition",
+    "primary_identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
     "scores": {
-      "Advanced Receiving": 0.1820551074221769,
-      "Direct Attacking": 0.3416441108792898,
-      "High-Disruption Defense": 0.2520242789542439,
-      "High-Efficiency Passing": 0.21550746989829608,
-      "High-Line Pressing": 0.26861966475341825,
-      "Possession Dominant": 0.15165109459955436
+      "Aerial Progression": 0.05017805196111337,
+      "Aerial Transition": 1.3781526923546707e-16,
+      "Direct Transition": 0.9496872313380176,
+      "Disruptive Circulation": 0.0001347167008688802,
+      "Possession Control": 7.583713577712261e-20,
+      "Territorial Occupation": 3.771481394155242e-21,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Line Pressing",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": -1.4490342648296717,
-      "avg_vertical_distance_against": 0.013238034982279906,
-      "avg_vertical_distance_for": 1.7833673909442511,
-      "claiming": -0.17778772003336638,
-      "dribbling": -1.5466016528862945,
-      "interrupting": -0.1306990313715565,
-      "pass_completion_percentage_for": -1.3344261856332034,
-      "passing": -0.4449963698030928,
-      "receiving": -0.5069235509542092
+      "attempted_passes_for": -1.7403589193529454,
+      "avg_vertical_distance_against": 0.04699018865367317,
+      "avg_vertical_distance_for": 1.725580831979016,
+      "claiming": -0.027015582756908997,
+      "dribbling": -2.2139522092136987,
+      "interrupting": -0.10967653607471134,
+      "pass_completion_percentage_for": -1.0615484056961606,
+      "passing": -0.4953897183776733,
+      "receiving": -0.09526491391537001
     },
-    "z_score": 1.7833673909442511
+    "z_score": 1.725580831979016
   },
   "Hartford Athletic": {
-    "explanation": "Hartford Athletic is classified under High-Disruption Defense primarily due to its below-average Opponent Directness (Z-score: -0.6) and above-average Defensive Disruption (g+) (Z-score: +0.6).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Disruptive Circulation than Aerial Progression by 0.7077 similarity points, driven most by Passing Impact (g+), Defensive Disruption (g+).",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.14610031737302662,
+      "score_gap": 0.7077454168563279,
+      "top_feature_deltas": [
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": -0.17075468384957485,
+          "runner_up_centroid_z": 0.6186880203269597,
+          "separation_gain": 0.7894427041765345,
+          "team_z_score": -0.34754031428570953
+        },
+        {
+          "feature": "interrupting",
+          "feature_label": "Defensive Disruption (g+)",
+          "primary_centroid_z": 0.5926843480643369,
+          "runner_up_centroid_z": 0.08363615848853104,
+          "separation_gain": 0.5090481895758059,
+          "team_z_score": 0.6345348600437388
+        },
+        {
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Opponent Directness",
+          "primary_centroid_z": -0.8008287684673406,
+          "runner_up_centroid_z": 0.20324432923089208,
+          "separation_gain": 0.24882523295771047,
+          "team_z_score": -0.42320483609707954
+        }
+      ],
+      "winner_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "winner_identity": "Disruptive Circulation",
+      "winner_score": 0.8538457342293545
+    },
+    "distances": {
+      "Aerial Progression": 3.7567473200833432,
+      "Aerial Transition": 6.7469622281007595,
+      "Direct Transition": 4.951221904701528,
+      "Disruptive Circulation": 3.223306756814797,
+      "Possession Control": 6.158573669125578,
+      "Territorial Occupation": 8.754554114617052,
+      "Transition Surge": 1133.1946447189741
+    },
+    "explanation": "Closer to Disruptive Circulation than Aerial Progression by 0.7077 similarity points, driven most by Passing Impact (g+), Defensive Disruption (g+).",
     "hybrid_flag": false,
-    "hybrid_margin": 0.2397045082664351,
-    "identity": "High-Disruption Defense",
-    "metric": "Opponent Directness",
-    "primary_cluster_id": 0,
-    "primary_identity": "High-Disruption Defense",
+    "hybrid_margin": 0.8288914351328556,
+    "identity": "Disruptive Circulation",
+    "identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+    "identity_scores": {
+      "Aerial Progression": 0.14610031737302662,
+      "Aerial Transition": 2.8202898885247057e-09,
+      "Direct Transition": 5.336204315875091e-05,
+      "Disruptive Circulation": 0.8538457342293545,
+      "Possession Control": 5.835341700053297e-07,
+      "Territorial Occupation": 2.6973117287565136e-16,
+      "Transition Surge": 0.0
+    },
+    "metric": "Passing Impact (g+)",
+    "primary_cluster_id": 5,
+    "primary_identity": "Disruptive Circulation",
+    "primary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "scores": {
-      "Advanced Receiving": 0.24414616947691342,
-      "Direct Attacking": 0.2599530798728042,
-      "High-Disruption Defense": 0.5707585574023256,
-      "High-Efficiency Passing": 0.4339451578216368,
-      "High-Line Pressing": 0.2904098717739782,
-      "Possession Dominant": 0.23876986067197165
+      "Aerial Progression": 0.14610031737302662,
+      "Aerial Transition": 2.8202898885247057e-09,
+      "Direct Transition": 5.336204315875091e-05,
+      "Disruptive Circulation": 0.8538457342293545,
+      "Possession Control": 5.835341700053297e-07,
+      "Territorial Occupation": 2.6973117287565136e-16,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": -0.42276486925822715,
-      "avg_vertical_distance_against": -0.5859196662713212,
-      "avg_vertical_distance_for": 0.21183910201883818,
-      "claiming": 0.20775775325846702,
-      "dribbling": -0.48882359915641826,
-      "interrupting": 0.6491324942913134,
-      "pass_completion_percentage_for": 0.11725498528784996,
-      "passing": -0.3043803228807557,
-      "receiving": 0.1879587189224012
+      "attempted_passes_for": -0.6288736674158094,
+      "avg_vertical_distance_against": -0.42320483609707954,
+      "avg_vertical_distance_for": 0.2410241510555501,
+      "claiming": 0.44696098411491286,
+      "dribbling": -1.0878385467450509,
+      "interrupting": 0.6345348600437388,
+      "pass_completion_percentage_for": 0.22068785383522854,
+      "passing": -0.34754031428570953,
+      "receiving": 0.8269704314990134
     },
-    "z_score": -0.5859196662713212
+    "z_score": -0.34754031428570953
   },
   "Indy Eleven": {
-    "explanation": "Indy Eleven is classified under Direct Attacking primarily due to its below-average Possession Quality (Z-score: -1.9) and above-average Attacking Directness (Z-score: +2.1).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Direct Transition than Aerial Progression by 0.7706 similarity points, driven most by Possession Quality, Attacking Directness.",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.11469058992598043,
+      "score_gap": 0.7706188147290509,
+      "top_feature_deltas": [
+        {
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Possession Quality",
+          "primary_centroid_z": -1.5340930732389342,
+          "runner_up_centroid_z": 0.17038562346653843,
+          "separation_gain": 1.7000462897187745,
+          "team_z_score": -1.5318768697455851
+        },
+        {
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Attacking Directness",
+          "primary_centroid_z": 1.3189209198285048,
+          "runner_up_centroid_z": 0.016829658786145014,
+          "separation_gain": 1.3020912610423596,
+          "team_z_score": 2.0295346119143023
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": -1.1623123678861884,
+          "runner_up_centroid_z": -0.040189313021887205,
+          "separation_gain": 1.1221230548643013,
+          "team_z_score": -1.425937697483198
+        }
+      ],
+      "winner_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+      "winner_identity": "Direct Transition",
+      "winner_score": 0.8853094046550314
+    },
+    "distances": {
+      "Aerial Progression": 5.061646732921511,
+      "Aerial Transition": 11.016868817641607,
+      "Direct Transition": 4.013031146906252,
+      "Disruptive Circulation": 7.6947547951800965,
+      "Possession Control": 11.354120558995787,
+      "Territorial Occupation": 7.8490967732835975,
+      "Transition Surge": 775.917343497205
+    },
+    "explanation": "Closer to Direct Transition than Aerial Progression by 0.7706 similarity points, driven most by Possession Quality, Attacking Directness.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.3724128454052236,
-    "identity": "Direct Attacking",
+    "hybrid_margin": 0.870451403550692,
+    "identity": "Direct Transition",
+    "identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+    "identity_scores": {
+      "Aerial Progression": 0.11469058992598043,
+      "Aerial Transition": 2.3621789099486248e-23,
+      "Direct Transition": 0.8853094046550314,
+      "Disruptive Circulation": 5.296211436174537e-09,
+      "Possession Control": 2.522802760929158e-24,
+      "Territorial Occupation": 1.2277668592448743e-10,
+      "Transition Surge": 0.0
+    },
     "metric": "Possession Quality",
     "primary_cluster_id": 4,
-    "primary_identity": "Direct Attacking",
+    "primary_identity": "Direct Transition",
+    "primary_identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
     "scores": {
-      "Advanced Receiving": 0.1903723573392607,
-      "Direct Attacking": 0.33327199324941137,
-      "High-Disruption Defense": 0.20915722157711475,
-      "High-Efficiency Passing": 0.1925750593731773,
-      "High-Line Pressing": 0.20890095349391335,
-      "Possession Dominant": 0.1367347486207502
+      "Aerial Progression": 0.11469058992598043,
+      "Aerial Transition": 2.3621789099486248e-23,
+      "Direct Transition": 0.8853094046550314,
+      "Disruptive Circulation": 5.296211436174537e-09,
+      "Possession Control": 2.522802760929158e-24,
+      "Territorial Occupation": 1.2277668592448743e-10,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Disruption Defense",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": -1.1587192320744275,
-      "avg_vertical_distance_against": 0.7434154792618516,
-      "avg_vertical_distance_for": 2.10512806861469,
-      "claiming": 0.3716090047187557,
-      "dribbling": -1.6683206377363933,
-      "interrupting": 0.2931677010155186,
-      "pass_completion_percentage_for": -1.8669075987374422,
-      "passing": 0.5957299036273119,
-      "receiving": 1.056269689979118
+      "attempted_passes_for": -1.425937697483198,
+      "avg_vertical_distance_against": 0.6200042728708058,
+      "avg_vertical_distance_for": 2.0295346119143023,
+      "claiming": 0.648394171701619,
+      "dribbling": -2.3435346025505472,
+      "interrupting": 0.2948293633371082,
+      "pass_completion_percentage_for": -1.5318768697455851,
+      "passing": 0.5988720157366346,
+      "receiving": 1.9793772535377812
     },
-    "z_score": -1.8669075987374422
+    "z_score": -1.5318768697455851
   },
   "Las Vegas Lights FC": {
-    "explanation": "Las Vegas Lights FC is classified under Possession Dominant primarily due to its above-average Possession Volume (Z-score: +2.1) and below-average Attacking Directness (Z-score: -1.7).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Possession Control than Aerial Progression by 0.9998 similarity points, driven most by Attacking Directness, Possession Volume.",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 7.294363340200193e-05,
+      "score_gap": 0.9998422202891708,
+      "top_feature_deltas": [
+        {
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Attacking Directness",
+          "primary_centroid_z": -1.348143538708539,
+          "runner_up_centroid_z": 0.016829658786145014,
+          "separation_gain": 1.364973197494684,
+          "team_z_score": -1.580870354670572
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": 1.2740887100901626,
+          "runner_up_centroid_z": -0.040189313021887205,
+          "separation_gain": 1.3142780231120499,
+          "team_z_score": 2.075375471944048
+        },
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": -0.6823620489519626,
+          "runner_up_centroid_z": 0.6186880203269597,
+          "separation_gain": 1.3010500692789224,
+          "team_z_score": -1.3679207227051569
+        }
+      ],
+      "winner_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+      "winner_identity": "Possession Control",
+      "winner_score": 0.9999151639225728
+    },
+    "distances": {
+      "Aerial Progression": 6.527009087926746,
+      "Aerial Transition": 7.943839567412153,
+      "Direct Transition": 7.180876187958109,
+      "Disruptive Circulation": 6.785732037665945,
+      "Possession Control": 4.743822016754945,
+      "Territorial Occupation": 8.596971044063265,
+      "Transition Surge": 1689.3162238655357
+    },
+    "explanation": "Closer to Possession Control than Aerial Progression by 0.9998 similarity points, driven most by Attacking Directness, Possession Volume.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.34633229404594185,
-    "identity": "Possession Dominant",
-    "metric": "Possession Volume",
+    "hybrid_margin": 0.9999270491778093,
+    "identity": "Possession Control",
+    "identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+    "identity_scores": {
+      "Aerial Progression": 7.294363340200193e-05,
+      "Aerial Transition": 3.286646415998241e-10,
+      "Direct Transition": 5.4688287416263306e-08,
+      "Disruptive Circulation": 1.1837426261664348e-05,
+      "Possession Control": 0.9999151639225728,
+      "Territorial Occupation": 8.114401774818477e-13,
+      "Transition Surge": 0.0
+    },
+    "metric": "Attacking Directness",
     "primary_cluster_id": 3,
-    "primary_identity": "Possession Dominant",
+    "primary_identity": "Possession Control",
+    "primary_identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
     "scores": {
-      "Advanced Receiving": 0.20914225072706857,
-      "Direct Attacking": 0.14571767998177904,
-      "High-Disruption Defense": 0.19151057649739447,
-      "High-Efficiency Passing": 0.21669204805047088,
-      "High-Line Pressing": 0.1759565329530934,
-      "Possession Dominant": 0.33150184172022257
+      "Aerial Progression": 7.294363340200193e-05,
+      "Aerial Transition": 3.286646415998241e-10,
+      "Direct Transition": 5.4688287416263306e-08,
+      "Disruptive Circulation": 1.1837426261664348e-05,
+      "Possession Control": 0.9999151639225728,
+      "Territorial Occupation": 8.114401774818477e-13,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": 2.074153668246944,
-      "avg_vertical_distance_against": 0.8876844097848318,
-      "avg_vertical_distance_for": -1.7167896879613183,
-      "claiming": -1.177214904081969,
-      "dribbling": -0.22503803557641772,
-      "interrupting": -0.4625952121285703,
-      "pass_completion_percentage_for": 1.7444467895784537,
-      "passing": -1.2748398270644548,
-      "receiving": 0.16075339889873916
+      "attempted_passes_for": 2.075375471944048,
+      "avg_vertical_distance_against": 0.7332207653169331,
+      "avg_vertical_distance_for": -1.580870354670572,
+      "claiming": -1.2556775651922845,
+      "dribbling": -0.8070116511009399,
+      "interrupting": -0.4264127950219292,
+      "pass_completion_percentage_for": 1.657948579170618,
+      "passing": -1.3679207227051569,
+      "receiving": 0.7908640163596748
     },
-    "z_score": 2.074153668246944
+    "z_score": -1.580870354670572
   },
   "Loudoun United FC": {
-    "explanation": "Loudoun United FC is classified under Possession Dominant primarily due to its above-average Possession Volume (Z-score: +1.7) and below-average Attacking Directness (Z-score: -1.3).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Possession Control than Aerial Progression by 0.9872 similarity points, driven most by Possession Volume, Attacking Directness.",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.006404909750414383,
+      "score_gap": 0.987174597321046,
+      "top_feature_deltas": [
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": 1.2740887100901626,
+          "runner_up_centroid_z": -0.040189313021887205,
+          "separation_gain": 1.3142780231120497,
+          "team_z_score": 1.6640407682003027
+        },
+        {
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Attacking Directness",
+          "primary_centroid_z": -1.348143538708539,
+          "runner_up_centroid_z": 0.016829658786145014,
+          "separation_gain": 1.1306336603418001,
+          "team_z_score": -1.230973770132097
+        },
+        {
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Possession Quality",
+          "primary_centroid_z": 1.1887977455771237,
+          "runner_up_centroid_z": 0.17038562346653843,
+          "separation_gain": 0.8268744622514741,
+          "team_z_score": 1.093028915647568
+        }
+      ],
+      "winner_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+      "winner_identity": "Possession Control",
+      "winner_score": 0.9935795070714604
+    },
+    "distances": {
+      "Aerial Progression": 5.605081224920351,
+      "Aerial Transition": 7.419305962431032,
+      "Direct Transition": 6.214876913262778,
+      "Disruptive Circulation": 6.861545537938393,
+      "Possession Control": 4.503544624994718,
+      "Territorial Occupation": 6.522404041091352,
+      "Transition Surge": 1397.4394918644123
+    },
+    "explanation": "Closer to Possession Control than Aerial Progression by 0.9872 similarity points, driven most by Possession Volume, Attacking Directness.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.14511031741139993,
-    "identity": "Possession Dominant",
+    "hybrid_margin": 0.9935537008378461,
+    "identity": "Possession Control",
+    "identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+    "identity_scores": {
+      "Aerial Progression": 0.006404909750414383,
+      "Aerial Transition": 6.044826352507718e-09,
+      "Direct Transition": 1.155034436248205e-05,
+      "Disruptive Circulation": 2.3085494100051308e-06,
+      "Possession Control": 0.9935795070714604,
+      "Territorial Occupation": 1.718239526443227e-06,
+      "Transition Surge": 0.0
+    },
     "metric": "Possession Volume",
     "primary_cluster_id": 3,
-    "primary_identity": "Possession Dominant",
+    "primary_identity": "Possession Control",
+    "primary_identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
     "scores": {
-      "Advanced Receiving": 0.21723780151608585,
-      "Direct Attacking": 0.15910578465391162,
-      "High-Disruption Defense": 0.22856445336808062,
-      "High-Efficiency Passing": 0.2629763190029415,
-      "High-Line Pressing": 0.18684045907407656,
-      "Possession Dominant": 0.3076143325905646
+      "Aerial Progression": 0.006404909750414383,
+      "Aerial Transition": 6.044826352507718e-09,
+      "Direct Transition": 1.155034436248205e-05,
+      "Disruptive Circulation": 2.3085494100051308e-06,
+      "Possession Control": 0.9935795070714604,
+      "Territorial Occupation": 1.718239526443227e-06,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": 1.6943553604844865,
-      "avg_vertical_distance_against": -0.7222926163667907,
-      "avg_vertical_distance_for": -1.3463946819191452,
-      "claiming": 0.8574877259618098,
-      "dribbling": -1.0709502303544451,
-      "interrupting": -0.963518778035717,
-      "pass_completion_percentage_for": 1.1048741425538113,
-      "passing": -0.23292434123697567,
-      "receiving": 0.7630710201565901
+      "attempted_passes_for": 1.6640407682003027,
+      "avg_vertical_distance_against": -0.5302248785855797,
+      "avg_vertical_distance_for": -1.230973770132097,
+      "claiming": 1.2457170406347344,
+      "dribbling": -1.7075722899130206,
+      "interrupting": -0.9044558261952454,
+      "pass_completion_percentage_for": 1.093028915647568,
+      "passing": -0.2724086025353847,
+      "receiving": 1.5902492123419234
     },
-    "z_score": 1.6943553604844865
+    "z_score": 1.6640407682003027
   },
   "Louisville City FC": {
-    "explanation": "Louisville City FC is classified under Advanced Receiving primarily due to its above-average Passing Impact (g+) (Z-score: +2.3) and above-average Receiving Impact (g+) (Z-score: +1.0).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Direct Transition than Disruptive Circulation by 0.8804 similarity points, driven most by Possession Volume, Defensive Disruption (g+).",
+      "runner_up_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "runner_up_identity": "Disruptive Circulation",
+      "runner_up_score": 0.05280242226482521,
+      "score_gap": 0.8803855089091384,
+      "top_feature_deltas": [
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": -1.1623123678861884,
+          "runner_up_centroid_z": -0.015137144369533563,
+          "separation_gain": 1.000726108049903,
+          "team_z_score": -1.0890878101528125
+        },
+        {
+          "feature": "interrupting",
+          "feature_label": "Defensive Disruption (g+)",
+          "primary_centroid_z": -0.37789214633962687,
+          "runner_up_centroid_z": 0.5926843480643369,
+          "separation_gain": 0.9705764944039638,
+          "team_z_score": -1.3241047416699003
+        },
+        {
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Opponent Directness",
+          "primary_centroid_z": 0.5674092632915916,
+          "runner_up_centroid_z": -0.8008287684673406,
+          "separation_gain": 0.46225143749313835,
+          "team_z_score": 0.11441596615869465
+        }
+      ],
+      "winner_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+      "winner_identity": "Direct Transition",
+      "winner_score": 0.9331879311739636
+    },
+    "distances": {
+      "Aerial Progression": 9.957552213478257,
+      "Aerial Transition": 5.432315080902548,
+      "Direct Transition": 3.986374881642595,
+      "Disruptive Circulation": 5.183744219350853,
+      "Possession Control": 8.621951223045418,
+      "Territorial Occupation": 4.969947459223914,
+      "Transition Surge": 70.05384555835967
+    },
+    "explanation": "Closer to Direct Transition than Disruptive Circulation by 0.8804 similarity points, driven most by Possession Volume, Defensive Disruption (g+).",
     "hybrid_flag": false,
-    "hybrid_margin": 0.05578439792949407,
-    "identity": "Advanced Receiving",
-    "metric": "Passing Impact (g+)",
-    "primary_cluster_id": 1,
-    "primary_identity": "Advanced Receiving",
+    "hybrid_margin": 0.9434171602050017,
+    "identity": "Direct Transition",
+    "identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+    "identity_scores": {
+      "Aerial Progression": 1.1713914707817406e-17,
+      "Aerial Transition": 0.00198299945106064,
+      "Direct Transition": 0.9331879311739636,
+      "Disruptive Circulation": 0.05280242226482521,
+      "Possession Control": 1.6979251933991925e-12,
+      "Territorial Occupation": 0.01202664710845266,
+      "Transition Surge": 0.0
+    },
+    "metric": "Possession Volume",
+    "primary_cluster_id": 4,
+    "primary_identity": "Direct Transition",
+    "primary_identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
     "scores": {
-      "Advanced Receiving": 0.25965540801897063,
-      "Direct Attacking": 0.24517068735771083,
-      "High-Disruption Defense": 0.2046135848919286,
-      "High-Efficiency Passing": 0.2055191673139135,
-      "High-Line Pressing": 0.20410390860243097,
-      "Possession Dominant": 0.1559094950884331
+      "Aerial Progression": 1.1713914707817406e-17,
+      "Aerial Transition": 0.00198299945106064,
+      "Direct Transition": 0.9331879311739636,
+      "Disruptive Circulation": 0.05280242226482521,
+      "Possession Control": 1.6979251933991925e-12,
+      "Territorial Occupation": 0.01202664710845266,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "Direct Attacking",
+    "secondary_identity": "Disruptive Circulation",
+    "secondary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "trait_scores": {
-      "attempted_passes_for": -0.8476951049738942,
-      "avg_vertical_distance_against": 0.09915700844772758,
-      "avg_vertical_distance_for": 0.7354574851629644,
-      "claiming": -0.9857985913255346,
-      "dribbling": 1.1310934162248294,
-      "interrupting": -1.4032533154322424,
-      "pass_completion_percentage_for": -0.9179602759427374,
-      "passing": 2.2511649368151327,
-      "receiving": 1.0489356404267265
+      "attempted_passes_for": -1.0890878101528125,
+      "avg_vertical_distance_against": 0.11441596615869465,
+      "avg_vertical_distance_for": 0.7356644158404042,
+      "claiming": -1.02035682341591,
+      "dribbling": 0.6367299264368527,
+      "interrupting": -1.3241047416699003,
+      "pass_completion_percentage_for": -0.693693741076502,
+      "passing": 2.3394634242332693,
+      "receiving": 1.9696436338795376
     },
-    "z_score": 2.2511649368151327
+    "z_score": -1.0890878101528125
   },
   "Memphis 901 FC": {
-    "explanation": "Memphis 901 FC is classified under High-Efficiency Passing primarily due to its above-average Claiming Impact (g+) (Z-score: +1.1) and above-average Passing Impact (g+) (Z-score: +2.1).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Aerial Transition than Direct Transition by 0.9956 similarity points, driven most by Possession Quality, Possession Volume.",
+      "runner_up_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+      "runner_up_identity": "Direct Transition",
+      "runner_up_score": 0.002172411378168827,
+      "score_gap": 0.9956484591481768,
+      "top_feature_deltas": [
+        {
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Possession Quality",
+          "primary_centroid_z": -0.2637968152911195,
+          "runner_up_centroid_z": -1.5340930732389342,
+          "separation_gain": 1.2702962579478148,
+          "team_z_score": 0.21543278719780537
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": -0.1900823024469596,
+          "runner_up_centroid_z": -1.1623123678861884,
+          "separation_gain": 0.9722300654392289,
+          "team_z_score": -0.13228164510840837
+        },
+        {
+          "feature": "claiming",
+          "feature_label": "Claiming Impact (g+)",
+          "primary_centroid_z": 0.6727192496602803,
+          "runner_up_centroid_z": -0.1583581130954474,
+          "separation_gain": 0.8310773627557277,
+          "team_z_score": 1.5557481559058082
+        }
+      ],
+      "winner_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "winner_identity": "Aerial Transition",
+      "winner_score": 0.9978208705263456
+    },
+    "distances": {
+      "Aerial Progression": 6.4726102950103925,
+      "Aerial Transition": 3.31978095820709,
+      "Direct Transition": 4.687168357597423,
+      "Disruptive Circulation": 6.583972052498569,
+      "Possession Control": 7.043590642464088,
+      "Territorial Occupation": 5.869066135645165,
+      "Transition Surge": 1054.5559285757984
+    },
+    "explanation": "Closer to Aerial Transition than Direct Transition by 0.9956 similarity points, driven most by Possession Quality, Possession Volume.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.047854009784109065,
-    "identity": "High-Efficiency Passing",
-    "metric": "Claiming Impact (g+)",
-    "primary_cluster_id": 2,
-    "primary_identity": "High-Efficiency Passing",
+    "hybrid_margin": 0.9978228433177132,
+    "identity": "Aerial Transition",
+    "identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+    "identity_scores": {
+      "Aerial Progression": 1.5453489959744928e-06,
+      "Aerial Transition": 0.9978208705263456,
+      "Direct Transition": 0.002172411378168827,
+      "Disruptive Circulation": 6.784007098322688e-07,
+      "Possession Control": 1.9317299940385662e-08,
+      "Territorial Occupation": 4.475028479662928e-06,
+      "Transition Surge": 0.0
+    },
+    "metric": "Possession Quality",
+    "primary_cluster_id": 6,
+    "primary_identity": "Aerial Transition",
+    "primary_identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
     "scores": {
-      "Advanced Receiving": 0.24898828108099225,
-      "Direct Attacking": 0.22713180920774775,
-      "High-Disruption Defense": 0.25911816385282804,
-      "High-Efficiency Passing": 0.27214121212854053,
-      "High-Line Pressing": 0.21042749848898626,
-      "Possession Dominant": 0.17800893821100958
+      "Aerial Progression": 1.5453489959744928e-06,
+      "Aerial Transition": 0.9978208705263456,
+      "Direct Transition": 0.002172411378168827,
+      "Disruptive Circulation": 6.784007098322688e-07,
+      "Possession Control": 1.9317299940385662e-08,
+      "Territorial Occupation": 4.475028479662928e-06,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Disruption Defense",
+    "secondary_identity": "Direct Transition",
+    "secondary_identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
     "trait_scores": {
-      "attempted_passes_for": 0.035754210226456945,
-      "avg_vertical_distance_against": 1.019640964047966,
-      "avg_vertical_distance_for": 0.4927065554874375,
-      "claiming": 1.1096754952037988,
-      "dribbling": -0.6837321027220913,
-      "interrupting": 0.042504138961994085,
-      "pass_completion_percentage_for": 0.11130547229226923,
-      "passing": 2.1332773405818277,
-      "receiving": 0.17050652349164874
+      "attempted_passes_for": -0.13228164510840837,
+      "avg_vertical_distance_against": 0.836774996812185,
+      "avg_vertical_distance_for": 0.5063478219300225,
+      "claiming": 1.5557481559058082,
+      "dribbling": -1.2953387194161265,
+      "interrupting": 0.05561528525362805,
+      "pass_completion_percentage_for": 0.21543278719780537,
+      "passing": 2.2155116332790357,
+      "receiving": 0.8038081892328849
     },
-    "z_score": 1.1096754952037988
+    "z_score": 0.21543278719780537
   },
   "Monterey Bay FC": {
-    "explanation": "Monterey Bay FC is classified under High-Efficiency Passing primarily due to its above-average Claiming Impact (g+) (Z-score: +1.4) and above-average Defensive Disruption (g+) (Z-score: +1.6).",
-    "hybrid_flag": true,
-    "hybrid_margin": 0.008579367537521431,
-    "identity": "High-Efficiency Passing",
-    "metric": "Claiming Impact (g+)",
-    "primary_cluster_id": 2,
-    "primary_identity": "High-Efficiency Passing",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Disruptive Circulation than Aerial Transition by 0.9230 similarity points, driven most by Defensive Disruption (g+), Opponent Directness.",
+      "runner_up_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "runner_up_identity": "Aerial Transition",
+      "runner_up_score": 0.03533018228073266,
+      "score_gap": 0.9229947441555645,
+      "top_feature_deltas": [
+        {
+          "feature": "interrupting",
+          "feature_label": "Defensive Disruption (g+)",
+          "primary_centroid_z": 0.5926843480643369,
+          "runner_up_centroid_z": -0.20332423519652218,
+          "separation_gain": 0.796008583260859,
+          "team_z_score": 1.547364634420003
+        },
+        {
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Opponent Directness",
+          "primary_centroid_z": -0.8008287684673406,
+          "runner_up_centroid_z": 0.055266282694796505,
+          "separation_gain": 0.40226771825870744,
+          "team_z_score": -0.5739151020156258
+        },
+        {
+          "feature": "receiving",
+          "feature_label": "Receiving Impact (g+)",
+          "primary_centroid_z": -0.256967889569681,
+          "runner_up_centroid_z": -0.5791199629401167,
+          "separation_gain": 0.3221520733704357,
+          "team_z_score": 0.15284138656938387
+        }
+      ],
+      "winner_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "winner_identity": "Disruptive Circulation",
+      "winner_score": 0.9583249264362972
+    },
+    "distances": {
+      "Aerial Progression": 5.0602417150231505,
+      "Aerial Transition": 4.249000924854936,
+      "Direct Transition": 6.712102952645279,
+      "Disruptive Circulation": 3.9214997509193927,
+      "Possession Control": 6.507582106803577,
+      "Territorial Occupation": 9.12943278660656,
+      "Transition Surge": 1639.3022073998811
+    },
+    "explanation": "Closer to Disruptive Circulation than Aerial Transition by 0.9230 similarity points, driven most by Defensive Disruption (g+), Opponent Directness.",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.9631333984233847,
+    "identity": "Disruptive Circulation",
+    "identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+    "identity_scores": {
+      "Aerial Progression": 0.006343996134281981,
+      "Aerial Transition": 0.03533018228073266,
+      "Direct Transition": 2.5170040015688323e-08,
+      "Disruptive Circulation": 0.9583249264362972,
+      "Possession Control": 8.699786479334473e-07,
+      "Territorial Occupation": 1.2837124979944163e-16,
+      "Transition Surge": 0.0
+    },
+    "metric": "Defensive Disruption (g+)",
+    "primary_cluster_id": 5,
+    "primary_identity": "Disruptive Circulation",
+    "primary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "scores": {
-      "Advanced Receiving": 0.18686898966789425,
-      "Direct Attacking": 0.18505508515044963,
-      "High-Disruption Defense": 0.29984624095969453,
-      "High-Efficiency Passing": 0.30244099340914404,
-      "High-Line Pressing": 0.22542862021786728,
-      "Possession Dominant": 0.24047144992584527
+      "Aerial Progression": 0.006343996134281981,
+      "Aerial Transition": 0.03533018228073266,
+      "Direct Transition": 2.5170040015688323e-08,
+      "Disruptive Circulation": 0.9583249264362972,
+      "Possession Control": 8.699786479334473e-07,
+      "Territorial Occupation": 1.2837124979944163e-16,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Disruption Defense",
+    "secondary_identity": "Aerial Transition",
+    "secondary_identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
     "trait_scores": {
-      "attempted_passes_for": 0.5638604748955044,
-      "avg_vertical_distance_against": -0.7779659698895743,
-      "avg_vertical_distance_for": -0.25607698807669205,
-      "claiming": 1.3585407499564595,
-      "dribbling": -0.19225937522876688,
-      "interrupting": 1.6056529659410588,
-      "pass_completion_percentage_for": 0.11725498528784996,
-      "passing": -1.0490343045980903,
-      "receiving": -0.31998138905510254
+      "attempted_passes_for": 0.4396757056302971,
+      "avg_vertical_distance_against": -0.5739151020156258,
+      "avg_vertical_distance_for": -0.2009965001526422,
+      "claiming": 1.861694684221191,
+      "dribbling": -0.7721153917913898,
+      "interrupting": 1.547364634420003,
+      "pass_completion_percentage_for": 0.22068785383522854,
+      "passing": -1.1304996554228053,
+      "receiving": 0.15284138656938387
     },
-    "z_score": 1.3585407499564595
+    "z_score": 1.547364634420003
   },
   "New Mexico United": {
-    "explanation": "New Mexico United is classified under Possession Dominant primarily due to its above-average Possession Volume (Z-score: +1.0) and below-average Passing Impact (g+) (Z-score: -1.8).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Disruptive Circulation than Aerial Transition by 0.9802 similarity points, driven most by Possession Quality, Claiming Impact (g+).",
+      "runner_up_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "runner_up_identity": "Aerial Transition",
+      "runner_up_score": 0.009895882148815132,
+      "score_gap": 0.9801696698104302,
+      "top_feature_deltas": [
+        {
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Possession Quality",
+          "primary_centroid_z": 0.4775464145559616,
+          "runner_up_centroid_z": -0.2637968152911195,
+          "separation_gain": 0.741343229847081,
+          "team_z_score": 0.880198716831907
+        },
+        {
+          "feature": "claiming",
+          "feature_label": "Claiming Impact (g+)",
+          "primary_centroid_z": -0.013661789610514714,
+          "runner_up_centroid_z": 0.6727192496602803,
+          "separation_gain": 0.686381039270795,
+          "team_z_score": -0.048950058383062246
+        },
+        {
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Attacking Directness",
+          "primary_centroid_z": -0.305692876229242,
+          "runner_up_centroid_z": 0.13451855690017891,
+          "separation_gain": 0.4402114331294209,
+          "team_z_score": -0.645958126742007
+        }
+      ],
+      "winner_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "winner_identity": "Disruptive Circulation",
+      "winner_score": 0.9900655519592453
+    },
+    "distances": {
+      "Aerial Progression": 5.793730641461611,
+      "Aerial Transition": 4.284102202213034,
+      "Direct Transition": 6.843716628805795,
+      "Disruptive Circulation": 3.614868849740677,
+      "Possession Control": 6.905582460735632,
+      "Territorial Occupation": 8.675318468674597,
+      "Transition Surge": 1508.4024864279775
+    },
+    "explanation": "Closer to Disruptive Circulation than Aerial Transition by 0.9802 similarity points, driven most by Possession Quality, Claiming Impact (g+).",
     "hybrid_flag": false,
-    "hybrid_margin": 0.15233124290091518,
-    "identity": "Possession Dominant",
-    "metric": "Possession Volume",
-    "primary_cluster_id": 3,
-    "primary_identity": "Possession Dominant",
+    "hybrid_margin": 0.9900048202674693,
+    "identity": "Disruptive Circulation",
+    "identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+    "identity_scores": {
+      "Aerial Progression": 3.8542919145995986e-05,
+      "Aerial Transition": 0.009895882148815132,
+      "Direct Transition": 3.355937918684019e-09,
+      "Disruptive Circulation": 0.9900655519592453,
+      "Possession Control": 1.9616853343636534e-08,
+      "Territorial Occupation": 2.3797844758355194e-15,
+      "Transition Surge": 0.0
+    },
+    "metric": "Possession Quality",
+    "primary_cluster_id": 5,
+    "primary_identity": "Disruptive Circulation",
+    "primary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "scores": {
-      "Advanced Receiving": 0.21402947917484993,
-      "Direct Attacking": 0.16633147089107309,
-      "High-Disruption Defense": 0.20913902490067027,
-      "High-Efficiency Passing": 0.23951659367923195,
-      "High-Line Pressing": 0.23386199737114516,
-      "Possession Dominant": 0.28255918579710715
+      "Aerial Progression": 3.8542919145995986e-05,
+      "Aerial Transition": 0.009895882148815132,
+      "Direct Transition": 3.355937918684019e-09,
+      "Disruptive Circulation": 0.9900655519592453,
+      "Possession Control": 1.9616853343636534e-08,
+      "Territorial Occupation": 2.3797844758355194e-15,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Transition",
+    "secondary_identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
     "trait_scores": {
-      "attempted_passes_for": 0.9984175367170863,
-      "avg_vertical_distance_against": 0.8122041901049053,
-      "avg_vertical_distance_for": -0.7271063483275065,
-      "claiming": -0.19562982105221355,
-      "dribbling": 2.0027066431581813,
-      "interrupting": -0.3576908874309299,
-      "pass_completion_percentage_for": 0.8639188662328993,
-      "passing": -1.7651816392747486,
-      "receiving": -0.3752594250064007
+      "attempted_passes_for": 0.9103160340119866,
+      "avg_vertical_distance_against": 0.6739869047050446,
+      "avg_vertical_distance_for": -0.645958126742007,
+      "claiming": -0.048950058383062246,
+      "dribbling": 1.5646519605318117,
+      "interrupting": -0.32630015354371694,
+      "pass_completion_percentage_for": 0.880198716831907,
+      "passing": -1.8834859538676134,
+      "receiving": 0.07947736392936669
     },
-    "z_score": 0.9984175367170863
+    "z_score": 0.880198716831907
   },
   "North Carolina FC": {
-    "explanation": "North Carolina FC is classified under High-Disruption Defense primarily due to its below-average Opponent Directness (Z-score: -1.4) and below-average Possession Volume (Z-score: -0.6).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Disruptive Circulation than Aerial Transition by 0.6146 similarity points, driven most by Opponent Directness, Passing Impact (g+).",
+      "runner_up_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "runner_up_identity": "Aerial Transition",
+      "runner_up_score": 0.15910444967331952,
+      "score_gap": 0.6145889729382307,
+      "top_feature_deltas": [
+        {
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Opponent Directness",
+          "primary_centroid_z": -0.8008287684673406,
+          "runner_up_centroid_z": 0.055266282694796505,
+          "separation_gain": 0.8560950511621371,
+          "team_z_score": -1.03927899629094
+        },
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": -0.17075468384957485,
+          "runner_up_centroid_z": -0.7516371778887015,
+          "separation_gain": 0.5808824940391268,
+          "team_z_score": 0.6531328053992942
+        },
+        {
+          "feature": "receiving",
+          "feature_label": "Receiving Impact (g+)",
+          "primary_centroid_z": -0.256967889569681,
+          "runner_up_centroid_z": -0.5791199629401167,
+          "separation_gain": 0.3221520733704357,
+          "team_z_score": 0.10500302999358824
+        }
+      ],
+      "winner_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "winner_identity": "Disruptive Circulation",
+      "winner_score": 0.7736934226115502
+    },
+    "distances": {
+      "Aerial Progression": 3.540031305380792,
+      "Aerial Transition": 2.5857223181475066,
+      "Direct Transition": 4.463829325629226,
+      "Disruptive Circulation": 2.7290621633100147,
+      "Possession Control": 5.116577994449002,
+      "Territorial Occupation": 6.7480984369644785,
+      "Transition Surge": 830.8910486249994
+    },
+    "explanation": "Closer to Disruptive Circulation than Aerial Transition by 0.6146 similarity points, driven most by Opponent Directness, Passing Impact (g+).",
     "hybrid_flag": false,
-    "hybrid_margin": 0.0917025908536653,
-    "identity": "High-Disruption Defense",
+    "hybrid_margin": 0.794357240454972,
+    "identity": "Disruptive Circulation",
+    "identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+    "identity_scores": {
+      "Aerial Progression": 0.06704874996612602,
+      "Aerial Transition": 0.15910444967331952,
+      "Direct Transition": 0.00011016451339301138,
+      "Disruptive Circulation": 0.7736934226115502,
+      "Possession Control": 4.3212916649933616e-05,
+      "Territorial Occupation": 3.189613538604956e-10,
+      "Transition Surge": 0.0
+    },
     "metric": "Opponent Directness",
-    "primary_cluster_id": 0,
-    "primary_identity": "High-Disruption Defense",
+    "primary_cluster_id": 5,
+    "primary_identity": "Disruptive Circulation",
+    "primary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "scores": {
-      "Advanced Receiving": 0.2201811630569183,
-      "Direct Attacking": 0.23251910348886135,
-      "High-Disruption Defense": 0.38709613746183286,
-      "High-Efficiency Passing": 0.3515984186554336,
-      "High-Line Pressing": 0.26879264613679865,
-      "Possession Dominant": 0.2165110808171371
+      "Aerial Progression": 0.06704874996612602,
+      "Aerial Transition": 0.15910444967331952,
+      "Direct Transition": 0.00011016451339301138,
+      "Disruptive Circulation": 0.7736934226115502,
+      "Possession Control": 4.3212916649933616e-05,
+      "Territorial Occupation": 3.189613538604956e-10,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Transition",
+    "secondary_identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
     "trait_scores": {
-      "attempted_passes_for": -0.5512335188293601,
-      "avg_vertical_distance_against": -1.3709674830132512,
-      "avg_vertical_distance_for": 0.14402029809562375,
-      "claiming": 0.7870794071695041,
-      "dribbling": 0.3099498466605586,
-      "interrupting": -0.17508675505870883,
-      "pass_completion_percentage_for": -0.08205370006401687,
-      "passing": 0.64733604835348,
-      "receiving": -0.35602644628463115
+      "attempted_passes_for": -0.7680096583659106,
+      "avg_vertical_distance_against": -1.03927899629094,
+      "avg_vertical_distance_for": 0.17695857923864589,
+      "claiming": 1.159159434509935,
+      "dribbling": -0.23746196029588165,
+      "interrupting": -0.15203677508615204,
+      "pass_completion_percentage_for": 0.04464312148153252,
+      "passing": 0.6531328053992942,
+      "receiving": 0.10500302999358824
     },
-    "z_score": -1.3709674830132512
+    "z_score": -1.03927899629094
   },
   "Oakland Roots SC": {
-    "explanation": "Oakland Roots SC is classified under High-Line Pressing primarily due to its below-average Passing Impact (g+) (Z-score: -0.6) and below-average Possession Volume (Z-score: -0.7).",
-    "hybrid_flag": true,
-    "hybrid_margin": 0.014201319946746897,
-    "identity": "High-Line Pressing",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Disruptive Circulation than Aerial Progression by 0.8247 similarity points, driven most by Passing Impact (g+), Claiming Impact (g+).",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.06218736162327506,
+      "score_gap": 0.8246881211588382,
+      "top_feature_deltas": [
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": -0.17075468384957485,
+          "runner_up_centroid_z": 0.6186880203269597,
+          "separation_gain": 0.7894427041765344,
+          "team_z_score": -0.6993462390646539
+        },
+        {
+          "feature": "claiming",
+          "feature_label": "Claiming Impact (g+)",
+          "primary_centroid_z": -0.013661789610514714,
+          "runner_up_centroid_z": 0.36132791866299435,
+          "separation_gain": 0.3749897082735091,
+          "team_z_score": -0.3819908612082232
+        },
+        {
+          "feature": "receiving",
+          "feature_label": "Receiving Impact (g+)",
+          "primary_centroid_z": -0.256967889569681,
+          "runner_up_centroid_z": 0.14809294287504798,
+          "separation_gain": 0.27124455531146224,
+          "team_z_score": -0.19005975100304762
+        }
+      ],
+      "winner_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "winner_identity": "Disruptive Circulation",
+      "winner_score": 0.8868754827821133
+    },
+    "distances": {
+      "Aerial Progression": 3.8348140890168745,
+      "Aerial Transition": 5.010748193568926,
+      "Direct Transition": 3.110988870799709,
+      "Disruptive Circulation": 3.0328474423470233,
+      "Possession Control": 5.889228581744554,
+      "Territorial Occupation": 8.531760117829027,
+      "Transition Surge": 910.0910938702533
+    },
+    "explanation": "Closer to Disruptive Circulation than Aerial Progression by 0.8247 similarity points, driven most by Passing Impact (g+), Claiming Impact (g+).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.9298803904714168,
+    "identity": "Disruptive Circulation",
+    "identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+    "identity_scores": {
+      "Aerial Progression": 0.06218736162327506,
+      "Aerial Transition": 4.3738029151075224e-05,
+      "Direct Transition": 0.05089172535008955,
+      "Disruptive Circulation": 0.8868754827821133,
+      "Possession Control": 1.692215370051957e-06,
+      "Territorial Occupation": 1.059181754895023e-15,
+      "Transition Surge": 0.0
+    },
     "metric": "Passing Impact (g+)",
     "primary_cluster_id": 5,
-    "primary_identity": "High-Line Pressing",
+    "primary_identity": "Disruptive Circulation",
+    "primary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "scores": {
-      "Advanced Receiving": 0.23478178626944973,
-      "Direct Attacking": 0.30163183132056504,
-      "High-Disruption Defense": 0.4014564651202999,
-      "High-Efficiency Passing": 0.335497574758706,
-      "High-Line Pressing": 0.4072398079421393,
-      "Possession Dominant": 0.21741591855003492
+      "Aerial Progression": 0.06218736162327506,
+      "Aerial Transition": 4.3738029151075224e-05,
+      "Direct Transition": 0.05089172535008955,
+      "Disruptive Circulation": 0.8868754827821133,
+      "Possession Control": 1.692215370051957e-06,
+      "Territorial Occupation": 1.059181754895023e-15,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Disruption Defense",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": -0.7332307723884651,
-      "avg_vertical_distance_against": -0.2960435034579869,
-      "avg_vertical_distance_for": 0.426654742733438,
-      "claiming": -0.4665342980354456,
-      "dribbling": -0.3657162010274399,
-      "interrupting": -0.4097520416863779,
-      "pass_completion_percentage_for": -0.36168081085618553,
-      "passing": -0.6389745590232409,
-      "receiving": -0.5783491928964742
+      "attempted_passes_for": -0.965118978878554,
+      "avg_vertical_distance_against": -0.19572160544929568,
+      "avg_vertical_distance_for": 0.44395145235648703,
+      "claiming": -0.3819908612082232,
+      "dribbling": -0.9567780445015316,
+      "interrupting": -0.37598332614827595,
+      "pass_completion_percentage_for": -0.20234501047738188,
+      "passing": -0.6993462390646539,
+      "receiving": -0.19005975100304762
     },
-    "z_score": -0.6389745590232409
+    "z_score": -0.6993462390646539
   },
   "Orange County SC": {
-    "explanation": "Orange County SC is classified under High-Disruption Defense primarily due to its below-average Opponent Directness (Z-score: -1.8) and below-average Receiving Impact (g+) (Z-score: -0.9).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Disruptive Circulation than Aerial Progression by 0.9672 similarity points, driven most by Opponent Directness, Passing Impact (g+).",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.01631582799993702,
+      "score_gap": 0.9671525709488048,
+      "top_feature_deltas": [
+        {
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Opponent Directness",
+          "primary_centroid_z": -0.8008287684673406,
+          "runner_up_centroid_z": 0.20324432923089208,
+          "separation_gain": 1.0040730976982326,
+          "team_z_score": -1.3464758797834468
+        },
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": -0.17075468384957485,
+          "runner_up_centroid_z": 0.6186880203269597,
+          "separation_gain": 0.7894427041765345,
+          "team_z_score": -0.708526999520099
+        },
+        {
+          "feature": "interrupting",
+          "feature_label": "Defensive Disruption (g+)",
+          "primary_centroid_z": 0.5926843480643369,
+          "runner_up_centroid_z": 0.08363615848853104,
+          "separation_gain": 0.4113547579923347,
+          "team_z_score": 0.5438376322726013
+        }
+      ],
+      "winner_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "winner_identity": "Disruptive Circulation",
+      "winner_score": 0.9834683989487418
+    },
+    "distances": {
+      "Aerial Progression": 3.9215571539496468,
+      "Aerial Transition": 4.579177664130638,
+      "Direct Transition": 5.0010507326067675,
+      "Disruptive Circulation": 2.643516781666179,
+      "Possession Control": 4.997305768506171,
+      "Territorial Occupation": 9.974702340774114,
+      "Transition Surge": 1236.4715168290659
+    },
+    "explanation": "Closer to Disruptive Circulation than Aerial Progression by 0.9672 similarity points, driven most by Opponent Directness, Passing Impact (g+).",
     "hybrid_flag": false,
-    "hybrid_margin": 0.148175348396627,
-    "identity": "High-Disruption Defense",
+    "hybrid_margin": 0.983409910271863,
+    "identity": "Disruptive Circulation",
+    "identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+    "identity_scores": {
+      "Aerial Progression": 0.01631582799993702,
+      "Aerial Transition": 0.00012722691733894963,
+      "Direct Transition": 8.755804760471146e-06,
+      "Disruptive Circulation": 0.9834683989487418,
+      "Possession Control": 7.979032922166713e-05,
+      "Territorial Occupation": 6.184857025410311e-22,
+      "Transition Surge": 0.0
+    },
     "metric": "Opponent Directness",
-    "primary_cluster_id": 0,
-    "primary_identity": "High-Disruption Defense",
+    "primary_cluster_id": 5,
+    "primary_identity": "Disruptive Circulation",
+    "primary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "scores": {
-      "Advanced Receiving": 0.18829981096061812,
-      "Direct Attacking": 0.19554472089336994,
-      "High-Disruption Defense": 0.3753138332144195,
-      "High-Efficiency Passing": 0.319701575071624,
-      "High-Line Pressing": 0.24121839846581147,
-      "Possession Dominant": 0.24697818325018364
+      "Aerial Progression": 0.01631582799993702,
+      "Aerial Transition": 0.00012722691733894963,
+      "Direct Transition": 8.755804760471146e-06,
+      "Disruptive Circulation": 0.9834683989487418,
+      "Possession Control": 7.979032922166713e-05,
+      "Territorial Occupation": 6.184857025410311e-22,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": -0.1972982076558743,
-      "avg_vertical_distance_against": -1.7624207499703173,
-      "avg_vertical_distance_for": -0.16335202291120493,
-      "claiming": 0.25989657822848833,
-      "dribbling": -0.3756851433396193,
-      "interrupting": 0.5540942324814907,
-      "pass_completion_percentage_for": 0.45935198253358817,
-      "passing": -0.6477061616354679,
-      "receiving": -0.8521413790225797
+      "attempted_passes_for": -0.384685474475518,
+      "avg_vertical_distance_against": -1.3464758797834468,
+      "avg_vertical_distance_for": -0.11340312528635435,
+      "claiming": 0.5110586923541578,
+      "dribbling": -0.9673910101407053,
+      "interrupting": 0.5438376322726013,
+      "pass_completion_percentage_for": 0.5228541854870918,
+      "passing": -0.708526999520099,
+      "receiving": -0.5534318534292679
     },
-    "z_score": -1.7624207499703173
+    "z_score": -1.3464758797834468
   },
   "Phoenix Rising FC": {
-    "explanation": "Phoenix Rising FC is classified under Possession Dominant primarily due to its above-average Possession Quality (Z-score: +1.5) and below-average Attacking Directness (Z-score: -1.3).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Possession Control than Aerial Progression by 0.7829 similarity points, driven most by Attacking Directness, Possession Quality.",
+      "runner_up_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "runner_up_identity": "Aerial Progression",
+      "runner_up_score": 0.10202435732383212,
+      "score_gap": 0.7828795517352435,
+      "top_feature_deltas": [
+        {
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Attacking Directness",
+          "primary_centroid_z": -1.348143538708539,
+          "runner_up_centroid_z": 0.016829658786145014,
+          "separation_gain": 1.1002700766767168,
+          "team_z_score": -1.2157919782995554
+        },
+        {
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Possession Quality",
+          "primary_centroid_z": 1.1887977455771237,
+          "runner_up_centroid_z": 0.17038562346653843,
+          "separation_gain": 1.0184121221105853,
+          "team_z_score": 1.4477459136736688
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": 1.2740887100901626,
+          "runner_up_centroid_z": -0.040189313021887205,
+          "separation_gain": 0.7444126526096302,
+          "team_z_score": 0.9891560248389528
+        }
+      ],
+      "winner_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+      "winner_identity": "Possession Control",
+      "winner_score": 0.8849039090590756
+    },
+    "distances": {
+      "Aerial Progression": 4.879001889284754,
+      "Aerial Transition": 5.731602609152288,
+      "Direct Transition": 5.8388726425814905,
+      "Disruptive Circulation": 5.267778952424752,
+      "Possession Control": 4.2939028412560445,
+      "Territorial Occupation": 8.058923932611828,
+      "Transition Surge": 1505.6268161409457
+    },
+    "explanation": "Closer to Possession Control than Aerial Progression by 0.7829 similarity points, driven most by Attacking Directness, Possession Quality.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.08523501615574482,
-    "identity": "Possession Dominant",
-    "metric": "Possession Quality",
+    "hybrid_margin": 0.8847057209669003,
+    "identity": "Possession Control",
+    "identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+    "identity_scores": {
+      "Aerial Progression": 0.10202435732383212,
+      "Aerial Transition": 0.00014129818046224868,
+      "Direct Transition": 3.9442921162225667e-05,
+      "Disruptive Circulation": 0.012890992507165133,
+      "Possession Control": 0.8849039090590756,
+      "Territorial Occupation": 8.30260433968582e-12,
+      "Transition Surge": 0.0
+    },
+    "metric": "Attacking Directness",
     "primary_cluster_id": 3,
-    "primary_identity": "Possession Dominant",
+    "primary_identity": "Possession Control",
+    "primary_identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
     "scores": {
-      "Advanced Receiving": 0.2304981489263376,
-      "Direct Attacking": 0.1698192640563969,
-      "High-Disruption Defense": 0.27227287375497955,
-      "High-Efficiency Passing": 0.32385338572792083,
-      "High-Line Pressing": 0.20688878151896567,
-      "Possession Dominant": 0.3540290583185397
+      "Aerial Progression": 0.10202435732383212,
+      "Aerial Transition": 0.00014129818046224868,
+      "Direct Transition": 3.9442921162225667e-05,
+      "Disruptive Circulation": 0.012890992507165133,
+      "Possession Control": 0.8849039090590756,
+      "Territorial Occupation": 8.30260433968582e-12,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Progression",
+    "secondary_identity_description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
     "trait_scores": {
-      "attempted_passes_for": 1.0712129873016392,
-      "avg_vertical_distance_against": 0.10986342258672425,
-      "avg_vertical_distance_for": -1.3303234765229492,
-      "claiming": 0.361752955025581,
-      "dribbling": -0.9030609098375414,
-      "interrupting": -0.3506373378706647,
-      "pass_completion_percentage_for": 1.5064662697553304,
-      "passing": -0.009818794595702465,
-      "receiving": -0.24521551867009098
+      "attempted_passes_for": 0.9891560248389528,
+      "avg_vertical_distance_against": 0.12281793220293415,
+      "avg_vertical_distance_for": -1.2157919782995554,
+      "claiming": 0.6362774775109108,
+      "dribbling": -1.5288368198869577,
+      "interrupting": -0.31956878684066703,
+      "pass_completion_percentage_for": 1.4477459136736688,
+      "passing": -0.03782639913478415,
+      "receiving": 0.25206931522551707
     },
-    "z_score": 1.5064662697553304
+    "z_score": -1.2157919782995554
   },
   "Pittsburgh Riverhounds SC": {
-    "explanation": "Pittsburgh Riverhounds SC is classified under Direct Attacking primarily due to its below-average Possession Quality (Z-score: -1.7) and above-average Attacking Directness (Z-score: +1.4).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Direct Transition than Territorial Occupation by 0.9410 similarity points, driven most by Attacking Directness, Possession Quality.",
+      "runner_up_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+      "runner_up_identity": "Territorial Occupation",
+      "runner_up_score": 0.029493247780069978,
+      "score_gap": 0.9409998394076516,
+      "top_feature_deltas": [
+        {
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Attacking Directness",
+          "primary_centroid_z": 1.3189209198285048,
+          "runner_up_centroid_z": -0.03720487578532005,
+          "separation_gain": 1.3561257956138248,
+          "team_z_score": 1.3775919071472484
+        },
+        {
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Possession Quality",
+          "primary_centroid_z": -1.5340930732389342,
+          "runner_up_centroid_z": -0.07788439921577744,
+          "separation_gain": 1.1312172021536113,
+          "team_z_score": -1.3715973373041614
+        },
+        {
+          "feature": "dribbling",
+          "feature_label": "Dribbling Impact (g+)",
+          "primary_centroid_z": -0.47724158179113685,
+          "runner_up_centroid_z": 0.600360844268044,
+          "separation_gain": 1.0776024260591808,
+          "team_z_score": -1.1048838763165285
+        }
+      ],
+      "winner_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+      "winner_identity": "Direct Transition",
+      "winner_score": 0.9704930871877216
+    },
+    "distances": {
+      "Aerial Progression": 11.255370387087899,
+      "Aerial Transition": 7.468182586152155,
+      "Direct Transition": 3.7821023021652307,
+      "Disruptive Circulation": 6.471624788890532,
+      "Possession Control": 9.892599069809267,
+      "Territorial Occupation": 4.625777024785169,
+      "Transition Surge": 399.209428955532
+    },
+    "explanation": "Closer to Direct Transition than Territorial Occupation by 0.9410 similarity points, driven most by Attacking Directness, Possession Quality.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.24703302177507055,
-    "identity": "Direct Attacking",
-    "metric": "Possession Quality",
+    "hybrid_margin": 0.9696100372696677,
+    "identity": "Direct Transition",
+    "identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+    "identity_scores": {
+      "Aerial Progression": 5.7937745464380614e-24,
+      "Aerial Transition": 1.8478510430610835e-09,
+      "Direct Transition": 0.9704930871877216,
+      "Disruptive Circulation": 1.3663184357316842e-05,
+      "Possession Control": 6.221027545208779e-18,
+      "Territorial Occupation": 0.029493247780069978,
+      "Transition Surge": 0.0
+    },
+    "metric": "Attacking Directness",
     "primary_cluster_id": 4,
-    "primary_identity": "Direct Attacking",
+    "primary_identity": "Direct Transition",
+    "primary_identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
     "scores": {
-      "Advanced Receiving": 0.23348959097578692,
-      "Direct Attacking": 0.35386204776452296,
-      "High-Disruption Defense": 0.22984556042886808,
-      "High-Efficiency Passing": 0.2169740388866461,
-      "High-Line Pressing": 0.26644643656670547,
-      "Possession Dominant": 0.16071204001319714
+      "Aerial Progression": 5.7937745464380614e-24,
+      "Aerial Transition": 1.8478510430610835e-09,
+      "Direct Transition": 0.9704930871877216,
+      "Disruptive Circulation": 1.3663184357316842e-05,
+      "Possession Control": 6.221027545208779e-18,
+      "Territorial Occupation": 0.029493247780069978,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Line Pressing",
+    "secondary_identity": "Territorial Occupation",
+    "secondary_identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
     "trait_scores": {
-      "attempted_passes_for": -0.47234733725254646,
-      "avg_vertical_distance_against": -0.1267483298851021,
-      "avg_vertical_distance_for": 1.414991803381182,
-      "claiming": -0.8933770655167801,
-      "dribbling": -0.5048345722404111,
-      "interrupting": -1.6782431042076649,
-      "pass_completion_percentage_for": -1.6854474523723078,
-      "passing": 0.444720167630061,
-      "receiving": 0.4257711650932653
+      "attempted_passes_for": -0.6825731952085531,
+      "avg_vertical_distance_against": -0.06286551737475866,
+      "avg_vertical_distance_for": 1.3775919071472484,
+      "claiming": -0.906736925005818,
+      "dribbling": -1.1048838763165285,
+      "interrupting": -1.5865339047496034,
+      "pass_completion_percentage_for": -1.3715973373041614,
+      "passing": 0.4400942661984936,
+      "receiving": 1.142590865270004
     },
-    "z_score": -1.6854474523723078
+    "z_score": 1.3775919071472484
   },
   "Rhode Island FC": {
-    "explanation": "Rhode Island FC is classified under High-Line Pressing primarily due to its below-average Possession Quality (Z-score: -0.8) and above-average Opponent Directness (Z-score: +0.8).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Aerial Transition than Territorial Occupation by 0.5646 similarity points, driven most by Claiming Impact (g+), Possession Volume.",
+      "runner_up_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+      "runner_up_identity": "Territorial Occupation",
+      "runner_up_score": 0.15256711547891266,
+      "score_gap": 0.5645938497571039,
+      "top_feature_deltas": [
+        {
+          "feature": "claiming",
+          "feature_label": "Claiming Impact (g+)",
+          "primary_centroid_z": 0.6727192496602803,
+          "runner_up_centroid_z": -0.7113829248919584,
+          "separation_gain": 1.3841021745522388,
+          "team_z_score": 0.7881776538733725
+        },
+        {
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume",
+          "primary_centroid_z": -0.1900823024469596,
+          "runner_up_centroid_z": 0.5416079736387599,
+          "separation_gain": 0.7316902760857196,
+          "team_z_score": -0.6247185823618386
+        },
+        {
+          "feature": "dribbling",
+          "feature_label": "Dribbling Impact (g+)",
+          "primary_centroid_z": 0.0039450884738561395,
+          "runner_up_centroid_z": 0.600360844268044,
+          "separation_gain": 0.5964157557941879,
+          "team_z_score": 0.0014510566547537638
+        }
+      ],
+      "winner_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "winner_identity": "Aerial Transition",
+      "winner_score": 0.7171609652360166
+    },
+    "distances": {
+      "Aerial Progression": 6.252133720682019,
+      "Aerial Transition": 5.333791228025622,
+      "Direct Transition": 5.584516407529012,
+      "Disruptive Circulation": 6.431787076916106,
+      "Possession Control": 7.144377225457241,
+      "Territorial Occupation": 5.508182941258447,
+      "Transition Surge": 1005.0330806562209
+    },
+    "explanation": "Closer to Aerial Transition than Territorial Occupation by 0.5646 similarity points, driven most by Claiming Impact (g+), Possession Volume.",
     "hybrid_flag": false,
-    "hybrid_margin": 0.12901656766571584,
-    "identity": "High-Line Pressing",
-    "metric": "Possession Quality",
-    "primary_cluster_id": 5,
-    "primary_identity": "High-Line Pressing",
+    "hybrid_margin": 0.7872623808854886,
+    "identity": "Aerial Transition",
+    "identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+    "identity_scores": {
+      "Aerial Progression": 0.02749946766497419,
+      "Aerial Transition": 0.7171609652360166,
+      "Direct Transition": 0.09473824820323751,
+      "Disruptive Circulation": 0.007992848738579986,
+      "Possession Control": 4.1354678279008904e-05,
+      "Territorial Occupation": 0.15256711547891266,
+      "Transition Surge": 0.0
+    },
+    "metric": "Claiming Impact (g+)",
+    "primary_cluster_id": 6,
+    "primary_identity": "Aerial Transition",
+    "primary_identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
     "scores": {
-      "Advanced Receiving": 0.315205084060977,
-      "Direct Attacking": 0.32161862174112105,
-      "High-Disruption Defense": 0.29486516615870945,
-      "High-Efficiency Passing": 0.31950997949291404,
-      "High-Line Pressing": 0.3692591729422244,
-      "Possession Dominant": 0.2061713102720572
+      "Aerial Progression": 0.02749946766497419,
+      "Aerial Transition": 0.7171609652360166,
+      "Direct Transition": 0.09473824820323751,
+      "Disruptive Circulation": 0.007992848738579986,
+      "Possession Control": 4.1354678279008904e-05,
+      "Territorial Occupation": 0.15256711547891266,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "Direct Attacking",
+    "secondary_identity": "Territorial Occupation",
+    "secondary_identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
     "trait_scores": {
-      "attempted_passes_for": -0.418928348153287,
-      "avg_vertical_distance_against": 0.7626870247120459,
-      "avg_vertical_distance_for": 0.28352845802700105,
-      "claiming": 0.4853127035070199,
-      "dribbling": 0.5343649785458908,
-      "interrupting": -0.35277730072117286,
-      "pass_completion_percentage_for": -0.8257428245112775,
-      "passing": -0.3212697157374757,
-      "receiving": 0.8842574186754755
+      "attempted_passes_for": -0.6247185823618386,
+      "avg_vertical_distance_against": 0.6351278117504371,
+      "avg_vertical_distance_for": 0.3087460706436417,
+      "claiming": 0.7881776538733725,
+      "dribbling": 0.0014510566547537638,
+      "interrupting": -0.32161100325307046,
+      "pass_completion_percentage_for": -0.6122402081964314,
+      "passing": -0.36529850564434063,
+      "receiving": 1.7510856373631503
     },
-    "z_score": -0.8257428245112775
+    "z_score": 0.7881776538733725
   },
   "Sacramento Republic FC": {
-    "explanation": "Sacramento Republic FC is classified under Advanced Receiving primarily due to its below-average Defensive Disruption (g+) (Z-score: -1.1) and above-average Dribbling Impact (g+) (Z-score: +1.3).",
-    "hybrid_flag": true,
-    "hybrid_margin": 0.02116700507747607,
-    "identity": "Advanced Receiving",
-    "metric": "Defensive Disruption (g+)",
-    "primary_cluster_id": 1,
-    "primary_identity": "Advanced Receiving",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Territorial Occupation than Aerial Transition by 0.8634 similarity points, driven most by Passing Impact (g+), Receiving Impact (g+).",
+      "runner_up_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "runner_up_identity": "Aerial Transition",
+      "runner_up_score": 0.06190805565802164,
+      "score_gap": 0.8633672452288856,
+      "top_feature_deltas": [
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": 0.5481530957854462,
+          "runner_up_centroid_z": -0.7516371778887015,
+          "separation_gain": 1.2997902736741478,
+          "team_z_score": 0.6769801338348115
+        },
+        {
+          "feature": "receiving",
+          "feature_label": "Receiving Impact (g+)",
+          "primary_centroid_z": 1.333965063582825,
+          "runner_up_centroid_z": -0.5791199629401167,
+          "separation_gain": 1.0283950264112214,
+          "team_z_score": 0.8916200635269648
+        },
+        {
+          "feature": "dribbling",
+          "feature_label": "Dribbling Impact (g+)",
+          "primary_centroid_z": 0.600360844268044,
+          "runner_up_centroid_z": 0.0039450884738561395,
+          "separation_gain": 0.5964157557941879,
+          "team_z_score": 0.7937634629430707
+        }
+      ],
+      "winner_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+      "winner_identity": "Territorial Occupation",
+      "winner_score": 0.9252753008869072
+    },
+    "distances": {
+      "Aerial Progression": 5.478027290154078,
+      "Aerial Transition": 3.629603833578659,
+      "Direct Transition": 4.145581083935823,
+      "Disruptive Circulation": 4.594151356205772,
+      "Possession Control": 5.578499364935687,
+      "Territorial Occupation": 2.561347497643313,
+      "Transition Surge": 955.3013502882703
+    },
+    "explanation": "Closer to Territorial Occupation than Aerial Transition by 0.8634 similarity points, driven most by Passing Impact (g+), Receiving Impact (g+).",
+    "hybrid_flag": false,
+    "hybrid_margin": 0.9330922844997884,
+    "identity": "Territorial Occupation",
+    "identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+    "identity_scores": {
+      "Aerial Progression": 0.00010721284029922948,
+      "Aerial Transition": 0.06190805565802164,
+      "Direct Transition": 0.004324540351933318,
+      "Disruptive Circulation": 0.00834843380907089,
+      "Possession Control": 3.645645376759635e-05,
+      "Territorial Occupation": 0.9252753008869072,
+      "Transition Surge": 0.0
+    },
+    "metric": "Passing Impact (g+)",
+    "primary_cluster_id": 2,
+    "primary_identity": "Territorial Occupation",
+    "primary_identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
     "scores": {
-      "Advanced Receiving": 0.3346586771406191,
-      "Direct Attacking": 0.22128005534423,
-      "High-Disruption Defense": 0.26713726881136785,
-      "High-Efficiency Passing": 0.3275749552011952,
-      "High-Line Pressing": 0.2793090501709194,
-      "Possession Dominant": 0.24396792964377342
+      "Aerial Progression": 0.00010721284029922948,
+      "Aerial Transition": 0.06190805565802164,
+      "Direct Transition": 0.004324540351933318,
+      "Disruptive Circulation": 0.00834843380907089,
+      "Possession Control": 3.645645376759635e-05,
+      "Territorial Occupation": 0.9252753008869072,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Aerial Transition",
+    "secondary_identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
     "trait_scores": {
-      "attempted_passes_for": 0.39353720698428823,
-      "avg_vertical_distance_against": 0.5292871964819192,
-      "avg_vertical_distance_for": -0.4344589537308052,
-      "claiming": 0.4523527964359176,
-      "dribbling": 1.2785977349733744,
-      "interrupting": -1.1071118456191988,
-      "pass_completion_percentage_for": -0.013634300614869884,
-      "passing": 0.6700166744598611,
-      "receiving": 0.23667067002430248
+      "attempted_passes_for": 0.2552097153533073,
+      "avg_vertical_distance_against": 0.4519649519860168,
+      "avg_vertical_distance_for": -0.36950644091174406,
+      "claiming": 0.747657858725498,
+      "dribbling": 0.7937634629430707,
+      "interrupting": -1.041490036511888,
+      "pass_completion_percentage_for": 0.10507638781190752,
+      "passing": 0.6769801338348115,
+      "receiving": 0.8916200635269648
     },
-    "z_score": -1.1071118456191988
+    "z_score": 0.6769801338348115
   },
   "San Antonio FC": {
-    "explanation": "San Antonio FC is classified under Direct Attacking primarily due to its below-average Possession Quality (Z-score: -1.7) and above-average Attacking Directness (Z-score: +1.5).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Aerial Transition than Direct Transition by 0.8218 similarity points, driven most by Passing Impact (g+), Dribbling Impact (g+).",
+      "runner_up_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+      "runner_up_identity": "Direct Transition",
+      "runner_up_score": 0.07230348907240124,
+      "score_gap": 0.8218494025228101,
+      "top_feature_deltas": [
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": -0.7516371778887015,
+          "runner_up_centroid_z": 0.19232556354595726,
+          "separation_gain": 0.9439627414346587,
+          "team_z_score": -0.826667458769614
+        },
+        {
+          "feature": "dribbling",
+          "feature_label": "Dribbling Impact (g+)",
+          "primary_centroid_z": 0.0039450884738561395,
+          "runner_up_centroid_z": -0.47724158179113685,
+          "separation_gain": 0.48118667026499296,
+          "team_z_score": 0.1250275168269359
+        },
+        {
+          "feature": "interrupting",
+          "feature_label": "Defensive Disruption (g+)",
+          "primary_centroid_z": -0.20332423519652218,
+          "runner_up_centroid_z": -0.37789214633962687,
+          "separation_gain": 0.17456791114310466,
+          "team_z_score": 0.6970135193229655
+        }
+      ],
+      "winner_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "winner_identity": "Aerial Transition",
+      "winner_score": 0.8941528915952114
+    },
+    "distances": {
+      "Aerial Progression": 6.278211119799635,
+      "Aerial Transition": 5.360251334098581,
+      "Direct Transition": 5.696615906015332,
+      "Disruptive Circulation": 8.427361553765786,
+      "Possession Control": 9.221543355908567,
+      "Territorial Occupation": 8.179728045362365,
+      "Transition Surge": 920.418095522432
+    },
+    "explanation": "Closer to Aerial Transition than Direct Transition by 0.8218 similarity points, driven most by Passing Impact (g+), Dribbling Impact (g+).",
     "hybrid_flag": false,
-    "hybrid_margin": 0.08259314182361688,
-    "identity": "Direct Attacking",
-    "metric": "Possession Quality",
-    "primary_cluster_id": 4,
-    "primary_identity": "Direct Attacking",
+    "hybrid_margin": 0.9191374420737534,
+    "identity": "Aerial Transition",
+    "identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+    "identity_scores": {
+      "Aerial Progression": 0.03354361263945707,
+      "Aerial Transition": 0.8941528915952114,
+      "Direct Transition": 0.07230348907240124,
+      "Disruptive Circulation": 4.178064627347331e-09,
+      "Possession Control": 2.4654820983900316e-12,
+      "Territorial Occupation": 2.512400284160435e-09,
+      "Transition Surge": 0.0
+    },
+    "metric": "Passing Impact (g+)",
+    "primary_cluster_id": 6,
+    "primary_identity": "Aerial Transition",
+    "primary_identity_description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
     "scores": {
-      "Advanced Receiving": 0.18589206984483028,
-      "Direct Attacking": 0.3052081513718074,
-      "High-Disruption Defense": 0.2101738816767306,
-      "High-Efficiency Passing": 0.19975237568659387,
-      "High-Line Pressing": 0.28000005115723864,
-      "Possession Dominant": 0.14590793554413742
+      "Aerial Progression": 0.03354361263945707,
+      "Aerial Transition": 0.8941528915952114,
+      "Direct Transition": 0.07230348907240124,
+      "Disruptive Circulation": 4.178064627347331e-09,
+      "Possession Control": 2.4654820983900316e-12,
+      "Territorial Occupation": 2.512400284160435e-09,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Line Pressing",
+    "secondary_identity": "Direct Transition",
+    "secondary_identity_description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
     "trait_scores": {
-      "attempted_passes_for": -1.5877884447916675,
-      "avg_vertical_distance_against": 1.76025716211306,
-      "avg_vertical_distance_for": 1.5093996172792548,
-      "claiming": -0.007257991461978518,
-      "dribbling": 0.6504424864248058,
-      "interrupting": 0.7146015645598036,
-      "pass_completion_percentage_for": -1.7330435563369337,
-      "passing": -0.7600667386921273,
-      "receiving": -0.4694533479130655
+      "attempted_passes_for": -1.8906344954715486,
+      "avg_vertical_distance_against": 1.4179809979224518,
+      "avg_vertical_distance_for": 1.4667749984357916,
+      "claiming": 0.18262789874408916,
+      "dribbling": 0.1250275168269359,
+      "interrupting": 0.6970135193229655,
+      "pass_completion_percentage_for": -1.4136378704035526,
+      "passing": -0.826667458769614,
+      "receiving": -0.04553512925626177
     },
-    "z_score": -1.7330435563369337
+    "z_score": -0.826667458769614
   },
   "Tampa Bay Rowdies": {
-    "explanation": "Tampa Bay Rowdies is classified under Advanced Receiving primarily due to its above-average Receiving Impact (g+) (Z-score: +2.6) and above-average Dribbling Impact (g+) (Z-score: +2.2).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Territorial Occupation than Disruptive Circulation by 1.0000 similarity points, driven most by Receiving Impact (g+), Defensive Disruption (g+).",
+      "runner_up_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "runner_up_identity": "Disruptive Circulation",
+      "runner_up_score": 8.223647605318285e-06,
+      "score_gap": 0.9999835516024512,
+      "top_feature_deltas": [
+        {
+          "feature": "receiving",
+          "feature_label": "Receiving Impact (g+)",
+          "primary_centroid_z": 1.333965063582825,
+          "runner_up_centroid_z": -0.256967889569681,
+          "separation_gain": 1.5909329531525058,
+          "team_z_score": 4.021812958561086
+        },
+        {
+          "feature": "interrupting",
+          "feature_label": "Defensive Disruption (g+)",
+          "primary_centroid_z": -0.6373366785983587,
+          "runner_up_centroid_z": 0.5926843480643369,
+          "separation_gain": 1.2300210266626956,
+          "team_z_score": -0.8765054652712128
+        },
+        {
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Opponent Directness",
+          "primary_centroid_z": 0.8618195947438674,
+          "runner_up_centroid_z": -0.8008287684673406,
+          "separation_gain": 0.9183467229425559,
+          "team_z_score": 0.48966877460954134
+        }
+      ],
+      "winner_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+      "winner_identity": "Territorial Occupation",
+      "winner_score": 0.9999917752500566
+    },
+    "distances": {
+      "Aerial Progression": 10.874358073541552,
+      "Aerial Transition": 8.758584195718193,
+      "Direct Transition": 9.097025606402704,
+      "Disruptive Circulation": 7.467732165276647,
+      "Possession Control": 8.532845902399762,
+      "Territorial Occupation": 5.217313081178186,
+      "Transition Surge": 1075.4054018809907
+    },
+    "explanation": "Closer to Territorial Occupation than Disruptive Circulation by 1.0000 similarity points, driven most by Receiving Impact (g+), Defensive Disruption (g+).",
     "hybrid_flag": false,
-    "hybrid_margin": 0.26696568770266016,
-    "identity": "Advanced Receiving",
+    "hybrid_margin": 0.9999917752847567,
+    "identity": "Territorial Occupation",
+    "identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+    "identity_scores": {
+      "Aerial Progression": 2.4462716730568815e-19,
+      "Aerial Transition": 3.269142188206967e-11,
+      "Direct Transition": 8.270737953959796e-13,
+      "Disruptive Circulation": 8.223647605318285e-06,
+      "Possession Control": 1.068819635494501e-09,
+      "Territorial Occupation": 0.9999917752500566,
+      "Transition Surge": 0.0
+    },
     "metric": "Receiving Impact (g+)",
-    "primary_cluster_id": 1,
-    "primary_identity": "Advanced Receiving",
+    "primary_cluster_id": 2,
+    "primary_identity": "Territorial Occupation",
+    "primary_identity_description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
     "scores": {
-      "Advanced Receiving": 0.28660665417743014,
-      "Direct Attacking": 0.18998242017110603,
-      "High-Disruption Defense": 0.18953200500740597,
-      "High-Efficiency Passing": 0.2100925113778283,
-      "High-Line Pressing": 0.1931116579664406,
-      "Possession Dominant": 0.178243814402935
+      "Aerial Progression": 2.4462716730568815e-19,
+      "Aerial Transition": 3.269142188206967e-11,
+      "Direct Transition": 8.270737953959796e-13,
+      "Disruptive Circulation": 8.223647605318285e-06,
+      "Possession Control": 1.068819635494501e-09,
+      "Territorial Occupation": 0.9999917752500566,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Disruptive Circulation",
+    "secondary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "trait_scores": {
-      "attempted_passes_for": -0.2552723043527455,
-      "avg_vertical_distance_against": 0.5773322299306666,
-      "avg_vertical_distance_for": -0.16116431955884303,
-      "claiming": 0.35019105057781846,
-      "dribbling": 2.175965572410794,
-      "interrupting": -0.9342306312592773,
-      "pass_completion_percentage_for": 0.010163751367443115,
-      "passing": 0.757294575475213,
-      "receiving": 2.5951961319557304
+      "attempted_passes_for": -0.44747342640218535,
+      "avg_vertical_distance_against": 0.48966877460954134,
+      "avg_vertical_distance_for": -0.11133649393742184,
+      "claiming": 0.6220636631718106,
+      "dribbling": 1.7491039319903547,
+      "interrupting": -0.8765054652712128,
+      "pass_completion_percentage_for": 0.12609665436160014,
+      "passing": 0.768747652108484,
+      "receiving": 4.021812958561086
     },
-    "z_score": 2.5951961319557304
+    "z_score": 4.021812958561086
   },
   "The Miami FC": {
-    "explanation": "The Miami FC is classified under High-Disruption Defense primarily due to its below-average Opponent Directness (Z-score: -2.4) and below-average Receiving Impact (g+) (Z-score: -2.7).",
+    "assignment_explanation": {
+      "model_version": "phase1_taxonomy_v1",
+      "rationale": "Closer to Possession Control than Disruptive Circulation by 0.9357 similarity points, driven most by Passing Impact (g+), Receiving Impact (g+).",
+      "runner_up_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "runner_up_identity": "Disruptive Circulation",
+      "runner_up_score": 0.032114396012118206,
+      "score_gap": 0.9357182938849062,
+      "top_feature_deltas": [
+        {
+          "feature": "passing",
+          "feature_label": "Passing Impact (g+)",
+          "primary_centroid_z": -0.6823620489519626,
+          "runner_up_centroid_z": -0.17075468384957485,
+          "separation_gain": 0.5116073651023878,
+          "team_z_score": -1.652782039181983
+        },
+        {
+          "feature": "receiving",
+          "feature_label": "Receiving Impact (g+)",
+          "primary_centroid_z": -0.26260148510638276,
+          "runner_up_centroid_z": -0.256967889569681,
+          "separation_gain": 0.00563359553670173,
+          "team_z_score": -3.0279816112702185
+        },
+        {
+          "feature": "claiming",
+          "feature_label": "Claiming Impact (g+)",
+          "primary_centroid_z": -0.20559479454804477,
+          "runner_up_centroid_z": -0.013661789610514714,
+          "separation_gain": -0.19193300493753007,
+          "team_z_score": 0.1135462938558884
+        }
+      ],
+      "winner_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+      "winner_identity": "Possession Control",
+      "winner_score": 0.9678326898970244
+    },
+    "distances": {
+      "Aerial Progression": 8.493202693137643,
+      "Aerial Transition": 6.993692124337578,
+      "Direct Transition": 6.859448544163234,
+      "Disruptive Circulation": 6.191967749280741,
+      "Possession Control": 5.538498169192691,
+      "Territorial Occupation": 15.039889875286605,
+      "Transition Surge": 1675.0993145259047
+    },
+    "explanation": "Closer to Possession Control than Disruptive Circulation by 0.9357 similarity points, driven most by Passing Impact (g+), Receiving Impact (g+).",
     "hybrid_flag": false,
-    "hybrid_margin": 0.10169526403560233,
-    "identity": "High-Disruption Defense",
-    "metric": "Opponent Directness",
-    "primary_cluster_id": 0,
-    "primary_identity": "High-Disruption Defense",
+    "hybrid_margin": 0.966818234893106,
+    "identity": "Possession Control",
+    "identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+    "identity_scores": {
+      "Aerial Progression": 1.6226590849106062e-09,
+      "Aerial Transition": 2.284888298901609e-05,
+      "Direct Transition": 3.0063585209175593e-05,
+      "Disruptive Circulation": 0.032114396012118206,
+      "Possession Control": 0.9678326898970244,
+      "Territorial Occupation": 3.981013010827448e-44,
+      "Transition Surge": 0.0
+    },
+    "metric": "Passing Impact (g+)",
+    "primary_cluster_id": 3,
+    "primary_identity": "Possession Control",
+    "primary_identity_description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
     "scores": {
-      "Advanced Receiving": 0.12984327729737358,
-      "Direct Attacking": 0.146017430098691,
-      "High-Disruption Defense": 0.20168562038011015,
-      "High-Efficiency Passing": 0.18117514786167532,
-      "High-Line Pressing": 0.17098852218758162,
-      "Possession Dominant": 0.16415899583081509
+      "Aerial Progression": 1.6226590849106062e-09,
+      "Aerial Transition": 2.284888298901609e-05,
+      "Direct Transition": 3.0063585209175593e-05,
+      "Disruptive Circulation": 0.032114396012118206,
+      "Possession Control": 0.9678326898970244,
+      "Territorial Occupation": 3.981013010827448e-44,
+      "Transition Surge": 0.0
     },
-    "secondary_identity": "High-Efficiency Passing",
+    "secondary_identity": "Disruptive Circulation",
+    "secondary_identity_description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
     "trait_scores": {
-      "attempted_passes_for": -1.2367467636896596,
-      "avg_vertical_distance_against": -2.3626490926378176,
-      "avg_vertical_distance_for": -0.45986996959285326,
-      "claiming": -0.0634508539660514,
-      "dribbling": -0.20855698159903652,
-      "interrupting": 1.9268686694185586,
-      "pass_completion_percentage_for": 0.35821026160876207,
-      "passing": -1.5457646406615986,
-      "receiving": -2.716655422212404
+      "attempted_passes_for": -1.510444213033239,
+      "avg_vertical_distance_against": -1.8175111011386234,
+      "avg_vertical_distance_for": -0.39351115888780464,
+      "claiming": 0.1135462938558884,
+      "dribbling": -0.7894658720120575,
+      "interrupting": 1.853908265029142,
+      "pass_completion_percentage_for": 0.4335180526508895,
+      "passing": -1.652782039181983,
+      "receiving": -3.0279816112702185
     },
-    "z_score": -2.3626490926378176
+    "z_score": -1.652782039181983
   }
 }

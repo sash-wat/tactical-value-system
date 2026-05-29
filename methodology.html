@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TVMS | Methodology</title>
+  <meta name="description" content="Methodology for the TVMS Phase 1 stable taxonomy: reference cohort, frozen scoring, hybrid logic, and statistical explanations." />
+  <link rel="stylesheet" href="site.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html">TV<span class="brand__mark">MS</span></a>
+        <nav class="nav-links" aria-label="Primary">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link is-active" href="methodology.html">Methodology</a>
+          <a class="nav-link" href="explorer.html">Explorer</a>
+          <a class="nav-link" href="players.html">Players</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="button button--secondary" href="explorer.html">Open Explorer</a>
+        </div>
+        <button class="nav-toggle" data-mobile-toggle aria-expanded="false" aria-label="Open navigation">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+      <div class="container mobile-nav" data-mobile-nav>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link is-active" href="methodology.html">Methodology</a>
+        <a class="nav-link" href="explorer.html">Explorer</a>
+        <a class="nav-link" href="players.html">Players</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow"><i data-lucide="book-marked"></i> Honest model story</span>
+          <h1 class="display">Methodology that matches the code path.</h1>
+          <p class="lede">
+            This page explains the current Phase 1 system as it actually runs: a stable team taxonomy trained on a
+            pooled `2020-2023` reference frame and used to score `2024+` teams against a frozen model artifact.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 1rem;">
+        <div class="container method-grid">
+          <aside class="sticky-rail">
+            <nav class="method-nav panel">
+              <a data-method-link href="#summary">Model Summary</a>
+              <a data-method-link href="#reference">Reference Window</a>
+              <a data-method-link href="#features">Feature Schema</a>
+              <a data-method-link href="#scoring">Frozen Scoring</a>
+              <a data-method-link href="#hybrids">Hybrid Logic</a>
+              <a data-method-link href="#explaining">Statistical Explanation</a>
+              <a data-method-link href="#validation">Validation & Limits</a>
+              <a data-method-link href="#identities">Current Identity Set</a>
+            </nav>
+          </aside>
+
+          <div class="method-sections">
+            <section class="method-section panel reveal" id="summary">
+              <h2>Model Summary</h2>
+              <p>
+                TVMS Phase 1 is a stable taxonomy for team styles, not a fresh clustering exercise every time a user
+                changes season. The public-facing goal is comparability: the same identity should mean the same thing
+                across leagues and across time unless a future model version replaces the taxonomy.
+              </p>
+              <div class="metric-strip" style="margin-top: 1rem;" data-method-summary>
+                <div class="metric">
+                  <div class="metric__label">Artifact</div>
+                  <div class="metric__value">…</div>
+                </div>
+                <div class="metric">
+                  <div class="metric__label">Feature Count</div>
+                  <div class="metric__value">…</div>
+                </div>
+                <div class="metric">
+                  <div class="metric__label">Current View</div>
+                  <div class="metric__value">…</div>
+                </div>
+                <div class="metric">
+                  <div class="metric__label">Reference Cohort</div>
+                  <div class="metric__value">…</div>
+                </div>
+              </div>
+            </section>
+
+            <section class="method-section panel reveal" id="reference">
+              <h2>Reference Window</h2>
+              <p>
+                The taxonomy is anchored to a pooled `2020-2023` reference cohort across the supported leagues. That
+                pooled window is used to set the feature scaling and the identity geometry. Teams from `2024+` are then
+                scored against the frozen model rather than re-clustered inside their own season.
+              </p>
+              <div class="process-strip" style="margin-top: 1rem;">
+                <div class="process-step">
+                  <strong>Step 1</strong>
+                  Load pooled team-seasons from the reference window.
+                </div>
+                <div class="process-step">
+                  <strong>Step 2</strong>
+                  Fit the scaler and identity model on that fixed cohort.
+                </div>
+                <div class="process-step">
+                  <strong>Step 3</strong>
+                  Freeze the artifact with identity definitions and thresholds.
+                </div>
+                <div class="process-step">
+                  <strong>Step 4</strong>
+                  Score `2024+` teams against the same artifact.
+                </div>
+              </div>
+            </section>
+
+            <section class="method-section panel reveal" id="features">
+              <h2>Feature Schema</h2>
+              <p>
+                The model uses a fixed nine-feature tactical profile. Those features include value-added passing,
+                receiving, disruption, dribbling, claiming, possession volume, possession quality, attacking directness,
+                and opponent directness. The site should describe those actual inputs rather than a broader or older
+                metric story.
+              </p>
+              <div class="pill-row" style="margin-top: 1rem;">
+                <span class="pill">Passing Impact</span>
+                <span class="pill">Receiving Impact</span>
+                <span class="pill">Defensive Disruption</span>
+                <span class="pill">Dribbling Impact</span>
+                <span class="pill">Claiming Impact</span>
+                <span class="pill">Possession Volume</span>
+                <span class="pill">Possession Quality</span>
+                <span class="pill">Attacking Directness</span>
+                <span class="pill">Opponent Directness</span>
+              </div>
+            </section>
+
+            <section class="method-section panel reveal" id="scoring">
+              <h2>Identity Discovery And Frozen Scoring</h2>
+              <p>
+                Identity discovery belongs to the training window only. Once the taxonomy has been chosen, the site
+                operates as a scoring layer. Each team is transformed by the frozen scaler, evaluated against every
+                identity, and assigned a full score distribution rather than a single opaque label.
+              </p>
+              <ul>
+                <li>Discovery is reference-window-only.</li>
+                <li>The exported artifact stores the identity definitions, scaler, and thresholds.</li>
+                <li>The frontend reads the scored outputs from generated JSON assets rather than recreating any model logic in-browser.</li>
+              </ul>
+            </section>
+
+            <section class="method-section panel reveal" id="hybrids">
+              <h2>Primary, Secondary, And Hybrid Logic</h2>
+              <p>
+                The output is not just “one team, one label.” Every team gets a primary identity, a secondary identity,
+                and a hybrid flag when the top two fits are meaningfully close. That lets borderline teams remain
+                interpretable without pretending the model is maximally certain when it is not.
+              </p>
+              <div class="grid-3" style="margin-top: 1rem;">
+                <div class="card">
+                  <h3>Primary identity</h3>
+                  <p>The best-scoring frozen identity for the team.</p>
+                </div>
+                <div class="card">
+                  <h3>Secondary identity</h3>
+                  <p>The strongest runner-up profile retained for context.</p>
+                </div>
+                <div class="card">
+                  <h3>Hybrid flag</h3>
+                  <p>Raised when the top-two score gap is small enough to reflect a meaningful split.</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="method-section panel reveal" id="explaining">
+              <h2>Statistical Explanation Layer</h2>
+              <p>
+                Each assignment comes with a feature-level explanation. The scorer records the winning identity, the
+                runner-up, the score gap, and the highest-separation features that pushed the team closer to the winner.
+                The explorer surfaces that logic so users can read why a team landed where it did.
+              </p>
+              <div class="card" style="margin-top: 1rem;">
+                <strong>What the explanation shows</strong>
+                <ul style="margin-top: 0.65rem;">
+                  <li>Winner and runner-up identity</li>
+                  <li>Relative score gap</li>
+                  <li>Top separating features</li>
+                  <li>Trait z-scores relative to the frozen reference frame</li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="method-section panel reveal" id="validation">
+              <h2>Validation And Limits</h2>
+              <p>
+                The current taxonomy has been reviewed for coherence and naming quality, but not every identity is equally
+                dense in current MLS usage. Sparse identities remain part of the frozen artifact when they are stable
+                cross-league categories, but they should be treated as watchlist identities in future model versions.
+              </p>
+              <ul>
+                <li>`Transition Surge` is retained in the artifact but remains sparse in current MLS scoring outputs.</li>
+                <li>`Aerial Progression` is coherent enough to keep, but still lightly represented in MLS.</li>
+                <li>The site is intentionally explicit about these limits rather than smoothing them over with generic confidence language.</li>
+              </ul>
+            </section>
+
+            <section class="method-section panel reveal" id="identities">
+              <h2>Current Identity Set</h2>
+              <p>
+                The live identity definitions below are pulled from the current metadata artifact, so the public page
+                stays aligned with the taxonomy that the explorer is actually using.
+              </p>
+              <div class="identity-grid" style="margin-top: 1rem;" data-method-identities>
+                <article class="card">
+                  <span class="identity-card__tag">Loading</span>
+                  <h3>Fetching current identities</h3>
+                  <p>The methodology page will populate the live definitions from current metadata.</p>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <strong>TVMS Methodology</strong>
+          <div>Public explanation for the current stable Phase 1 taxonomy.</div>
+        </div>
+        <div>
+          Data from <a href="https://americansocceranalysis.com">American Soccer Analysis</a> ·
+          <a href="explorer.html">Explorer</a> ·
+          <a href="https://github.com/sash-wat/tactical-value-system">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="site.js"></script>
+  <script>
+    window.TVMS_SITE.init();
+    window.TVMS_SITE.initMethodologyPage();
+  </script>
+</body>
+</html>

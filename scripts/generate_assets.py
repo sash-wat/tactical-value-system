@@ -16,11 +16,11 @@ DEFAULT_SEASONS = ["2020", "2021", "2022", "2023", "2024", "2025", "2026"]
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Generate TVMS tactical cluster assets.")
+    parser = argparse.ArgumentParser(description="Generate TVMS Phase 1 stable taxonomy assets.")
     parser.add_argument("--league", action="append", choices=DEFAULT_LEAGUES, help="League to generate. Repeat for multiple.")
     parser.add_argument("--season", action="append", help="Season to generate. Repeat for multiple.")
     parser.add_argument("--output-dir", default="assets", help="Directory for generated PNG and JSON assets.")
-    parser.add_argument("--clusters", type=int, default=4, help="Number of K-Means clusters.")
+    parser.add_argument("--clusters", type=int, default=4, help="Deprecated. Retained for CLI compatibility.")
     return parser.parse_args()
 
 
@@ -29,12 +29,12 @@ def write_json(path: Path, data):
 
 
 def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
-    import pandas as pd
     from sklearn.decomposition import PCA
-
+    
     from src.data_loader import load_tactical_data
-    from src.visualizer import plot_clusters
+    from src.preprocessor import build_tactical_feature_frame, transform_tactical_features
     from src.taxonomy_scorer import TaxonomyScorer
+    from src.visualizer import plot_clusters
 
     print(f"Generating {league.upper()} {season} using stable taxonomy scorer...")
     df = load_tactical_data(league, season)
@@ -43,22 +43,12 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
         return
 
     scorer = TaxonomyScorer()
-
-    # Preprocess and scale features using the frozen normalizer parameters
-    df_features = df[scorer.features].apply(pd.to_numeric, errors='coerce').fillna(0.0)
-    
-    # Normalize cumulative features per game
-    games = pd.to_numeric(df["count_games"], errors='coerce').fillna(1.0).clip(lower=1.0)
-    CUMULATIVE_FEATURES = ["passing", "receiving", "interrupting", "dribbling", "claiming", "attempted_passes_for"]
-    for feat in CUMULATIVE_FEATURES:
-        df_features[feat] = df_features[feat] / games
-
-    # Calculate relative mean and scale for the specific league-season
-    mean = df_features.mean().values
-    scale = df_features.std().fillna(1.0).replace(0.0, 1.0).values
-
-    scaled_values = (df_features.values - mean) / (scale + 1e-9)
-    df_scaled = pd.DataFrame(scaled_values, columns=scorer.features)
+    df_features = build_tactical_feature_frame(df)
+    df_scaled = transform_tactical_features(
+        df_features,
+        mean=scorer.scaler_mean,
+        scale=scorer.scaler_scale,
+    )
 
     # Fit PCA dynamically for the 2D visualization projection
     pca = PCA(n_components=2)
@@ -69,8 +59,8 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
     clusters = []
     for idx, row in df.iterrows():
         team_name = row["team_name"]
-        raw_feats = row.to_dict() # Pass full row dictionary to include count_games
-        score_res = scorer.score_team(team_name, raw_feats, mean=mean, scale=scale)
+        raw_feats = row.to_dict()
+        score_res = scorer.score_team(team_name, raw_feats)
         team_identities[team_name] = score_res
         clusters.append(score_res["primary_cluster_id"])
 
@@ -90,9 +80,20 @@ def generate_combo(league: str, season: str, output_dir: Path, n_clusters: int):
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "league": league,
             "season": season,
+            "model_version": scorer.version,
+            "reference_window": scorer.artifact["reference_window"],
+            "feature_schema_version": scorer.artifact["feature_schema_version"],
+            "training_summary": scorer.artifact["training_summary"],
             "features": scorer.features,
+            "identity_definitions": {
+                identity["name"]: {
+                    "description": identity.get("description", ""),
+                    "top_features": identity.get("top_features", []),
+                }
+                for identity in scorer.artifact["identities"].values()
+            },
             "n_clusters": len(scorer.identities),
-            "cluster_model": f"GaussianMixture ({scorer.version})",
+            "cluster_model": f"FrozenTaxonomyScorer ({scorer.version})",
             "pca_explained_variance_ratio": [float(value) for value in pca.explained_variance_ratio_],
         },
     )

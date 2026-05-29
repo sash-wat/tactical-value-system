@@ -1,341 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TVMS | Tactical-Value Mapping System</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <!-- GSAP & ScrollTrigger -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Inter', sans-serif; }
-        .glass { background: rgba(56, 189, 248, 0.08); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .mesh-gradient { background: radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.08) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.08) 0px, transparent 50%); }
-        
-        /* Soccer Dynamics */
-        .pitch-grid { 
-            background-image: 
-                linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
-            background-size: 50px 50px;
-        }
-        .animate-float { animation: float 6s ease-in-out infinite; }
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-        }
-        .pulse-emerald { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
-        @keyframes pulse {
-            0%, 100% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 5px rgba(52, 211, 153, 0.5)); }
-            50% { opacity: .6; filter: brightness(1) drop-shadow(0 0 2px rgba(52, 211, 153, 0.2)); }
-        }
-        .ticker-wrap { overflow: hidden; white-space: nowrap; border-bottom: 1px solid rgba(16, 185, 129, 0.1); background: rgba(0,0,0,0.4); }
-        .ticker { display: inline-block; padding-left: 100%; animation: ticker 40s linear infinite; }
-        @keyframes ticker {
-            0% { transform: translate3d(0, 0, 0); }
-            100% { transform: translate3d(-100%, 0, 0); }
-        }
-
-        /* Scroll Reveals */
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1); }
-        .reveal.active { opacity: 1; transform: translateY(0); }
-        .reveal-delay-1 { transition-delay: 0.1s; }
-        .reveal-delay-2 { transition-delay: 0.2s; }
-        .reveal-delay-3 { transition-delay: 0.3s; }
-        .reveal-delay-4 { transition-delay: 0.4s; }
-
-        #scroll-progress { position: fixed; top: 0; left: 0; width: 0%; height: 2px; background: linear-gradient(90deg, #ffffff, #71717a); z-index: 100; transition: width 0.1s ease; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TVMS | Stable Team Taxonomy</title>
+  <meta name="description" content="TVMS Phase 1 maps team playing styles with a stable taxonomy trained on a frozen 2020-2023 reference window and scored forward into 2024+." />
+  <link rel="stylesheet" href="site.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body class="bg-[#0B0F19] text-slate-100 mesh-gradient min-h-screen pitch-grid">
-    <div id="scroll-progress"></div>
-    <div class="ticker-wrap py-2 sticky top-0 z-50 backdrop-blur-md">
-        <div class="ticker text-[10px] font-mono text-slate-100 uppercase tracking-[0.2em]">
-            <span class="mx-12">• MLS MARKET PULSE: +4.2% AGGREGATE VALUE </span>
-            <span class="mx-12">• TOP GAINER: Diego Luna (RSL) +$1.2M </span>
-            <span class="mx-12">• TACTICAL SHIFT: High-Press systems up 12% in USLC </span>
-            <span class="mx-12">• UNDERVALUED: USL-to-MLS pipeline efficiency +8% </span>
-            <span class="mx-12">• XG-TO-VALUE: Correlation coefficient 0.84 </span>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html">TV<span class="brand__mark">MS</span></a>
+        <nav class="nav-links" aria-label="Primary">
+          <a class="nav-link is-active" href="index.html">Home</a>
+          <a class="nav-link" href="methodology.html">Methodology</a>
+          <a class="nav-link" href="explorer.html">Explorer</a>
+          <a class="nav-link" href="players.html">Players</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="button button--secondary" href="https://github.com/sash-wat/tactical-value-system">View Source</a>
         </div>
-    </div>
-    
-    <nav class="container mx-auto px-6 py-8 flex justify-between items-center relative z-10">
-        <a href="index.html" class="text-2xl font-bold text-slate-100 tracking-tight hover:opacity-80 transition-opacity">TV<span class="text-sky-300">MS</span></a>
-        <div class="space-x-8 hidden md:flex items-center">
-            <a href="index.html" class="text-sky-300 font-medium text-sm">Home</a>
-            <a href="league-pulse.html" class="hover:text-sky-300 transition-colors text-sm font-medium">League Pulse</a>
-            <a href="players.html" class="hover:text-sky-300 transition-colors text-sm font-medium">Player Archetypes</a>
-            <a href="all-identities.html" class="hover:text-sky-300 transition-colors text-sm font-medium">The 15 Identities</a>
-            <a href="#methodology" class="hover:text-sky-300 transition-colors text-sm font-medium">Methodology</a>
-            <a href="https://github.com/sash-wat/tactical-value-system" class="bg-sky-600/5 hover:bg-indigo-600 border border-indigo-500/20 hover:border-indigo-500 text-indigo-200/70 hover:text-slate-100 px-6 py-2 rounded-xl font-semibold transition-all text-sm">
-                View Source
-            </a>
-        </div>
-    </nav>
+        <button class="nav-toggle" data-mobile-toggle aria-expanded="false" aria-label="Open navigation">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+      <div class="container mobile-nav" data-mobile-nav>
+        <a class="nav-link is-active" href="index.html">Home</a>
+        <a class="nav-link" href="methodology.html">Methodology</a>
+        <a class="nav-link" href="explorer.html">Explorer</a>
+        <a class="nav-link" href="players.html">Players</a>
+        <a class="nav-link" href="https://github.com/sash-wat/tactical-value-system">GitHub</a>
+      </div>
+    </header>
 
-    <section class="hero-section container mx-auto px-6 pt-20 pb-32 text-center">
-        <h1 class="text-5xl md:text-7xl font-bold text-slate-100 mb-6 tracking-tight leading-tight opacity-0">
-            Quantifying the <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-400">Unseen Value</span> in Soccer.
-        </h1>
-        <p class="text-xl text-indigo-200/70 max-w-2xl mx-auto mb-10 leading-relaxed opacity-0">
-            A machine-learning-driven approach to mapping team tactical identities and identifying market inefficiencies across North American leagues.
-        </p>
-        <div class="hero-buttons flex flex-col md:flex-row gap-4 justify-center mb-16">
-            <a href="league-pulse.html" class="opacity-0 bg-sky-600 hover:bg-sky-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg transition-all text-center">
-                Explore the Clusters
-            </a>
-            <a href="#methodology" class="opacity-0 glass hover:bg-sky-600/5 text-slate-100 px-8 py-4 rounded-xl font-bold text-lg transition-all text-center">
-                How it Works
-            </a>
-        </div>
-        <div class="hero-credit opacity-0 text-indigo-400/50 text-xs font-mono tracking-widest uppercase">
-            Powered by data from <a href="https://americansocceranalysis.com" class="text-slate-100 hover:text-sky-300 transition-colors">American Soccer Analysis</a>
-        </div>
-    </section>
-
-    <section id="clusters" class="container mx-auto px-6 py-24 border-t border-indigo-500/20 reveal">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl font-bold text-slate-100 mb-4">The Schools of Thought</h2>
-            <p class="text-indigo-200/70">Phase 1 PCA-K-Means clustering identifies tactical archetypes across American soccer leagues based on a 15-metric profile.</p>
-            <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-                <a href="league-pulse.html" class="inline-flex items-center justify-center gap-2 bg-sky-600 hover:bg-sky-500 text-slate-900 px-6 py-3 rounded-xl font-bold transition-all">
-                    <span>View Interactive League Maps</span>
-                    <i data-lucide="map" class="w-4 h-4"></i>
-                </a>
-                <a href="all-identities.html" class="inline-flex items-center justify-center gap-2 glass hover:bg-sky-600/5 text-slate-100 px-6 py-3 rounded-xl font-bold transition-all border border-sky-500/30">
-                    <span>See All Our Identities</span>
-                    <i data-lucide="library" class="w-4 h-4"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Card 1 -->
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 reveal reveal-delay-1">
-                <div class="w-12 h-12 bg-teal-500/20 text-teal-400 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="layers" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">High-Efficiency Passing</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">Identified by elite <span class="text-teal-300 font-semibold">Possession Quality</span>. These teams dominate games through patient, high-completion passing sequences in the middle and final thirds.</p>
-            </div>
-            <!-- Card 2 -->
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 reveal reveal-delay-2">
-                <div class="w-12 h-12 bg-rose-500/20 text-rose-400 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="crosshair" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">High-Line Pressing</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">Identified by extreme <span class="text-rose-300 font-semibold">Opponent Directness</span>. They restrict short build-ups, forcing direct clearances by deploying aggressive high presses.</p>
-            </div>
-            <!-- Card 3 -->
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 reveal reveal-delay-3">
-                <div class="w-12 h-12 bg-fuchsia-500/20 text-fuchsia-400 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="shield-alert" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">High-Disruption Defense</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">Identified by intensive <span class="text-fuchsia-300 font-semibold">Defensive Disruption</span>. Midfield defensive units that break up transition plays and force high turnover volumes.</p>
-            </div>
-            <!-- Card 4 -->
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 reveal reveal-delay-4">
-                <div class="w-12 h-12 bg-violet-500/20 text-violet-400 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="zap" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">Advanced Receiving</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">Identified by elevated <span class="text-violet-300 font-semibold">Receiving Impact</span>. High-mobility teams that excel at finding playmakers in space between the opposition lines.</p>
-            </div>
-            <!-- Card 5 -->
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 reveal reveal-delay-1">
-                <div class="w-12 h-12 bg-slate-500/20 text-slate-400 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="activity" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">Possession Dominant</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">Identified by massive <span class="text-slate-300 font-semibold">Possession Volume</span>. These systems dictate the match tempo by chaining long, secure passing sequences to choke out opposition transitions.</p>
-            </div>
-            <!-- Card 6 -->
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 reveal reveal-delay-2">
-                <div class="w-12 h-12 bg-amber-500/20 text-amber-400 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="flame" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">Direct Attacking</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">Identified by high <span class="text-amber-300 font-semibold">Attacking Directness</span>. High-tempo setups that bypass midfield build-up to quickly hit spaces in behind defenses.</p>
-            </div>
-        </div>
-        
-        <div class="mt-8 text-center text-indigo-400/50 text-xs uppercase tracking-widest font-mono reveal">
-            * The model scores teams against 6 stable, reference-calibrated tactical archetypes, allowing hybrid classifications for transitional systems.
-        </div>
-    </section>
-
-    <!-- Methodology -->
-    <section id="methodology" class="container mx-auto px-6 py-24 border-t border-indigo-500/20 reveal">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl font-bold text-slate-100 mb-4">Methodology</h2>
-            <p class="text-indigo-200/70">How we quantify tactical DNA using Principal Component Analysis.</p>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300">
-                <div class="w-12 h-12 bg-sky-600/20 text-sky-300 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="database" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">1. Broad Data Net</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">We extract a robust 15-dimensional matrix for every team from American Soccer Analysis, including Base xG, Passing Volume & Directness, and specialized g+ components.</p>
-            </div>
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300">
-                <div class="w-12 h-12 bg-indigo-500/20 text-indigo-300 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="cpu" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">2. PCA Reduction</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">Rather than forcing teams into preconceived boxes, we use Principal Component Analysis (PCA) to mathematically identify the strongest vectors of variance across playing styles.</p>
-            </div>
-            <div class="glass p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300">
-                <div class="w-12 h-12 bg-emerald-500/20 text-emerald-300 rounded-2xl flex items-center justify-center mb-6">
-                    <i data-lucide="network" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-slate-100 mb-3">3. Algorithmic Labeling</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed">Teams are grouped via K-Means clustering. An automated labeling engine then scans the centroids to assign sharp, human-readable tactical identities based on the data.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Case Study -->
-    <section class="container mx-auto px-6 py-24 border-t border-indigo-500/20 reveal">
-        <div class="max-w-6xl mx-auto glass rounded-3xl p-8 md:p-12 relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-64 h-64 bg-sky-600/10 rounded-full blur-3xl"></div>
-            <div class="flex flex-col md:flex-row gap-12 items-center relative z-10">
-                <div class="md:w-1/2 space-y-6">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-600/10 border border-indigo-500/20 text-sky-300 text-xs font-bold uppercase tracking-wide">
-                        <i data-lucide="crosshair" class="w-3 h-3"></i> Application
-                    </div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Scouting for System Fit</h2>
-                    <p class="text-indigo-200/70 leading-relaxed">
-                        Stop overpaying for raw output. TVMS enables clubs and analysts to evaluate players based on how their specific statistical archetype fits a target team's tactical DNA. By measuring <em>system-interaction</em>, we project performance translation across leagues and uncover hidden market value before the competition does.
-                    </p>
-                </div>
-                <div class="md:w-1/2 w-full grid grid-cols-2 gap-4">
-                    <div class="bg-[#0B0F19] p-6 rounded-2xl border border-indigo-500/20">
-                        <div class="text-indigo-400/50 text-xs font-bold uppercase mb-2">The Old Way</div>
-                        <div class="text-xl font-bold text-slate-100 mb-1">Raw Output</div>
-                        <div class="text-indigo-200/70 text-sm">Evaluating stats in a vacuum</div>
-                    </div>
-                    <div class="bg-sky-600/5 p-6 rounded-2xl border border-indigo-500/20 relative overflow-hidden">
-                        <div class="absolute -right-4 -top-4 text-slate-100/10">
-                            <i data-lucide="trending-up" class="w-24 h-24"></i>
-                        </div>
-                        <div class="text-sky-300 text-xs font-bold uppercase mb-2">The TVMS Way</div>
-                        <div class="text-xl font-bold text-sky-300 mb-1">Contextual Fit</div>
-                        <div class="text-slate-100/70 text-sm">Projecting via team DNA</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="roadmap-section container mx-auto px-6 py-24 border-t border-indigo-500/20 text-center reveal">
-        <h2 class="text-3xl font-bold text-slate-100 mb-12">System Roadmap</h2>
-        <div class="flex flex-col md:flex-row justify-between items-start gap-8 max-w-4xl mx-auto text-left">
-            <div class="roadmap-item flex-1 opacity-0" data-opacity="1">
-                <div class="text-sky-300 text-xs font-bold uppercase mb-2">Phase 01</div>
-                <h4 class="text-slate-100 font-bold mb-2">Tactical DNA</h4>
-                <p class="text-indigo-200/70 text-sm">Clustering team identities in USLC and MLS.</p>
-            </div>
-            <div class="roadmap-item flex-1 opacity-0" data-opacity="0.5">
-                <div class="text-indigo-400/50 text-xs font-bold uppercase mb-2">Phase 02</div>
-                <h4 class="text-slate-100 font-bold mb-2">Player Archetypes</h4>
-                <p class="text-indigo-200/70 text-sm">Classifying player roles using PCA reduction.</p>
-            </div>
-            <div class="roadmap-item flex-1 opacity-0" data-opacity="0.5">
-                <div class="text-indigo-400/50 text-xs font-bold uppercase mb-2">Phase 03</div>
-                <h4 class="text-slate-100 font-bold mb-2">Valuation Engine</h4>
-                <p class="text-indigo-200/70 text-sm">Predicting Fair Market Value based on system fit.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Connect CTA -->
-    <section class="container mx-auto px-6 py-24 border-t border-indigo-500/20 text-center reveal">
-        <div class="max-w-3xl mx-auto">
-            <h2 class="text-3xl md:text-5xl font-bold text-slate-100 mb-6 tracking-tight">Let's talk tactics.</h2>
-            <p class="text-indigo-200/70 mb-10 max-w-xl mx-auto leading-relaxed">
-                I'm always building new tools and analyzing the modern game. Follow along on X (Twitter) for the latest insights and updates to TVMS.
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow"><i data-lucide="radar"></i> Phase 1 · Stable Taxonomy</span>
+            <h1 class="display">A clearer way to read how North American teams <span class="accent-text">actually play.</span></h1>
+            <p class="lede">
+              TVMS Phase 1 is no longer a per-season clustering toy. It is a frozen team taxonomy trained on a shared
+              `2020-2023` reference window and used to score `2024+` teams against the same model, with primary
+              identity, secondary fit, hybrid handling, and statistical explanations.
             </p>
-            <a href="https://x.com/sash_wat117" target="_blank" class="inline-flex items-center justify-center bg-sky-600 hover:bg-sky-500 text-[#0B0F19] px-8 py-4 rounded-xl font-bold transition-all shadow-[0_0_30px_-5px_rgba(56,189,248,0.15)] hover:shadow-[0_0_40px_-5px_rgba(56,189,248,0.25)]">
-                Connect with me
-            </a>
-        </div>
-    </section>
+            <div class="hero-actions">
+              <a class="button button--primary" href="explorer.html">
+                <span>Open Explorer</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+              <a class="button button--secondary" href="methodology.html">
+                <span>Read Methodology</span>
+                <i data-lucide="book-open"></i>
+              </a>
+            </div>
+          </div>
 
-    <footer class="container mx-auto px-6 py-12 border-t border-indigo-500/20 flex flex-col md:flex-row justify-between items-center gap-6 text-indigo-400/50 text-sm reveal">
-        <div class="flex flex-col items-center md:items-start gap-1">
-            <p>&copy; 2026 TVMS Project. Built for North American Soccer Analysis.</p>
-            <p class="text-[10px] uppercase tracking-wider">Data provided by <a href="https://americansocceranalysis.com" class="text-slate-100 hover:text-sky-300 transition-colors">American Soccer Analysis</a></p>
+          <aside class="hero-panel reveal">
+            <div class="hero-panel__kicker">
+              <span>Current Snapshot</span>
+              <span>Live from generated assets</span>
+            </div>
+            <div class="hero-panel__list" data-landing-spotlight>
+              <div class="hero-panel__item">
+                <div>
+                  <strong>Loading latest cohort…</strong>
+                  <span>Pulling a live sample from current outputs.</span>
+                </div>
+                <div class="hero-panel__value">…</div>
+              </div>
+            </div>
+          </aside>
         </div>
-        <div class="flex gap-6">
-            <a href="https://github.com/sash-wat/tactical-value-system" class="hover:text-slate-100 transition-colors">GitHub</a>
-            <a href="#" class="hover:text-slate-100 transition-colors">Documentation</a>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow"><i data-lucide="refresh-cw"></i> What Changed</span>
+            <h2>The public story now matches the model.</h2>
+            <p>
+              The old homepage described `PCA-KMeans`, `15` identities, and season-by-season discovery. That is no longer
+              the product. The current site is built around a stable taxonomy, a frozen scorer, and explicit identity
+              explanations grounded in feature-level evidence.
+            </p>
+          </div>
+
+          <div class="callout-band reveal">
+            <article class="card">
+              <h3>Before</h3>
+              <ul class="list-clean" style="margin-top: 0.85rem;">
+                <li>
+                  <strong>Exploratory framing</strong>
+                  <span>Labels looked comparable across seasons even when the model was being re-formed within each cohort.</span>
+                </li>
+                <li>
+                  <strong>Identity inflation</strong>
+                  <span>`15 identities` were marketed even though the public site did not match the implemented engine.</span>
+                </li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Now</h3>
+              <ul class="list-clean" style="margin-top: 0.85rem;">
+                <li>
+                  <strong>Frozen reference taxonomy</strong>
+                  <span>One reference window, one scorer, comparable outputs forward.</span>
+                </li>
+                <li>
+                  <strong>Primary + secondary fit</strong>
+                  <span>Every team can be read as a main identity with explicit overlap into a second profile.</span>
+                </li>
+              </ul>
+            </article>
+          </div>
         </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow"><i data-lucide="bar-chart-3"></i> Taxonomy Snapshot</span>
+            <h2>The current identity set is concise enough to compare, rich enough to explain.</h2>
+            <p>
+              The taxonomy is meant to describe repeatable schools of play, not just cluster centroids. The explorer
+              carries the full score distribution; the landing page shows the current stable identities at a glance.
+            </p>
+          </div>
+
+          <div class="identity-grid" data-landing-identities>
+            <article class="card">
+              <span class="identity-card__tag">Loading</span>
+              <h3>Fetching identities</h3>
+              <p>Identity descriptions will populate from the current metadata artifact.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow"><i data-lucide="gauge"></i> Current Highlights</span>
+            <h2>One glance should tell you how the current system is anchored.</h2>
+          </div>
+          <div class="metric-strip reveal" data-landing-stats>
+            <div class="metric">
+              <div class="metric__label">Reference Window</div>
+              <div class="metric__value">…</div>
+            </div>
+            <div class="metric">
+              <div class="metric__label">Scoring View</div>
+              <div class="metric__value">…</div>
+            </div>
+            <div class="metric">
+              <div class="metric__label">Identity Count</div>
+              <div class="metric__value">…</div>
+            </div>
+            <div class="metric">
+              <div class="metric__label">Hybrid Rate</div>
+              <div class="metric__value">…</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow"><i data-lucide="map"></i> Why It Matters</span>
+            <h2>Comparability is the point.</h2>
+            <p>
+              A taxonomy only becomes useful when the same label means the same thing across time and league context.
+              That makes this site useful for scouting style clusters, league-level stylistic drift, and identifying
+              where teams genuinely overlap versus where they only look similar in a single season snapshot.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card reveal">
+              <h3>Cross-league reading</h3>
+              <p>See whether an MLS side shares more with a USLC or NWSL profile than with its nearest domestic rival.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Borderline teams stay interpretable</h3>
+              <p>Near-split teams are not dumped into “unclear.” They are shown with a primary identity and a meaningful secondary pull.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Evidence beats vibe</h3>
+              <p>Every assignment can be explained with feature-level separation rather than just a label pasted on top.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="card reveal" style="padding: 1.8rem;">
+            <div class="section-header" style="margin-bottom: 1rem;">
+              <span class="eyebrow"><i data-lucide="compass"></i> Next Step</span>
+              <h2>Choose your path into the model.</h2>
+            </div>
+            <div class="grid-2">
+              <article class="card" style="background: rgba(255,255,255,0.28);">
+                <h3>Need the logic first?</h3>
+                <p>Read the actual Phase 1 methodology, including the frozen reference window, feature schema, hybrid logic, and known limits.</p>
+                <div class="hero-actions">
+                  <a class="button button--secondary" href="methodology.html">Open Methodology</a>
+                </div>
+              </article>
+              <article class="card" style="background: rgba(18,35,31,0.92); color: var(--text-inverse);">
+                <h3>Ready for outputs?</h3>
+                <p style="color: rgba(247,242,232,0.74);">Move straight into the explorer to switch leagues, inspect teams, compare identities, and read the explanation layer.</p>
+                <div class="hero-actions">
+                  <a class="button button--primary" href="explorer.html">Open Explorer</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <strong>TVMS Phase 1</strong>
+          <div>Stable team-taxonomy scoring for North American soccer.</div>
+        </div>
+        <div>
+          Data from <a href="https://americansocceranalysis.com">American Soccer Analysis</a> ·
+          <a href="players.html">Players</a> ·
+          <a href="https://github.com/sash-wat/tactical-value-system">GitHub</a>
+        </div>
+      </div>
     </footer>
+  </div>
 
-    <script>
-        lucide.createIcons();
-
-        // GSAP Initialization
-        if (typeof gsap !== 'undefined') {
-            gsap.registerPlugin(ScrollTrigger);
-
-            // Hero Cinematic Entrance
-            const tl = gsap.timeline({ defaults: { ease: "power4.out", duration: 1.2 } });
-            tl.fromTo(".hero-section h1", { y: 40, opacity: 0 }, { y: 0, opacity: 1, delay: 0.2 })
-              .fromTo(".hero-section p", { y: 20, opacity: 0 }, { y: 0, opacity: 1 }, "-=0.8")
-              .fromTo(".hero-buttons a", { y: 20, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.15 }, "-=0.8")
-              .fromTo(".hero-credit", { opacity: 0 }, { opacity: 1, duration: 2 }, "-=0.5");
-
-            // Roadmap Stagger
-            gsap.utils.toArray(".roadmap-item").forEach((item, i) => {
-                const targetOpacity = item.getAttribute('data-opacity') || 1;
-                gsap.fromTo(item,
-                    { y: 30, opacity: 0 },
-                    {
-                        y: 0,
-                        opacity: targetOpacity,
-                        duration: 1,
-                        ease: "power2.out",
-                        delay: i * 0.2,
-                        scrollTrigger: {
-                            trigger: ".roadmap-section",
-                            start: "top 80%",
-                        }
-                    }
-                );
-            });
-        }
-
-        // Scroll Progress Bar
-        window.onscroll = function() {
-            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            let scrolled = (winScroll / height) * 100;
-            const progress = document.getElementById("scroll-progress");
-            if (progress) progress.style.width = scrolled + "%";
-        };
-
-        // Reveal on Scroll Engine
-        const revealCallback = (entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                }
-            });
-        };
-
-        const observer = new IntersectionObserver(revealCallback, {
-            threshold: 0.1,
-            rootMargin: "0px 0px -50px 0px"
-        });
-
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-    </script>
+  <script src="site.js"></script>
+  <script>
+    window.TVMS_SITE.init();
+    window.TVMS_SITE.initLandingPage();
+  </script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 {
-  "cluster_model": "GaussianMixture (phase1_taxonomy_v1)",
+  "cluster_model": "FrozenTaxonomyScorer (phase1_taxonomy_v1)",
+  "feature_schema_version": "phase1_v1",
   "features": [
     "passing",
     "receiving",
@@ -11,12 +12,249 @@
     "avg_vertical_distance_for",
     "avg_vertical_distance_against"
   ],
-  "generated_at": "2026-05-19T18:15:07.985434+00:00",
+  "generated_at": "2026-05-28T01:19:23.796734+00:00",
+  "identity_definitions": {
+    "Aerial Progression": {
+      "description": "Teams that mix above-average aerial control with progressive passing, often advancing play through longer entries and second-ball control more than sustained circulation.",
+      "top_features": [
+        {
+          "centroid_z": 0.6186880203269604,
+          "feature": "passing",
+          "feature_label": "Passing Progression"
+        },
+        {
+          "centroid_z": 0.3613279186629947,
+          "feature": "claiming",
+          "feature_label": "Aerial Control"
+        },
+        {
+          "centroid_z": 0.20324432923089236,
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Pressing"
+        }
+      ]
+    },
+    "Aerial Transition": {
+      "description": "Direct teams that lean on aerial wins and second balls to launch transitions rather than sustained possession.",
+      "top_features": [
+        {
+          "centroid_z": 0.6727192496602807,
+          "feature": "claiming",
+          "feature_label": "Aerial Control"
+        },
+        {
+          "centroid_z": 0.13451855690017925,
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Verticality"
+        },
+        {
+          "centroid_z": 0.05526628269479674,
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Pressing"
+        }
+      ]
+    },
+    "Direct Transition": {
+      "description": "Direct teams that attack forward quickly and press assertively without needing large possession shares.",
+      "top_features": [
+        {
+          "centroid_z": 1.3189209198285046,
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Verticality"
+        },
+        {
+          "centroid_z": 0.5674092632915915,
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Pressing"
+        },
+        {
+          "centroid_z": 0.192325563545957,
+          "feature": "passing",
+          "feature_label": "Passing Progression"
+        }
+      ]
+    },
+    "Disruptive Circulation": {
+      "description": "Above-average defensive disruption paired with clean circulation. These teams win the ball, reconnect passes quickly, and usually keep the opponent from playing directly.",
+      "top_features": [
+        {
+          "centroid_z": 0.5926843480643373,
+          "feature": "interrupting",
+          "feature_label": "Disruption"
+        },
+        {
+          "centroid_z": 0.47754641455596186,
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Circulation"
+        },
+        {
+          "centroid_z": 0.0018867736804173696,
+          "feature": "dribbling",
+          "feature_label": "Ball Carrying"
+        }
+      ]
+    },
+    "Possession Control": {
+      "description": "High-volume, high-completion possession teams that slow the game down, keep the ball, and minimize direct attacking sequences.",
+      "top_features": [
+        {
+          "centroid_z": 1.2740887100901621,
+          "feature": "attempted_passes_for",
+          "feature_label": "Possession Volume"
+        },
+        {
+          "centroid_z": 1.188797745577123,
+          "feature": "pass_completion_percentage_for",
+          "feature_label": "Circulation"
+        },
+        {
+          "centroid_z": 0.4547081774488885,
+          "feature": "dribbling",
+          "feature_label": "Ball Carrying"
+        }
+      ]
+    },
+    "Territorial Occupation": {
+      "description": "Teams that push receivers into advanced zones, carry the ball forward, and defend high enough to spend long stretches in the opponent's half without relying on pure possession volume.",
+      "top_features": [
+        {
+          "centroid_z": 1.3339650635828246,
+          "feature": "receiving",
+          "feature_label": "Advanced Occupation"
+        },
+        {
+          "centroid_z": 0.8618195947438672,
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Pressing"
+        },
+        {
+          "centroid_z": 0.6003608442680436,
+          "feature": "dribbling",
+          "feature_label": "Ball Carrying"
+        }
+      ]
+    },
+    "Transition Surge": {
+      "description": "An extreme direct-transition profile: very high attacking directness and pressure, with little reliance on possession volume or passing security.",
+      "top_features": [
+        {
+          "centroid_z": 3.3555329768828703,
+          "feature": "avg_vertical_distance_for",
+          "feature_label": "Verticality"
+        },
+        {
+          "centroid_z": 2.737404740595871,
+          "feature": "avg_vertical_distance_against",
+          "feature_label": "Pressing"
+        },
+        {
+          "centroid_z": 1.9357875711678734,
+          "feature": "passing",
+          "feature_label": "Passing Progression"
+        }
+      ]
+    }
+  },
   "league": "mls",
-  "n_clusters": 6,
+  "model_version": "phase1_taxonomy_v1",
+  "n_clusters": 7,
   "pca_explained_variance_ratio": [
-    0.36403262688882015,
-    0.2429184024080621
+    0.3714635960297849,
+    0.2306272919214854
   ],
-  "season": "2026"
+  "reference_window": {
+    "leagues": [
+      "mls",
+      "uslc",
+      "nwsl",
+      "usl1"
+    ],
+    "season_end": 2023,
+    "season_start": 2020
+  },
+  "season": "2026",
+  "training_summary": {
+    "candidate_metrics": [
+      {
+        "bic": 7243.06801207315,
+        "cluster_counts": {
+          "0": 3,
+          "1": 149,
+          "2": 62,
+          "3": 44,
+          "4": 58
+        },
+        "max_cluster_share": 0.47151898734177217,
+        "min_cluster_size": 3,
+        "mls_max_cluster_share": 0.4818181818181818,
+        "mls_unique_identities": 4,
+        "n_identities": 5,
+        "plausible": false
+      },
+      {
+        "bic": 7456.399934297653,
+        "cluster_counts": {
+          "0": 67,
+          "1": 60,
+          "2": 21,
+          "3": 77,
+          "4": 3,
+          "5": 88
+        },
+        "max_cluster_share": 0.27848101265822783,
+        "min_cluster_size": 3,
+        "mls_max_cluster_share": 0.4909090909090909,
+        "mls_unique_identities": 5,
+        "n_identities": 6,
+        "plausible": false
+      },
+      {
+        "bic": 7674.460376369752,
+        "cluster_counts": {
+          "0": 5,
+          "1": 59,
+          "2": 40,
+          "3": 43,
+          "4": 45,
+          "5": 81,
+          "6": 43
+        },
+        "max_cluster_share": 0.2563291139240506,
+        "min_cluster_size": 5,
+        "mls_max_cluster_share": 0.37272727272727274,
+        "mls_unique_identities": 6,
+        "n_identities": 7,
+        "plausible": true
+      }
+    ],
+    "league_counts": {
+      "mls": 110,
+      "nwsl": 43,
+      "usl1": 46,
+      "uslc": 117
+    },
+    "n_identities": 7,
+    "n_team_seasons": 316,
+    "season_counts": {
+      "2020": 81,
+      "2021": 80,
+      "2022": 78,
+      "2023": 77
+    },
+    "selected_candidate": {
+      "cluster_counts": {
+        "0": 5,
+        "1": 59,
+        "2": 40,
+        "3": 43,
+        "4": 45,
+        "5": 81,
+        "6": 43
+      },
+      "max_cluster_share": 0.2563291139240506,
+      "min_cluster_size": 5,
+      "mls_max_cluster_share": 0.37272727272727274,
+      "mls_unique_identities": 6
+    }
+  }
 }

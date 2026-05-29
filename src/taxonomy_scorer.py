@@ -1,166 +1,185 @@
-import json
+from __future__ import annotations
+
 from pathlib import Path
+
 import numpy as np
+import pandas as pd
+
+from src.preprocessor import build_tactical_feature_frame, transform_tactical_features
+from src.taxonomy_artifact import load_taxonomy_artifact
+
 
 FEATURE_MAP = {
     "passing": "Passing Impact (g+)",
     "receiving": "Receiving Impact (g+)",
-    "shooting": "Shooting Impact (g+)",
     "interrupting": "Defensive Disruption (g+)",
     "dribbling": "Dribbling Impact (g+)",
     "claiming": "Claiming Impact (g+)",
-    "xgoals_for": "Attacking Threat (xG)",
-    "xgoals_against": "Defensive Vulnerability (xGA)",
-    "shots_for": "Shot Volume",
-    "shots_against": "Shots Conceded",
     "attempted_passes_for": "Possession Volume",
     "pass_completion_percentage_for": "Possession Quality",
     "avg_vertical_distance_for": "Attacking Directness",
-    "pass_completion_percentage_against": "Opponent Pass Completion",
     "avg_vertical_distance_against": "Opponent Directness",
 }
 
+
 class TaxonomyScorer:
-    def __init__(self, model_path: str = None):
+    def __init__(self, model_path: str | None = None):
         if model_path is None:
-            # Resolve default path relative to repo root
             repo_root = Path(__file__).resolve().parents[1]
             model_path = str(repo_root / "src" / "models" / "phase1_taxonomy_v1.json")
-            
-        with open(model_path, "r") as f:
-            self.model_data = json.load(f)
-            
-        self.version = self.model_data["version"]
-        self.features = self.model_data["features"]
-        self.scaler_mean = np.array(self.model_data["scaler"]["mean"])
-        self.scaler_scale = np.array(self.model_data["scaler"]["scale"])
-        self.hybrid_threshold = self.model_data["hyperparameters"]["hybrid_threshold"]
-        
-        # Load identities
-        self.identities = {}
-        for cid, info in self.model_data["identities"].items():
-            self.identities[int(cid)] = {
+
+        self.artifact = load_taxonomy_artifact(model_path)
+
+        self.version = self.artifact["version"]
+        self.features = self.artifact["features"]
+        self.scaler_mean = np.array(self.artifact["scaler"]["mean"], dtype=float)
+        self.scaler_scale = np.array(self.artifact["scaler"]["scale"], dtype=float)
+        self.hybrid_threshold = float(self.artifact["hyperparameters"]["hybrid_threshold"])
+        self.identities = {
+            int(cid): {
                 "name": info["name"],
-                "centroid": np.array(info["centroid"])
+                "description": info.get("description", ""),
+                "centroid": np.array(info["centroid"], dtype=float),
+                "weight": float(info.get("weight", 1.0)),
+                "covariance": np.array(
+                    info.get(
+                        "covariance",
+                        np.eye(len(self.features)),
+                    ),
+                    dtype=float,
+                ),
             }
+            for cid, info in self.artifact["identities"].items()
+        }
 
-    def score_team(self, team_name: str, raw_features: dict, mean: np.ndarray = None, scale: np.ndarray = None) -> dict:
-        # Get game count for normalization
-        games = float(raw_features.get("count_games", 1.0))
-        if np.isnan(games) or games <= 0.0:
-            games = 1.0
+    def _scale_team(self, team_name: str, raw_features: dict) -> pd.Series:
+        row = {"team_name": team_name, **raw_features}
+        frame = build_tactical_feature_frame(pd.DataFrame([row]))
+        scaled = transform_tactical_features(frame, mean=self.scaler_mean, scale=self.scaler_scale)
+        return scaled.iloc[0]
 
-        # Cumulative features to normalize
-        CUMULATIVE_FEATURES = {"passing", "receiving", "interrupting", "dribbling", "claiming", "attempted_passes_for"}
+    def _build_assignment_explanation(
+        self,
+        *,
+        x_scaled: pd.Series,
+        primary_cid: int,
+        secondary_cid: int,
+        primary_score: float,
+        secondary_score: float,
+        score_gap: float,
+    ) -> dict:
+        primary = self.identities[primary_cid]
+        secondary = self.identities[secondary_cid]
 
-        # 1. Align features and fill missing values
-        x_raw = []
-        for feat in self.features:
-            val = raw_features.get(feat, 0.0)
-            try:
-                val_f = float(val)
-            except (ValueError, TypeError):
-                val_f = 0.0
-            
-            if feat in CUMULATIVE_FEATURES:
-                val_f = val_f / games
-                
-            x_raw.append(val_f)
-                
-        x_raw = np.array(x_raw)
-        
-        # 2. Scale features using the provided scaler or global parameters
-        s_mean = mean if mean is not None else self.scaler_mean
-        s_scale = scale if scale is not None else self.scaler_scale
-        x_scaled = (x_raw - s_mean) / (s_scale + 1e-9)
-        
-        # 3. Compute distance and similarity to all centroids
-        similarities = {}
+        deltas = []
+        for index, feature in enumerate(self.features):
+            team_value = float(x_scaled[feature])
+            primary_centroid = float(primary["centroid"][index])
+            secondary_centroid = float(secondary["centroid"][index])
+            primary_delta = abs(team_value - primary_centroid)
+            secondary_delta = abs(team_value - secondary_centroid)
+            deltas.append(
+                {
+                    "feature": feature,
+                    "feature_label": FEATURE_MAP.get(feature, feature),
+                    "team_z_score": team_value,
+                    "primary_centroid_z": primary_centroid,
+                    "runner_up_centroid_z": secondary_centroid,
+                    "separation_gain": float(secondary_delta - primary_delta),
+                }
+            )
+
+        deltas.sort(key=lambda item: item["separation_gain"], reverse=True)
+        top_feature_deltas = deltas[:3]
+        top_labels = ", ".join(item["feature_label"] for item in top_feature_deltas[:2])
+        rationale = (
+            f"Closer to {primary['name']} than {secondary['name']} by {score_gap:.4f} similarity points, "
+            f"driven most by {top_labels}."
+        )
+
+        return {
+            "model_version": self.version,
+            "winner_identity": primary["name"],
+            "winner_description": primary["description"],
+            "runner_up_identity": secondary["name"],
+            "runner_up_description": secondary["description"],
+            "winner_score": float(primary_score),
+            "runner_up_score": float(secondary_score),
+            "score_gap": float(score_gap),
+            "top_feature_deltas": top_feature_deltas,
+            "rationale": rationale,
+        }
+
+    def score_team(self, team_name: str, raw_features: dict) -> dict:
+        x_scaled = self._scale_team(team_name, raw_features)
+        x_vector = x_scaled.to_numpy(dtype=float)
+
         distances = {}
+        log_scores = {}
         for cid, info in self.identities.items():
-            dist = np.linalg.norm(x_scaled - info["centroid"])
-            distances[cid] = dist
-            similarities[cid] = 1.0 / (1.0 + dist)
-            
-        # 4. Sort identities by similarity
-        sorted_ids = sorted(similarities.keys(), key=lambda k: similarities[k], reverse=True)
+            covariance = info["covariance"]
+            delta = x_vector - info["centroid"]
+            sign, logdet = np.linalg.slogdet(covariance)
+            if sign <= 0:
+                covariance = covariance + np.eye(len(self.features)) * 1e-6
+                sign, logdet = np.linalg.slogdet(covariance)
+            solved = np.linalg.solve(covariance, delta)
+            mahalanobis_sq = float(delta.T @ solved)
+            distances[cid] = float(np.sqrt(max(mahalanobis_sq, 0.0)))
+            log_scores[cid] = float(np.log(info["weight"] + 1e-12) - 0.5 * (logdet + mahalanobis_sq))
+
+        max_log = max(log_scores.values())
+        normalized = {cid: float(np.exp(score - max_log)) for cid, score in log_scores.items()}
+        denom = sum(normalized.values())
+        similarities = {cid: value / denom for cid, value in normalized.items()}
+
+        sorted_ids = sorted(similarities, key=lambda cid: similarities[cid], reverse=True)
         primary_cid = sorted_ids[0]
         secondary_cid = sorted_ids[1]
-        
-        primary_name = self.identities[primary_cid]["name"]
-        secondary_name = self.identities[secondary_cid]["name"]
-        
-        s1 = similarities[primary_cid]
-        s2 = similarities[secondary_cid]
-        
-        # 5. Check hybrid status
-        # margin = (sim_1 - sim_2) / sim_1
-        margin = (s1 - s2) / (s1 + 1e-9)
-        is_hybrid = bool(margin < self.hybrid_threshold)
-        
-        # 6. Generate explanation
-        explanation = self._generate_explanation(team_name, x_scaled, primary_cid, primary_name)
-        
-        # 7. Extract primary driver feature (for backward compatibility)
-        primary_centroid = self.identities[primary_cid]["centroid"]
-        alignments = [
-            (feat, val, float(val * cent)) 
-            for feat, val, cent in zip(self.features, x_scaled, primary_centroid)
-        ]
-        alignments.sort(key=lambda item: item[2], reverse=True)
-        top_feature, top_val, _ = alignments[0]
-        
-        # 8. Compile the results
-        scores_payload = {
-            self.identities[cid]["name"]: float(similarities[cid]) 
-            for cid in sorted_ids
+        primary = self.identities[primary_cid]
+        secondary = self.identities[secondary_cid]
+        primary_name = primary["name"]
+        secondary_name = secondary["name"]
+
+        primary_score = float(similarities[primary_cid])
+        secondary_score = float(similarities[secondary_cid])
+        score_gap = primary_score - secondary_score
+        hybrid_margin = score_gap / (primary_score + 1e-9)
+        hybrid_flag = bool(hybrid_margin < self.hybrid_threshold)
+
+        identity_scores = {
+            self.identities[cid]["name"]: float(similarities[cid]) for cid in sorted_ids
         }
-        trait_scores_payload = {
-            feat: float(val) for feat, val in zip(self.features, x_scaled)
-        }
-        
+        trait_scores = {feature: float(x_scaled[feature]) for feature in self.features}
+        explanation = self._build_assignment_explanation(
+            x_scaled=x_scaled,
+            primary_cid=primary_cid,
+            secondary_cid=secondary_cid,
+            primary_score=primary_score,
+            secondary_score=secondary_score,
+            score_gap=score_gap,
+        )
+
+        lead_feature = explanation["top_feature_deltas"][0]
+
         return {
-            # Backward-compatible fields
             "identity": primary_name,
-            "metric": FEATURE_MAP.get(top_feature, top_feature),
-            "z_score": float(top_val),
-            
-            # New redesigned fields
+            "identity_description": primary["description"],
+            "metric": lead_feature["feature_label"],
+            "z_score": float(lead_feature["team_z_score"]),
             "primary_cluster_id": int(primary_cid),
             "primary_identity": primary_name,
+            "primary_identity_description": primary["description"],
             "secondary_identity": secondary_name,
-            "hybrid_flag": is_hybrid,
-            "hybrid_margin": float(margin),
-            "explanation": explanation,
-            "scores": scores_payload,
-            "trait_scores": trait_scores_payload
+            "secondary_identity_description": secondary["description"],
+            "hybrid_flag": hybrid_flag,
+            "hybrid_margin": float(hybrid_margin),
+            "identity_scores": identity_scores,
+            "scores": identity_scores,
+            "trait_scores": trait_scores,
+            "assignment_explanation": explanation,
+            "explanation": explanation["rationale"],
+            "distances": {
+                self.identities[cid]["name"]: float(distances[cid]) for cid in sorted_ids
+            },
         }
-
-    def _generate_explanation(self, team_name: str, x_scaled: np.ndarray, primary_cid: int, primary_name: str) -> str:
-        if primary_name == "Balanced Systems":
-            return f"{team_name} exhibits a balanced tactical profile with no extreme statistical outliers."
-            
-        centroid = self.identities[primary_cid]["centroid"]
-        alignments = []
-        for feat, val, cent in zip(self.features, x_scaled, centroid):
-            alignments.append((feat, val, cent, val * cent))
-            
-        # Sort by alignment descending
-        alignments.sort(key=lambda item: item[3], reverse=True)
-        
-        top_feats = []
-        for feat, val, cent, align in alignments:
-            # We want features with significant deviation (abs > 0.3) aligned with the centroid direction
-            if align > 0.05 and abs(val) > 0.3:
-                direction = "above" if val > 0 else "below"
-                display_name = FEATURE_MAP.get(feat, feat)
-                top_feats.append(f"{direction}-average {display_name} (Z-score: {val:+.1f})")
-            if len(top_feats) == 2:
-                break
-                
-        if len(top_feats) == 2:
-            return f"{team_name} is classified under {primary_name} primarily due to its {top_feats[0]} and {top_feats[1]}."
-        elif len(top_feats) == 1:
-            return f"{team_name} is classified under {primary_name} primarily due to its {top_feats[0]}."
-        else:
-            return f"{team_name} is classified under {primary_name} based on its overall similarity to the tactical centroid."

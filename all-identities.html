@@ -1,99 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TVMS | The Stable Taxonomy</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Inter', sans-serif; }
-        .glass { background: rgba(56, 189, 248, 0.08); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .mesh-gradient { background: radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.08) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.08) 0px, transparent 50%); }
-        .pitch-grid { 
-            background-image: 
-                linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
-            background-size: 50px 50px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=methodology.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TVMS | Redirecting to Methodology</title>
+  <link rel="stylesheet" href="site.css">
 </head>
-<body class="bg-[#0B0F19] text-slate-100 mesh-gradient min-h-screen pitch-grid">
-    <nav class="container mx-auto px-6 py-8 flex justify-between items-center relative z-10">
-        <a href="index.html" class="text-2xl font-bold text-slate-100 tracking-tight hover:opacity-80 transition-opacity">TV<span class="text-sky-300">MS</span></a>
-        <div class="space-x-8 hidden md:flex items-center">
-            <a href="index.html" class="hover:text-sky-300 transition-colors text-sm font-medium">Home</a>
-            <a href="league-pulse.html" class="hover:text-sky-300 transition-colors text-sm font-medium">League Pulse</a>
-            <a href="all-identities.html" class="text-sky-300 font-medium text-sm">The 6 Archetypes</a>
-            <a href="https://github.com/sash-wat/tactical-value-system" class="bg-sky-600/5 hover:bg-indigo-600 border border-indigo-500/20 hover:border-indigo-500 text-indigo-200/70 hover:text-slate-100 px-6 py-2 rounded-xl font-semibold transition-all text-sm">
-                View Source
-            </a>
+<body>
+  <div class="site-shell">
+    <main class="section">
+      <div class="container">
+        <div class="card" style="max-width: 720px; margin: 5rem auto;">
+          <span class="eyebrow">Taxonomy update</span>
+          <h1 class="display" style="font-size: clamp(2.4rem, 6vw, 4rem); margin: 1rem 0 0;">The old identity page has been retired.</h1>
+          <p class="lede">TVMS no longer presents a `15 identities` taxonomy. The current public explanation lives in the methodology page, which follows the frozen Phase 1 model now used by the explorer.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="methodology.html">Open Methodology</a>
+            <a class="button button--secondary" href="explorer.html">Open Explorer</a>
+          </div>
         </div>
-    </nav>
-
-    <section class="container mx-auto px-6 pt-12 pb-24 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold text-slate-100 mb-6 tracking-tight">
-            The 6 Stable <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-400">Tactical Archetypes</span>
-        </h1>
-        <p class="text-indigo-200/70 max-w-3xl mx-auto mb-16">
-            The TVMS taxonomy scores team profiles using standard scaler coefficients and GMM cluster centroids pooled across the historical 2020–2023 cohorts. Teams are classified under the archetype they align closest with in 9-dimensional space, with a calibrated threshold highlighting hybrid systems.
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-            
-            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
-                <div class="w-10 h-10 bg-teal-500/20 text-teal-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="layers" class="w-5 h-5"></i></div>
-                <h3 class="text-xl font-bold text-slate-100 mb-2">High-Efficiency Passing</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Primary Metric:</strong> Possession Quality (%)</p>
-                <p class="text-slate-400 text-sm mt-2">Teams that maintain high pass completion rates and dominate games through patient, structured possession build-up.</p>
-            </div>
-
-            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
-                <div class="w-10 h-10 bg-rose-500/20 text-rose-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="crosshair" class="w-5 h-5"></i></div>
-                <h3 class="text-xl font-bold text-slate-100 mb-2">High-Line Pressing</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Primary Metric:</strong> Opponent Directness</p>
-                <p class="text-slate-400 text-sm mt-2">Defensive systems that restrict short build-ups and force direct opponent clearances by deploying aggressive high blocks.</p>
-            </div>
-
-            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
-                <div class="w-10 h-10 bg-fuchsia-500/20 text-fuchsia-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="shield-alert" class="w-5 h-5"></i></div>
-                <h3 class="text-xl font-bold text-slate-100 mb-2">High-Disruption Defense</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Primary Metric:</strong> Defensive Disruption (g+)</p>
-                <p class="text-slate-400 text-sm mt-2">Intense midfield defensive setups that disrupt opposition transition actions and force high turnover volumes.</p>
-            </div>
-
-            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
-                <div class="w-10 h-10 bg-violet-500/20 text-violet-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="zap" class="w-5 h-5"></i></div>
-                <h3 class="text-xl font-bold text-slate-100 mb-2">Advanced Receiving</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Primary Metric:</strong> Receiving Impact (g+)</p>
-                <p class="text-slate-400 text-sm mt-2">High-mobility teams that build control by finding technical playmakers in open pockets of space between opposition lines.</p>
-            </div>
-
-            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
-                <div class="w-10 h-10 bg-slate-500/20 text-slate-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="activity" class="w-5 h-5"></i></div>
-                <h3 class="text-xl font-bold text-slate-100 mb-2">Possession Dominant</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Primary Metric:</strong> Possession Volume</p>
-                <p class="text-slate-400 text-sm mt-2">Systems that choke opponent transitions and control the pitch rhythm through high passing volume and high-quality build-up play.</p>
-            </div>
-
-            <div class="glass p-8 rounded-3xl hover:-translate-y-1 transition-transform duration-300">
-                <div class="w-10 h-10 bg-amber-500/20 text-amber-400 rounded-xl flex items-center justify-center mb-4"><i data-lucide="flame" class="w-5 h-5"></i></div>
-                <h3 class="text-xl font-bold text-slate-100 mb-2">Direct Attacking</h3>
-                <p class="text-indigo-200/70 text-sm leading-relaxed"><strong>Primary Metric:</strong> Attacking Directness</p>
-                <p class="text-slate-400 text-sm mt-2">High-tempo vertical setups designed to bypass midfield play and quickly launch actions into open space behind defenses.</p>
-            </div>
-
-        </div>
-    </section>
-
-    <footer class="container mx-auto px-6 py-12 border-t border-indigo-500/20 flex justify-center text-indigo-400/50 text-sm">
-        <p>&copy; 2026 TVMS Project. Built for North American Soccer Analysis.</p>
-    </footer>
-
-    <script>
-        lucide.createIcons();
-    </script>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
