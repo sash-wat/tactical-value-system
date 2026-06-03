@@ -16,6 +16,20 @@ const TVMS_SITE = (() => {
 
   const formatPercent = (value, digits = 1) => `${(value * 100).toFixed(digits)}%`;
   const formatNumber = (value, digits = 2) => Number(value).toFixed(digits);
+  const toDomIdSegment = (value) =>
+    value
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "team";
+  const getTeamDisclosureIds = (team) => {
+    const segment = toDomIdSegment(team);
+    return {
+      buttonId: `team-toggle-${segment}`,
+      panelId: `team-panel-${segment}`,
+      titleId: `team-panel-title-${segment}`,
+    };
+  };
+
   async function fetchJson(path) {
     const response = await fetch(`${path}?v=${Date.now()}`);
     if (!response.ok) {
@@ -282,17 +296,7 @@ const TVMS_SITE = (() => {
     root.onchange = () => onChange(root.value);
   }
 
-  function renderChartView(league, season) {
-    const image = document.querySelector("[data-cluster-image]");
-    const chartError = document.querySelector("[data-chart-error]");
-    if (!image) return;
-    image.src = `assets/tactical_clusters_${league}_${season}.png?v=${Date.now()}`;
-    image.alt = `${titleCaseLeague(league)} ${season} tactical map`;
-    image.onload = () => chartError?.classList.add("hidden");
-    image.onerror = () => chartError?.classList.remove("hidden");
-  }
-
-  function renderTeamCards(teams, search, activeIdentity, onOpen) {
+  function renderTeamCards(teams, search, activeIdentity, expandedTeam, onToggle, focusTeam = null) {
     const root = document.querySelector("[data-team-grid]");
     const empty = document.querySelector("[data-empty]");
     if (!root || !empty) return;
@@ -311,15 +315,63 @@ const TVMS_SITE = (() => {
 
     empty.classList.add("hidden");
     root.innerHTML = filtered
-      .map(
-        ([team, info]) => `
+      .map(([team, info]) => {
+        const isExpanded = team === expandedTeam;
+        const assignment = info.assignment_explanation || {};
+        const { buttonId, panelId, titleId } = getTeamDisclosureIds(team);
+        const secondaryDescription =
+          info.secondary_identity_description || assignment.runner_up_description || "No secondary identity description is available.";
+        const secondaryIdentity = info.secondary_identity || assignment.runner_up_identity || "the next identity";
+        const marginLabel = info.hybrid_flag
+          ? `Hybrid margin ${formatPercent(info.hybrid_margin ?? assignment.score_gap ?? 0, 1)} between ${info.primary_identity} and ${secondaryIdentity}.`
+          : `Score gap ${formatPercent(assignment.score_gap ?? info.hybrid_margin ?? 0, 1)} over ${secondaryIdentity}.`;
+        const identityScores = info.identity_scores || info.scores || {};
+        const scoreDistribution = Object.entries(identityScores)
+          .sort((left, right) => right[1] - left[1])
+          .map(
+            ([identity, score]) => `
+              <div class="score-bar">
+                <div style="display:flex;justify-content:space-between;gap:1rem;">
+                  <strong>${identity}</strong>
+                  <span>${formatPercent(score, 1)}</span>
+                </div>
+                <div class="score-bar__track">
+                  <div class="score-bar__fill" style="width:${score * 100}%"></div>
+                </div>
+              </div>
+            `
+          )
+          .join("");
+        const topFeatureItems = assignment.top_feature_deltas || [];
+        const topFeatures = topFeatureItems
+          .map(
+            (item) => `
+              <div class="summary-item">
+                <strong>${item.feature_label}</strong>
+                <div class="team-card__meta">Team z ${formatNumber(item.team_z_score)} · separation ${formatNumber(item.separation_gain)}</div>
+              </div>
+            `
+          )
+          .join("");
+
+        return `
           <article class="team-card">
             <div class="team-card__top">
               <div>
                 <div class="team-card__name">${team}</div>
                 <div class="team-card__meta">${info.metric} · z ${formatNumber(info.z_score)}</div>
               </div>
-              <button class="button-link" data-open-team="${team}">Inspect</button>
+              <button
+                id="${buttonId}"
+                class="button-link"
+                type="button"
+                data-toggle-team="${team}"
+                aria-expanded="${isExpanded ? "true" : "false"}"
+                aria-controls="${panelId}"
+                aria-label="${isExpanded ? "Hide" : "Show"} details for ${team}"
+              >
+                ${isExpanded ? "Hide details" : "Show details"}
+              </button>
             </div>
             <div class="badge-row">
               <span class="badge">${info.primary_identity}</span>
@@ -327,65 +379,55 @@ const TVMS_SITE = (() => {
               ${info.hybrid_flag ? `<span class="badge badge--hybrid">Hybrid</span>` : ""}
             </div>
             <div class="team-card__summary">${info.explanation}</div>
+            <div
+              id="${panelId}"
+              class="card"
+              data-team-panel="${team}"
+              role="region"
+              aria-labelledby="${titleId}"
+              ${isExpanded ? "" : "hidden"}
+            >
+              <h3 id="${titleId}" style="margin-bottom: 0.8rem;">${team} scoring details</h3>
+              <div class="summary-list" style="margin-bottom: 1rem;">
+                <div class="summary-item">
+                  <strong>Secondary identity</strong>
+                  <div class="team-card__meta">${secondaryDescription}</div>
+                </div>
+                <div class="summary-item">
+                  <strong>${info.hybrid_flag ? "Hybrid margin" : "Score gap"}</strong>
+                  <div class="team-card__meta">${marginLabel}</div>
+                </div>
+              </div>
+              <div class="card" style="margin-bottom: 1rem;">
+                <h3>Identity score distribution</h3>
+                ${
+                  scoreDistribution
+                    ? `<div class="score-list" style="margin-top: 0.8rem;">${scoreDistribution}</div>`
+                    : `<div class="team-card__meta" style="margin-top: 0.8rem;">Detailed identity score distribution is only available for 2024+ scored teams.</div>`
+                }
+              </div>
+              <div class="card">
+                <h3>Top separating features</h3>
+                ${
+                  topFeatures
+                    ? `<div class="feature-list" style="margin-top: 0.8rem;">${topFeatures}</div>`
+                    : `<div class="team-card__meta" style="margin-top: 0.8rem;">Feature-level separation details are only available for 2024+ scored teams.</div>`
+                }
+              </div>
+            </div>
           </article>
-        `
-      )
+        `;
+      })
       .join("");
 
-    root.querySelectorAll("[data-open-team]").forEach((button) => {
-      button.addEventListener("click", () => onOpen(button.dataset.openTeam, teams[button.dataset.openTeam]));
+    root.querySelectorAll("[data-toggle-team]").forEach((button) => {
+      button.addEventListener("click", () => onToggle(button.dataset.toggleTeam));
     });
-  }
 
-  function openDrawer(team, info) {
-    const drawer = document.querySelector("[data-team-drawer]");
-    const title = document.querySelector("[data-drawer-title]");
-    const subtitle = document.querySelector("[data-drawer-subtitle]");
-    const explanation = document.querySelector("[data-drawer-explanation]");
-    const scoreRoot = document.querySelector("[data-score-list]");
-    const featureRoot = document.querySelector("[data-feature-list]");
-    if (!drawer || !title || !subtitle || !explanation || !scoreRoot || !featureRoot) return;
-
-    title.textContent = team;
-    subtitle.textContent = `${info.primary_identity} · ${info.secondary_identity} secondary`;
-    explanation.textContent = info.assignment_explanation.rationale;
-
-    scoreRoot.innerHTML = Object.entries(info.identity_scores)
-      .map(
-        ([identity, score]) => `
-          <div class="score-bar">
-            <div style="display:flex;justify-content:space-between;gap:1rem;">
-              <strong>${identity}</strong>
-              <span>${formatPercent(score, 1)}</span>
-            </div>
-            <div class="score-bar__track">
-              <div class="score-bar__fill" style="width:${score * 100}%"></div>
-            </div>
-          </div>
-        `
-      )
-      .join("");
-
-    featureRoot.innerHTML = info.assignment_explanation.top_feature_deltas
-      .map(
-        (item) => `
-          <div class="summary-item">
-            <strong>${item.feature_label}</strong>
-            <div class="team-card__meta">Team z ${formatNumber(item.team_z_score)} · separation ${formatNumber(item.separation_gain)}</div>
-          </div>
-        `
-      )
-      .join("");
-
-    drawer.classList.add("is-open");
-    document.body.style.overflow = "hidden";
-  }
-
-  function closeDrawer() {
-    const drawer = document.querySelector("[data-team-drawer]");
-    if (!drawer) return;
-    drawer.classList.remove("is-open");
-    document.body.style.overflow = "";
+    if (focusTeam) {
+      const focusTarget = document.getElementById(getTeamDisclosureIds(focusTeam).buttonId);
+      focusTarget?.focus({ preventScroll: true });
+    }
   }
 
   async function initExplorerPage() {
@@ -393,53 +435,87 @@ const TVMS_SITE = (() => {
     const seasonSelect = document.querySelector("[data-season-select]");
     const searchInput = document.querySelector("[data-team-search]");
     const identitySelect = document.querySelector("[data-identity-select]");
-    const toggleButtons = document.querySelectorAll("[data-view-toggle]");
-    const chartView = document.querySelector("[data-chart-view]");
-    const tableView = document.querySelector("[data-table-view]");
 
-    if (!leagueSelect || !seasonSelect || !searchInput || !identitySelect || !chartView || !tableView) return;
+    if (!leagueSelect || !seasonSelect || !searchInput || !identitySelect) return;
 
     let currentTeams = {};
-    let currentMetadata = null;
     let activeIdentity = "All";
     let currentSearch = "";
+    let expandedTeam = null;
+    let hasLoadError = false;
+    let refreshToken = 0;
+
+    const renderCurrentCards = (focusTeam = null) => {
+      if (hasLoadError) {
+        const teamRoot = document.querySelector("[data-team-grid]");
+        const empty = document.querySelector("[data-empty]");
+        if (teamRoot) {
+          teamRoot.innerHTML = "";
+        }
+        empty?.classList.add("hidden");
+        return;
+      }
+
+      renderTeamCards(currentTeams, currentSearch, activeIdentity, expandedTeam, toggleExpandedTeam, focusTeam);
+    };
 
     const applyIdentityFilter = (identity) => {
       activeIdentity = identity;
+      expandedTeam = null;
       renderIdentityFilters(currentTeams, activeIdentity, applyIdentityFilter);
-      renderTeamCards(currentTeams, currentSearch, activeIdentity, openDrawer);
+      renderCurrentCards();
+    };
+
+    const toggleExpandedTeam = (team) => {
+      expandedTeam = expandedTeam === team ? null : team;
+      renderCurrentCards(team);
+      initIcons();
     };
 
     async function refresh() {
       const league = leagueSelect.value;
       const season = seasonSelect.value;
+      const requestToken = ++refreshToken;
       try {
         const [metadata, teams] = await Promise.all([
           fetchJson(`assets/metadata_${league}_${season}.json`),
           fetchJson(`assets/teams_${league}_${season}.json`),
         ]);
-        currentMetadata = metadata;
+        if (requestToken !== refreshToken) return;
+        hasLoadError = false;
         currentTeams = teams;
+        expandedTeam = null;
         const availableIdentities = new Set(Object.values(teams).map((item) => item.primary_identity));
         if (activeIdentity !== "All" && !availableIdentities.has(activeIdentity)) {
           activeIdentity = "All";
         }
         renderExplorerMeta(metadata, league, season, teams);
         renderExplorerSummary(metadata, teams);
-        renderChartView(league, season);
         renderIdentityFilters(teams, activeIdentity, applyIdentityFilter);
-        renderTeamCards(teams, currentSearch, activeIdentity, openDrawer);
+        renderCurrentCards();
         initIcons();
       } catch (error) {
+        if (requestToken !== refreshToken) return;
         console.error(error);
+        hasLoadError = true;
+        currentTeams = {};
+        expandedTeam = null;
+        activeIdentity = "All";
+        const metaRoot = document.querySelector("[data-explorer-summary]");
         const summaryRoot = document.querySelector("[data-identity-summary]");
         const teamRoot = document.querySelector("[data-team-grid]");
+        const empty = document.querySelector("[data-empty]");
+        if (metaRoot) {
+          metaRoot.textContent = `${titleCaseLeague(league)} ${season} data is unavailable right now.`;
+        }
         if (summaryRoot) {
           summaryRoot.innerHTML = `<div class="empty-state">No explorer data is available for this league-season yet.</div>`;
         }
+        renderIdentityFilters(currentTeams, activeIdentity, applyIdentityFilter);
         if (teamRoot) {
           teamRoot.innerHTML = "";
         }
+        empty?.classList.add("hidden");
       }
     }
 
@@ -449,20 +525,7 @@ const TVMS_SITE = (() => {
     seasonSelect.addEventListener("change", refresh);
     searchInput.addEventListener("input", () => {
       currentSearch = searchInput.value.trim();
-      renderTeamCards(currentTeams, currentSearch, activeIdentity, openDrawer);
-    });
-
-    toggleButtons.forEach((button) => {
-      button.addEventListener("click", () => {
-        const next = button.dataset.viewToggle;
-        toggleButtons.forEach((item) => item.classList.toggle("is-active", item === button));
-        chartView.classList.toggle("hidden", next !== "chart");
-        tableView.classList.toggle("hidden", next !== "table");
-      });
-    });
-
-    document.querySelectorAll("[data-drawer-close]").forEach((button) => {
-      button.addEventListener("click", closeDrawer);
+      renderCurrentCards();
     });
 
     refresh();

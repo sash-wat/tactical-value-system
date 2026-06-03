@@ -27,3 +27,19 @@ def test_site_js_uses_inline_card_expansion_hooks():
     assert "data-open-team" not in script
     assert "openDrawer(" not in script
     assert "renderChartView(" not in script
+
+
+def test_site_js_guards_against_stale_explorer_refreshes():
+    script = Path("site.js").read_text()
+
+    assert "let refreshToken = 0" in script
+    assert "const requestToken = ++refreshToken" in script
+    assert "if (requestToken !== refreshToken) return;" in script
+
+
+def test_site_js_handles_legacy_team_payloads_in_expanded_cards():
+    script = Path("site.js").read_text()
+
+    assert "info.identity_scores || info.scores || {}" in script
+    assert "Detailed identity score distribution is only available for 2024+ scored teams." in script
+    assert "Feature-level separation details are only available for 2024+ scored teams." in script
