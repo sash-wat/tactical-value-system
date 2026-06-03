@@ -637,7 +637,7 @@ body[data-theme="dark"] .button--secondary {
 
 .control-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.85rem;
 }
 
@@ -668,28 +668,6 @@ body[data-theme="dark"] .button--secondary {
   color: var(--text);
 }
 
-.toggle-row {
-  display: inline-flex;
-  padding: 0.3rem;
-  border-radius: 999px;
-  border: 1px solid var(--panel-line);
-  background: rgba(255, 255, 255, 0.32);
-}
-
-.toggle-row button {
-  padding: 0.55rem 0.95rem;
-  border: 0;
-  border-radius: 999px;
-  background: transparent;
-  color: var(--text-soft);
-  font-weight: 700;
-}
-
-.toggle-row button.is-active {
-  background: var(--pine);
-  color: var(--text-inverse);
-}
-
 .explorer-subbar {
   display: flex;
   align-items: end;
@@ -715,24 +693,6 @@ body[data-theme="dark"] .button--secondary {
 .data-panel {
   padding: 1rem;
   border-radius: var(--radius-xl);
-}
-
-.view-grid {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 1rem;
-}
-
-.chart-frame {
-  padding: 0.9rem;
-  border-radius: var(--radius-lg);
-  background: rgba(18, 35, 31, 0.06);
-  min-height: 420px;
-}
-
-.chart-frame img {
-  border-radius: var(--radius-md);
-  border: 1px solid rgba(18, 35, 31, 0.12);
 }
 
 .summary-list {
@@ -786,6 +746,10 @@ body[data-theme="dark"] .button--secondary {
   font-size: 0.92rem;
 }
 
+.team-card__summary {
+  line-height: 1.5;
+}
+
 .badge-row {
   display: flex;
   flex-wrap: wrap;
@@ -818,12 +782,51 @@ body[data-theme="dark"] .button--secondary {
 }
 
 .button-link {
-  border: 0;
-  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid rgba(34, 107, 100, 0.22);
+  border-radius: 999px;
+  background: rgba(34, 107, 100, 0.08);
   color: var(--accent);
   font-weight: 700;
-  padding: 0;
   cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.button-link:hover,
+.button-link:focus-visible {
+  border-color: rgba(34, 107, 100, 0.44);
+  background: rgba(34, 107, 100, 0.16);
+  outline: none;
+}
+
+.team-card [data-team-panel] {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  background: rgba(18, 35, 31, 0.05);
+  border: 1px solid rgba(18, 35, 31, 0.08);
+}
+
+.team-card [data-team-panel][hidden] {
+  display: none;
+}
+
+.team-card [data-team-panel] > .card {
+  margin: 0;
+}
+
+.team-card [data-team-panel] h3 {
+  margin: 0;
+}
+
+.team-card [data-team-panel] .summary-item:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .empty-state {
@@ -835,45 +838,6 @@ body[data-theme="dark"] .button--secondary {
   border-radius: var(--radius-xl);
   border: 1px dashed rgba(18, 35, 31, 0.18);
   color: var(--text-soft);
-}
-
-.drawer {
-  position: fixed;
-  inset: 0;
-  display: none;
-  z-index: 50;
-}
-
-.drawer.is-open {
-  display: block;
-}
-
-.drawer__backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(10, 20, 18, 0.48);
-}
-
-.drawer__panel {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: min(500px, 100%);
-  height: 100%;
-  padding: 1.5rem;
-  background: #fbf7ef;
-  color: var(--text);
-  box-shadow: -20px 0 40px rgba(12, 20, 18, 0.18);
-  overflow: auto;
-}
-
-.drawer__close {
-  display: inline-flex;
-  margin-left: auto;
-  border: 0;
-  background: transparent;
-  color: var(--text);
-  cursor: pointer;
 }
 
 .score-list,
@@ -934,7 +898,8 @@ body[data-theme="dark"] .data-panel,
 body[data-theme="dark"] .hero-panel,
 body[data-theme="dark"] .method-nav,
 body[data-theme="dark"] .method-section,
-body[data-theme="dark"] .explorer-controls {
+body[data-theme="dark"] .explorer-controls,
+body[data-theme="dark"] .team-card [data-team-panel] {
   background: rgba(247, 242, 232, 0.04);
   border-color: rgba(247, 242, 232, 0.1);
   box-shadow: none;
@@ -942,11 +907,9 @@ body[data-theme="dark"] .explorer-controls {
 
 body[data-theme="dark"] .metric,
 body[data-theme="dark"] .process-step,
-body[data-theme="dark"] .chart-frame,
 body[data-theme="dark"] .team-card,
 body[data-theme="dark"] .field select,
 body[data-theme="dark"] .field input,
-body[data-theme="dark"] .toggle-row,
 body[data-theme="dark"] .pill {
   background: rgba(247, 242, 232, 0.04);
   border-color: rgba(247, 242, 232, 0.1);
@@ -988,16 +951,10 @@ body[data-theme="dark"] .badge--hybrid {
   border-color: rgba(231, 155, 129, 0.18);
 }
 
-body[data-theme="dark"] .drawer__panel {
-  background: #13221f;
-  color: var(--text-inverse);
-}
-
 @media (max-width: 1024px) {
   .hero-grid,
   .callout-band,
-  .method-grid,
-  .view-grid {
+  .method-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1056,9 +1013,5 @@ body[data-theme="dark"] .drawer__panel {
 
   .site-footer__inner {
     flex-direction: column;
-  }
-
-  .drawer__panel {
-    width: 100%;
   }
 }

@@ -43,3 +43,17 @@ def test_site_js_handles_legacy_team_payloads_in_expanded_cards():
     assert "info.identity_scores || info.scores || {}" in script
     assert "Detailed identity score distribution is only available for 2024+ scored teams." in script
     assert "Feature-level separation details are only available for 2024+ scored teams." in script
+
+
+def test_explorer_copy_no_longer_mentions_chart_view():
+    html = Path("explorer.html").read_text()
+
+    assert "Read the chart" not in html
+    assert "move between map and table views" not in html
+
+
+def test_explorer_styles_no_longer_define_drawer_or_chart_frame():
+    css = Path("site.css").read_text()
+
+    assert ".drawer" not in css
+    assert ".chart-frame" not in css
