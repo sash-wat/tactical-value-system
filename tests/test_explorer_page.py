@@ -57,3 +57,15 @@ def test_explorer_styles_no_longer_define_drawer_or_chart_frame():
 
     assert ".drawer" not in css
     assert ".chart-frame" not in css
+
+
+def test_site_js_gates_secondary_identity_ui_on_hybrid_flag():
+    script = Path("site.js").read_text()
+
+    assert "function formatExplorerScoreLabel(value)" in script
+    assert "const showHybridContext = Boolean(info.hybrid_flag && secondaryIdentity);" in script
+    assert 'showHybridContext ? `<span class="badge badge--secondary">${secondaryIdentity}</span>` : ""' in script
+    assert 'showHybridContext ? `<span class="badge badge--hybrid">Hybrid</span>` : ""' in script
+    assert ">99.9%" in script
+    assert "<0.1%" in script
+
