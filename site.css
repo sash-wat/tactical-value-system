@@ -625,6 +625,7 @@ body[data-theme="dark"] .button--secondary {
 .explorer-layout {
   display: grid;
   gap: 1rem;
+  align-items: start;
 }
 
 .explorer-controls {
@@ -633,6 +634,9 @@ body[data-theme="dark"] .button--secondary {
   z-index: 20;
   padding: 1rem;
   border-radius: var(--radius-xl);
+  background: rgba(12, 24, 21, 0.92);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 12px 32px rgba(5, 12, 10, 0.22);
 }
 
 .control-grid {
@@ -709,17 +713,23 @@ body[data-theme="dark"] .button--secondary {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+  align-items: start;
 }
 
 .team-card {
   display: grid;
   gap: 0.9rem;
+  align-self: start;
   padding: 1.15rem;
   border-radius: var(--radius-lg);
   border: 1px solid var(--panel-line);
   background: rgba(255, 255, 255, 0.4);
   box-shadow: var(--shadow-soft);
   transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.team-card__comparison {
+  margin-bottom: 1rem;
 }
 
 .team-card:hover {
@@ -898,11 +908,16 @@ body[data-theme="dark"] .data-panel,
 body[data-theme="dark"] .hero-panel,
 body[data-theme="dark"] .method-nav,
 body[data-theme="dark"] .method-section,
-body[data-theme="dark"] .explorer-controls,
 body[data-theme="dark"] .team-card [data-team-panel] {
   background: rgba(247, 242, 232, 0.04);
   border-color: rgba(247, 242, 232, 0.1);
   box-shadow: none;
+}
+
+body[data-theme="dark"] .explorer-controls {
+  background: rgba(12, 24, 21, 0.92);
+  border-color: rgba(247, 242, 232, 0.12);
+  box-shadow: 0 12px 32px rgba(5, 12, 10, 0.22);
 }
 
 body[data-theme="dark"] .metric,
