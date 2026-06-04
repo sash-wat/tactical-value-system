@@ -16,6 +16,16 @@ const TVMS_SITE = (() => {
 
   const formatPercent = (value, digits = 1) => `${(value * 100).toFixed(digits)}%`;
   const formatNumber = (value, digits = 2) => Number(value).toFixed(digits);
+
+  function formatExplorerScoreLabel(value) {
+    if (value >= 0.999) {
+      return ">99.9%";
+    }
+    if (value > 0 && value < 0.001) {
+      return "<0.1%";
+    }
+    return formatPercent(value, 1);
+  }
   const toDomIdSegment = (value) =>
     value
       .toLowerCase()
@@ -319,12 +329,13 @@ const TVMS_SITE = (() => {
         const isExpanded = team === expandedTeam;
         const assignment = info.assignment_explanation || {};
         const { buttonId, panelId, titleId } = getTeamDisclosureIds(team);
+        const secondaryIdentity = info.secondary_identity || assignment.runner_up_identity || "";
         const secondaryDescription =
           info.secondary_identity_description || assignment.runner_up_description || "No secondary identity description is available.";
-        const secondaryIdentity = info.secondary_identity || assignment.runner_up_identity || "the next identity";
-        const marginLabel = info.hybrid_flag
-          ? `Hybrid margin ${formatPercent(info.hybrid_margin ?? assignment.score_gap ?? 0, 1)} between ${info.primary_identity} and ${secondaryIdentity}.`
-          : `Score gap ${formatPercent(assignment.score_gap ?? info.hybrid_margin ?? 0, 1)} over ${secondaryIdentity}.`;
+        const showHybridContext = Boolean(info.hybrid_flag && secondaryIdentity);
+        const marginLabel = showHybridContext
+          ? `Hybrid margin ${formatExplorerScoreLabel(info.hybrid_margin ?? assignment.score_gap ?? 0)} between ${info.primary_identity} and ${secondaryIdentity}.`
+          : "";
         const identityScores = info.identity_scores || info.scores || {};
         const scoreDistribution = Object.entries(identityScores)
           .sort((left, right) => right[1] - left[1])
@@ -333,7 +344,7 @@ const TVMS_SITE = (() => {
               <div class="score-bar">
                 <div style="display:flex;justify-content:space-between;gap:1rem;">
                   <strong>${identity}</strong>
-                  <span>${formatPercent(score, 1)}</span>
+                  <span>${formatExplorerScoreLabel(score)}</span>
                 </div>
                 <div class="score-bar__track">
                   <div class="score-bar__fill" style="width:${score * 100}%"></div>
@@ -342,6 +353,20 @@ const TVMS_SITE = (() => {
             `
           )
           .join("");
+        const comparisonSummary = showHybridContext
+          ? `
+              <div class="summary-list team-card__comparison">
+                <div class="summary-item">
+                  <strong>Secondary identity</strong>
+                  <div class="team-card__meta">${secondaryDescription}</div>
+                </div>
+                <div class="summary-item">
+                  <strong>Hybrid margin</strong>
+                  <div class="team-card__meta">${marginLabel}</div>
+                </div>
+              </div>
+            `
+          : "";
         const topFeatureItems = assignment.top_feature_deltas || [];
         const topFeatures = topFeatureItems
           .map(
@@ -375,8 +400,8 @@ const TVMS_SITE = (() => {
             </div>
             <div class="badge-row">
               <span class="badge">${info.primary_identity}</span>
-              <span class="badge badge--secondary">${info.secondary_identity}</span>
-              ${info.hybrid_flag ? `<span class="badge badge--hybrid">Hybrid</span>` : ""}
+              ${showHybridContext ? `<span class="badge badge--secondary">${secondaryIdentity}</span>` : ""}
+              ${showHybridContext ? `<span class="badge badge--hybrid">Hybrid</span>` : ""}
             </div>
             <div class="team-card__summary">${info.explanation}</div>
             <div
@@ -388,16 +413,7 @@ const TVMS_SITE = (() => {
               ${isExpanded ? "" : "hidden"}
             >
               <h3 id="${titleId}" style="margin-bottom: 0.8rem;">${team} scoring details</h3>
-              <div class="summary-list" style="margin-bottom: 1rem;">
-                <div class="summary-item">
-                  <strong>Secondary identity</strong>
-                  <div class="team-card__meta">${secondaryDescription}</div>
-                </div>
-                <div class="summary-item">
-                  <strong>${info.hybrid_flag ? "Hybrid margin" : "Score gap"}</strong>
-                  <div class="team-card__meta">${marginLabel}</div>
-                </div>
-              </div>
+              ${comparisonSummary}
               <div class="card" style="margin-bottom: 1rem;">
                 <h3>Identity score distribution</h3>
                 ${
@@ -544,6 +560,7 @@ const TVMS_SITE = (() => {
     SEASONS,
     formatPercent,
     formatNumber,
+    formatExplorerScoreLabel,
     init,
     initLandingPage,
     initMethodologyPage,
