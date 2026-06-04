@@ -69,3 +69,22 @@ def test_site_js_gates_secondary_identity_ui_on_hybrid_flag():
     assert ">99.9%" in script
     assert "<0.1%" in script
 
+
+def test_site_css_preserves_sticky_controls_without_translucent_overlap():
+    css = Path("site.css").read_text()
+
+    assert ".explorer-controls" in css
+    assert "position: sticky;" in css
+    assert "backdrop-filter: blur(18px);" in css
+    assert "box-shadow: 0 12px 32px rgba(5, 12, 10, 0.22);" in css
+
+
+def test_site_css_uses_independent_card_heights():
+    css = Path("site.css").read_text()
+
+    assert ".team-grid" in css
+    assert "align-items: start;" in css
+    assert ".team-card" in css
+    assert "align-self: start;" in css
+
+
